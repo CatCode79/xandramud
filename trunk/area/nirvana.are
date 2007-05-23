@@ -1,0 +1,1331 @@
+#AREA
+nirvana.are~
+Nirvana~
+{30 35} Yberium  Nirvana~
+9000 9099
+
+
+#HELPS
+0 'T2TEAM NIRVANA'~
+Quest'area e' stata tradotta, modificata da Yberium e testata dal T2Team.
+L'autore dell'area originale e' Fstall.
+Per altre risorse Mud visitare il sito http://www.terra-secunda.net
+~
+
+0 $~
+
+
+#MOBILES
+#9000
+tridrone~
+Il Tridone~
+Un Tridone è qui a svolgere il suo umile lavoro.
+~
+Vedi un essere con forma triangolare , dotato di zampe da ragno.
+~
+modron~
+ACG 0 300 0
+8 0 3d20+80 1d1+99 2d5+3 pound
+4 3 4 5
+N 0 0 0
+stand stand none 0
+0 I medium 0
+#9001
+quadrone~
+Il Quadrone~
+Un Quadrone è qui e controlla il viavai.
+~
+Una creatura cubica, dotata di piccole braccia e piccole gambe.
+~
+modron~
+AFGT D 300 0
+11 3 14d10+70 1d1+99 3d4+2 beating
+1 0 1 2
+CEK 0 0 0
+stand stand none 0
+0 I medium 0
+#9002
+pentadrone~
+Il Pentadrone~
+Il Pentadrone è qui e pattuglia l'area.
+~
+Una creatura dotata di cinque braccia.
+~
+modron~
+ABFGT D 300 0
+14 3 15d12+110 1d1+99 4d4+3 slap
+-2 -2 0 -1
+CEFLN R 0 0
+stand stand none 0
+0 N medium 0
+#9003
+decaton~
+Il Decatone~
+Il Decatone è qui che controlla gli altri modroni.
+~
+Il Decatone è una grande sfera dotata di dieci tentacoli.
+~
+modron~
+ABFGQT D 300 0
+17 4 25d10+70 17d8+50 4d5+3 pound
+-4 -4 0 -2
+ACEKN R 0 0
+stand stand none 0
+M N medium 0
+#9004
+nonaton~
+Il Nonatone~
+Il Nonatone è qui e preserva la legge e l'ordine.
+~
+Un essere cilindrico , dotato di nove tentacoli.
+~
+modron~
+ABFGQT DH 300 0
+20 5 11d8+250 20d8+75 4d6+4 pound
+-4 -4 -2 -3
+AEFN R 0 G
+stand stand none 0
+M N large 0
+#9005
+octon~
+Il Octone~
+L'Octone è qui che gestisce l'area con responsabilità.
+~
+L'octone ha , all'altezza della spalla , un colletto dai cui crescono otto
+tentacoli.
+~
+modron~
+ABFGQ D 300 0
+22 5 25d10+300 18d10+75 4d6+5 crush
+-5 -5 -3 -4
+ACEHK R 0 G
+stand stand none 0
+M N large 0
+#9006
+septon~
+Il Septone~
+Il Septone è qui che preserva l'ordine.
+~
+Un essere , di forma umanoide , dotato di sette tentacoli.
+~
+modron~
+ABFGQR D 300 0
+24 5 30d10+350 20d10+100 6d4+5 beating
+-6 -6 -6 -4
+AFKO R 0 0
+stand stand none 0
+M IN medium 0
+#9007
+hexton~
+Il Hexatone~
+L'Hexatone è qui che controlla chi è armato.
+~
+Un essere , di forma umanoide , dotato di sei tentacoli.
+~
+modron~
+ABFGQT DFH 300 0
+26 7 35d20+300 20d10+75 4d8+6 slash
+-8 -8 -8 -4
+ACEFHIKLN AR C 0
+stand stand none 0
+M INP large 0
+#9008
+quinton~
+Il Quintone~
+Il Quintone è qui e controlla dei documenti.
+~
+Un essere alto dotato di cinque tentacoli.
+~
+modron~
+ABFGQ D 300 0
+28 6 10d100+150 20d12+100 4d8+7 beating
+-7 -8 -6 -8
+AKMO AR 0 0
+stand stand none 0
+M INPQ large 0
+#9009
+tertian~
+Il Tertione~
+Un Tertione è qui ed amministra la legge.
+~
+Tertians è un essere umano , tranne per i dodici piedi di altezza ,
+ un lungo corno sulla fronte e la coda ( che termina con una strana sfera ).
+~
+modron~
+ABFGQRT D 300 0
+33 12 1d1+999 20d20+50 8d6+12 pound
+-11 -13 -10 -9
+CEF AR C 0
+stand stand none 0
+M IW huge 0
+#9010
+secundus~
+Secundus~
+Secundus , uno dei Vicerè del Nirvana , è qui.
+~
+Secundus è veramente snello e alto , faccia snella ed occhi profondi.
+E' circondato da un'essenza di potere.
+~
+modron~
+ABFGQRT DFH 0 0
+36 15 1d1+1599 40d20+50 7d8+15 punch
+-11 -14 -11 -12
+EFHIKN AHIKR C 0
+stand stand none 0
+M I huge 0
+#9011
+Primus~
+Primus~
+Primus, Re del piano di Nirvana, prende forma da una pozza di energia.
+~
+Primus è enorme.Alzandosi dalla sua pozza di energia ti controlla con i suaoi
+occhi,dai lucenti bagliori.
+La sua mano destra è circondata dalle tenebre,e la sinistra dalla luce, ed è
+molto scontento di vederti.
+~
+modron~
+ABFGQRT DFH 0 0
+40 20 1d1+3999 1d1+3999 6d10+25 wrath
+-15 -15 -15 -15
+AH AHIKRS C 0
+stand stand none 0
+M I giant 0
+#0
+#OBJECTS
+#9000
+spada lunga La~
+La Lunga spada~
+La lunga spada di Primus e' qui.~
+adamantite~
+weapon AGJK AN
+sword 4 10 slash EF
+39 400 8800 P
+A
+19 5
+A
+18 5
+E
+spada lunga la~
+Questa spada è veramente lunga e pesante , con rune magiche incise sopra.
+Brilla del potere di Primus, Signore del Nirvana.
+~
+#9001
+pietralunare luna pietra bianca~
+Una luminescente pietra lunare~
+Una pietra bianca brilla fiocamente qui.~
+stone~
+warp_stone AT AO
+24 0 0 0 0
+0 0 500 P
+E
+pietralunare luna pietra bianca~
+Guardando attentamente questa pietra , ti accorgi che è un pezzo di pietra
+lunare.
+~
+#0
+
+#ROOMS
+#9000
+L'entrata per il Nirvana~
+Sei di fronte all'entrata di un piano in cui ,
+tutto e' bilanciato ed ordinato.La temperatura è bilanciata tra il caldo ed
+il freddo,
+lo stesso per la luce e le tenebre, ed ha ugual parti di solido e liquido.
+
+Il piano si estende ad ovest ed est, mentre l'uscita è in basso.
+~
+0 0 2
+D1
+Ad est, il piano , sembra estendersi all'infinto.
+~
+~
+0 -1 9001
+D3
+Ad ovest, il piano , sembra estendersi all'infinto.
+~
+~
+0 -1 9002
+D5
+In basso, vedi la porta che conduce fuori di qui.
+~
+~
+0 -1 8905
+S
+#9001
+Il piano del Nirvana~
+Stai camminando nei piani del Nirvana.E vedi , la strada , confinare ad est
+ed ovest.
+~
+0 0 2
+D1
+Ad est, vedi una curva che continua la strada.
+~
+~
+0 -1 9003
+D3
+Ad ovest, il piano , sembra estendersi all'infinto.
+~
+~
+0 -1 9000
+S
+#9002
+Il Piano del Nirvana~
+Sei nella parte ovest del piano.I confini ad est ed ovest , sembrano non
+esistere.
+~
+0 0 2
+D1
+Il piano sembra continuare all'infinito ad est.
+~
+~
+0 -1 9000
+D3
+Il piano continua ad ovest.
+~
+~
+0 -1 9004
+S
+#9003
+Un Cambiamento nella direzione~
+Qui, il piano , sebra dirigerti verso nord.  Però, il piano continua ad
+ovest.
+~
+0 0 2
+D0
+Il piano continua a nord senza lasciar intravedere una fine.
+~
+~
+0 -1 9005
+D3
+Il piano continua ad est senza lasciar intravedere una fine.
+~
+~
+0 -1 9001
+S
+#9004
+Un Cambiamento nella direzione~
+Qui, il piano và a nord e curva ad est.
+~
+0 0 2
+D0
+Il vasto piano sembra non avere fine a nord.
+~
+~
+0 -1 9006
+D1
+Ad est, il piano non ha una fine visibile.
+~
+~
+0 -1 9002
+S
+#9005
+La direzione Nord-Sud del piano~
+Il piano continua a Nord e Sud.
+~
+0 0 2
+D0
+A nord, il piano , continua a perdita d'occhio.
+~
+~
+0 -1 9012
+D2
+A sud, continua a perdita d'occhio.
+~
+~
+0 -1 9003
+S
+#9006
+La continuazione Nord-Sud~
+Il piano continua a nord ed a sud.
+~
+0 0 2
+D0
+A Nord, continua a perdita d'occhio.
+~
+~
+0 -1 9013
+D2
+A sud, continua a perdita d'occhio.
+~
+~
+0 -1 9004
+S
+#9007
+Nella torre del Nirvana~
+Entrando nella torre,essendoci poca luce, vedi poco e niente.
+La stanza continua ad est, trovi una porta ad ovest.
+~
+0 D 0
+D1
+La stanza continua nell'oblio.
+~
+~
+0 -1 9010
+D3
+Una grande porta si trova ad ovest.
+~
+door~
+2 -1 9013
+S
+#9008
+Il corridoio nella torre del Nirvana~
+Tu sei nel corridoio est-ovest della torre.  Ad ovest, la stanza continua
+ed a est vi è una porta.
+~
+0 D 0
+D1
+Una grande porta è nascosta ad est.
+~
+door~
+2 -1 9012
+D3
+Il corridoio continua nell'oblio.
+~
+~
+0 -1 9009
+S
+#9009
+Il corridoio est-ovest della torre del Nirvana~
+Il corridoio continua ad est, e curva ad ovest.
+~
+0 D 0
+D1
+Il corridoio continua nell'oblio.
+~
+~
+0 -1 9008
+D3
+Il corridoio continua nell'oblio.
+~
+~
+0 -1 9011
+S
+#9010
+Il passaggio est-ovest della torre del Nirvana~
+~
+0 D 0
+D1
+Il corridoio continua nell'oblio.
+~
+~
+0 -1 9011
+D3
+Il corridoio continua nell'oblio.
+~
+~
+0 -1 9007
+S
+#9011
+Un'intersezione delle torre del Nirvana~
+Sei in un'intersezione dove il passaggio continua a est-ovest,
+tuttavia un largo passaggio porta a nord.
+~
+0 D 0
+D0
+Il passaggio continua a nord.
+~
+~
+0 -1 9023
+D1
+Il passaggio continua nella corsia est , dentro l'oblio.
+~
+~
+0 -1 9009
+D3
+Il passaggio continua nella corsia ovest , dentro l'oblio.
+~
+~
+0 -1 9010
+S
+#9012
+La porta delle torre del Nirvana~
+Sei in piedi di fronte ad una robusta porta , nascosta ad ovest.
+Il piano continua nella corsia a nord , dentro l'oblio.
+Questo e' un grande segno al di sopra della porta.
+~
+0 0 2
+D0
+Il piano continua nel corridoio a nord a perdita d'occhio.
+~
+~
+0 -1 9014
+D2
+Il piano continua nel corridoio a sud a perdita d'occhio.
+~
+~
+0 -1 9005
+D3
+Una robusta porta è a ovest.
+~
+door~
+2 -1 9008
+E
+sign~
+Leggi il segno:
+                     ATTENZIONE
+Solo i coraggiosi possono varcare la porta della torre del Nirvana.
+~
+S
+#9013
+Alla porta delle torre del Nirvana~
+Il piano continua a nord e a sud,però vi è una robusta porta nascosta ad est.
+Vi è un segno sopra la porta.
+~
+0 0 2
+D0
+Il piano si estende a nord a perdita d'occhio.
+~
+~
+0 -1 9015
+D1
+Una robusta porta e' ad est.
+~
+door~
+2 0 9007
+D2
+Il piano continua a sud a perdita d'occhio.
+~
+~
+0 -1 9006
+E
+segno~
+Leggi il segno:
+                  ATTENZIONE
+Solo i coraggiosi possono varcare la porta della torre del Nirvana.
+~
+S
+#9014
+L'area nord-sud del piano del Nirvana~
+Il piano continua per un corridoio a nord e a sud.
+~
+0 0 2
+D0
+Il piano continua a nord.
+~
+~
+0 -1 9027
+D2
+Il piano continua a sud.
+~
+~
+0 -1 9012
+S
+#9015
+L'area nord-sud del piano del Nirvana~
+Il piano continua a nord e a sud.
+~
+0 0 2
+D0
+Il piano continua a nord.
+~
+~
+0 -1 9028
+D2
+Il piano continua a sud.
+~
+~
+0 -1 9013
+S
+#9016
+Una strada senza uscita~
+Sei in piedi in una strada senza uscita , l'unica è a ovest.
+~
+0 D 0
+D3
+Il passaggio continua ad ovest.
+~
+~
+0 -1 9018
+S
+#9017
+Una strada senza uscita~
+Sei in una strada senza uscita.L'unica uscita è tornare indietro ad est.
+~
+0 D 0
+D1
+Il passaggio continua ad est.
+~
+~
+0 -1 9019
+S
+#9018
+La stanza di Tertian~
+Entri silenziosamente , perchè pensi che hai fatto una grande sbaglio ad
+avventurarti qui.
+Le uscite visibili sono ad est ed ovest.
+~
+0 D 0
+D1
+Il passaggio continua ad est.
+~
+~
+0 -1 9016
+D3
+Il passaggio continua ad ovest , dove vedi una fievole luce.
+~
+~
+0 -1 9020
+S
+#9019
+La stanza di Tertian~
+Entri silenziosamente , perchè pensi che hai fatto una grande sbaglio ad
+avventurarti qui.
+Le uscite sono a est ed ovest.
+~
+0 D 0
+D1
+Il passaggio continua nel corridoio est , dove intravedi una fioca luce.
+~
+~
+0 -1 9020
+D3
+Il passaggio continua nel corridoio ovest , dove si addentra nell'oblio.
+~
+~
+0 -1 9017
+S
+#9020
+La stanza di Primus~
+Sei in una larga sala, con una grande pozza al centro , da cui ne fuoriesce
+energia.
+Le uscite sono situate nei punti cardinali.
+Presso la pozza di energia sorge Primus il signore del Nirvana....
+~
+0 D 0
+D0
+Il passaggio continua a nord verso l'ignoto.
+~
+~
+0 -1 9024
+D1
+Il passaggio continua a est verso l'ignoto.
+~
+~
+0 -1 9018
+D2
+Il passaggio continua a sud verso l'ignoto.
+~
+~
+0 -1 9021
+D3
+Il passaggio continua a ovest verso l'ignoto.
+~
+~
+0 -1 9019
+S
+#9021
+La stanza di Tertian~
+Forse non è stata una buona idea entrare.Non sei il benvenuto qui.
+Le uscite sono a nord e a sud.
+~
+0 D 0
+D0
+Il passaggio va' verso nord , dove scorgi una fievole luce.
+~
+~
+0 -1 9020
+D2
+Il passaggio continua a sud verso l'ignoto.
+~
+~
+0 -1 9022
+S
+#9022
+L'ufficio di Quintone~
+Delle pergamente giacciono per tutta la stanza , insieme a strani oggetti...
+non puoi quale creatura possa usare queste cose.
+Le uscite sono disposte lungo i punti cardinali.
+~
+0 D 0
+D0
+Il passaggio continua nel corridoio nord , dove non vedi nulla.
+~
+~
+0 -1 9021
+D1
+Il passaggio và verso il corridoio est , verso l'oblio.
+~
+~
+0 -1 9046
+D2
+Il passaggio a sud và verso l'oblio.
+~
+~
+0 -1 9023
+D3
+Il passaggio và verso il corridoio ovest , verso l'oblio.
+~
+~
+0 -1 9053
+S
+#9023
+Il passaggio nord-sud~
+Ti ritrovi in un passaggio dove le uscite sono a nord e a sud.
+~
+0 D 0
+D0
+A nord , spii un tunnel.
+~
+~
+0 -1 9022
+D2
+A sud vedi una giunzione di vie.
+~
+~
+0 -1 9011
+S
+#9024
+La stanza di Tertian~
+Ti ritrovi nella stanza di Tertian.Le uscite sono a nord e a sud.
+~
+0 D 0
+D0
+A nord vedi una giunzione di vie.
+~
+~
+0 -1 9025
+D2
+A sud vedi una fievole luce..
+~
+~
+0 -1 9020
+S
+#9025
+Il tunnel nord-sud~
+Ti trovi in un passaggio ove le uscite si trovano a nord e a sud.
+~
+0 D 0
+D0
+A nord vedi una porta.
+~
+~
+0 -1 9026
+D2
+A sud ti addentri nelle tenebre.
+~
+~
+0 -1 9024
+S
+#9026
+Un'intersezione di passaggi~
+Sei in piedi in un incrocio.Le uscite visibili sono ad est e a ovest.
+Una porta è situata a nord.
+~
+0 D 0
+D0
+Vedi una robusta porta.
+~
+door~
+2 0 9031
+D1
+Ad est spii un passaggio avvolto dalle tenebre.
+~
+~
+0 -1 9032
+D2
+A sud vai dirrettamente nell'oblio.
+~
+~
+0 -1 9025
+S
+#9027
+Un cambio di direzione~
+Il piano curva ad est e a ovest.
+~
+0 0 2
+D2
+Guardando a sud , il piano si estende a perdita d'occhio.
+~
+~
+0 -1 9014
+D3
+Guardando a ovest , il piano si estende a perdita d'occhio.
+~
+~
+0 -1 9030
+S
+#9028
+Un cambio di direzione~
+Qui , il piano prende una curvatura ad est e a ovest.
+~
+0 0 2
+D1
+Il piano continua ad est.Non riesci a vederne la fine.
+~
+~
+0 -1 9029
+D2
+Guardando a sud , il piano si estende a perdita d'occhio.
+~
+~
+0 -1 9015
+S
+#9029
+La sezione est-ovest del piano del Nirvana~
+Le uscite sono ad est ed ovest.
+~
+0 0 2
+D1
+Guardando ad est , spii in lontananza una porta.
+~
+~
+0 -1 9031
+D3
+Guardando ad ovest , spii in lontananza una curvatura a sud della strada.
+~
+~
+0 -1 9028
+S
+#9030
+La sezione est-ovest del piano del Nirvana~
+Le uscite sono situate ad est e a ovest.
+~
+0 0 2
+D1
+Guardando ad est vedi in lontananza una curvatura.
+~
+~
+0 -1 9027
+D3
+Scrutando ad ovest , vedi una porta in lontananza.
+~
+~
+0 -1 9031
+S
+#9031
+La grande porta nel passaggio~
+Il passaggio continua ad est e a ovest,con una robusta porta a sud.
+~
+0 0 2
+D1
+Guardando ad est vedi una continuazione del passaggio.
+~
+~
+0 -1 9030
+D2
+Una grande porta blocca il passaggio a sud.
+~
+door~
+2 0 9026
+D3
+Guardando ad ovest vedi la continuazione del passaggio..
+~
+~
+0 -1 9029
+S
+#9032
+Una giunzione del passaggio~
+Qui , il passaggio , si dirama nei punti cardinali.
+~
+0 D 0
+D0
+Guardando a nord , spii una stanza in lontananza.
+~
+~
+0 -1 9033
+D1
+Il corrioio est , conduce nell'oscurità.
+~
+~
+0 -1 9035
+D2
+A sud di qui , vi è una stanza.
+~
+~
+0 -1 9034
+D3
+Ad ovest noti un'intersezione.
+~
+~
+0 -1 9026
+S
+#9033
+L'ufficio di Octone~
+Sei in una piccola stanza,dove l'unica uscita è a sud.
+~
+0 D 0
+D2
+Guardando a sud noti un'intersezione.
+~
+~
+0 -1 9032
+S
+#9034
+Una piccola stanza~
+L'unica uscita è a nord..
+~
+0 D 0
+D0
+Guardando a nord , noti un'intersezione.
+~
+~
+0 -1 9032
+S
+#9035
+Un corridoio~
+Le uscite si diramano verso i punti cardinali..
+~
+0 D 0
+D0
+Guardando a nord , vedi una stanza di grandezza media.
+~
+~
+0 -1 9036
+D1
+Guardando ad est , vedi una grande stanza.
+~
+~
+0 -1 9038
+D2
+Guardando a sud , vedi una stanza di grandezza media.
+~
+~
+0 -1 9037
+D3
+Guardando ad est , vedi un'intersezione.
+~
+~
+0 -1 9032
+S
+#9036
+La stanza di Hexatone~
+Ti trovi in una stanza decisamente disordinata.
+Oggetti e spazzatura , sono sparsi dappertutto.
+L'unica uscita è a sud.
+~
+0 D 0
+D2
+Guardando a sud , vedi un passaggio.
+~
+~
+0 -1 9035
+S
+#9037
+L'ufficio di Hexatone~
+Noti solo una , disordinata , scrivania al centro della stanza.L'unica uscita
+è a nord.
+~
+0 D 0
+D0
+Guardando a nord , vedi il corridoio.
+~
+~
+0 -1 9035
+S
+#9038
+L'ufficio di Secundus~
+Ti trovi nell'ufficio del vicerè del piano del Nirvana.
+L'occupante , senza guardarti , sembra già infastidito da te.L'unica uscita è
+a ovest.
+~
+0 D 0
+D3
+Guardando ad ovest , vedi un lungo corridoio.
+~
+~
+0 -1 9035
+S
+#9039
+La giunzione dei corridoi~
+Sei in piedi in questa giunzione , e le uscite si diramano verso i punti
+cardinali.
+~
+0 D 0
+D0
+A nord , spii una piccola stanza.
+~
+~
+0 -1 9040
+D1
+Ad est , vedi un quadruplo incrocio.
+~
+~
+0 -1 9025
+D2
+Guardando a sud , vedi una piccola stanza.
+~
+~
+0 -1 9041
+D3
+Ad ovest , il passaggio continua.
+~
+~
+0 -1 9042
+S
+#9040
+L'ufficio di Octone~
+Ti ritrovi in una stanza dove regna la confusione , le cartacce sono sparse
+ovunque.
+L'unica via per uscire è tornare indietro a sud.
+~
+0 D 0
+D2
+Guardando a sud , vedi una giunzione.
+~
+~
+0 -1 9039
+S
+#9041
+L'ufficio di Septone~
+Ti ritrovi in una stanza ordinata,a prima vista ti sembra disabitata.
+L'unica uscita visibile è a nord.
+~
+0 D 0
+D0
+A nord , vedi una giunzione.
+~
+~
+0 -1 9039
+S
+#9042
+Il passaggio est-ovest~
+In questo passaggio le uscite si trovano direttamente nei punti cardinali..
+~
+0 D 0
+D0
+Vedi una stanza a nord.
+~
+~
+0 -1 9043
+D1
+Ad est , vedi una giunzione.
+~
+~
+0 -1 9039
+D2
+A sud , vedi una stanza di grandezza media.
+~
+~
+0 -1 9044
+D3
+Ad ovest , vedi una stanza.
+~
+~
+0 -1 9045
+S
+#9043
+La caserma~
+Una stanza disordinata ,pregna di un intollerabile odore ,
+questa caserma accoglie tutto il personale di Hexatone.
+L'unica uscita visibile è a sud.
+~
+0 D 0
+D2
+A sud vedi una giunzione.
+~
+~
+0 -1 9042
+S
+#9044
+L'ufficio del comandante~
+Sei dentro l'ufficio del comandante del piano del Nirvana.
+Questa stanza è arredata con cura , e mantenuta in ordine.L'unica uscita è a
+nord.
+~
+0 D 0
+D0
+A nord visualizzi una giunzione.
+~
+~
+0 -1 9042
+S
+#9045
+La stanza del secondo Secundus~
+Questa grande stanza è dotata di finestre che illuminano l'ambiente ,
+noti anche le guardie personali di Secundus...che lo proteggono.L'unica
+uscita è a est.
+~
+0 D 0
+D1
+Ad est vedi una giunzione.
+~
+~
+0 -1 9042
+S
+#9046
+Un passaggio~
+Ti trovi in un piccolo passaggio.Avverti una sensazione di pericolo...fai
+attenzione!
+Le uscite si diramano nei punti cardinali.
+~
+0 D 0
+D0
+A nord puoi vedere una stanza.
+~
+~
+0 -1 9047
+D1
+Ad est il passaggio continua.
+~
+~
+0 -1 9049
+D2
+A sud vedi una stanza.
+~
+~
+0 -1 9048
+D3
+Ad ovest , trovi un grande tunnel.
+~
+~
+0 -1 9022
+S
+#9047
+La stanza di Octone~
+Una stanza , arredata con mobili in ordine sparso , lascia dentro di te una
+live sensazione di paura.
+L'unica uscita è a sud.
+~
+0 D 0
+D2
+A sud puoi vedere un passaggio.
+~
+~
+0 -1 9046
+S
+#9048
+La stanza di Nonatone~
+Sei dentro la stanza di colui che osserva e garantisce la legge in questo
+posto.
+L'unica uscita è a nord.
+~
+0 D 0
+D0
+A nord , scorgi un passaggio.
+~
+~
+0 -1 9046
+S
+#9049
+La fine del passaggio~
+Sei alla fine del passaggio est-ovest. Il passaggio continua ad ovest ,
+mentre scorgi delle stanze ad est , a sud e a nord.
+~
+0 D 0
+D0
+A nord vedi una stanza.
+~
+~
+0 -1 9050
+D1
+Ad est vedi una grande sala.
+~
+~
+0 -1 9052
+D2
+A sud vedi una stanza.
+~
+~
+0 -1 9051
+D3
+Ad ovest , il passaggio continua.
+~
+~
+0 -1 9046
+S
+#9050
+La sala di Hexatone~
+Ti sei addentrato nella sala di Hexatone.Trofei adornano le pareti,
+e molti dei quali sono umani.L'unica uscita è a sud.
+~
+0 D 0
+D2
+A sud vedi un passaggio.
+~
+~
+0 -1 9049
+S
+#9051
+La sala di Hexatone~
+Sei dentro la sala di Hexatone , luogo in cui non sei particolarmente
+popolare.
+L'unica uscita visibile è a nord.
+~
+0 D 0
+D0
+A nord vedi un passaggio.
+~
+~
+0 -1 9049
+S
+#9052
+La sala di Secundus~
+Sei dentro una specie di caverna ,questo luogo rappresenta la stanza di
+riposo del
+terzo Vicerè di Primus.L'unica uscita visibile è a ovest.
+~
+0 D 0
+D3
+Ad ovest vedi un passaggio.
+~
+~
+0 -1 9049
+S
+#9053
+Un passaggio~
+Ti trovi in un passaggio , dove puoi dirigerti in ogni direzione ,
+come quelle dei punti cardinali.
+~
+0 D 0
+D0
+A nord scorgi una piccola sala.
+~
+~
+0 -1 9054
+D1
+Ad est il passaggio forma una giunzione.
+~
+~
+0 -1 9022
+D2
+A sud , vedi una piccola stanza.
+~
+~
+0 -1 9055
+D3
+Ad ovest il passaggio continua.
+~
+~
+0 -1 9059
+S
+#9054
+Una piccola sala~
+Sei dentro una piccola sala.L'unica uscita è a sud.
+~
+0 D 0
+D2
+A sud vedi un passaggio.
+~
+~
+0 -1 9053
+S
+#9055
+Una stanza~
+Sei in una piccola stanza , molto affollata.L'unica uscita visibile è a nord.
+~
+0 D 0
+D0
+A nord vedi un passaggio.
+~
+~
+0 -1 9053
+S
+#9056
+Una grande stanza~
+Sei dentro una stanza dove , di certo , non ti cercheranno.
+L'unica uscita visibile è a sud.
+~
+0 D 0
+D2
+A sud visualizzi un passaggio.
+~
+~
+0 -1 9059
+S
+#9057
+Una stanza~
+Sei dentro una stanza dove l'oblio ti impedisce di muoverti.
+L'unica uscita visibile è a nord.
+~
+0 D 0
+D0
+A nord scorgi un passaggio.
+~
+~
+0 -1 9059
+S
+#9058
+La sala del primo Secundus~
+hai disturbato il riposo del primo Vicerè di Primus ,
+Secundus.Ti accorgi che non è particolarmente felice di vederti.
+L'unica uscita è a est.
+~
+0 D 0
+D1
+Ad est vedi un passaggio..
+~
+~
+0 -1 9059
+S
+#9059
+Una giunzione dei corridoi~
+Le uscite sono visibili nei punti cardinali.
+~
+0 D 0
+D0
+A nord scorgi una grande sala.
+~
+~
+0 -1 9056
+D1
+Ad est il passaggio continua.
+~
+~
+0 -1 9053
+D2
+A sud trovi una piccola sala.
+~
+~
+0 -1 9057
+D3
+Ad ovest trovi una stanza.
+~
+~
+0 -1 9058
+S
+#0
+#RESETS
+M 0 9000  10 9002  2	* Il Tridrone
+M 0 9000  10 9013  2	* Il Tridrone
+M 0 9000  10 9029  2	* Il Tridrone
+M 0 9000  10 9027  2	* Il Tridrone
+M 0 9000  10 9003  2	* Il Tridrone
+M 0 9001   9 9001  3	* Il Quadrone
+M 0 9001   9 9028  3	* Il Quadrone
+M 0 9001   9 9012  3	* Il Quadrone
+M 0 9002   6 9011  1	* Il Pentadrone
+M 0 9002   6 9031  1	* Il Pentadrone
+M 0 9002   6 9038  1	* Il Pentadrone
+M 0 9002   6 9045  1	* Il Pentadrone
+M 0 9002   6 9058  1	* Il Pentadrone
+M 0 9002   6 9052  1	* Il Pentadrone
+M 0 9003   1 9055  1	* Il Decatone
+M 0 9004   1 9048  1	* Il Nonatone
+G 1 9001  -1     	*   Una luminescente pietra lunare
+M 0 9005   4 9040  1	* Il Octone
+M 0 9005   4 9033  1	* Il Octone
+M 0 9005   4 9054  1	* Il Octone
+M 0 9005   4 9047  1	* Il Octone
+M 0 9006   2 9041  1	* Il Septone
+M 0 9006   2 9034  1	* Il Septone
+M 0 9007   8 9043  1	* Il Hexatone
+M 0 9007   8 9044  1	* Il Hexatone
+M 0 9007   8 9036  1	* Il Hexatone
+M 0 9007   8 9037  1	* Il Hexatone
+M 0 9007   8 9050  1	* Il Hexatone
+M 0 9007   8 9051  1	* Il Hexatone
+M 0 9007   8 9056  1	* Il Hexatone
+M 0 9007   8 9057  1	* Il Hexatone
+M 0 9008   4 9022  1	* Il Quintone
+M 0 9008   4 9016  1	* Il Quintone
+M 0 9008   4 9025  1	* Il Quintone
+M 0 9008   4 9017  1	* Il Quintone
+M 0 9009   4 9019  1	* Il Tertione
+M 0 9009   4 9024  1	* Il Tertione
+M 0 9009   4 9018  1	* Il Tertione
+M 0 9009   4 9021  1	* Il Tertione
+M 0 9010   4 9038  1	* Secundus
+M 0 9010   4 9045  1	* Secundus
+M 0 9010   4 9058  1	* Secundus
+M 0 9010   4 9052  1	* Secundus
+M 0 9011   1 9020  1	* Primus
+E 1 9000   2   16	*   La lunga spada
+S
+
+#SHOPS
+0
+
+#SPECIALS
+S
+
+#$

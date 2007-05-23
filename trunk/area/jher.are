@@ -1,0 +1,956 @@
+#AREA
+Aryas.are~
+La Discesa nelle Tenebre~
+{35 55} Krisaore   Discesa nelle Tenebre~
+32700 32750
+
+
+#MOBILES
+#32700
+Aryas uomo~
+Aryas~
+Un uomo scruta attorno con occhi di ghiaccio.
+~
+I suoi occhi sono rivolti su di te, ma non sembrano tradire alcuna emozione.
+I capelli neri e lunghi sono tenuti sciolti coprendo a volte il suo viso,
+anche se a tratti si intravede una cicatrice sulla guancia destra. Veste
+in modo piuttosto rozzo e non sembra importargli, ma la sua mano sembra
+svelta e pronta all'attacco.
+~
+human~
+2|4|8|64 8|32|128|512|8192 0 0
+53 0 50d10+5000 5d5+5000 6d7+21 punch
+-23 -23 -23 -1
+EFIJK 0 0 0
+stand stand male 0
+0 0 medium 0
+#32701
+troll caverne~
+un troll delle caverne~
+Un troll delle caverne si aggira qui attorno.
+~
+Il suo aspetto e' riprovevole e i suoi occhi trasudano malvagita'. Il suo
+volto e' deturpato forse dalla magia nera del suo padrone ed uno lampo di
+follia compare nel suo sguardo quanto ti vede.
+~
+troll~
+4|64|128|262144 8|32|512|32768 0 0
+32 0 10d10+1000 5d5+1000 6d4+9 none
+-10 -10 -10 3
+EFIKN 0 0 0
+stand stand male 0
+0 0 medium 0
+#32702
+Khytor serpente~
+Khytor~
+Un Serpente si avvolge nelle sue spira e ti soffia contro.
+~
+Un serpente dalle dimensioni piuttosto grandi e' avvolto nelle sue spire e
+guarda proprio nella tua direzione. A tratti muove la coda e la sua lingua
+continua ad entrare ed uscire dalla bocca, in un gesto ormai quasi dettato
+dal suo istinto di predatore che pregusta gia' la sua preda.
+~
+snake~
+2|4|32|64 2|8|32|512 0 0
+43 0 25d10+2500 5d5+1000 3d12+15 beating
+-15 -15 -15 2
+EFI 0 0 0
+stand stand either 0
+0 0 medium 0
+#32703
+troll guerriero~
+un troll guerriero~
+Un troll vestito di tutto punto impugna pronta la sua arma.
+~
+Un elmo copre parte del volto e lascia solo lo spazio per gli occhi, due
+sfere rosso scarlatto e per la bocca, fornita di attente ed affilate zanne.
+Il suo corpo e' ricoperto da un'armatura completamente nera.
+~
+troll~
+4|64 8|32|512 0 0
+40 0 15d10+1850 5d5+1000 4d8+13 bite
+-13 -13 -13 3
+EFI 0 0 0
+stand stand male 0
+0 0 medium 0
+#32704
+troll combattente~
+un troll combattente~
+Un troll combattente sguaina lo spadone e ti guarda minaccioso.
+~
+Questo troll e' ricoperto da un'armatura leggera, che gli permette rapidi
+movimenti, surrogando con lo spadone quello che non riesce a coprire con
+l'armatura. I suoi occhi sono rosso scarlatto e riesce ad emettere solamente
+dei grugniti.
+~
+troll~
+4|64 8|32|512|32768 0 0
+42 0 25d10+2250 5d5+1000 3d12+14 bite
+-14 -14 -14 3
+EFI 0 0 0
+stand stand male 0
+0 0 medium 0
+#32705
+goblin piccolo~
+un goblin~
+Un piccolo goblin impugna il suo spadino e sogghigna.
+~
+Piccolo di dimensioni, ma molto agile nel muoversi. Veste solamente di una
+cotta di pelle ed impugna uno spadino la cui punta e' leggermente oscurata.
+~
+goblin~
+2|4|64|128 0 0 0
+35 0 10d10+1300 5d5+1000 4d7+11 charge
+-11 -11 -11 3
+EFI 0 0 0
+stand stand male 0
+0 0 medium 0
+#32706
+goblin stregone~
+un goblin~
+Un goblin ti guarda e comincia a cantilenare qualcosa.
+~
+Piccolo di dimensioni ma molto agile nel muoversi, questo goblin indossa una
+lunga veste che sembra arrivargli fino ai piedi. Una leggera litania proviene
+da lui e dopo poco inizia a muovere le mani e le braccia come se stesse tracciando
+strani simboli in aria.
+~
+goblin~
+2|32|64 8|32|512 0 0
+20 0  3d9+333 5d5+1000 2d8+5 shbite
+-4 -4 -4 5
+FH L 0 I
+stand stand male 0
+0 0 small 0
+#32707
+orso bruno~
+un orso~
+Un orso bruno si mette in posizione eretta e ti fissa.
+~
+Il pelo e' molto scuro e sotto il mento presenta una piccola macchia a forma
+di mezzaluna. I suoi occhi rivelano qualcosa di piu' del semplice istinto e
+sembrano puntati su di te.
+~
+bear~
+64 8|32|128|512|8192|32768|65536|1048576 0 0
+47 0 25d10+3500 5d5+1000 6d6+17 claw
+-17 -17 -17 2
+CDEFIK 0 0 0
+stand stand either 0
+0 0 large 0
+#32708
+pipistrello~
+un pipistrello~
+Un pipistrello svolazza a destra ed a manca.
+~
+I suoi occhi sono di un nero profondo ed il suo grido comincia ad espandersi
+cercando di sondare le pareti per potersi muovere liberante al loro interno.
+Il suo volo e' irregolare e continuo, quasi impazzito.
+~
+bat~
+32|64 8|32|512|524288 0 0
+34 0 10d10+1200 5d5+1000 4d7+10 charge
+-11 -11 -11 3
+F 0 0 0
+stand stand either 0
+0 0 small 0
+#32709
+Hrroll allevatore troll~
+Hrroll, l'allevatore maligno~
+Un troll si guarda intorno con fare guardingo.
+~
+Questo troll e' ben vestito e nel suo sguardo si denota una certa intelligenza.
+Il suo corpo e' molto allenato, mentre i suoi occhi esprimono durezza ed autorita'.
+Al suo fianco pende una frusta ripiegata, mentre un suo braccio si trova sempre
+nelle sue vicinanze per estrarla ed usarla contro chi subordina.
+~
+troll~
+2|64 8|32|128|512 0 0
+40 0 15d10+1850 5d5+1000 4d8+13 bite
+-13 -13 -13 3
+EFI 0 0 0
+stand stand male 0
+0 0 medium 0
+#32710
+Kruthoura troll femmina~
+Kruthoura, l'allevatrice del male~
+Un troll femmina si aggira alla ricerca di qualcosa.
+~
+Occhi rossi come il carbone ardente, volto sempre deformato da un'espressione di rabbia
+che sembra non lasciarla mai. Le mani sono artigliate e le braccia forti. I suoi vestiti
+sono comunque femminili, almeno nei colori, mentre dei capelli lunghi e rossi le scendono
+sulle spalle, tenuti sciolti naturalmente.
+~
+troll~
+2|4|64 8|32|512 0 0
+35 0 10d10+1300 5d5+1000 4d7+11 bite
+-11 -11 -11 3
+EFI 0 0 0
+stand stand female 0
+0 0 medium 0
+#32711
+scheletro~
+uno scheletro evocato~
+Uno scheletro attende gli ordini del suo padrone.
+~
+Il suo corpo e' completamente formato d'ossa, ma delle luci rosse continuano a brillare allo
+interno dei suoi occhi, ardenti e malvagie. La sua vita si deve al potere malefico dell'evocazione
+che lo ha strappato dal mondo dei morti per renderlo schiavo del volere altrui.
+~
+skeleton~
+2|4|32|64 8|32|512 0 0
+40 0 15d10+1850 5d5+1000 4d8+13 bite
+-13 -13 -13 3
+EFI 0 0 0
+stand stand male 0
+0 0 medium 0
+#32712
+Gjon uomo schiavo~
+Gjon, lo schiavo~
+Un uomo con delle catene al braccio si trascina qui attorno.
+~
+Sguardo spento e volto triste, questo uomo e' schiavo da piu' tempo
+di quanto ne abbia vissuto da libero. I suoi vestiti pero' sono sempre
+puliti ed indossa perfino delle scarpe di colore rosso. Evidentemente
+deve essere uno schiavo molto particolare.
+~
+human~
+4|64|128 8|32|256|512 0 0
+35 0 10d10+1300 5d5+1000 4d7+11 punch
+-11 -11 -11 3
+EFI 0 0 0
+stand stand male 0
+0 0 medium 0
+#32713
+guardia troll~
+una guardia~
+Un troll in armatura e' fermo controllando la zona.
+~
+L'elmo ricopre il volto non tralasciando altro che una fessura per gli
+occhi rossi ed una a grata per respirare. L'armatura e' nera e sembra
+molto resistente, anche se sembra essere magicamente incollata al corpo
+di questo troll.
+~
+oldstyle~
+ABCGT 8|32|512 0 0
+40 0 15d10+1850 5d5+1000 4d8+13 pound
+-13 -13 -13 3
+CDEFIKTU 0 0 0
+stand stand male 0
+0 0 large 0
+#32714
+png variabile a seconda dell'area e dei mobprog~
+---~
+---.
+~
+---.
+~
+oldstyle~
+ABCGT 8|32|512 0 0
+42 0 25d10+2250 5d5+1000 3d12+14 pound
+-14 -14 -14 3
+CDEFIKTU 0 0 0
+stand stand male 0
+0 0 large 0
+#32715
+shyaahl donna~
+Shyaahl~
+Una donna in vestiti succinti si muove in modo sensuale.
+~
+Si potrebbe dire che e' piu' nuda che vestita: Piccole strisce di stoffa
+ricoprono le parti piu' importanti, lasciando pero' spesso poco alla
+immaginazione. I suoi capelli sono tenuti sciolti ed anche ben curati,
+mentre gli occhi, di colore verde, sono dolci, anche se tristi, ma mostrano
+un qualcosa di letale o forse e' solo un riflesso delle luci. Le sue labbra
+sono molto carnose e la sua voce sensuale.
+~
+human~
+64|128 8|32|256|512|65536 0 0
+37 0 10d10+1500 5d5+1000 3d10+12 slap
+-12 -12 -12 3
+EIK 0 0 0
+stand stand female 0
+0 0 medium 0
+#32716
+prigioniero uomo~
+un prigioniero~
+Un uomo e' legato alla parete di questa stanza da pesanti catene.
+~
+quest'uomo e' ricoperto completamente da ferite in quasi tutto il corpo. Con
+grande fatica cerca di respirare, mentre dal volto un rivolo di sangue scende
+da un occhio ormai privo di luce. I vestiti sono strappati ed i capelli lunghi
+gli fanno ormai da cornice, completamente impregni del sangue che e' sgorgato
+dalle ferite inferte per le torture. La barba ora cresciuta ricopre gran parte
+del viso.
+~
+human~
+64|128 8|32|512 0 0
+18 0 5d10+1000 5d5+500 5d6+12 beating
+-5 -5 -5 3
+IJS 0 0 0
+rest rest male 0
+0 0 medium 0
+#0
+
+
+#OBJECTS
+#32700
+pile of gold~
+a pile of gold~
+A small glistening pile of gold catches your eye.~
+~
+money A A
+10000 0 0 0 0
+0 1 0 P
+#32701
+bone key~
+a key made of bone~
+A hard white key was left on the floor.~
+~
+key 0 AO
+0 0 0 0 0
+0 1 0 P
+#32702
+breeding formula~
+breeding formula~
+Special warg breeding formula was left here.~
+~
+potion G A
+35 '' '' '' 'reserved'
+0 1 0 P
+#32703
+curved dagger jher's~
+Jher's curved dagger~
+Jher's evil curved dagger is here glowing.~
+~
+weapon ABGJ AN
+exotic 0 0 pierce 0
+0 3 0 P
+A
+12 120
+A
+19 10
+A
+13 100
+A
+4 2
+A
+1 -1
+#32704
+breeding formula~
+breeding formula~
+Special warg breeding formula was left here.~
+~
+potion G A
+35 '' '' '' 'reserved'
+0 1 0 P
+#32705
+breeding formula~
+breeding formula~
+Special warg breeding formula was left here.~
+~
+potion G AO
+35 '' '' '' 'reserved'
+0 1 0 P
+A
+19 5
+A
+13 25
+#32706
+beorn's fury~
+Beorn's fury~
+A huge set of teeth are rotting like a skull in the desert.~
+~
+weapon GKM AN
+exotic 0 0 bite 0
+0 2 0 P
+A
+18 5
+A
+19 8
+#32707
+key~
+large brass key~
+A large brass key shimmers here.~
+~
+key 0 AO
+0 0 0 0 0
+0 1 0 P
+#32708
+throne~
+the throne~
+A huge golden throne covered in jewels.~
+~
+furniture A 0
+0 0 0 0 0
+0 5 0 P
+#32709
+key jewel topaz~
+a key made of topaz~
+A key made of some fine cut amber colored jewell is on the floor.~
+~
+key AH A
+0 0 0 0 0
+0 5 0 P
+#32710
+carved ebony figurine~
+a carved ebony figurine~
+You can barely make out a small black rock under all the dust.~
+~
+key F A
+0 0 0 0 0
+0 1 0 P
+#32711
+dusty golden trunk chest~
+the golden chest~
+A large dusty trunk was left in the corner, looks like a good place to sit.~
+~
+container G 0
+100 ABCD 9910 0 0
+0 5 0 P
+#32712
+diamond bracelet~
+a diamond bracelet~
+A diamond bracelet sparkles here.~
+~
+armor AFG AM
+5 0 0 0 0
+0 5 0 P
+A
+12 50
+#32713
+broken scroll~
+a broken scroll~
+A bound roll of paper is hidden here.~
+~
+scroll B A
+50 '' '' '' 'reserved'
+0 5 0 P
+#32714
+glowing zapath necklace~
+a glowing zapath necklace~
+A necklace carved from a blood red stone was left here.~
+~
+armor AGJM AC
+7 0 0 0 0
+0 1 0 P
+A
+14 100
+A
+19 4
+#32715
+gold pill coin~
+a gold coin~
+A small gold coin catches your eye here.~
+~
+pill A A
+0 '' '' '' 'reserved'
+0 5 0 P
+#0
+
+
+#ROOMS
+#32700
+L'Entrata della Caverna~
+Le pareti di roccia sono ben levigate, segno di segni di vita
+intelligente. A tratti alcune fiaccole illuminano la volta della
+caverna ed indicano un cammino che scende verso il basso.
+~
+0 1 3
+D1
+~
+~
+0 -1 32702
+D2
+~
+~
+0 -1 32701
+D4
+~
+~
+0 -1 14791
+S
+#32701
+La Discesa nell'Ignoto~
+Il passaggio continua a scendere sembrando non terminare mai. Le pareti
+si sono fatte piu' fredde a causa della profondita' raggiunta e la luce
+delle sole torce non basta per fermare l'umidita'. Nonostante cio' il
+cammino e' sicuro e non scivoloso.
+~
+0 1 3
+D0
+~
+~
+0 -1 32700
+S
+#32702
+La Discesa Continua..~
+Il sentiero tra le rocce continua verso il basso, seguendo la luce delle
+torce. Il panorama e' piuttosto spoglio e non sembra offrire nulla oltre
+alle pareti umide e la nuda roccia. Poco piu' lontano si scorge un aumento
+nell'intensita' della luce.
+~
+0 1 2
+D3
+~
+~
+0 -1 32700
+D5
+~
+~
+0 -1 32703
+S
+#32703
+I Cancelli del Serpente~
+Dei cancelli chiusi sbarrano la strada che continua verso l'interno di questi
+labirintici corridoi. Al centro di queste porte a grata di ferro, vi e' un grande
+serpente che si morde la code intrecciandosi nelle sue spire. Le luci delle torce
+sono accompagnate da alcuni bracieri che illuminano ancora di piu' questo luogo.
+Delle guardie bloccano il passaggio a chiunque non fosse autorizzato ad entrare.
+~
+0 8 2
+D2
+~
+~
+0 -1 32704
+D3
+~
+~
+0 -1 32706
+D4
+~
+~
+0 -1 32702
+S
+#32704
+A Room in the Cave~
+This room stinks of warg defecation.  The room is also scattered about
+with bones from old kills.  One dim torch in the corner provides the only
+light.  You feel very frightened.  As you look in disgust at the bones, you can
+see the traces of a trapdoor underneath.
+~
+0 8 2
+D0
+~
+~
+0 -1 32703
+D5
+A trapdoor is buried under a pile of bones.~
+trapdoor~
+1 -1 32705
+S
+#32705
+Small Treasure Room~
+Before you came along this room had not seen light since Jher was only
+a young man studying the ways of taming the wild.  Your eyes are stunned by a
+glistening pile of gold at your feet.  Once you can pry your eyes away from
+the pile of gold, you notice the snakes slithering up and around your legs.
+~
+0 1|8 2
+D4
+~
+~
+1 -1 32704
+S
+#32706
+An Unlit Hallway~
+As you journey deeper into the cave, the sounds of howling get louder.
+However, the only thing you can hear is the sound of your pounding heart.  The
+hallway continues west, but you also see a crack you may be able to pass
+through to the south.  You hear the sound of bats flapping overhead.
+~
+0 1|8 2
+D1
+~
+~
+0 -1 32703
+D2
+~
+~
+0 -1 32707
+D3
+~
+~
+0 -1 32712
+S
+#32707
+A Crack in the Wall~
+For some unknown reason, you have decided to explore this crack.  The
+thing you never know about caves is when you might fall into a bottomless pit.
+You hear the dripping of an underground stream, and think about the horrible
+things that may be swimming or growing in it.
+~
+0 1|4|8 2
+D0
+~
+~
+0 -1 32706
+D3
+~
+~
+0 -1 32708
+S
+#32708
+The Disgusting Underground Pool~
+You find youself up to your waist in muck.  The stench is overwhelming
+and you have the urge to vomit, but are afraid what creatures that might
+attract.
+~
+0 1|8 6
+D1
+~
+~
+0 -1 32707
+D2
+~
+~
+0 -1 32709
+D3
+~
+~
+0 -1 32711
+S
+#32709
+The Disgusting Underground Pool~
+You are waist deep in muck.  The stench is overwhelming.
+~
+0 1|8 6
+D0
+~
+~
+0 -1 32708
+D3
+~
+~
+0 -1 32710
+S
+#32710
+The Disgusting Underground Pool~
+You are waist deep in muck.  The stench is overwhelming.
+~
+0 1|8 6
+D0
+~
+~
+0 -1 32711
+D1
+~
+~
+0 -1 32709
+S
+#32711
+The Disgusting Underground Pool~
+You are waist deep in muck.  The stench is overwhelming.
+~
+0 1|8 6
+D1
+~
+~
+0 -1 32708
+D2
+~
+~
+0 -1 32710
+S
+#32712
+An Unlit Hallway~
+The celing of this hall is getting higher.  You do not have to be in a
+crouch as you walk.  As you straighten your back and look ahead you see the
+most hideous thing you have ever seen.
+~
+0 4|8 2
+D1
+~
+~
+0 -1 32706
+D3
+~
+~
+0 -1 32713
+S
+#32713
+Breeding Room~
+You see two cages, one to the north, and one to the south.  The
+screaming and howling from the two cages blend together into a terrifying
+sound which brings you to the border of insanity.
+~
+0 8 2
+D0
+~
+~
+1 32701 32715
+D1
+~
+~
+0 -1 32712
+D2
+~
+~
+1 32701 32714
+D3
+~
+~
+0 -1 32716
+S
+#32714
+The Male Warg Holding Cage~
+The animals in this cage, jump at you as you open the cage door.  The
+door you just opened provides the fastest route to the female cage across the
+room.  These disgusting wargs never get enough of two things, food and female
+wargs.  You may have just provided them with both.
+~
+0 1|8 2
+D0
+~
+~
+1 32701 32713
+S
+#32715
+The Female Warg Holding Cage~
+These female wargs are in absolute terror of the males in the cage
+across the room.  As you entered this cage, they mistake you for a male sent
+in to proliferate the dirty warg race.  However once they realize it is only
+you, they try to remember when the last time they ate was.
+~
+0 1|8 2
+D2
+~
+~
+1 -1 32713
+S
+#32716
+A Further Descent~
+This path is totally devoid of light.  As you keep walking west you
+bump into a slimy wall and by feeling determine that the tunnel now turns
+southward.
+~
+0 1|8 2
+D1
+~
+~
+0 -1 32713
+D2
+~
+~
+0 -1 32717
+S
+#32717
+A Further Descent~
+After making the turn southwards, you are dismayed to discover that
+once again the tunnel goes down.  But you are comforted because you know that
+you have at least made it this far alive.
+~
+0 1|8 2
+D0
+~
+~
+0 -1 32716
+D5
+~
+~
+0 -1 32718
+S
+#32718
+The Passage to the Throne Room~
+As you reach the bottom of your climb you straighten up and look
+northwards.  There is a huge wood and iron door, with a round brass handle.
+There are two large warg warriors standing guard at either side of this door.
+To get by, you will either have to kill them or sneak by and pick the lock.
+~
+0 1|8 2
+D0
+~
+~
+1 32707 32719
+D4
+~
+~
+0 -1 32717
+S
+#32719
+Southern end of the Throne Room~
+This must be a throne room.  The ruler of these wargs must be very
+wealthy, but he also must be cruel to live in such luxury while all his slaves
+suffer.
+~
+0 8 2
+D0
+~
+~
+0 -1 32720
+D2
+~
+~
+1 -1 32718
+S
+#32720
+Northern End of the Throne Room~
+There is a huge throne made of the finest gold and glistening with the
+finest jewels.  Even with all this brightness, you are overwhelmed by darkness,
+for Jher sits on the throne.
+~
+0 8 2
+D0
+~
+~
+2 32709 32721
+D2
+~
+~
+0 -1 32719
+S
+#32721
+Jher's Bedroom~
+This is where Jher sleeps.  To avoid the chance of the wargs attacking
+him in anger while he sleeps, he specially bred Knanath to protect him.  The
+bedroom is dark, for Jher loves the darkness.  Above the bed you see a hole to
+another tunnel.  This was to be his escape route if was ever trapped in his
+room.
+~
+0 1|8 1
+D2
+~
+~
+2 -1 32720
+D4
+~
+~
+0 -1 32722
+S
+#32722
+Tunnel Above Jher's Bedroom~
+This tunnel has never been used because Jher never had the need.
+After the climb up here, it levels off and turns south.
+~
+0 1|8 3
+D2
+~
+~
+0 -1 32723
+D5
+~
+~
+0 -1 32721
+S
+#32723
+A Small Tunnel~
+Since Jher had never used this tunnel, he never paid any attention to
+its upkeep.  You have to crawl now, and as you crawl, you seem to be ascending.
+~
+0 1|8 3
+D0
+~
+~
+0 -1 32722
+D2
+~
+~
+0 -1 32724
+S
+#32724
+The Secret Room~
+When you finally make it to this room, you are incredibly exhausted.
+You sit down to rest on an old trunk.  As you sit, you brush aside some dust
+on the trunk.  The shine from your light off the golden chest is blinding.  As
+you try to open it, you realize in disappointment that it is locked.
+However
+if you look around, you may find something hidden that will open it.
+~
+0 1|4|8|8192 3
+S
+#0
+
+
+#RESETS
+*
+* removed/unknown M 1 0 1 32700
+*
+M 1 32703 1 32703 1 *
+*
+*
+*
+*
+M 1 32701 2 32703 1 * a young warg to A room in the cave
+*
+M 1 32704 1 32703 1 *			warg father to A room in the cave
+*
+M 1 32705 1 32704 1 *	the young hungry warg to A room inthe cave
+D 1 32704 5 1	*; A Room in the Cave Close Down
+D 1 32705 4 1 *		; Small Treasure Room Close Up
+*
+M 1 32706 2 32705 1 *	the snake to Small treasure room
+O 1 32700 100 32705	*a pile of gold to Small treasureroom
+*
+M 1 32708 2 32706 1 *	the bat to An unlit hallway
+*
+M 1 32708 1 32708 1 *	the bat to The Disgusting Underground Pool
+*
+M 1 32708 1 32710 1 *	the bat to The Disgusting Underground Pool
+D 1 32715 2 1 *	; The Female Warg Holding Cage Close South
+D 1 32713 0 2	*; Breeding Room Lock North
+D 1 32714 0 1	*; The Male Warg Holding Cage Close North
+*
+M 1 32709 1 32713 1 *	Htrag to Breeding Room
+E 1 32701 1 17
+*
+M 1 32710 2 32715 1 *	the female warg to The Female Warg Holding Cage
+*
+M 1 32711 2 32714 1 *	the male warg to The Male Warg Holding Cage
+*
+M 1 32712 1 32717 1 *	Sapth to A Further Descent
+*
+M 1 32714 1 32718 1 *	the guard to The Passage to the Throne Room
+*
+M 1 32713 1 32718 1 *	the guard to The Passage to the Throne Room
+D 1 32718 0 2	*; The Passage to the Throne Room Lock North
+D 1 32719 2 1	*; Southern end of the Throne Room Close South
+D 1 32713 2 2	*; Breeding Room Lock South
+*
+M 1 32700 1 32720 1 *	Jher to Northern End of the Throne Room
+E 1 32703 100 16
+G 1 32709 100
+O 1 32708 100 32720 1 * the throne to Northern End of the Throne Room
+*
+M 1 32702 1 32721 1 *		Knanath to Jher's Bedroom
+D 1 32720 0 2	*; Northern End of the Throne Room Lock North
+D 1 32721 2 1	*; Jher's Bedroom Close South
+*
+O 1 32711 100 32724 *	the golden chest to The SecretRoom
+*
+M 1 32715 1 32721 1 *	Shaanh to Jher's Bedroom
+E 1 32712 100 14
+E 1 32712 100 15
+*
+M 1 32716 1 32709 1 *	the hideous one-eyed fish to The DisgustingUnderground Pool
+*
+M 1 32716 1 32711 1 *the hideous one-eyed fish to The Disgusting UndergroundPool
+O 1 32714 100 32724	*a glowing zapath necklace to The Secret Room
+O 1 32715 100 32724	*a gold coin to The Secret Room
+S
+
+
+#SHOPS
+32709 10 10 10 10 10 50 100 0 23			*Htrag
+0
+
+
+#SPECIALS
+M  32700 spec_breath_lightning * Jher the trainer of wargs
+M  32701 spec_thief		*a young warg
+M  32702 spec_guard		*the warg prince
+M  32703 spec_poison		*warg mother
+M  32704 spec_fido		*warg father
+M  32705 spec_fido		*the young hungry warg
+M  32706 spec_poison		*the snake
+M  32707 spec_breath_lightning	*Beorn
+M  32708 spec_poison		*the bat
+M  32709 spec_guard		*Htrag the breeder
+M  32710 spec_poison		*the female warg
+M  32711 spec_thief		*the male warg
+M  32712 spec_janitor		*Sapth
+M  32713 spec_guard		*the guard
+M  32714 spec_guard		*the guard
+S
+
+
+#$

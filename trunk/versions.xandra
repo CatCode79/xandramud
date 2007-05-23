@@ -1,0 +1,114 @@
+Ecco le modifiche principali che sono state immesse nel codice Xandra partendo
+dall'Anatolia 3.0:
+
+Versione 0.9c:
+- Comandi doppi, sia in italiano che in inglese. Si cambia modalità scrivendo la
+	lingua relativa.
+- Aggiunti dei massimali alle razze per quanto riguarda i punteggi, cioè life,
+	mana e move.
+- Modificato il train, per evitare di superare i massimali delle razze.
+- Tolte le 4 razze dei giganti e accorpate in un'unica sola.
+- Sacrificando dei contenitori il contenuto verrà estratto.
+- Creata una funzione do_junk, sulla base della do_sacrifice.
+- Non si possono sacrificare o junkare oggetti cabala.
+- I Mob urlano se attaccati aggressivamente (a volte), e non più i player.
+- Non esiste più il comando shout, noloot, pmote, smote e report.
+- I comandi where, worth, raffect, whois e altri sono solo per implementor.
+- L'asta e' stata modificata e funziona solo nella zona dell'area.
+- Sono stati cambiate le tipologie di livello, ora vi sono: implementor(100),
+	creatori(99), divinità(98) l'avatar e' al 97 livello e l'eroe al 96.
+- Aggiunte le direzioni in diagonale: nordest, sudest, sudovest, nordovest;
+	peccato che le aree rom di suo non ne abbiano e non ce se ne fa un tubo.
+- Cambiati molti incantesimi (soprattutto di trasporto) e alcune skill che ora
+	funzionano ad area e non su tutto il mud.
+- E' stata tolta la tabella dei title in const.c (si, lo confesso, era pallosa
+	tradurla tutta).
+- Paladini e chierici ora hanno il loro "linguaggio divino-magico" e usano i
+	loro incantesimi vengono lanciati con il comando supplica.
+- la do_practice visualizza le skill allenabili quando si è da un maestro.
+- Gli avventurieri ora non sanno quanti punti esperienza gli manchino per il
+	prossimo livello.
+- Vengono utilizzati degli aggettivo di qualità al posto della percentuale di
+	conoscenza skill.
+- Per uscire dalle DT vengono prese monete d'oro e un oggetto raro oppure dei
+	punti quest.
+- Non si può con nessun incantesimo di evocazione o teletrasporto chiamare e
+	uscire da delle DT.
+- Controllato tutto il codice in maniera tale che chi abbia i color off non veda
+	appunto colorato.
+- Xandra ora è divenuto un mud senza restrizioni di pkilling tranne che sui
+	newbie.
+- Inserito parecchio codice dalla versione 3.1 di anatolia rilasciata metà
+	dicembre, la maggior parte di essi riguardavano la correzione di alcune
+	skill che non riuscivano a migliorare.
+- Modificato l'output del Who, ancora da rimettere a posto cmq.
+- Tolta la visualizzazione ai giocatori del loro livello.
+- Modificate le percenutali dei comandi skills e practice in maniera tale da
+	visualizzare degli aggettivi.
+- Le pratiche dai maestri si pagano.
+- Gli incantesimi di trasporto sono only area, ci si può spostare quindi solo nell'area.
+- Sì... e l'onnipresente: tanto altro ancora...
+
+Versione 0.9d:
+- Corretto un baco sulla scelta dei comndi alla creazione del personaggio.
+- Corretto un baco che visualizzava il sesso del pg in llok e non quello della vittima.
+- Corretto un baco in do_put.
+- Altre correzioni minori di typo.
+
+Versione 0.99:
+- Sistemato un baco che non faceva utilizzare incantesimi come 'shield' e altri.
+- Sistemato un baco nel sistema MXP nel comando tell.
+- Aggiunto lo snippet del sistema dei sogni di Andrew Tolmasoff.
+- Aggiunto lo snippet del sistema marry di Cid.
+- Aggiunta la skill purify per i chierici di livello 13.
+- Aggiunta la skill sharpen per guerrieri di livello 50.
+- Aggiunto il sistema di fall per gli oggetti, se il settore della stanza è "air", gli oggetti cadono.
+- Corretto un baco nella scelta della nuova razza per un baco sul giant.
+- Aggiunto il comandi tvalue, aggiunge o toglie argento, oro, punti quest ad un pg.
+- Corretto un baco della get con argomento all.
+- Corretto un baco nella visualizzazione score.
+- Corretto un baco nel who.
+- Ora gli amministratori non perdono il movimento.
+- Aggiunto il comando mpract e tvalue per gli immortali.
+- Migliorato il comando wiznet e wizhelp.
+- Aggiunto il supporto multilingua per force e order.
+- Aggiunto un mobprog, l'arpista elfico.
+- Altro, tanti piccoli bachetti e aggiunte, il testing da' i suoi primi frutti.
+
+Versione 1.0
+- Ora il codice si compila senza errori né warning anche con l'opzione gcc -pedantic e -ansi
+- Aggiunto il comando per immortali title, è una implementazione preliminare
+	del sistema di presentazione.
+- Corretto un baco sulla procedura di update.
+- Corretto un baco sulla proceduta di acquisizione uscite nell'act_move.c.
+- Rivisti i comandi di goto e violate
+- Sistemata e migliorata la gestione delle direzioni anche come argomento di vari comandi (look est, scan north)
+	prima non funzionava tutto a dovere
+- Aggiunti dei sogni.
+- Sistema di comandi aggiornato, particolare controllo sono stati effettuati sulla posizione del pg
+	nell'invio dei comandi.
+- Correzione di un baco per cui uno guardando l'altra persona vedeva in maniera
+	scorretta le informazioni sulla sua salute.
+- Sistemato il sistema di aliases.
+- Aggiunto il sistema di afk
+- Comando title con cui i pg possono cambiare il proprio title (in realtà la short descr)
+	esso si vedrà quindi nelle azioni del pg.
+- Inserite le Slay, le armi ammazza allineamento.
+- L'equipaggiamento degli altri pg viene visto con il comando equip.
+- Sistema faccine nei canali, se si scrivono smile a fine frase essi vengono convertiti
+	in espressioni-stringa.
+	Anche l'esclamazione e la domanda.
+
+Versione 1.1
+- Aggiunto il sistema di MXP, permette a chi utilizza client che supportano l'MXP di clickare in alcuni punti
+    per, esempio, prendere oggetti automaticamente, si può evitare di compilarlo commentando l'opzione nel
+    makefile
+- Aggiunto il sistema dei sogni, se un pg si addormenta ogni tot vengono inviati dei sogni
+- Aggiunto il sistema di weather, ogni tot di tempo piove o nevica, è un sistema ancora un po' spammoso
+    nei messaggi e da tarare come danni da intemperie ma comunque interessante, anche questo se si vuole lo si
+    può disattivare come compilazione nel file di makefile
+
+
+Onirik, 19 aprile 2006
+
+[EOF] Fine del file

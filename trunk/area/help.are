@@ -1,0 +1,4346 @@
+#HELPS
+
+
+-1 AIUTO SOMMARIO HELP SUMMARY~
+.
+ _____________________________________________________________________________
+ || MOVIMENTO                         |  GRUPPO                              ||
+ || nord sud est ovest alto basso     |  segui gruppo gcomunica dividi       ||
+ || nordest sudest nordovest sudovest | ____________________________________ ||
+ || uscite ritorna                    |  INFORMAZIONI                        ||
+ || dormi svegliati riposa alzati     |  aiuto crediti comandi sociali       ||
+ || _________________________________ |  aree stato data meteo               ||
+ || OGGETTI                           |  descrizione password titolo chi     ||
+ || prendi metti indossa dai guarda   |  bug idea typo                       ||
+ || abbandona sacrifica tieni impugna | ____________________________________ ||
+ || recita tracanna punta brandisci   |  COMUNICAZIONI                       ||
+ || blocca sblocca apri scassina      |  dire comunica urla cb esprimi       ||
+ || chiudi inventario equipaggiamento |  nota prega pensa posa affetto       ||
+ || mangia bevi riempi svuota compara |                                      ||
+ || lista compra vendi valuta         | ____________________________________ ||
+ || _________________________________ |  ALTRO                               ||
+ || COMBATTIMENTO                     |  salva esci pretendi richiedi        ||
+ || uccidi fuggi calcia fuga supplica |  pratica allena ricerca glista       ||
+ || disarma pugnala formula soccorri  |  scruta butta stima                  ||
+ ||__________________________________ |_____________________________________ ||
+
+Per un aiuto piu' dettagliato 'aiuto <argomento>' per ogni comando, abilita' o
+incantesimo.
+~
+
+
+-1 MONETA MONETE ORO ARGENTO MONEY GOLD SILVER~
+L'economia e' basata su monete d'oro, d'argento.. e rame ..che
+gli avventurieri sono soliti evitare perche' troppo povere per loro.
+Le monete d'oro valgono 100 monete d'argento, ma pesano anche 4 volte tanto.
+Le gemme possono valere molto pur pesando relativamente poco, il gioielliere
+che le compra guadagna il 10% su ogni vendita, 10 gemme pesano
+una libbra e le piu' preziose possono valere piu di 100 monete d'oro.
+~
+
+
+0 BREVE BRIEF~
+[32;1mSintassi[0;37;40m[37;0m :  breve
+
+Attiva o disattiva le descrizioni delle stanze durante gli spostamenti.
+~
+
+
+0 COMPATTO COMPACT~
+[32;1mSintassi[0;37;40m[37;0m :  compatto
+
+Rimuove le linee vuote prima del prompt rendendo il testo piu' compatto
+(ma forse meno leggibile).
+~
+
+
+-1 SORDO DEAF~
+[32;1mSintassi[0;37;40m[37;0m :  sordo
+
+Isola dalle comunicazioni private degli altri avventurieri, rendendoti pero'
+nel contempo incapace di parlare con loro. Solo gli amministratori possono
+aggirare questa barriera.
+~
+
+
+0 PROMPT~
+.
+[32;1mSintassi[0;37;40m[37;0m :  prompt
+[32;1mSintassi[0;37;40m[37;0m :  prompt all
+[32;1mSintassi[0;37;40m[37;0m :  prompt show
+[32;1mSintassi[0;37;40m[37;0m :  prompt <%*>
+
+PROMPT Senza ulteriori argomenti accende o spegne il prompt.
+
+PROMPT ALL da il prompt standard <vita movimento mana>.
+
+PROMPT <%*> Permette di costruire il proprio Prompt
+
+    %h :  Visualizza i punti vita correnti.
+    %H :  Visualizza i punti vita massimi.
+    %m :  Visualizza i punti mana correnti.
+    %M :  Visualizza i punti mana massimi.
+    %v :  Visualizza i punti movimento correnti.
+    %V :  Visualizza i punti movimento massimi.
+    %g :  Visualizza l'oro portato.
+    %s :  Visualizza l'argento portato.
+    %a :  Visualizza l'allineamento.
+    %y :  Visualizza la tua percentuale di salute.
+    %o :  Visualizza la percentuale di salute del nemico.
+    %r :  Visualizza il nome della stanza in cui sei.
+    %e :  Visualizza le uscite della stanza.
+    %n :  Visualizza il tuo nome.
+    %S :  Visualizza il tuo sesso.
+    %c :  Visualizza una nuova linea (utile per i prompt a piu linee).
+    %x :  Visualizza l'esperienza (per implementor).
+    %X :  Visualizza l'esperienza per il prossimo traguardo di esperienza (per implementor).
+    %R :  Visualizza il Vnum della stanza (per implementor).
+    %I :  Visualizza il livello di invisibilita' (per implementor).
+    %C :  Visualizza il livello del flag incognito (per implementor).
+    %z :  Visualizza il nome dell'area in cui sei (per implementor).
+
+Esempio: PROMPT <%hvita %vmov %mmana>
+         mettera' il tuo prompt a "<10vita 100mov 100mana>"
+~
+
+
+0 MORTE MORTI DEATH~
+Quando la tua vita viene interrotta la tua anima viene reincarnata presso
+l'altare della tua capitale.
+Il tuo corpo con tutto l'equipaggiamento rimane la' dove hai incontrato la
+morte e se sei abbastanza celere avrai anche la possibilita' di raggiungere
+quel luogo senza che nemmeno gli esseri aggressivi ti disturbino.
+Il corpo che hai abbandonato dopo un po' si sfaldera' nella polvere e gli
+oggetti rimarranno sul terreno... o scivoleranno via in acqua, perduti per
+sempre, fai attenzione dunque!
+~
+
+
+0 LISTA LIST~
+[32;1mSintassi[0;37;40m[37;0m :  lista
+
+Quando sei in un negozio ti permette di avere la lista completa degli articoli
+in vendita.
+~
+
+
+0 ESPERIENZA LIVELLO PX EXPERIENCE LEVEL XP~
+.
+Combattendo e praticando con continuita' le proprie arti si diventa piu' abili
+ed esperti guadagnando titoli di prestigio:
+
+Si guadagna esperienza:
+  - Facendo parte di un gruppo che sconfigge un mostro.
+
+Si perde esperienza:
+  - Scappando da un combattimento (la codardia non viene premiata, mai).
+  - Essendo Bersaglio di alcuni Incantesimi.
+  - Morendo.
+
+L'esperienza acquisita in un combattimento dipende da diversi fattori
+  - Il numero di persone presenti nel gruppo.
+  - La differenza di forza e abilita' tra te e l'avversario.
+  - La differenza tra il tuo allineamento e l'allineameto dell'altro.
+  - Il numero di avversari di quel tipo che hai sconfitto.
+  - Altri fattori piu' o meno casuali..
+~
+
+
+0 CUCCIOLO CUCCIOLI ANIMALETTI PET PETS~
+C'e' chi li considera semplicemente compagni di viaggio, per altri sono invece
+preziosi alleati nelle battaglie di ogni giorno.
+Controlla nei negozi dedicati se c'e' quello che fa per te.
+~
+
+
+0 FORMULA CAST~
+[32;1mSintassi[0;37;40m[37;0m :  formula <incantesimo> <obiettivo>
+
+Il termine "formula" precede sempre il lancio di qualche incantesimo.
+Perche' la formula sia completa occorre quindi aggiungere l'incantesimo
+desiderato e facoltivamente l'obiettivo.
+
+Es: f curse gnoll
+o in caso di pronunce complesse
+f 'acid blast' goblin
+~
+
+
+0 USCITE EXITS~
+[32;1mSintassi[0;37;40m[37;0m :  uscite
+
+Mostra le uscite visibili dalla stanza in cui sei.
+Ovviamente potresti non riuscire a vedere perfettamente tutte le uscite,
+in questo caso pero' potresti anche provare ad andare a sbatterci contro.
+A volte puo' essere persino utile per vedere se c'e' qualcosa di nascosto..
+~
+
+
+0 ABBANDONA DROP~
+[32;1mSintassi[0;37;40m[37;0m :  abbandona <oggetto>
+[32;1mSintassi[0;37;40m[37;0m :  abbandona <cifra> <tipo di monete>
+
+Per posare oggetti o monete per terra.
+
+Per tutti gli oggetti usa 'ALL' mentre
+per tutti gli oggetti con lo stesso nome 'ALL.nomeoggetto' .
+~
+
+
+0 PRENDI GET~
+[32;1mSintassi[0;37;40m[37;0m :  prendi <oggetto>
+[32;1mSintassi[0;37;40m[37;0m :  prendi <oggetto> <nome del contenitore>
+
+Permette di prendere un oggetto da terra, da un contenitore o anche da un
+corpo.
+
+Per tutti gli oggetti usa 'ALL'.
+Es: get all
+
+Per tutti gli oggetti con lo stesso nome 'ALL.oggetto'.
+Es:get all torta
+~
+
+
+0 DAI GIVE~
+[32;1mSintassi[0;37;40m[37;0m :  dai <oggetto> <avventuriero>
+[32;1mSintassi[0;37;40m[37;0m :  dai <cifra> <tipo di monete> <avventuriero>
+
+Permette di dare un oggetto o delle monete ad un altro avventuriero.
+~
+
+
+0 METTI PUT~
+[32;1mSintassi[0;37;40m[37;0m :  metti <oggetto> <contenitore>
+
+Per riporre un oggetto in un contenitore.
+
+Per tutti gli oggetti usa 'ALL' mentre
+per tutti gli oggetti con lo stesso nome 'ALL.oggetto' .
+~
+
+
+0 EQUIPAGGIAMENTO EQUIPMENT~
+[32;1mSintassi[0;37;40m[37;0m :  equipaggiamento
+[32;1mSintassi[0;37;40m[37;0m :  equipaggiamento <personaggio>
+
+Per dare un'occhiata a tutto il tuo equipaggiamento attuale (armi, armature..).
+Se per qualsiasi ragione non riesci a vedere gli oggetti che hai addosso
+essi ti verranno indicati con un generico: qualcosa.
+Se invece vorrai osservare l'equipaggiamento di un'altra persona dovrai
+aggiungere il nome della stessa dopo il comando equip.
+~
+
+
+0 INVENTARIO INVENTORY~
+[32;1mSintassi[0;37;40m[37;0m :  inventario
+Visualizza la lista di cio' che hai in inventario, cioe' immediatamente a
+disposizione. Tutto quello che vedi nel tuo inventario e' anche visibile a
+chi e' in grado di sbirciare nelle tue tasche.. quindi occhio ai ladri!
+~
+
+
+0 COMPARA COMPARE~
+[32;1mSintassi[0;37;40m[37;0m :  compara <oggetto-1> <oggetto-2>
+[32;1mSintassi[0;37;40m[37;0m :  compara <oggetto>
+
+E' questa una rozza forma di identificazione degli oggetti basata sulla
+comparazione.
+Essa mette a confronto due tipi di oggetto similari. Se entrambi sono armi,
+potrete capire quale ha la migliore media di danno. Se entrambi sono armature,
+esso restituisce quella che protegge meglio.
+
+Facendolo seguire dal nome di un solo oggetto (tra quelli in inventario) il
+confronto avverra' con cio' di cui si e' equipaggiati al momento.
+
+Eventuali poteri speciali, auree e incantesimi sull'oggetto non sono tenuti in
+considerazione.
+~
+
+
+0 FUGGI FLEE~
+[32;1mSintassi[0;37;40m[37;0m :  fuggi
+
+Durante il combattimento i movimenti sono limitati e vincolati dall'incontro,
+se pero' sta prendendo una brutta piega questa tecnica vi permette di provare
+a scappare, ricordate pero' che il numero di uscite a disposizione, il carico
+e tanti altri fattori sono importanti per la riuscita della fuga...
+E di certo non ne guadagnerete in fama ed esperienza in caso di successo.
+Man mano che esplorerai il mondo ti accorgerai che in certi luoghi e verso
+certi luoghi e' impossibile fuggire.
+
+E ricorda, se sei un Samurai la fuga non ti e' MAI concessa, a meno che tu non
+sia solo alle prime armi o se il tuo avversario e' davvero IMMENSAMENTE piu'
+forte di te (vedi DISONORA).
+~
+
+
+0 SOCCORRI RESCUE~
+[32;1mSintassi[0;37;40m[37;0m :  soccorri <personaggio>
+
+Se intendi salvare da un avversario pericoloso un tuo compagno usa questa
+tecnica e se hai abbastanza abilita' riuscirai a combattere al suo posto, serve
+una buona forza e soprattutto destrezza.
+~
+
+
+0 ESAMINA EXAMINE~
+[32;1mSintassi[0;37;40m[37;0m : examine <contenitore>
+[32;1mSintassi[0;37;40m[37;0m : examine <corpo>
+
+
+Permette di scrutare all'interno di un contenitore o di un corpo.
+~
+
+
+0 GUARDA LOOK~
+[32;1mSintassi[0;37;40m[37;0m : guarda
+[32;1mSintassi[0;37;40m[37;0m : guarda <oggetto>
+[32;1mSintassi[0;37;40m[37;0m : guarda <personaggio>
+[32;1mSintassi[0;37;40m[37;0m : guarda <direzione>
+[32;1mSintassi[0;37;40m[37;0m : guarda in <contenitore>
+[32;1mSintassi[0;37;40m[37;0m : guarda in <corpo>
+
+Permette di guardare in una direzione, un personaggio e il contenuto di un
+contenitore.
+~
+
+
+0 ORDINA ORDER~
+[32;1mSintassi[0;37;40m[37;0m : ordina <seguace> comando
+[32;1mSintassi[0;37;40m[37;0m : ordina all comando
+
+Permette di impartire ordini a uno o a tutti i tuoi seguaci purche' siano nella
+tua stessa stanza. Ovviamente responsabilita' e conseguenze sono totalmente a
+tuo carico.
+~
+
+
+0 RIPOSA REST~
+[32;1mSintassi[0;37;40m[37;0m : riposa
+
+Per riposarsi.. e recuperare piu' velocemente le energie perdute, ma attenti
+agli attacchi a sorpresa!
+~
+
+
+0 ALZATI STAND~
+[32;1mSintassi[0;37;40m[37;0m : alzati
+
+Siete seduti? Ecco.. cosi' vi rialzate.
+~
+
+
+0 DORMI SLEEP~
+[32;1mSintassi[0;37;40m[37;0m : dormi
+
+Dormendo recuperate molto piu' rapidamente le vostre energie, ma
+fatelo solo in luoghi sicuri...
+~
+
+
+0 SVEGLIATI WAKE~
+[32;1mSintassi[0;37;40m[37;0m : svegliati <personaggio>
+[32;1mSintassi[0;37;40m[37;0m : svegliati
+
+
+Per risvegliarsi da un sonno che non sia indotto da incantesimi o azioni
+altrui..
+~
+
+
+0 GCOMUNICA GTELL~
+[32;1mSintassi[0;37;40m[37;0m : gcomunica <messaggio>
+
+Per parlare ai membri del proprio gruppo, inutile provare a parlare se siete
+svenuti o dormienti..
+~
+
+
+0 DIRE SAY~
+[32;1mSintassi[0;37;40m[37;0m : dire <messaggio>
+
+Per parlare facendosi udire dai soli presenti nella stanza.
+~
+
+
+0 COMUNICA TELL~
+[32;1mSintassi[0;37;40m[37;0m : comunica <personaggio> <messaggio>
+
+Per parlare privatamente ad una persona.. ovunque essa si trovi nel mondo.
+Ovviamente deve essere desta e non invisibile/nascosta.
+~
+
+
+0 RISPONDI REPLY~
+[32;1mSintassi[0;37;40m[37;0m : rispondi <messaggio>
+
+Per rispondere a qualcuno che vi ha mandato un messaggio privatamente.
+~
+
+
+0 NOTA NOTE NOTES UNREAD~
+Sono delle speciali missive che vengono recapitate ovunque a tutti gli avventurieri
+
+Per leggere una nota:
+nota list     : Lista di tutte le note (quelle non lette sono segnate da una N)
+nota read <n> : Lettura attraverso il numero
+nota remove   : Cancella una nota che hai scritto o ricevuto
+nota catchup  : Segna tutte le note come lette
+
+Per scrivere una nota:
+nota to <pg> : Indica il destinatario (nome dell'avventuriero o clan o immortal o all)
+nota subject : Indica l'oggetto della nuova nota
+nota +       : Aggiungi una nuova linea alla nota (es. note + Salve)
+nota -       : Rimuovi una linea dalla nota che stai scrivendo
+nota clear   : Cancelli la nota che stai scrivendo
+nota show    : Visualizzi interamente la nota che stai scrivendo
+nota post    : Spedisci la nota che hai scritto
+
+Ogni volta che ritorni nel Regno vieni informato
+se hai delle nuove note da leggere.
+~
+
+
+96 PENALTY~
+Sono le Note ordinarie ma relative alle punizioni inflitte, per conoscenza agli altri immortali.
+Stesso funzionamento delle NOTE con la mera sostituzione della parola PENALTY - PENALTIES.
+
+Per leggere una penalty:
+penalty list     : Lista di tutte le penalty (quelle non lette sono segnate da una N)
+penalty read <n> : Lettura attraverso il numero
+penalty remove   : Cancella una penalty che hai scritto o ricevuto
+penalty catchup  : Segna tutte le penalty come lette
+
+Per scrivere una penalty:
+penalty to <pg> : Indica il destinatario (nome dell'avventuriero o clan o immortal o all)
+penalty subject : Indica l'oggetto della nuova penalty
+penalty +       : Aggiungi una nuova linea alla penalty (es. penalty + Salve)
+penalty -       : Rimuovi una linea dalla penalty che stai scrivendo
+penalty clear   : Cancelli la penalty che stai scrivendo
+penalty show    : Visualizzi interamente la penalty che stai scrivendo
+penalty post    : Spedisci la penalty che hai scritto
+
+Ogni volta che ritorni nel Regno vieni informato
+se hai delle nuove penalties da leggere.
+~
+
+
+0 ESPRIMI EMOTE~
+[32;1mSintassi[0;37;40m[37;0m : esprimi <azione>
+
+Per esprimere emozioni o azioni.
+
+Ad esempio:
+esprimi sembra perplesso e si siede in disparte rimuginando.
+produrra' per i presenti:
+<Tuo nome> sembra perplesso e si siede in disparte rimuginando.
+~
+
+
+0 TIENI HOLD~
+[32;1mSintassi[0;37;40m[37;0m : tieni <oggetto>
+
+Permette di indossare un oggetto che si ha nell'inventario. E' utilizzato per
+luci, le bacchette e i bastoni o frecce e altro ancora.
+~
+
+
+0 RIMUOVI REMOVE~
+[32;1mSintassi[0;37;40m[37;0m : rimuovi <oggetto>
+
+Per smettere di indossare un determinato oggetto, questo verra' subito riposto
+nell'inventario.
+~
+
+
+0 INDOSSA WEAR~
+[32;1mSintassi[0;37;40m[37;0m : indossa <oggetto>
+[32;1mSintassi[0;37;40m[37;0m : indossa all
+
+Per indossare oggetti che si trovano in inventario, e' utilizzato per
+l'abbigliamento e le armature.
+
+INDOSSA ALL permette di indossare tutto quando si ha in inventario,
+indipendentemente da dove sara' indossato.
+Non si puo' indossare equipaggiamento che risulta troppo potente per il proprio
+livello, ma esistono delle eccezioni:
+i combattenti potranno utilizzare oggetti con potere lievemente maggiore del
+proprio, mentre per i lanciatori d'incantesimi il discorso e' invertito sulle
+armature.
+~
+
+
+0 IMPUGNA WIELD~
+[32;1mSintassi[0;37;40m[37;0m : impugna <oggetto>
+
+Permette di indossare un oggetto che si trova nel proprio inventario, di solito
+si usa con le armi.
+~
+
+
+0 BUG~
+[32;1mSintassi[0;37;40m[37;0m : bug <messaggio>
+
+Permette di segnalare agli amministratori, cio' che e' ritenuto un bug, cioe' un
+errore. (ad esempio nel funzionamento di qualcosa).
+~
+
+
+0 TYPO~
+[32;1mSintassi[0;37;40m[37;0m : typo <messaggio>
+
+Consente di segnalare eventuali errori di battitura in descrizioni, aiuti e
+cosi' via.
+~
+
+
+0 IDEA~
+[32;1mSintassi[0;37;40m[37;0m : idea <messaggio>
+
+Permette di suggerire nuove idee agli amministratori del mud.
+~
+
+
+0 CREDITI CREDITS~
+[32;1mSintassi[0;37;40m[37;0m : crediti
+
+Questo comando visualizza i coder del Diku.
+~
+
+
+0 AREE AREAS~
+[32;1mSintassi[0;37;40m[37;0m : areas
+
+Mostra una pergamena con la lista di tutte le regioni.
+~
+
+
+0 COMANDI COMMANDS~
+[32;1mSintassi[0;37;40m[37;0m : commands
+
+Mostra la lista dei comandi di ogni genere.
+~
+
+
+0 SCORE NSCORE~
+[32;1mSintassi[0;37;40m[37;0m : score
+[32;1mSintassi[0;37;40m[37;0m : nscore
+
+Mostra il tuo stato corrente in modo molto dettagliato.
+I tuoi attributi sono visualizzati con due cifre di cui quello tra parentesi
+indica il valore corrente mentre l'altro e' il valore naturale non modificato
+da oggetti o incantesimi.
+~
+
+
+0 DATA DATE TIME ORA~
+[32;1mSintassi[0;37;40m[37;0m : time
+
+Per conoscere l'ora, il mese e l'anno del mondo in cui ti trovi.
+~
+
+
+0 TEMPO WEATHER~
+[32;1mSintassi[0;37;40m[37;0m : tempo
+
+Un'occhiata al cielo per vedere com'e' il tempo...
+~
+
+
+0 CHI WHO~
+[32;1mSintassi[0;37;40m[37;0m : chi
+
+Per conoscere tutti gli avventurieri presenti in quel momento.
+~
+
+
+1 THINK~
+[32;1mSintassi[0;37;40m[37;0m : think <messaggio>
+
+Permette di comunicare con tutti gli Amministratori presenti nel Mud.
+Non e' necessario che siano messaggi strettamente RPG, ma bisogna ricordarsi
+che cio' che verra' pensato sara' letto da tutti gli Dei presenti.
+~
+
+
+97 WHERE~
+[32;1mSintassi[0;37;40m[37;0m :  where
+[32;1mSintassi[0;37;40m[37;0m :  where <personaggio>
+[32;1mSintassi[0;37;40m[37;0m :  where pk
+[32;1mSintassi[0;37;40m[37;0m :  where protector
+
+Mostra tutti gli avventurieri e la locazione in cui sono, appartenenti all'area
+in cui ti trovi.
+
+Seguito dal nome dell'avventuriero o mostro indica dove questo si trovi, sempre
+nella tua area.
+~
+
+
+0 AIUTO HELP~
+[32;1mSintassi[0;37;40m[37;0m : aiuto
+
+Visualizza un menu' semplificato di comandi basilari.
+
+AIUTO <parola> visualizza una pergamena che ti aiuti a capire un determinato
+comando incantesimo o abilita'.
+~
+
+
+0 MEND~
+[32;1mSintassi[0;37;40m[37;0m : cast 'mend' <oggetto>
+
+Si tratta di un particolare incantesimo che tramite l'apposita
+formula evoca dall'aere le molecole e le energie coadiuvanti
+degli elementi che componevano un determinato oggetto risvegliandone
+l'anima sopita ristabilendone l'equilibrio con l'aiuto del
+flusso di mana dell'utente magico l'equilibrio originario
+delle parti, riparandone cosi' eventuali danni.
+~
+
+
+0 FORGIA SMITHING~
+[32;1mSintassi[0;37;40m[37;0m : forgia <oggetto>
+
+Caratteristica abilita' dei guerrieri permette loro di riparare
+gli oggetti danneggiati mediante l'utilizzo di un particolare
+martello, a volte si preferisce recarsi dal fabbro per questi
+servizi in quanto il martello ha una durata comunque limitata.
+~
+
+
+0 TRACCIA TRACK~
+[32;1mSintassi[0;37;40m[37;0m : traccia
+
+Individuare delle tracce e seguirle non e' una questione meramente
+di acutezza visiva, bisogna avere grande conoscenza dei luoghi, delle
+varie tipologie di terreno e delle caratteristiche delle impronte
+stesse.
+I ranger da grandi conoscitori e studiosi del loro ambiente naturale
+imparano presto a seguire e individuare le piste seguite da un
+eventuale avversario che abbia abbandonato la contesa scappando e
+sono in grado percio' di rintracciarlo senza problemi.
+~
+
+
+0 LINK~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'link' <personaggio>
+
+Incantesimo che permette di trasmettere il proprio mana al bersaglio,
+durante lo scambio vi e' una grossa perdita del potenziale poiche'
+questo avviene tra due corpi solidi percio' anche se il quantitativo
+di mana ristabilito nella persona che lo subisce non e' alto l'incantesimo
+richiede praticamente tutto il mana dell'Evocatore che lo lancia.
+~
+
+
+0 PROTECTION HEAT~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'protection heat'
+
+Invocando gli elementali della terra e dell'aria si disegna attorno alla propria
+sagoma una barriera magica rilucente che protegge dal calore il mago usando
+una tecnica di dispersione degli atomi.
+~
+
+
+0 SHIELD~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'shield' <personaggio>
+
+E' un incantesimo che venne creato quasi per gioco da alcuni studenti di
+magia che si divertivano sfidandosi con colpi piu' o meno pericolosi vista
+la loro giovane eta'.
+In particolare questo incantesimo di difesa permette al mago di creare uno
+scudo di fievole e invisibile energia attorno al suo corpo, proteggendolo dai
+colpi piu' lievi ma anche e soprattutto dai dardi incantati (cio' per cui era
+stato in definitiva creato).
+~
+
+
+0 SHIELDING~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'shielding' <personaggio>
+
+E' un incantesimo che richiede grande concentrazione e dispendio di energie,
+non puo' essere infatti lanciato durante un combattimento. Richiede che il
+mago studi l'avversario identificando nel suo corpo il livello di sintonia
+che questi ha con la fonte magica degli elementali e con un brusco gesto delle
+mani crei una barriera che lo isoli temporaneamente dal poter dialogare con
+questi. Come risultato, in caso di successo, la vittima non riesce piu' a
+lanciare incantesimi.
+~
+
+
+0 PROTECTION COLD~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'protection cold'
+
+E' una versione potenziata di un incantesimo che venne sviluppato da un mago
+eremita per proteggersi dal freddo e dalle intemperie durante gli
+spostamenti, senza dover ogni volta andare in cerca della legna da ardere.
+L'incantesimo evoca la protezione degli elementali del fuoco che formano
+un'invisibile barriera attorno al corpo del mago  proteggendolo parzialmente
+dagli attacchi basati sul gelo.
+~
+
+
+0 KNOCK~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'knock' <porta>
+
+E' un vecchio incantesimo usato precedentemente dai piu' abili prestigiatori
+per aprire i lucchetti delle porte.. in seguito si e' pensato di usarlo
+per ben altri scopi piu' pratici..
+~
+
+
+0 SBILANCIA BASH~
+[32;1mSintassi[0;37;40m[37;0m : bash <vittima>
+
+Infligge una possente spinta al proprio avversario che, in caso di riuscita,
+finisce a terra, incapace di lanciare incantesimi o di eseguire alcune delle
+tecniche piu' complesse, ovviamente forza, stazza e destrezza sono elementi
+importantissimi per ottenere una spinta efficace.. altrimenti a terra ci finira'
+qualcun altro.
+~
+
+
+0 'SFONDA PORTA' SFONDAPORTA 'BASH DOOR' BASHDOOR~
+.
+[32;1mSintassi[0;37;40m[37;0m  : sfondaporta <direzione>
+
+Permette di provare a buttar giu' una porta chiusa, da evitare se questa e'
+presidiata da guardie.. ed in ogni caso fare attenzione alla sua robustezza,
+se non si riesce questa potrebbe far male!
+~
+
+
+0 FIRE SHIELD~
+[32;1mSintassi[0;37;40m[37;0m : cast 'fire shield' <tipo>
+
+Si evocano gli spiriti del fuoco o del ghiaccio materializzandoli in efficaci
+scudi che proteggono dal fuoco o dall'acqua.
+~
+
+
+0 WEB~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'web' <vittima>
+
+La tela del ragno e' sottilissima ma resistente, sprigionata dai polsi del mago
+essa giunge a bloccare gli arti del nemico che ne risultera' impacciato.
+~
+
+
+0 MAGIC RESISTANCE~
+Incantesimo che evoca una spessa barriera che risulta della forza di tutti e 5 gli elementi
+in grado di affievolire l'effetto della maggior parte degli incantesimi lanciati contro
+il mago.
+~
+
+
+0 DISINTEGRATE~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'disintegrate' <vittima>
+
+Tutte le energie negative vengono convogliate sul palmo della mano dello stregone,
+quando l'elemento del fuoco si va a fondere formando una scintilla essa fa esplodere
+una sfera che emette un violento raggio radiale rosso verso la vittima, disintegrandola
+con tutto il suo equipaggiamento! Assolutamente da non sperimentare su amici e parenti.
+~
+
+
+0 'WITCH CURSE'~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'witch curse' <vittima>
+
+E' una maledizione tremenda che fa agonizzare la vittima lentamente
+ma tra spasmi atroci, conducendola inesorabilmente alla morte.
+~
+
+
+0 ANIMATE DEAD~
+E' un oscuro rituale che permette di strappare un'anima persa che
+ancora si aggira nelle terre dei mortali imprigionandola in un
+corpo deceduto,questo si muovera' agli ordini del suo evocatore.
+~
+
+
+0 CODA TAIL~
+Permette alle creature dotate di coda di attaccare mediante questa, ci
+sono poche speranze in effetti di colpirla.. ma in caso di riuscita il danno
+e' ingente.
+~
+
+
+0 FEAR~
+E' un incantesimo di negativita' che evoca un malsano terrore nella vittima
+costringendola a fuggire senza una ragione apparente.. in preda al panico.
+~
+
+
+0 MAGIC JAR 'MAGIC JAR'~
+E' un terribile incantesimo in grado di rinchiudere lo spirito di un
+avventuriero in una semplice scatoletta.. impedendogli di acquisire
+esperienza.
+~
+
+
+0 POWER WORD KILL 'POWER WORD KILL'~
+La voce del necromante diventa un'oscura litania che evoca nel palmo
+della sua mano le piu' negative energie dal mondo dei morti, quando egli
+termina la formula fa esplodere l'energia pronunciando il nome della vittima
+sul quale questo potentissimo incantesimo si riversa.. lacerandogli il cervello
+senza speranza.. o quasi.
+~
+
+
+0 'POWER WORD STUN' STUN~
+E' un incantesimo che evoca una forza dirompente che stordisce l'avversario che
+rimane incapace di fare qualsiasi cosa per qualche secondo.
+~
+
+
+0 HELLFIRE~
+E' un'abilita' ninja che permette a questi di usare la propria padronanza
+delle polveri e miscele per creare un fiotto di fuoco che inondera' la vittima
+ustionandola.
+~
+
+
+0 MASTERING SWORD 'MASTERING SWORD'~
+Arrivato ad un certo punto del suo allenamento il samurai riesce a padroneggiare
+la sua katana o spada meglio di chiunque altro, apprendendone segreti solo a lui
+dischiusi..
+~
+
+
+0 MASTERING POUND 'MASTERING POUND'~
+I ninja arrivati ad un certo punto del loro cammino imparano a sferrare colpi a
+mani nude in grado di stordire l'avversario colpendo in una maniera piu'
+rapida e vigorosa.. cio' diventa una pericolosa arma per qualsiasi avversario.
+~
+
+
+0 'AREA ATTACK'~
+Focalizzare la propria attenzione su di un solo avversario quando si
+e' accerchiati e' un grosso errore, per questo motivo i combattenti
+piu' esperti imparano a distribuire i loro colpi in caso di risse
+furibonde..
+~
+
+
+0 GRIP~
+La presa d'acciaio sulla propria spada e' la caratteristica
+di ogni buon guerriero che si rispetti, per il quale sarebbe
+davvero un disonore perderla impunemente.. per ogni volta che
+gli ha salvato la vita!
+~
+
+
+0 CONCENTRATE~
+Concentrarsi prima di un combattimento significa richiamare a se'
+tutte le proprie forze e disporre il proprio animo alla battaglia
+sapendo a che cosa si va incontro. Con questa rinnovata consapevolezza
+i colpi del combattente risulteranno sicuramente piu' decisi e precisi.
+~
+
+
+0 CURSE~
+E' un incantesimo antichissimo che sprigiona e condensa sul bersaglio
+(sia esso una persona o un oggetto) un'energia negativa che gli
+toglie ogni favore degli Dei. In caso questo sia un oggetto, una
+spada per esempio, diventera' imprecisa e scomoda, mentre nel
+caso di un essere animato questo sara', oltre che piu' sfortunato
+e maldestro, persino malvisto dai suoi dei che gli impediranno
+di entrare nel loro tempio tramite la preghiera.
+~
+
+
+0 'FARSIGHT'~
+[32;1mSintassi[0;37;40m[37;0m  : cast 'farsight' <direzione>
+
+E' un incantesimo che permette al mago di avere una chiara visione della
+zona a lui adiacente.. questa dura pochi istanti ma e' nitidissima.
+Tuttavia l'alta concentrazione richiesta lascia il mago un po' spossato..
+~
+
+
+0 'ADAMANTITE GOLEM' ADAMANTITE~
+E' l'ultimo stadio del Golem, l'ultimo e piu' potente che il necromante
+impara a costruire e controllare con i suoi poteri.. richiede molto
+materiale ed energia magica, ma e' veramente formidabile!
+~
+
+
+0 'AID'~
+E' una preghiera che invoca immediatamente l'aiuto degli Dei nella cura
+di un avventuriero, e' molto efficace ma gli Dei sono restii a concederla
+ripetutamente in tempi brevi..
+~
+
+
+0 'FIREPROOF'~
+.
+[32;1mSintassi[0;37;40m[37;0m  : cast 'fireproof' <oggetto>
+
+Un'aura magica circondera' l'oggetto che diverra' resistente (finche' la barriera
+avra' effetto) al fuoco, alle scosse, ai fulmini e tutto quanto potra' danneggiarlo.
+~
+
+
+0 'BLADE BARRIER' BLADE BARRIER~
+[32;1mSintassi[0;37;40m[37;0m  : cast 'blade barrier' <vittima>
+
+E' un'invocazione che richiama attorno al nemico del chierico un muro
+di lame concentriche che lo infilzeranno ripetutamente per difendere
+il protetto della divinita'..
+~
+
+
+0 BLESS~
+Gli dei con questa invocazione, tramite il loro seguace, trasmettono al bersaglio,
+sia esso un oggetto o un essere vivente, la loro benedizione che vale come
+un incoraggiamento e protezione nel caso di avventurieri e da maggioramento
+delle prestazioni o scongiuramento di maledizioni nel caso di oggetti
+~
+
+
+0 'BLESS WEAPON' ~
+[32;1mSintassi[0;37;40m[37;0m  : cast 'bless weapon' <arma>
+
+E' una benedizione particolare che viene studiata appositamente
+per le lame.. Ha efficacia contro esseri malvagi e demoniaci.
+~
+
+
+0 BLUEFIRE ~
+[32;1mSintassi[0;37;40m[37;0m  : cast 'bluefire' <personaggio>
+
+L'ira degli dei invocata tramite questa preghiera si rivelera' tramite
+una colonna di fuoco bluastra che investira' l'avversario in pieno..
+~
+
+
+0 CALM~
+Imponendo il proprio carisma si ottiene di placare gli animi interrompendo
+eventuali combattimenti e ispirando comunque un senso di calma e concordia..
+~
+
+
+0 'CHAIN LIGHTNING'~
+L'energia dei fulmini non e' controllabile in maniera perfetta
+tuttavia sono molti i maghi che ne cedono al fascino.. Questo
+incantesimo in particolare evoca una scarica di fulmini che
+invade l'area intorno al mago colpendo i suoi avversari.. e a volte
+anche poveri innocenti o il mago stesso! Attenzione dunque!
+~
+
+
+0 'CONTROL UNDEAD' CONTROL~
+Permette al necromante di assumere il controllo di un non morto che gli si pari
+sulla strada, non e' necessariamente il caso di seguire l'antico adagio del:
+"Se non puoi combatterlo, fattelo amico.", in quanto ancora stanno cercando i
+pezzi del furbone che venne scovato da Orcus nella sua dimora..
+~
+
+
+0 'ATTRACT OTHER' ATTRACT~
+[32;1mSintassi[0;37;40m[37;0m  : cast 'attract other' <vittima>
+
+I vampiri sfruttando il loro innato flusso magico riescono con questo
+incantesimo ad attrarre a se' imponendo i loro voleri un essere vivente che sia
+necessariamente di sesso opposto.
+~
+
+
+0 'CREATE ROSE' ROSE~
+Tramite questa brevissima formula magica, con un semplice gesto delle mani,
+verra' creata una stupenda rosa rossa dal profumo inebriante.
+~
+
+
+0 'CURE DISEASE'~
+Invocando l'aiuto del proprio Dio si potra' scacciare il morbo di qualsiasi
+malattia dal corpo della vittima.
+~
+
+
+0 DEMONFIRE~
+E' una potentissima invocazione che permette al fedele di richiamare
+al suo cenno le fiamme piu' roventi strappandole direttamente al fuoco
+degli inferi e lasciando che queste avviluppino in letali spire il suo
+nemico.
+~
+
+
+0 'DESERT FIST'~
+[32;1mSintassi[0;37;40m[37;0m : cast 'desert fist' <personaggio>
+
+Quando si dice.. chiedere una mano ai propri Dei.. Ecco che il chierico evoca
+dalla sabbia (sempre che ne abbia intorno) un grosso polverone che si condensa
+fino a formare un enorme pugno diretto all'avversario!
+~
+
+
+0 'DETECT GOOD'~
+E' un semplice incantesimo che permette di potenziare la vista rendendo
+distinguibili le auree dorate sugli esseri viventi..
+~
+
+
+0 'DETECT UNDEAD'~
+E' tramite questo incantesimo che si diventa capaci di distinguere facilmente
+un non morto da un comune essere vivente..
+~
+
+
+0 'DISPEL GOOD'~
+E' un incantesimo che sfrutta il principio della negativita', chi lo lancia
+riesce a far bruciare all'interno della vittima ogni sentimento che lo leghi
+alla bonta' adducendogli un dolore assolutamente insopportabile.
+~
+
+
+0 GRUPPO GROUP~
+[32;1mSintassi[0;37;40m[37;0m  : gruppo
+[32;1mSintassi[0;37;40m[37;0m  : gruppo <personaggio>
+
+Permette di comporre un gruppo con altri avventurieri che ti stanno seguendo.
+Allo stesso modo serve per tirar fuori dal gruppo qualcuno che non vuoi piu'
+al suo interno.
+~
+
+
+0 'GROUP DEFENSE'~
+E' un tipo di preghiera che aiuta l'intero gruppo incrementandone la protezione
+dagli attacchi.
+~
+
+
+0 'GROUP HEAL'~
+La mano del Dio viene invocata e apportera' delle benefiche cure all'indirizzo
+del gruppo di chi ne ha evocato la comparsa.
+~
+
+
+0 HASTE~
+E' un incantesimo che reindirizza il ritmo metabolico rendendo i movimenti
+molto piu' veloci del normale.. di contro le ferite ed il mana si ripristinano
+piu' lentamente.
+~
+
+
+0 'HEAT METAL'~
+E' un incantesimo che evoca il soffio degli elementali del fuoco
+sull'equipaggiamento dell'avversario che comincera' ad ustionare la sua pelle
+se non se ne libera velocemente!!!
+~
+
+
+0 'HOLY WORD'~
+[32;1mSintassi[0;37;40m[37;0m  : cast 'holy word'
+
+Il chierico con questa preghiera invoca tutta la potenza del suo Dio con
+effetti disastrosi sui suoi avversari e benefici per gli alleati..
+Questi verranno infatti benedetti e riempiti dell'energia divina, gli altri
+invece verranno feriti dagli artigli della furia e maledetti dalla divinita'.
+E' una preghiera che richiede oltre che grande concentrazione anche grande
+dispendio di energie da parte del chierico.
+~
+
+
+0 'IMPROVED DETECT'~
+[32;1mSintassi[0;37;40m[37;0m  : cast 'improved detect'
+
+Esistono diversi livelli di invisibilita' e percio' anche diversi livelli di
+identificazione dell'invisibile, questo e' esattamente il piu' potente a
+disposizione dei maghi.
+~
+
+
+0 'IMPROVED INVIS'~
+[32;1mSintassi[0;37;40m[37;0m  : cast 'improved invis' <personaggio>
+
+Esistono diversi livelli di invisibilita' possibili grazie alla magia,
+questo e' il piu' avanzato..
+~
+
+
+0 INSPIRE~
+E' un tipo di benedizione che il chierico invoca non solo su di se' ma anche
+sull'intero suo gruppo.
+~
+
+
+0 'IRON GOLEM'~
+Specialista nella creazione di seguaci inanimati ecco che il necromante impara
+come ottenere il suo Golem partendo da materiali duri e ferrosi.. Il risultato
+non e' granche' bello esteticamente parlando, ma di sicura efficacia!
+~
+
+
+0 'LESSER GOLEM'~
+E' uno dei primi tipi di golem che il necromante riesce a creare e gestire..
+Non e' un granche' forte o imponente pero' e' utile per i lavoretti di tutti i
+giorni..
+~
+
+
+0 'MAGNETIC TRUST'~
+[32;1mSintassi[0;37;40m[37;0m  : cast 'magnetic trust' <vittima>
+
+Con un ampio movimento delle braccia lo stregone evoca le forze magnetiche
+presenti nell'aria e con un gesto improvviso crea una potente onda d'urto che
+va ad impattare sull'avversario!
+~
+
+
+0 'MASS HEALING'~
+[32;1mSintassi[0;37;40m[37;0m  : cast 'mass healing'
+
+E' un incantesimo che permette al chierico di ristorare e curare alcune delle
+ferite del gruppo grazie all'aiuto della propria divinita'.
+~
+
+
+0 'MASS SANCTUARY'~
+[32;1mSintassi[0;37;40m[37;0m  : cast 'mass sanctuary'
+
+Con questo incantesimo il chierico ed il suo gruppo saranno investiti da una
+sacra e potente aura di protezione.
+~
+
+
+0 'MASTER HEALING'~
+E' l'incantesimo clericale che grazie al suo potere riesce a curare persino le
+ferite piu' letali.. Ovviamente tutto questo ha un alto prezzo in risorse
+spirituali dell'adepto.
+~
+
+
+0 NEXUS~
+[32;1mSintassi[0;37;40m[37;0m  : cast 'nexus' <vittima>
+
+Sfruttando il potere di alcune pietre molto particolari e' possibile creare
+un portale di andata e ritorno concentrandosi sull'ubicazione della vittima
+da raggiungere. Ovviamente il portale ha una durata limitata..
+~
+
+
+0 PLAGUE~
+Richiama le energie negative nel corpo dell'avversario instillando in esse
+il morbo della terribile pestilenza!
+~
+
+
+0 POLYMORPH~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'polymorph' <razza>
+[32;1mLivello[0;37;40m[37;0m    : 73 Strega - 73 Stregone
+[32;1mMana Minima[0;37;40m[37;0m: 250
+[32;1mDurata[0;37;40m[37;0m     : livello/10
+
+E' un particolarissimo incantesimo che permette allo stregone di mutare il
+proprio aspetto in quello di una razza a suo piacimento, assumendo di questa
+tutte le caratteristiche fisiche.
+~
+
+
+0 PORTAL~
+[32;1mSintassi[0;37;40m[37;0m : cast 'portal' <vittima>
+
+E' un incantesimo che sfrutta un determinato tipo di pietra in grado di creare,
+qualora il potere ne venga evocato nella giusta maniera, un portale
+unidirezionale che punta su di una determinata vittima.
+~
+
+
+0 'PROTECTION EVIL'~
+Crea un'aura di protezione contro esseri malvagi.. E' efficace sia contro i
+colpi fisici sia contro gli incantesimi.
+~
+
+
+0 'PROTECTION GOOD'~
+Crea un'aura di protezione contro esseri malvagi.. e' efficace sia contro i
+colpi fisici sia contro gli incantesimi.
+~
+
+
+0 'PROTECTION NEGATIVE'~
+E' un incantesimo di protezione che genera una barriera contro quegli attacchi
+che sfruttano energie negative, tipiche di necromanti e vampiri ad esempio.
+~
+
+
+0 'RAY OF TRUTH'~
+[32;1mSintassi[0;37;40m[37;0m  : cast 'ray of truth' <vittima>
+
+E' un potente raggio di energia positiva che scaturisce dalle mani di colui che
+lancia l'incantesimo, questo va a colpire con violenza la vittima che a seconda
+della sua malvagita' sara' punita con un danno piu' o meno grande.
+~
+
+
+0 'REMOVE FEAR'~
+E' un incantesimo simile alla benedizione agisce sulla psiche dell'avventuriero
+infondendogli coraggio e scacciando la paura.
+~
+
+
+0 RESILIENCE~
+E' un tipo di protezione che vale contro gli attacchi che sfruttano l'energia
+negativa.
+~
+
+
+0 'RESTORING LIGHT'~
+E' un incantesimo molto potente in quanto e' in grado di effettuare un generoso
+numero di cure nello stesso istante..
+~
+
+
+0 SLOW~
+E' un incantesimo che viene utilizzato per invertire alcuni ritmi metabolici
+nella vittima affinche' si muova piu' lentamente, puo' anche essere usato pero'
+su se' stessi quando si ha bisogno di recuperare in fretta delle energie..
+Occhio ad usarlo su compagni pero', visto che e' chiaramente un incantesimo
+d'offesa.
+~
+
+
+0 'SPECTRAL FUROR'~
+Viene evocato uno spirito dall'aldila' che si avventa sulla vittima con un
+attacco poderoso!
+~
+
+
+0 'STONE GOLEM'~
+Il golem di pietra e' un salto di qualita' non indifferente per il necromante,
+non sara' potente come quello di ferro pero' sicuramente fa la sua figura con
+il suo aspetto statuario!
+~
+
+
+0 SUMMON~
+E' un incantesimo che permette di evocare il bersaglio la' dove si trova il
+mago, ha i suoi limiti nelle eventuali protezioni che la vittima potrebbe avere
+con se'..
+~
+
+
+0 'SUMMON SHADOW'~
+Se i golem non bastano il necromante si puo' sempre servire di un'ombra per i
+lavori piu' sporchi.. e svolgerli magari con un po' piu' di grazia e
+discrezione..
+~
+
+
+0 'SUPERIOR HEAL'~
+E' una cura straordinaria per le ferite, forse una delle migliori addirittura!
+~
+
+
+0 'VAMPIRIC BLAST'~
+E' una scarica di pura energia nera che il vampiro scaglia addosso al suo
+avversario con rabbia e furore.
+~
+
+
+0 WRATH~
+E' una tecnica esclusiva dei paladini che richiamano a se' l'ira della loro
+divinita' protettrice che si va a scagliare contro il suo malvagio avversario!
+~
+
+
+0 DEAFEN~
+E' un incantesimo dagli effetti davvero devastanti, la vittima infatti diviene
+sordomuta!
+~
+
+
+0 'SANCTIFY LANDS'~
+E' un tipo di benedizione diffusa alla stanza in cui si trova colui che la
+evoca, questa rende infatti l'ambiente sicuro e libero da ogni maledizione,
+veleno o pericolo prima persistente.
+~
+
+
+0 'DEADLY VENOM'~
+E' un buon sistema per provocare delle vere e proprie stragi.. Consiste nel
+cospargere l'ambiente di una polverina velenosa.. Magari non e' letale per
+tutti.. ma conviene rivolgersi presto ad un chierico per le apposite cure!
+~
+
+
+0 'CURSED LANDS'~
+E' uno dei tipi di maledizione dagli effetti a piu' ampio raggio, non e'
+infatti uno di quegli incantesimi che coinvolge una vittima prestabilita
+ma colpisce addirittura tutti gli avventurieri che passeranno nel luogo in cui
+questa e' stata lanciata..
+~
+
+
+0 'LETHARGIC MIST'~
+Sfruttando le proprieta' inibenti di un particolare tipo di erba si produce
+un'essenza che appositamente inalata crea nella stanza un'atmosfera capace di
+indurre una sensazione di apparente sonnolenza in chiunque la attraversi..
+~
+
+
+0  'BLACK DEATH'~
+I Germi della Morte sono coltivati gelosamente e benedetti con il frutto
+dell'odio, vengono lasciati seccare lentamente e vengono riposti in sacchetti.
+Al momento opportuno si possono liberare nell'ambiente.. chiunque passi da
+quelle parti sara' inesorabilmente contagiato dalla pestilenza.
+~
+
+
+0 'MYSTERIOUS DREAM'~
+La stessa erba che viene utilizzata per l'incantesimo "Lethargic Mist" viene
+in questo caso potenziata tramite un particolare infuso.. cosi' il risultato
+della sua inalazione nella stanza risulta essere non piu' una tiepida
+sonnolenza.. ma addirittura lo svenimento!
+~
+
+
+0 HURRICANE~
+E' uno dei piu' spettacolari incantesimi degli antipaladini, permette infatti
+di evocare un vero e proprio tornado che travolgera' chiunque sia sulla loro
+strada! Ovviamente il danno e la portata dell'incantesimo sono proporzionali
+alla stazza della vittima, un conto e' spostare un pur corpulento nano, un
+altro e' spostare un gigante..
+~
+
+
+0 GATE~
+[32;1mSintassi[0;37;40m[37;0m  : cast 'gate' <vittima>
+
+I maghi si sa.. non brillano certo per spessore atletico.. e quando si tratta
+di muoversi sarebbero capaci di tirare in ballo mille scuse pur di non dover
+camminare. Proprio per questo arrivati ad un certo punto della loro crescita
+spirituale apprendono questo VITALE incantesimo che gli permette di aprire
+un varco fino alla vittima predestinata dell'incantesimo.
+~
+
+
+0 'ASTRAL WALK'~
+[32;1mSintassi[0;37;40m[37;0m  : cast 'astral walk' <vittima>
+
+Le streghe imparano un po' prima dei maghi il loro incantesimo per riuscire
+a spostarsi su di un bersaglio, queste infatti utilizzano le loro conoscenze
+delle stelle  e del cielo, sfruttando gli archi in cielo da queste disegnate,
+anche le piu' nascoste alla luce del giorno.
+~
+
+
+0 'MIST WALK'~
+[32;1mSintassi[0;37;40m[37;0m  : cast 'mist walk' <vittima>
+
+Anche i vampiri imparano con il passare del tempo un modo piu' veloce per
+muoversi da una parte all'altra del globo, essi sfruttano la loro abilita'
+di mutarsi in nebbia e guidati dalle correnti, dal vento e dai loro
+incredibilmente sviluppati sensi si dirigono verso la vittima per ghermirla..
+~
+
+
+0 'SOLAR FLIGHT'~
+[32;1mSintassi[0;37;40m[37;0m  : cast 'solar flight' <vittima>
+
+Anche i chierici imparano un modo tutto loro di accorciare drasticamente i
+tempi richiesti dai loro spostamenti, infatti con questo incantesimo
+riusciranno letteralmente a farsi trasportare dalla luce fino al loro
+bersaglio!
+~
+
+
+0 'BARK SKIN'~
+In principio era una tecnica di mimetizzazione sfruttata dai ranger per
+nascondersi tra gli arbusti, poi invece venne perfezionata a tal punto,
+parallelamente ad un altro sistema di camuffamento assai migliore, da
+riuscire a risultare alla fine un'efficace difesa contro gli attacchi
+contundenti, poiche' la pelle del ranger diventa spessa e dura come una
+corteccia d'albero.
+~
+
+
+0 SCREAM~
+[32;1mSintassi[0;37;40m[37;0m  : cast 'scream'
+
+Questo incantesimo permette al mago di emettere un urlo in grado di stordire
+momentaneamente gli avversari permettendogli cosi' di fuggire in caso di
+pericolo. Eventuali oggetti fragili potrebbero essere inoltre danneggiati..
+~
+
+
+0 'SAND STORM'~
+[32;1mSintassi[0;37;40m[37;0m  : cast 'sand storm'
+
+In luoghi sabbiosi o ricchi di polvere lo stregone e' in grado di richiamare a
+se' la forza dell'elementale della terra e quello dell'aria creando cosi' una
+potentissima tempesta di sabbia in grado di infliggere danni elevatissimi alle
+incaute vittime presenti nella zona.
+~
+
+
+0 'DRAGONS BREATH'~
+E' un incantesimo che in realta' evoca lo spirito custode dei draghi in aiuto
+del mago, questo quando verra' chiamato in causa si fara' annunciare in diversi
+modi.. tutti molto dolorosi per gli eventuali presenti..
+~
+
+
+0 'PROTECTIVE SHIELD'~
+E' un tipo di protezione utilissimo che viene usato fin nei primi combattimenti
+dagli stregoni, questo permette infatti di creare uno scudo protettivo intorno
+al proprio corpo che blocca i tentativi dell'avversario atti a buttare a terra
+il mago.
+~
+
+
+0 'LION HELP'~
+Piu' che un incantesimo e' un vero e proprio richiamo, sfruttando il suo legame
+con la natura il ranger invochera' l'aiuto di un leone che si porra' a sua
+difesa.
+~
+
+
+0 TURN~
+E' un potere particolare che riesce a instillare (soprattutto nelle menti poco
+ferme) un timore insano che fa fuggire i malvagi presenti nella stanza grazie
+alla manforte della divinita' che sorregge il paladino.
+~
+
+
+0 VAMPIRIC TOUCH~
+Tramite un tocco sulla nuca della vittima il vampiro riesce a indurre un sonno
+immediato pieno di incubi..
+~
+
+
+0 KATANA~
+[32;1mSintassi[0;37;40m[37;0m  : katana <materiale>
+
+Una volta raggiunta la quasi totale completezza nella ricerca delle tecniche
+per un samurai arriva il momento di trovare una katana all'altezza. In molti si
+sono percio' dedicati a quest'arte del perfezionamento della lama anche
+partendo da materiale grezzo, in questo caso per ottenere una katana efficente
+e' necessario del ferro.
+~
+
+
+0 PASSWORD~
+[32;1mSintassi[0;37;40m[37;0m : password <vecchia-password> <nuova-password>
+
+Permette di cambiare parola chiave per accedere a questo mondo.
+Si e' sempre i soli responsabili della propria parola chiave, quindi e'
+consigliabile evitare di riferirla ad altri.
+~
+
+
+0 FUGA WIMPY~
+[32;1mSintassi[0;37;40m[37;0m : fuga
+[32;1mSintassi[0;37;40m[37;0m : fuga <numero punti vita>
+
+Piu' che una tecnica o un'abilita' e' una presa di posizione, infatti si decide
+a che punto e' considerabile prendere automaticamente la via di fuga da un
+combattimento.
+~
+
+
+0 APRI OPEN~
+[32;1mSintassi[0;37;40m[37;0m : apri <oggetto|direzione>
+
+Apre la porta o un oggetto.
+~
+
+
+0 CHIUDI CLOSE~
+[32;1mSintassi[0;37;40m[37;0m : chiudi <oggetto|direzione>
+
+Chiude una porta o un oggetto.
+~
+
+
+0 BLOCCA LOCK~
+[32;1mSintassi[0;37;40m[37;0m : blocca <oggetto|direzione>
+
+Chiude la porta o un oggetto a chiave, ovviamente bisogna avere la chiave
+giusta
+~
+
+
+0 SBLOCCA UNLOCK~
+[32;1mSintassi[0;37;40m[37;0m : unlock <oggetto|direzione>
+
+Sblocca la serratura di una porta o di un oggetto.Ovviamente bisogna avere la
+chiave apposita.
+~
+
+
+0 SCASSINA PICK~
+[32;1mSintassi[0;37;40m[37;0m : scassina <oggetto|direzione>
+
+Permette di provare a sbloccare una porta o un oggetto, le probabilita' sono
+legate al tipo di serratura che chiude il lucchetto/serratura.
+~
+
+
+0 BEVI DRINK~
+[32;1mSintassi[0;37;40m[37;0m : bevi <oggetto>
+
+Per placare la sete.. E' possibile bere da fontane o contenitori.
+~
+
+
+0 MANGIA EAT~
+[32;1mSintassi[0;37;40m[37;0m : mangia <oggetto>
+
+Per placare la fame.. Puoi mangiare di tutto ma sconsigliamo vivamente eventuali
+frammenti di cadaveri in decomposizione etc, spesso possono essere nocivi.
+~
+
+
+0 RIEMPI FILL~
+[32;1mSintassi[0;37;40m[37;0m : fill <contenitore>
+
+Per riempire un contenitore con dell'acqua o altro da un'eventuale sorgente.
+~
+
+
+0 SVUOTA POUR~
+[32;1mSintassi[0;37;40m[37;0m : svuota <contenitore> out
+[32;1mSintassi[0;37;40m[37;0m : svuota <contenitore> <oggetto>
+[32;1mSintassi[0;37;40m[37;0m : svuota <contenitore> <personaggio>
+
+Svuota un contenitore dal liquido che contiene. Si puo'
+anche riempire un oggetto (che sia adatto) tenuto nelle mani da un altro
+avventuriero.
+~
+
+
+0 COMPRA BUY~
+[32;1mSintassi[0;37;40m[37;0m : compra <oggetto>
+
+Dopo aver visionato la lista degli oggetti in vendita (list) puoi decidere di
+comprarne uno che risponda ai tuoi bisogni, se trovi piu' oggetti con lo stesso
+nome usa la sintassi "buy n.oggetto", con n che indica la posizione
+dell'oggetto nella lista di quelli con lo stesso nome, ad esempio se ci sono
+due spade, usando buy 2.sword puoi comprare la seconda spada.
+Hai anche la possibilita'di comprare piu' copie dello stesso oggetto:
+ad esempio se vuoi comprare 5 mele, userai buy 5*mela.
+~
+
+
+0 LISTA LIST~
+[32;1mSintassi[0;37;40m[37;0m : lista
+
+Usalo in un negozio per controllare gli oggetti che ha in vendita.
+~
+
+
+0 VENDI SELL~
+[32;1mSintassi[0;37;40m[37;0m : vendi <oggetto>
+
+Ti permette di vendere un oggetto ad un negoziante.
+~
+
+
+0 VALUTA VALUE~
+[32;1mSintassi[0;37;40m[37;0m : valuta <oggetto>
+
+In un negozio ti permette di chiedere al proprietario un'approssimativa
+valutazione di un oggetto che vuoi vendere.
+~
+
+
+0 SACRIFICA SACRIFICE~
+[32;1mSintassi[0;37;40m[37;0m : sacrifice <oggetto>
+
+Permette di sacrificare quasi qualunque tipo di oggetto o corpo alla propria
+divinita', questa potra' in qualche modo contraccambiare con delle monete..
+~
+
+
+0 BUTTA JUNK~
+[32;1mSintassi[0;37;40m[37;0m  : butta <oggetto>
+[32;1mSintassi[0;37;40m[37;0m  : butta <contenitore> si
+
+E' il modo piu' usato per sacrificare agli Dei cio' che non si vuol piu' avere
+con se', gli oggetti possono essere indifferentemente in inventario o per
+terra, e' anche possibile eliminare dei contenitori con altro inventario
+dentro.
+~
+
+
+0 RIGHE SCROLL~
+[32;1mSintassi[0;37;40m[37;0m : righe
+[32;1mSintassi[0;37;40m[37;0m : righe <numero>
+
+Permette di cambiare il numero di linee che visualizzi (di default il valore
+e' 24). Per schermi di grandi dimensioni bisogna aumentare tale numero.
+~
+
+
+0 BRANDISCI BRANDISH~
+[32;1mSintassi[0;37;40m[37;0m : brandisci
+[32;1mSintassi[0;37;40m[37;0m : brandisci <vittima>
+
+Permette di brandire bastoni magici. Se la vittima non e' specificata, e stai
+combattendo un nemico, l'avversario diventera' il bersaglio del bastone.
+E' necessario tenere in mano un bastone magico per poterlo brandire.
+Un bastone magico puo' avere piu' cariche degli incantesimi con cui e' stato
+incantato. Se le cariche terminano, il bastone viene consumato.
+Inoltre, e' necessario essere abbastanza abili nell'uso dei bastoni magici
+(vedi anche AIUTO STAVES).
+~
+
+
+0 TRACANNA QUAFF~
+[32;1mSintassi[0;37;40m[37;0m : tracanna <pozione>
+
+Permette sorbire le pozioni magiche, ottenendone i relativi effetti magici o
+curativi.
+~
+
+
+0 RECITA RECITE~
+[32;1mSintassi[0;37;40m[37;0m : recita <pergamena> <vittima>
+
+Permette di richiamare gli incantesimi racchiusi nelle pergamene.
+~
+
+
+0 PUNTA ZAP~
+[32;1mSintassi[0;37;40m[37;0m : punta <vittima>
+[32;1mSintassi[0;37;40m[37;0m : punta
+
+Permette di richiamare il potere racchiuso nelle bacchette magiche.
+~
+
+
+0 CONSIDERA CONSIDER~
+[32;1mSintassi[0;37;40m[37;0m : considera <vittima>
+
+Permette di valutare in maniera piu' o meno approssimativa il modo in cui si
+svolgerebbe un ipotetico scontro fra te e il bersaglio predefinito.
+~
+
+
+0 SEGUI FOLLOW~
+[32;1mSintassi[0;37;40m[37;0m : segui <personaggio>
+
+Ti permette di iniziare seguire un altro avventuriero o smettere di seguirlo
+(con SEGUI seguito dal tuo nome).
+Se smetti di seguire il tuo capogruppo vieni anche escluso dal gruppo di cui
+facevi parte.
+~
+
+
+0 VISIBILE VISIBLE~
+[32;1mSintassi[0;37;40m[37;0m : visible
+
+Se sei invisibile o nascosto in questo modo ti rendi perfettamente visibile da
+tutti.
+~
+
+
+0 ESCI QUIT~
+[32;1mSintassi[0;37;40m[37;0m : esci
+
+Permette di lasciare questo mondo.
+~
+
+
+0 RITORNA RECALL~
+E' una preghiera rivolta agli Dei perche' riportino l'avventuriero che la
+pronuncia nel tempio della propria patria, sfortunatamente gli Dei
+acconsentiranno solo per i primi passi della sua vita (max 10 livello).
+~
+
+
+0 DIVIDI SPLIT~
+[32;1mSintassi[0;37;40m[37;0m : dividi <argento> <oro>
+
+Permette di dividere un quantitativo di monete tra te e gli altri
+membri del tuo gruppo che sono nella stessa locazione.
+tuo gruppo che sono nella tua stessa locazione.
+
+Esempio:
+split 30    --> divide 30 monete d'argento
+split 20 50 --> divide 20 monete d'argento e 50 d'oro
+split  0 10 --> divide 10 monete d'oro
+~
+
+
+0 RUBA STEAL~
+[32;1mSintassi[0;37;40m[37;0m : ruba <oro|argento> <personaggio>
+[32;1mSintassi[0;37;40m[37;0m : ruba <oggetto> <personaggio>
+
+I ladri piu' smaliziati adorano rubare.. e lo fanno sia che la loro vittima
+stia dormendo sia che sia in piedi, magari pronta a combattere!
+Ovviamente non c'e' nulla di meglio per un ladro del rubare una bella daga
+dorata dopo che il negoziante non ha concesso il giusto sconto che gli avevate
+gentilmente chiesto..
+~
+
+
+0 PRATICHE PRACTICE~
+[32;1mSintassi[0;37;40m[37;0m : pratiche
+[32;1mSintassi[0;37;40m[37;0m : pratiche <abilita'|incantesimo>
+
+Ti informa sui livelli di conoscenza delle abilita' e degli incantesimi
+che hai imparato o che potrai imparare. Se lo fai da un maestro, vedrai
+evidenziate tutte le abilita' che puoi imparare da lui.
+
+Specificando invece il tipo di abilita' ti permette (se sei dal giusto
+maestro) di apprenderne le basi.
+
+Per sapere da quale maestro puo' insegnarti una particolare abilita' usa
+CATEGORIA <abilita'> che vi indica il gruppo a cui appartiene.
+
+IMPORTANTE: nel caso il nome dell'abilita' sia di due parole dovrai
+racchiuderla tra due apici per identificarla nel comando CATEGORIA (es:
+categoria 'acid blast') mentre per praticarla dal maestro potrai seguire la
+sintassi normale senza bisogno di questi (prac acid blast).
+~
+
+
+0 GLISTA GLIST~
+[32;1mSintassi[0;37;40m[37;0m : glist <gruppo>
+
+Visualizza le abilita' e gli incantesimi relativi al gruppo specificato.
+~
+
+
+0 CATEGORIA SLOOK~
+[32;1mSintassi[0;37;40m[37;0m :  categoria <abilita'/incantesimo>
+
+Visualizza il gruppo di appartenenza di una particolare
+abilita'/incantesimo.
+Abilita'/incantesimi composti da due parole richiedono l'utilizzo
+di apici.
+
+Esempio : categoria armor
+          categoria 'acid blast'
+
+*** da completare ***
+Visualizza il maestro di gilda relativo al gruppo selezionato
+indicandone anche locazione ed area.
+~
+
+
+0 INSEGNA TEACH~
+[32;1mSintassi[0;37;40m[37;0m: insegna
+
+Permette agli Eroi di insegnare le abilita' che hanno imparato al 100% agli
+avventurieri nella stanza, l'allievo dovra' essere pronto a recepire
+l'insegnamento (vedi IMPARA).
+~
+
+
+0 IMPARA LEARN~
+[32;1mSintassi[0;37;40m[37;0m: impara <abilita'/incantesimo> <eroe>
+
+Ti permette di imparare un'abilita' o incantesimo da un eroe predisposto
+all'insegnamento che lo abbia imparato alla perfezione. (vedi INSEGNA)
+~
+
+
+0 ALLENA TRAIN~
+[32;1mSintassi[0;37;40m[37;0m : allena forza
+                                   allena intelligenza
+                                   allena saggezza
+                                   allena destrezza
+                                   allena costituzione
+                                   allena carisma
+                                   allena vita
+                                   allena mana
+                                   allena movimento
+
+Permette di migliorare le proprie caratteristiche allenandole insieme al
+proprio maestro. Ognuna di queste ha delle funzioni specifiche.
+~
+
+
+0 ARMOR~
+[32;1mSintassi[0;37;40m[37;0m  : cast 'armor' <personaggio>
+
+E' un incantesimo che genera una patina incantata di energia si conforma
+istantaneamente al corpo del bersaglio creando un'armatura che lo protegge
+parzialmente da qualsiasi tipo di attacco fisico.
+~
+
+
+0 BLINDNESS~
+E' un incantesimo che genera un potentissimo fascio di luce che ha poteri
+negativi sulla vista della vittima che immediatamente, in caso di riuscita,
+smette di vedere perche' la sua vista si oscura completamente.
+~
+
+
+0 'ACID BLAST'~
+E' un pericolosissimo incantesimo che richiede grande padronanza da parte
+dello stregone che lo recita, la vittima si trovera' infatti sommersa da un
+devastante getto acido scaturito proprio dal palmo del suo avversario.
+Vi sono addirittura delle razze che soffrono l'acido in maniera particolare..
+~
+
+
+0 'ACID ARROW'~
+E' l'incantesimo grazie al quale gli stregoni cominciano a prendere confidenza
+con i devastanti effetti dell'acido, imparano a controllarlo e a indirizzarlo.
+Non riuscendo ancora a gestirne grandi quantita' si limitano a plasmarlo in
+piccoli dardi che lanciano contro il proprio avversario..
+E dardi o getto.. l'acido fa sempre dannatamente male.
+~
+
+
+0 'CAUSTIC FONT'~
+E' un tipo di invocazione dell'acido ancora molto primitiva, infatti
+questo si limitera' a sprizzar fuori dalla terra sotto il suo avversario,
+corrodendo le parti del suo corpo piu' vicine al terreno.
+Come eleganza non e' decisamente il massimo.. ma sempre efficace.
+~
+
+
+0 'SULFURUS SPRAY'~
+E' un incantesimo che sfrutta una sostanza corrosiva non certo letale ma che
+permette allo stregone di iniziare a prendere confidenza con questo tipo di
+componenti.. L'utilizzazione di acidi piu' potenti e' infatti necessariamente
+ristretta a livelli di esperienza piu' alti visto che richiede freddezza e
+mano ferma che solo la lunga pratica puo' dare. ,
+~
+
+
+0 'QUANTUM SPIKE'~
+E' un incantesimo terribile che fraziona l'avversario in molecole distinte,
+che si riassemblano, pero', immediatamente. Questo sfaldamento ha un effetto
+debilitante sulla vittima e gli fa perdere forza e capacita' di resistenza.
+~
+
+
+0 'BURNING HANDS'~
+E' un incantesimo che permette di convogliare nelle proprie mani un calore tale
+da sprigionare autentiche fiamme dirette all'avversario.
+~
+
+
+0 'ACETUM PRIMUS'~
+E' l'incantesimo che permette alle streghe di avvicinarsi alla manipolazione dell'acido
+sebbene solo a livello di invocazione dell'elemento, viene infatti evocata una
+nube di questa sostanza che va a straziare la vittima, presto preda di atroci dolori.
+~
+
+
+0 'SONIC RESONANCE'~
+E' un incantesimo che nei soggetti deboli e' terribilmente devastante, permette infatti
+di creare una sorta di gabbia acustica intorno alla vittima che verra' bombardata
+da urla mostruose che oltre a stordire apporteranno danni rilevanti alla sua salute.
+~
+
+
+0 'HAND OF UNDEAD'~
+E' un incantesimo di magia nera che permette al necromante di risucchiare via all'avversario
+ semplicemente imponendo la mano sulla sua ombra mentre si pronuncia correttamente la formula.
+La vittima sente come se quella stessa mano gli stesse stritolando il cuore per un attimo.
+~
+
+
+0 'ETHERAL FIST'~
+Chiudendo il suo pugno mentre recita l'apposita formula l'antipaladino genera dal nulla
+una grande sagoma ombrosa simile alla sua mano chiusa che va a colpire il suo avversario
+non appena egli riapre la mano.
+~
+
+
+0 'COLOUR SPRAY'~
+Confronto alle altre sostanze che i maghi sono soliti usare questo
+potrebbe essere preso per uno scherzo, ma fatto sta che se usato nella
+maniera giusta e indirizzato sugli occhi e' in grado di far perdere
+la vista all'avversario.
+~
+
+
+0 'FIREBALL'~
+L'evoluzione delle mani brucianti, qui il flusso magico viene non solo
+incanalato ma anche potenziato dalla presenza di particolari sostanze
+cosparse sui polsi del mago. Uniti questi davanti al suo petto egli
+concentra in se' l'energia necessaria per lanciare una terribile palla
+di fuoco verso il suo avversario.
+~
+
+
+0 'LIGHTNING BOLT'~
+Alzando un braccio al cielo dopo aver completato correttamente la formula
+si richiamera' un fulmine che colpira' in pieno l'avversario..
+~
+
+
+0 'MAGIC MISSILE'~
+E' l'incantesimo preferito dei piccoli apprendisti maghi che spesso si
+sfidano tra di loro in vere e proprie gare di precisione, vengono infatti
+creati dei dardi incantati che possono essere direzionati mentalmente dal
+suo creatore fino al bersaglio.
+~
+
+
+0 'SHOCKING GRASP'~
+Il mago con questo incantesimo crea delle sottili linee d'energia
+con le quali va ad afferrare e stringere la gola dell'avversario
+causando un dolore acutissimo ed atroce.
+~
+
+
+0 'ICEBALL'~
+Questo incantesimo crea una palla di ghiaccio che colpisce la vittima e
+tutti coloro che sono presenti nella stessa stanza. Tutti coloro che non
+sono impegnati nel combattimento attaccheranno quindi chi ha lanciato
+l'incantesimo.
+~
+
+
+0 'MIND WRENCH'~
+Osservando intensamente l'avversario, chi lancia questo incantesimo puo'
+causargli una dolorosissima iperattivita' cerebrale.
+Se il tiro salvezza della vittima viene effettuato con successo il
+danno e' dimezzato.
+~
+
+
+0 'MIND WRACK'~
+Questo incantesimo colpisce direttamente la mente dell'avversario,
+rallentandone la sua attivita' cerebrale e comprimendone i neuroni.
+Se il tiro salvezza dell'avversario viene effettuato con successo il
+danno e' dimezzato.
+~
+
+
+0 'CALL LIGHTNING'~
+Per lanciare questo incantesimo e' necessario trovarsi all'aperto
+e deve esserci cattivo tempo. Viene invocata la potenza del Dio
+o la potenza della stessa elettricita' statica ( nel caso del Ninja ):
+in entrambi i casi verra' scagliato un fulmine terribile che colpisce
+tutti gli astanti, ma non i membri del gruppo di chi ha lanciato il
+fulmine.
+Tutti coloro che si trovano nella stessa area del devoto o del ninja
+vedranno nel cielo grandi fulmini.
+~
+
+
+0 'CAUSE LIGHT''CAUSE CRITICAL''CAUSE SERIOUS'~
+Sono incantesimi clericali che producono danni in verita' abbastanza
+lievi ma sicuramente importanti in mancanza di altri rimedi piu' efficaci
+quando si e' ancora inesperti..
+~
+
+
+0 HARM~
+Una grande forza esplosiva viene catalizzata nel braccio di colui
+che invoca l'incantesimo, terminata la formula essa colpira'
+con una violenta scarica il nemico scuotendone il corpo come una foglia.
+~
+
+
+0 'CHARM PERSON'~
+E' un potente incantesimo che incatena letteralmente una creatura
+al volere di colui che lo lancia.. ovviamente in caso di fallimento
+non sara' cosi' facile convincerla delle proprie buone intenzioni..
+~
+
+
+0 'CHILL TOUCH'~
+Gli elementali dell'aria vengono convocati e catalizzati in un gelido
+soffio che diventa un'estensione del braccio dello stregone, la vittima
+subisce uno shock doloroso e viene indebolita dal tocco.
+~
+
+
+0 'CONTINUAL LIGHT'~
+Con un gesto armonioso delle mani viene generata una sfera, fonte di luce
+inesauribile.. utilissima per qualsiasi viaggio o magari come elegante
+addobbo.
+~
+
+
+0 'CONTROL WEATHER'~
+E' un incantesimo in grado di far il tempo con una semplice formula
+poiche' evoca la forza degli elementali dell'aria.
+Es:cast 'control weather' better (per migliorare il tempo)
+Es:cast 'control weather' worse (per peggiorare il tempo)
+~
+
+
+0 'CREATE FOOD'~
+Permette di creare un frutto in grado di saziare temporaneamente qualsiasi
+stomaco.
+~
+
+
+0 'CREATE SPRING'~
+Permette di creare una sorgente d'acqua sfruttando le energie combinate
+degli elementali dell'acqua e della terra.
+~
+
+
+0 'CREATE WATER'~
+Se si possiede un contenitore per liquidi vuoto, e' possibile soffiare
+sopra l'imboccatore per qualche istante prima di pronunciare l'incantesimo
+il contenitore sara' quindi riempito d'acqua.
+~
+
+
+0 'CURE BLINDNESS'~
+Le dita del curatore devono sfiorare le ciglia della vittima della cecita'
+mentre la formula viene recitata,se tutto e' corretto la vista verra'
+riacquisita.
+~
+
+
+0 'CURE POISON'~
+Stringendo la mano sinistra sul collo della vittima e pronunciando l'apposita
+formula si riesce a stimolare la circolazione in maniera tale che il veleno
+sia eliminato e non produca piu' effetti nocivi.
+~
+
+
+0 'CURE LIGHT''CURE SERIOUS''CURE CRITICAL'~
+E' possibile utilizzare il proprio potere magico per curare gli altri
+tramite questi incantesimi, il piu' efficace e' ovviamente l'ultimo, ma
+nemmeno quello puo' guarire le ferite mortali
+~
+
+
+0 HEAL ~
+E' un tipo di incantesimo in grado di curare ferite piuttosto gravi e
+di tonificare e riposare il corpo.
+~
+
+
+0 'DETECT EVIL'~
+E' un tipo di incantesimo che provoca un potenziamento oculare in grado
+di distinguere  le creature malvagie.
+~
+
+
+0 'DETECT HIDE'~
+E' un tipo di incantesimo che provoca un potenziamento oculare in grado
+di distinguere le creature nascoste nell'ombra.
+~
+
+
+0 'DETECT INVIS'~
+E' un tipo di incantesimo che provoca un potenziamento oculare in grado
+di distinguere oggetti e creature invisibili.
+~
+
+
+0 'DETECT MAGIC'~
+E' un tipo di incantesimo che provoca un potenziamento oculare in grado
+di distinguere gli oggetti magici.
+~
+
+
+0 'DETECT POISON'~
+E' un tipo di incantesimo che provoca un potenziamento oculare in grado
+di distinguere chiaramente il veleno all'interno di cibi e bevande.
+~
+
+
+0 'DISPEL EVIL'~
+E' un incantesimo che muta ogni forma di energia malvagia all'interno del
+corpo dell'avversario in una pericolosa scarica che implode provocando
+un dolore atroce alla vittima.
+~
+
+
+0 CANCELLATION~
+E' un incantesimo che permette di rimuovere da un avventuriero ogni
+tipo di effetto magico, non viene considerato un incantesimo d'attacco
+poiche' di solito chi lo pronuncia intende eliminare malattie o
+debilitazioni, in ogni caso non sara' possibile effettuarlo su
+creature che non siano avventurieri.
+~
+
+
+0 'DISPEL MAGIC'~
+E' un incantesimo d'attacco che permette al mago di annullare ogni
+incantesimo attivo su di un altro avventuriero, le probabilita'
+di riuscita sono inversamente proporzionali al potere dell'incantesimo
+da annullare, c'e' anche da notare il fatto che comunque in questo
+caso non viene fatta alcuna distinzione tra incantesimi positivi
+e negativi.
+~
+
+
+0 EARTHQUAKE~
+E' una preghiera che sveglia lo spirito della terra che crolla sotto i
+piedi della vittima, se questa e' in volo non subira' ovviamente nessun
+danno, e se anche altri sono presenti allo scontro essi saranno
+automaticamente coinvolti.
+~
+
+
+0 'SEVERITY FORCE'~
+E' un incantesimo che potrebbe forse essere scambiato per un banale
+terremoto, ma solo all'inizio.. poiche' la potenza devastante di questa
+preghiera e' tale da far quasi intrappolare nella terra la vittima che
+si oppone al chierico.
+~
+
+
+0 'ENCHANT WEAPON'~
+E' un incantesimo che consente di potenziare le armi conferendo loro
+piu' precisione ed efficacia.Virtualmente non c'e' limite
+al potenziamento che possono raggiungere ma ovviamente piu' si va
+avanti piu' c'e' il rischio non solo che tornino normali ma che
+addirittura svaniscano nel nulla.
+~
+
+
+0 'ENCHANT ARMOR'~
+E' un incantesimo che consente di potenziare gli oggetti che offrono
+una valida difesa contro gli attacchi, virtualmente non c'e' limite
+al potenziamento che possono raggiungere ma ovviamente piu' si va
+avanti piu' c'e' il rischio non solo che tornino normali ma che
+addirittura svaniscano nel nulla.
+~
+
+
+0 'ENERGY DRAIN'~
+Sfruttando il potere delle energie negative si riesce a compensare la
+differenza di potenziale tramite il risucchio dell'energia vitale del
+bersaglio dell'incantesimo.. Mors tua..
+~
+
+
+0 'FAERIE FIRE'~
+E' un incantesimo che evoca sulla vittima un particolare fuoco fatuo che non
+brucia ma e' invece in grado di ridurre sua la resistenza ai colpi fisici.
+~
+
+
+0 'FAERIE FOG'~
+Viene pronunciata una sottile cantilena che evoca una misteriosa nebbiolina
+in grado di far rilevare alla sua scomparsa ogni creatura invisibile o nascosta.
+~
+
+
+0 FLAMESTRIKE~
+Invoca una potente fiammata sul nemico, scaturita direttamente dal palmo
+delle mani dell'evocatore.
+~
+
+
+0 FLY~
+Molti hanno intrapreso la strada della magia quasi solo per questo incantesimo..
+E' d'altronde sicuramente uno dei piu' importanti per i momenti in cui e'
+necessario attraversare zone altrimenti insormontabili a piedi.
+~
+
+
+0 IDENTIFY~
+E' un incantesimo molto intuitivo e tuttavia essenziale, richiama l'essenza
+dell'oggetto chiarendo subito nella mente del mago tutte le sue
+caratteristiche peculiari.
+~
+
+
+0 INFRAVISION~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'infravision' <personaggio>
+
+
+Passando le dita proprio sopra le pupille mentre vien recitata l'apposita formula
+si sara' in grado di percepire le presenze nell'oscurita' e persino di intravedere
+le uscite.
+~
+
+
+0 INVISIBILITY~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'invisibility' <personaggio>
+[32;1mLivello[0;37;40m[37;0m    : cast 'invisibility' <oggetto>
+
+E' la forma base di invisibilita'.. spesso c'e' chi ne abusa o chi vorrebbe
+abusarne non sapendo che c'e' sempre qualcuno che riesce a identificarlo..
+Ad ogni modo in certe situazioni puo' essere molto utile per scappare
+da situazioni accese..
+~
+
+
+0 'MASS INVIS' ~
+Sempre dalla scuola dell'illusione ecco la tecnica ideale per rendere
+in un sol colpo invisibile te e tutto il tuo gruppo.
+~
+
+
+0 'KNOW ALIGNMENT'~
+E' un incantesimo che permette di discernere il bene dal male nell'animo
+degli avventurieri presenti nella stanza.
+~
+
+
+0 'LOCATE OBJECT'~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'locate object' <oggetto>
+
+E' un incantesimo davvero potentissimo che riesce a localizzare un
+oggetto ovunque si trovi nel mondo.
+~
+
+
+0 'PASS DOOR'~
+Pronunciando tale incantesimo e' possibile rendersi translucenti
+e attraversare porte anche se chiuse e sbarrate.
+~
+
+
+0 POISON~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'poison' <personaggio>
+[32;1mSintassi[0;37;40m[37;0m   : cast 'poison' <oggetto>
+
+E' una maledizione di tipo minore che sfrutta il veleno di alcune spore
+per trasmetterlo alle vittime oppure in un oggetto commestibile..
+~
+
+
+0 SANCTUARY~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'sanctuary'  <personaggio>
+
+Invoca la protezione di una fortissima aura bianca che circondera'
+chi l'ha lanciata, i danni vengono addirittura dimezzati!
+~
+
+
+0 REFRESH~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'refresh' <personaggio>
+
+E' una tecnica di rinfrancamento che riesce a ristabilire parte
+delle energie dedicate al movimento.
+~
+
+
+0 'REMOVE CURSE'~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'remove curse' <personaggio>
+[32;1mLivello[0;37;40m[37;0m    : cast 'remove curse' <oggetto>
+
+E' una forma di negazione positiva delle energie statiche presenti
+in un personaggio o in un oggetto, viene di solito usato per rimuovere
+maledizioni di tutti i tipi.
+~
+
+
+0 'STONE SKIN'~
+E' una tecnica che muta l'epidermide esterna in un piu' o meno sottile
+strato roccioso, estetica a parte questo incantesimo e' utile in quanto
+aumenta sensibilmente la resistenza ai colpi.
+~
+
+
+0 'MELD INTO STONE'~
+Abituati a vivere tra le rocce i rockseer hanno imparato da queste
+s rendere la loro pelle simile come consistenza alla pietra, cio' li
+protegge parzialmente dagli attacchi di tipo fisico donandogli una
+discreta protezione.
+~
+
+
+0 'ENHANCED ARMOR'~
+Un breve gesto delle mani, una semplice formula recitata contemporaneamente,
+permette di migliorare la propria resistenza agli incantesimi degli
+avversari. Il corpo sara' come protetto da una sagoma invisibile, che
+rendera' la pelle e l'organismo piu' tenace.
+~
+
+
+0 'SHIELD CLEAVE'~
+[32;1mSintassi[0;37;40m[37;0m: shield cleave
+
+E' un'abilita' che ti consente (se combatti con  un'ascia o una spada) di
+tentare di rompere lo scudo del tuo avversario, influiranno nel tentativo
+la tua forza e destrezza, ma sara' tutto vano se il tuo avversario ha
+uno scudo in platino o raro.
+~
+
+
+0 'WEAPON CLEAVE'~
+[32;1mSintassi[0;37;40m[37;0m: weapon cleave
+
+Se essere disarmati in un combattimento e' uno smacco, che cosa
+puo' significare perdere per sempre la propria arma quando chi
+hai di fronte la spacca con un colpo netto?
+E' necessario essere molto forti e impugnare un'ascia o una spada
+per farlo, ma non ci riuscirai se l'arma dell'avversario e' di platino
+oppure e' rara.
+~
+
+
+0 INSANITY~
+Questo incantesimo fa letteralmente impazzire chi lo subisce,non
+riconoscera' piu' amici e nemici attaccando del tutto casualmente
+e senza ragione.
+~
+
+
+0 'HEALING LIGHT'~
+La stanza in cui tali parole verranno pronunciate diventera' un
+luogo sacro, in cui tutti coloro che saranno feriti avranno la
+possibilita' di guarire piu' velocemente.
+~
+
+
+93 'MIND LIGHT~
+Aumenta nella stanza il recupero delle energie.
+~
+
+
+0 SETTRAPS~
+Grazie alla loro abilita' manuale i ladri sono in grado di creare delle
+trappole sensibilissime e difficilissime da individuare che disseminano lungo
+il terreno per facilitare una fuga o per tendere un agguato alla vittima.
+~
+
+
+0 'LIGHTNING SHIELD'~
+Per dormire sonni tranquilli e' stato portato a termine questo incredibile
+incantesimo che permette l'erezione di un vero e proprio scudo di energia
+invisibile che avvisa il mago di eventuali visite indesiderate.. l'incauto
+estraneo viene adeguatamente servito con una scarica elettrica.
+~
+
+
+0 'SHOCKING TRAP'~
+Con un gesto delle mani lo stregone segna il terreno con della polvere di
+runa, questa appena verra' calpestata dall'ignaro visitatore esplodera'
+tra mille scariche elettriche.
+~
+
+
+0 SLEEPING~
+E' un incantesimo che basa la sua efficacia su alcune terapie ipnotiche
+studiate all'interno della torre della magia, e' necessario quindi che la
+vittima abbia una sua psiche o che perlomeno non sia un nonmorto, altrimenti
+piu' che addormentarsi fara' uno sbadiglio annoiato di fronte al mal riuscito
+tentativo..
+~
+
+
+0 TELEPORT~
+E' un incantesimo che viene utilizzato solitamente per sfuggire nei momenti
+di pericolo.. sperando di non finire dalla padella alla brace, visto che la
+locazione di arrivo e' totalmente casuale!!!
+~
+
+
+0 VENTRILOQUATE~
+Piu' che un incantesimo e' un tipo di illusione, permette di ingannare
+gli ascoltatori sulla provenienza delle parole pronunciate mettendole
+in bocca ad altri.
+
+Esempio: cast ventriloquate Questor Vado a farmi una passeggiata.
+~
+
+
+0 WEAKEN~
+Evoca un tremendo alone di energia negativa attorno alla vittima che ne
+risucchiera' rapidamente parte delle forze.
+~
+
+
+0 'WORD OF RECALL'~
+E' un incantesimo che permette a chiunque lo esegua correttamente di tornare
+nel tempio della propria citta' natale.. a meno che non gravi su di lui una
+maledizione.
+~
+
+
+-1 RAZZA RAZZE RACE RACES~
+Ecco una breve lista delle razze qui presenti con qualche accenno alla
+caratterizzazione
+
+Umano     : La razza umana e' l'ultima razza forgiata dagli Dei. Non possiede
+            ne' grossi vantaggi ne' grossi svantaggi.
+Elfi      : Gli Elfi sono slanciati e magri, ma anche molto agili e
+            intelligenti.
+Mezzelfi  : Nascono da un incrocio tra umani e elfi, ereditando qualche
+           caratteristica saliente dell'una e dell'altra razza.
+Nani      : I Nani sono in genere forti e hanno una grossa costituzione.
+            Riescono anche a vedere nel buio.
+Gnomi     : Dotati di lunga vita e di grande intelligenza, sono piccoli e
+            piuttosto debolucci.
+Arial     : Razza costituita da creature veloci e agili,che volano naturalmente.
+            Discendono dai primi umani.
+Giganti   : Grandi (in tutti i sensi) guerrieri e instancabili viaggiatori.. si
+            sono concentrati prevalentemente nelle terre del nord.
+Felar     : Non sono particolarmente forti, ma riescono a vedere al buio e
+            combattono con la coda di cui sono provvisti. Sono creature che
+            discendono dai gatti.
+Rockseer  : Sono un tipo di Elfi, particolarmente fragili e agili, abituati a
+            vivere fra le rocce e nelle caverne. Riescono ad oltrepassare i muri
+            e la loro pelle ha una consistenza assai particolare.
+Githyanki : Discendenti degli Umani, hanno scelto l'oscurita' come loro
+            residenza.
+            Sono molto piu' intelligenti degli uomini.
+Satyr     : Sono un incrocio fra umani e capre, molto abili ma poco forti e
+            amanti della natura, in genere.
+Troll     : Sono famosi per la poca intelligenza  e la loro lentezza, ma hanno
+            la capacita' di rigenerarsi e sono molto resistenti.
+Svirfnebli: Sono gli Gnomi Oscuri, abitanti della Terra d'Ombra. Abilissimi
+            nella lavorazione delle pietre, sono leggermente piu' grossi dei
+            cugini Gnomi.
+Duergar   : Sono i Nani Oscuri, assai resistenti a moltissime cose, non sanno
+            assolutamente nuotare. Sono forti e piuttosto scontrosi, ma agili e
+            dinamici.
+Drow      : Sono gli Elfi Oscuri, dediti in genere alla magia nera. Sono molto
+            intelligenti, ma completamente devoti al Male.
+~
+
+
+0 'RANGER STAFF'~
+Un ranger con questo incantesimo puo' creare un bastone con
+caratteristiche del tutto particolari.. provare per credere.
+~
+
+
+0 COLORI COLORS~
+.
+Anteporre uno dei seguenti codici alla stringa che si vuole colorare:
+
+*n1 = BLACK         [30;1mBLACK[0;37;40m[37;0m
+*b1 = BLACK_BOLD    [30;1mBLACK_BOLD[0;37;40m[37;0m
+*n2 = RED           [31mRED[0;37;40m[37;0m
+*b2 = RED_BOLD      [32;1mRED_BOLD[0;37;40m[37;0m
+*n3 = GREEN         [32mGREEN[0;37;40m[37;0m
+*b3 = GREEN_BOLD    [32;1mGREEN_BOLD[0;37;40m[37;0m
+*n4 = BROWN         [33mBROWN[0;37;40m[37;0m
+*b4 = YELLOW        [33;1mYELLOW[0;37;40m[37;0m
+*n5 = BLUE          [34mBLUE[0;37;40m[37;0m
+*b5 = BLUE_BOLD     [34;1mBLUE_BOLD[0;37;40m[37;0m
+*n6 = MAGENTA       [35mMAGENTA[0;37;40m[37;0m
+*b6 = MAGENTA_BOLD  [35;1mMAGENTA_BOLD[0;37;40m[37;0m
+*n7 = CYAN          [36mCYAN[0;37;40m[37;0m
+*b7 = CYAN_BOLD     [36;1mCYAN_BOLD[0;37;40m[37;0m
+*n8 = WHITE         [37;1mWHITE[0;37;40m[37;0m
+*b8 = WHITE_BOLD    [37;0mWHITE_BOLD[0;37;40m[37;0m
+
+*n0 = Ripristina il colore di default
+~
+
+
+0 CANCELLA DELETE~
+[32;1mSintassi[0;37;40m[37;0m : delete delete
+[32;1mSintassi[0;37;40m[37;0m : delete <altro>
+
+Per sparire DEFINITIVAMENTE da queste terre.
+~
+
+
+70 GUADAGNA GAIN ~
+[32;1mSintassi[0;37;40m[37;0m : gain
+
+gain revert : converte una sessione di train in 10 sessioni di pratica.
+gain convert: converte 10 sessioni di pratica in una di allenamento.
+~
+
+
+96 CLONE~
+[32;1mSintassi[0;37;40m[37;0m : clone obj <oggetto>
+[32;1mSintassi[0;37;40m[37;0m : clone mob <mob>
+[32;1mSintassi[0;37;40m[37;0m : clone <nome>
+
+Permette di copiare un oggetto o png, eccezion fatta per le extra desc. d
+egli oggetti.
+~
+
+
+0 OCCORRENTE OUTFIT~
+[32;1mSintassi[0;37;40m[37;0m : outfit
+
+Permette di riottenere un equipaggiamento basilare.. solo per i primissimi
+passi in queste terre (max level=5).
+~
+
+
+-1 AFFETTO AFFEZIONI AFFECT AFFECTS~
+Ti permette di sapere quali incantesimi sono attivi sul tuo corpo in questo
+momento.
+Se hai poca esperienza riuscirai a capire solo il tipo di incantesimo
+mentre crescendo riuscirai a conoscerne anche la durata
+~
+
+
+-1 MOSTRA SHOW~
+Consente di visualizzare tutti gli incantesimi attivi nello score.
+~
+
+
+97 RAFFECT RAFFECTS~
+Mostra tutti gli incantesimi che sono attivi nella stanza.
+~
+
+
+0 AUTOSACCHEGGIA AUTOLOOT~
+Permette di prendere automaticamente tutto l'equipaggiamento dai cadaveri.
+~
+
+
+0 AUTOMONETE AUTOGOLD ~
+Permettere di prendere automaticamente tutte le monete dai cadaveri.
+~
+
+
+0 AUTOSACRIFICA AUTOSACRIFICE AUTOSAC ~
+Permette di sacrificare in automatico i cadaveri.
+~
+
+
+0 AUTOUSCITE AUTOEXIT ~
+Visualizza tutte le uscite della stanza.
+~
+
+
+0 AUTOASSISTI AUTOASSIST ~
+Ti permette di assistere in combattimento i compagni con cui
+sei in gruppo.
+~
+
+
+0 AUTODIVIDI AUTOSPLIT~
+Consente di dividere automaticamente il bottino con i compagni con cui
+sei in gruppo.
+~
+
+
+0 ASSASSINA ASSASSINATE~
+I grandi maestri delle arti marziali hanno appreso durante il
+loro lungo e duro allenamento, come uccidere a mani nude un
+avversario sul colpo. Il ninja si avvicina da dietro al nemico
+e con un movimento veloce, gli gira la testa, spezzandogli l'osso
+del collo.  E' necessario che la vittima sia al pieno delle sue
+forze, e non in stato confusionale.
+E' un'abilita' propria dei grandi maestri, quindi non e' semplice
+riuscire ad eseguire questa tecnica sempre correttamente.
+~
+
+
+0 QUIETO QUIET~
+Tramite questo comando e' possibile rendersi sordi a tutti i messaggi
+e a tutti i canali di comunicazione. E' molto utile quando si e'
+bombardati dai messaggi di altri avventurieri o c'e' troppo chiasso.
+Si potra' ascoltare, pero', comunque chi parla nella stessa stanza
+dell'avventuriero.
+~
+
+
+0 'QUIET MOVEMENT' ~
+Questa abilita' permette di muoversi silenziosamente senza lasciare
+tracce della direzione presa.
+~
+
+
+0 ERBE HERBS ~
+[32;1mSintassi[0;37;40m[37;0m : herbs <personaggio>
+
+Il ranger e' in grado di distinguere ogni tipo di erba, cosi' facendo
+riesce persino a curare le ferite di un eventuale compagno d'avventura..
+Le erbe vanno ovviamente cercate in luoghi aperti.
+~
+
+
+0 AMMANSISCI TAME~
+Il ranger e' spesso in grado di infondere anche nelle belve piu' feroci
+un senso di calma e tranquillita' rendendole inoffensive e impedendo
+che lo attacchino o che smettano di farlo.
+~
+
+
+0 MACELLA BUTCHER~
+Sopravvivere nelle foreste significa saper ricavare cibo da qualunque
+preda.. ed e' cosi' che il ranger impara a ridurre corpi inerti in
+succulente bistecche.
+~
+
+
+0 CHIAMAORSI 'CHIAMA ORSI' BEARCALL'BEAR CALL'~
+E' un richiamo del ranger per evocare a se' due forti orsi.
+che saranno disposti a tutto per lui.
+Ovviamente perche' giungano e' necessario richiamarli in un'area adatta.
+~
+
+
+0 CHIAMALEONI 'CHIAMA LEONI' LIONCALL 'LION CALL'~
+E' un richiamo del ranger per evocare a se' due feroci leoni
+che saranno disposti a tutto per lui.
+Ovviamente perche' giungano e' necessario richiamarli in un'area adatta.
+~
+
+
+100 'TIGER POWER'~
+[32;1mSintassi[0;37;40m[37;0m   : tiger power
+
+Consiste in una sorta di berserk.
+~
+
+
+0 HARA 'HARA KIRI'~
+E' un'antichissima tecnica che permette letteralmente all'energia del
+samurai di risorgere, consiste infatti nel colpire un punto vitale
+situato all'altezza dell'addome in maniera cosi' violenta da interrompere
+tutti i processi vitali in modo controllato. L'interruzione induce il
+sonno e visto che non vi e' nessuno spreco di energie la vitalita'
+del samurai si riprendera' a ritmi estremamente piu' veloci.
+~
+
+
+0 'VAMPIRIC BITE' BITE~
+Se la vittima predestinata dorme il vampiro ha la possibilita'
+di azzannarla sul collo per cibarsi avidamente del suo sangue
+che lo fara' subito sentire meglio. La vittima invece stara'
+ben peggio..
+~
+
+
+0 'RESISTANCE LIGHT' 'LIGHT RESISTANCE'~
+Con il passare del tempo e con l'esperienza i vampiri riescono
+a sviluppare una piu' o meno efficace barriera che li protegge
+parzialmente dai danni arrecatigli dalla luce artificiale..
+~
+
+
+0 'ENCHANT SWORD'~
+[32;1mSintassi[0;37;40m[37;0m   : enchant <spada>
+
+Il legame particolare che il samurai ha con la sua lama lo rende
+capace di affilarla e darle piu' potere.. Occhio a non esagerare
+pero'.. puo' essere pericoloso se la conoscenza della spada e
+della tecnica non e' perfetta.
+~
+
+
+0 BERSAGLIO TARGET~
+[32;1mSintassi[0;37;40m[37;0m : target <vittima>
+[32;1mLivello[0;37;40m[37;0m  : 40 Samurai
+
+In una mischia con piu' avversari e' importante saper individuare il pericolo
+maggiore e indirizzare su questo maggior attenzione..
+~
+
+
+0 SECOND~
+[32;1mSintassi[0;37;40m[37;0m : second <arma>
+
+Ci vuole forza, destrezza e coordinazione per brandire due armi
+contemporaneamente. ma i risultati sono altamente spettacolari!
+~
+
+
+0 ESPLODI EXPLODE~
+[32;1mSintassi[0;37;40m[37;0m   : explode <vittima>
+
+Il samurai lancia davanti a se' un sacchetto di polvere da sparo
+contenente anche una pietra focaia all'interno, lo colpisce con
+la spada compiendo un giro completo e bruciando tutto quanto lo
+circonda.. Puo' essere pericoloso per se' e per i suoi compagni.
+~
+
+
+0 FENDI CLEAVE~
+E' una rozza imitazione della pugnalata alle spalle dei ladri ma
+e' piu' potente che precisa, visto che non mira ad un punto vitale
+e manca dell'esperienza necessaria tipica dei ladri.. cio' non toglie
+che se portato a termine in maniera efficace puo' tranquillamente
+uccidere chiunque..
+~
+
+
+0 SVANISCI VANISH~
+Eppure era qui un attimo fa.. Vi sara' sicuramente capitato di dirlo
+qualche volta.. ed e' giusto lasciare che i ninja abbiano i loro segreti,
+si sa solo che sono cosi' agili e veloci da riuscire a sparire dalla vista
+sparendo in una nuvoletta di fumo..
+~
+
+
+0 SPUNTONI CALTRAPS~
+Delle piccole stelle dalle punte acuminate vengono gettate con forza
+tra le gambe dell'avversario che risultera' da queste impacciato e
+indebolito..
+~
+
+
+0 NEVO NERVE~
+I piu' esperti conoscitori dell'anatomia conoscono bene l'ubicazione
+dei punti vitali e le loro funzioni, in questo caso la tecnica viene
+utilizzata per indebolire l'avversario.. Se non puoi vincerlo..
+indeboliscilo!
+~
+
+
+0 COUNTER~
+Grazie alla moltitudine di battaglie e pericoli affrontati si diventa
+piu' pronti a respingere eventuali attacchi a sorpresa.. a quel punto
+sara' l'aggressore ad avere la sorpresa peggiore..
+~
+
+
+0 NOSEGUITO NOFOLLOW NOFOL~
+[32;1mSintassi[0;37;40m[37;0m :nofollow
+
+Per impedire che qualcuno ti segua o per far smettere di seguirti, o ancora
+per ridare il permesso di seguirti.
+~
+
+
+0 MANGANELLO BLACKJACK~
+[32;1mSintassi[0;37;40m[37;0m : blackjack <vittima>
+
+Un tempo remoto esisteva una faida tra il clan dei ninja e i ladri,
+poiche' questi per svolgere il loro mestiere non trovavano di meglio
+che uccidere la gente.. cosi' i ninja, di tutt'altro stampo, iniziarono
+a togliere rapidamente dalla circolazione i ladri piu' pericolosi
+come monito ai restanti.. ai quali non rimase altro da fare che
+imparare una tecnica che gli permettesse di derubare in tutta calma
+ma senza uccidere.. solo addormentando la vittima con un colpo
+tirato con l'elsa del pugnale sulla nuca.
+~
+
+
+0 RICHIEDI REQUEST ~
+[32;1mSintassi[0;37;40m[37;0m : request <oggetto> <persona>
+
+Se sei di buon cuore ed hai bisogno di qualcosa che e' invece posseduto
+da altri puoi sempre confidare sulla bonta' dell'altro (sempre che
+questi non sia malvagio o neutrale) chiedendogli l'oggetto che brami!
+Occhio a non abusarne in tempi brevi..
+~
+
+
+0 STRANGOLA STRANGLE ~
+[32;1mSintassi[0;37;40m[37;0m : strangle <vittima>
+
+Perche' il delitto sia perfetto e' necessario che non ci siano testimoni
+in giro.. o che quantomeno non vedano cosa sta accadendo. Cosi' i
+ninja con questa tecnica inducono un terribile sonno istantaneo nella
+vittima con un movimento delle mani sulla nuca molto simile allo
+strangolamento..
+~
+
+
+0 ENTANGLE ~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'entangle'  <vittima>
+
+Sfruttando il suo legame con la foresta il ranger puo' richiamare
+l'intervento della vegetazione circostante sulla vittima che verra'
+rallentata stretta con forza nella morsa degli arbusti innalzatisi
+all'istante!
+~
+
+
+0 RIPARA REPAIR ~
+[32;1mSintassi[0;37;40m[37;0m : repair <oggetto>
+
+Se durante un combattimento la tua spada si e' scheggiata e vuoi
+che torni lucida e splendente come fosse nuova, prova a recarti dal
+fabbro, in pochi colpi e qualche moneta ti aiutera' sicuramente!
+~
+
+
+0 STIMA ESTIMATE~
+[32;1mSintassi[0;37;40m[37;0m : estimate <oggetto>
+
+Temi di non avere abbastanza denaro per riparare un oggetto? Prova a
+capire quanto ti potrebbe costare con questo metodo..
+~
+
+
+0 GRIDOGUERRA WARCRY ~
+E' un urlo che si lancia alle proprie divinita' per ricevere la loro
+benedizione, questa illuminera' i propri occhi rendendo piu' precisi e
+proteggera' meglio dagli incantesimi
+~
+
+
+0 CIRCONDA CIRCLE ~
+[32;1mSintassi[0;37;40m[37;0m : circle <vittima>
+
+Se il ladro si fa accompagnare in un  da qualcuno che combatta frontalmente
+l'avversario, egli potra' benissimo aggirare le difese di questo pugnalando
+ripetutamente ai fianchi.. forse non e' leale.. ma efficace quanto basta.
+~
+
+
+0 CRITICAL STRIKE 'CRITICAL STRIKE'~
+[32;1mLivello[0;37;40m[37;0m  : 58 Ninja - 62 Samurai
+
+Perfezionare le proprie tecniche di combattimento significa anche riuscire
+a trovare dei modi efficaci di colpire e risparmiare tempo ed energie
+andando a mirare dei punti del corpo vitali con delle tecniche atte all'istantanea
+distruzione del proprio avversario..
+~
+
+
+0 LANCIA THROW ~
+[32;1mSintassi[0;37;40m[37;0m : throw <vittima>
+
+Avendo i piedi ben saldi a terra e conoscendo bene le tecniche di presa
+e proiezione e' possibile scaraventare al momento giusto il proprio avversario
+a terra.. piu' elegante di uno spintone magari, ma forse non altrettanto efficace.
+~
+
+
+0 CB~
+[32;1mSintassi[0;37;40m[37;0m : cb <messaggio>
+
+Permette di intavolare una discussione con i propri compagni di cabala.
+~
+
+
+0 DEPOSITA DEPOSIT~
+[32;1mSintassi[0;37;40m[37;0m : deposit  <somma>
+
+E' l'operazione che permette di effettuare depositi monetari nella propria banca.
+~
+
+
+0 PRELEVA WITHDRAW~
+[32;1mSintassi[0;37;40m[37;0m : withdraw <somma>
+
+E' l'operazione che permette di effettuare prelievi nella propria banca.
+~
+
+
+0 BILANCIO BALANCE~
+[32;1mSintassi[0;37;40m[37;0m : balance
+
+E' l'operazione bancaria che permette di ricevere (quando si e' nell'edificio)
+il sunto del proprio conto. Altre operazioni disponibili sono il deposito
+(deposit) e il prelievo (withdraw).
+~
+
+
+0 CAMUFFATI CAMOUFLAGE~
+[32;1mSintassi[0;37;40m[37;0m : camouflage
+
+I ranger conoscono talmente bene le foreste che riescono
+in un batter d'occhio a sparire dalla vista nascondendosi
+negli anfratti piu' improbabili e invisibili ad un occhio
+comune..
+~
+
+
+0 ACUTE 'ACUTE VISION'~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'acute vision'
+
+Ad un ranger ben abituato alle ombre della foresta basta
+stringere gli occhi concentrando la propria attenzione per
+riuscire a distinguere chiunque si nasconda intorno a lui..
+~
+
+
+0 AGGUATO AMBUSH~
+Un ranger nei boschi e' un agguerrito predatore che riesce
+a mimetizzarsi perfettamente nell'ambiente e quando non viene
+visto puo' aggredire all'improvviso la vittima colpendola
+molto duramente.
+~
+
+
+0 SOPPORTA ENDURE~
+E' una particolare tecnica di concentrazione che prepara i muscoli agli
+shock derivanti da magia e incantesimi, adducendo una protezione spesso
+vitale.
+~
+
+
+0 TRANCE~
+E' una delle tante tecniche di meditazione sviluppate tra i maghi
+prima di essere apprese anche altrove per recuperare piu' velocemente
+il proprio mana.
+~
+
+
+0 KATANA~
+Una volta che il samurai ha costruito la sua katana puo' lasciare che
+il Questor infonda nella sua lama la benedizione degli Dei, affinche'
+questa migliori di combattimento in combattimento e possa servire
+il suo samurai nel migliore dei modi.
+~
+
+
+0 RICERCHE QUESTS MISSIONI CERCHE MISSIONE CERCA~
+Numerose sono le missioni che si possono intraprendere..
+* Missioni del Questor : per maggiori informazioni..
+* La cerca di Kassandra: per scoprirla e' necessario leggere un vecchissimo
+  libro conservato..
+* Le missioni di ammissione per le segrete e misteriose cabale..
+~
+
+
+0 QUESTOR~
+I Questor sono particolari individui che offrono ai volontari avventurieri
+compiti, missioni e specifiche prove che se superate in maniera adeguata
+ti faranno guadagnare una reputazione tale da poter chiedere dei particolari
+doni degli dei...
+
+[32;1mSintassi[0;37;40m[37;0m:
+
+  quest points   : mostra il tuo attuale punteggio.
+  quest info     : ti ricorda la missione che devi compiere.
+  quest request  : richiedi al Questor una missione.
+  quest complete : informi Questor che hai completato la missione.Occhio, si accorge se bari.
+  quest list     : chiedi al Questor la lista di cio' che puoi ottenere con le missioni svolte
+  quest buy      : ottieni dal Questor l'oggetto che brami grazie alla tua reputazione.
+  quest trouble <oggetto> : se perdi uno di questi oggetti cosi' puoi riprenderlo, ma solo per tre volte.
+
+[32;1mSintassi[0;37;40m[37;0m: help/aiuto ricompensa ... per avere piu' informazioni sui premi.
+~
+
+
+0 ASTA AUCTION~
+[32;1mSintassi[0;37;40m[37;0m:
+
+auction                   - Visualizza lo stato dell'oggetto all'asta.
+auction <oggetto> <cifra> - Mette all'asta oggetto a partire da cifra.
+auction off               - Non vedi piu' le aste.
+auction on                - Ritorni a vedere le aste.
+bid <cifra>               - Fai un'offerta
+
+
+Hai un oggetto che non ti serve e vuoi in qualche modo guadagnarci?
+Cosa allora meglio di un'asta puo' permettertelo?
+~
+
+
+0 SPELLCRAFT 'SPELL CRAFT'~
+Consiste nell'abilita' di riuscire a capire il tipo di incantesimo che
+al momento viene pronunciato da un compagno/avversario nel momento
+in cui questo viene pronunciato.
+~
+
+
+0 ILLUSIONE BLINK~
+[32;1mSintassi[0;37;40m[37;0m   : blink       mostra lo stato
+[32;1mSintassi[0;37;40m[37;0m   : blink on    attiva
+[32;1mSintassi[0;37;40m[37;0m   : blink off   disattiva
+
+E' una particolare tecnica di illusione che consiste nella creazione di
+immagini e proiezioni della propria sagoma che in qualche modo inganni
+il proprio avversario dirottando su di se' parte dei colpi ricevuti..
+~
+
+
+0 'OGGETTI RARI' LIMITATI RARI RARO LIMITATO LIMITED LIMIT 'LIMIT EQUIPMENTS' 'LIMITED EQUIPMENTS'~
+Sono degli oggetti rarissimi e il cui possesso e' sempre un vanto per il
+fortunato avventuriero che lo detiene, i loro poteri vanno al di la' di
+qualunque altro tipo di normale arma o corazza.. sono diversi e misteriosi
+e solo se sei capace di difenderli una volta conquistati potrai sentirti al
+sicuro indossandoli..
+~
+
+
+0 CORRUPTION~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'corruption' <vittima>
+
+Concentrando le energie negative nel palmo della mano il necromante
+le riversa nel corpo della vittima le cui cellule iniziano a decomporsi
+lentamente.
+~
+
+
+0 BACCHETTE WANDS ~
+[32;1mSintassi[0;37;40m[37;0m : zap <obiettivo>
+
+Bacchette magiche, a volte solo un ornamento a volte qualcosa di piu'.
+A quale categoria appartiene la tua? Non provarla in luoghi chiusi e
+affollati..
+~
+
+
+0 STAFFE VERGHE BASTONI STAFF STAVES ~
+[32;1mSintassi[0;37;40m[37;0m : brandish <obiettivo>
+
+Le staffe.. a volte sostegno a volte qualcosa di piu', prova a brandire
+la tua per sapere a quale categoria appartiene! Ma attento a dove lo fai..
+~
+
+
+0 GIAVELLOTTO GIAVELLOTTI SPEAR SPEARS~
+[32;1mSintassi[0;37;40m[37;0m: throw spear <direzione> <avversario>
+
+Procurati un buon giavellotto.. e fai vedere fin dove riesci a colpire
+il tuo avversario!
+~
+
+
+0 'SHIELD BLOCK'~
+Si tratta dell'abilita' di riuscire a parare gli attacchi con lo scudo,
+in teoria e' una tecnica apprendibile da tutte le classi ma in realta'
+solo chierici e guerrieri riescono ad apprenderla ai massimi livelli.
+Attentenzione pero' fruste e simili aggirano facilmente questa
+barriera.. senza contare che le pericolose asce sono capaci di
+spaccarli in due..
+~
+
+
+0 PUGNALA BACKSTAB~
+Quando la vittima meno se l'aspetta.. ecco la tecnica piu' letale
+tra quelle tipiche dei ladri, una bella coltellata alla schiena
+che porta la punta del coltello dritta nel cuore.. fara' male?
+~
+
+
+0 BERSERK~
+Catalizzare la propria rabbia trasformandola in energia e forza.. cosi'
+i piu' inclini al combattimento corpo a corpo sfruttano la propria ferocia
+in battaglia, aumentando la loro capacita' d'attacco ma tralasciando
+l'attenzione per la difesa.. in ogni caso tutta la rabbia che li possiede
+riuscira' persino a proteggerli maggiormente dagli incantesimi.
+~
+
+
+0 POLVERE DIRT 'DIRT KICKING'~
+[32;1mSintassi[0;37;40m[37;0m: dirt <avversario>
+
+Ecco un'altra di quelle tecniche intorno alle quali c'e' un gran dibattito
+tra gli esperti.. C'e' chi la considera altamente disonorevole e chi invece
+la ritiene una di quelle tecniche che salvano la vita, di certo calciare
+della terra negli occhi dell'avversario accecandolo.. non e' gentile!
+~
+
+
+0 DISARMA DISARM~
+Disarmare un avversario non e' mai troppo semplice, specie se questi
+e' piu' forte di te.. ma la forza non e' tutto, servono anche decisione
+e prontezza di riflessi! Se non vuoi essere bruciato dalla fiammeggiante
+lama del tuo avversario provaci!
+~
+
+
+0 SCHIVA DODGE~
+Flessibilita', destrezza ed ottimi riflessi sono alla base di questa tecnica
+che permette di evitare di essere colpiti semplicemente schivando.. piu' facile
+a dirsi che a farsi.
+~
+
+
+0 'ENHANCED DAMAGE'~
+E' una tecnica che consiste nel contrarre i muscoli che portano a termine
+il colpo solo all'ultimo istante, garantendo cosi' una forza d'impatto
+ed un danno lievemente maggiorati.
+~
+
+
+0 AVVELENA ENVENOM~
+Avvelenare le proprie armi e' una delle tecniche piu' infide per indebolire
+l'avversario, il veleno ha effetto non appena la lama trapassa le carni della
+vittima..
+Tuttavia l'influsso venefico sulla lama dopo un po' si perde e bisognera'
+rinnovarlo.
+~
+
+
+0 'MANI NUDE' 'HAND TO HAND'~
+Il combattimento a mani nude e' per alcuni solo una tecnica d'emergenza,
+per altri diventa un'arte.. a quale categoria appartieni?
+~
+
+
+0 CALCIA KICK~
+Un calcio ben assestato e' sempre un buon intercalare tra una parata ed
+un fendente..
+~
+
+
+0 PARA PARRY 'CROSS BLOCK'~
+A seconda della conoscenza che hai della tua arma e di quella dell'avversario
+ti sara' piu' facile capire dove arriveranno i colpi e intercettarli di
+conseguenza.
+Nel caso in cui tu stia utilizzando un'arma per braccio nel portare l'attacco
+potresti riuscire a intercettare i colpi dell'avversario incrociando le lame
+e deviando il colpo prima di ripartire.
+~
+
+
+0 SGAMBETTA SGAMBETTO TRIP~
+E' una tecnica che i ladri considerano molto piu' elegante del solito
+spintone tipico dei guerrieri, altri tuttavia la ritengono una tecnica
+da balordi senza forze.. altri addirittura disonorevole.. ma se l'avversario
+e' piu' grosso ed ha i piedi per terra puo' sempre tornar utile il vecchio
+trucco dello sgambetto!
+~
+
+
+0 'SECOND ATTACK'~
+Gestire al meglio i propri movimenti fa si che ci si renda veloci
+e coordinati al punto tale da riuscire a colpire piu' volte in
+un solo attacco portato a termine.. Ovviamente i migliori in
+questa tecnica e coloro che la possono portare piu' in avanti
+sono i guerrieri.
+~
+
+
+0 'THIRD ATTACK'~
+Gestire al meglio i propri movimenti fa si che ci si renda veloci
+e coordinati al punto tale da riuscire a colpire piu' volte in
+un solo attacco portato a termine.. Ovviamente i migliori in
+questa tecnica e coloro che la possono portare piu' in avanti
+sono i guerrieri.
+~
+
+
+0 NASCONDITI HIDE~
+L'abilita' del nascondersi e' tipica delle classi maestre delle ombre,
+ma non si e' mai completamente al sicuro.. meglio trattenere il fiato e
+non muoversi nemmeno di un millimetro in quei casi..
+~
+
+
+0 FURTIVO SNEAK~
+Caratteristica innata di alcune razze e' una tecnica caratteristica di
+coloro che preferiscono muoversi nascostamente nelle ombre.. senza
+destare attenzione..
+~
+
+
+0 'FAST HEALING'~
+Abituare il proprio corpo alla sofferenza significa anche insegnargli
+a recuperare piu in fretta le proprie ferite, in questo modo la vitalita'
+dell'avventuriero si ripristinera' in maniera piu' rapida e indolore.
+~
+
+
+0 TRADIZIONE LORE~
+Si tratta di una stima approssimativa di un oggetto, molto meno
+precisa di un'identificazione e spesso erronea.. ma meglio di niente
+in mancanza d'altro!
+~
+
+
+0 HAGGLE HAGGLING~
+L'antichissima arte della contrattazione...ovviamente i piu' bravi
+in questo sono i ladri.
+~
+
+
+0 PEEK~
+L'occhio svelto e acuto del ladro riesce facilmente a scrutare le
+tasche degli altri avventurieri osservando per bene cosa portano
+nell'inventario..
+~
+
+
+0 PERCEPTION~
+Un occhio attento accompagnato da un particolare sesto senso.. ecco
+cosa rende i ladri capaci di identificare anche le uscite nascoste
+ad un comune avventuriero..
+~
+
+
+0 MEDITATION~
+E' una particolare tecnica che aiuta a sincronizzare meglio il respiro
+con l'energia circostante degli elementi, in maniera tale da accelerare
+il ritmo di recupero del mana.
+~
+
+
+0 RECHARGE~
+Sfruttando il proprio mana e' talvolta possibile ricaricare oggetti
+magici che stiano per esaurire la propria scorta di incantesimi, cio'
+non e' sempre possibile o consigliato in quanto si potrebbe far
+esplodere l'oggetto in caso di fallimento.
+~
+
+
+0 FRENZY~
+E' una sorta di benedizione che puo' essere concessa solo ad avventurieri
+che seguano lo stesso sentiero della divinita' di colui che lancia l'incantesimo.
+In questa maniera potranno ricevere l'aiuto e la forza mediante la rabbia
+del Dio.
+~
+
+
+0 'GIANT STRENGTH'~
+Questo incantesimo richiama le forze elementali della terra concentrando
+le energie positive che danno piu' tono e volume alla muscolatura del
+bersaglio.
+~
+
+
+0 'FLOATING DISC'~
+E' un incantesimo che aiuta gli stregoni, mai troppo consenzienti quando
+si tratta di fare degli sforzi fisici, creando un disco magico che li segua
+trasportando per loro eventuali oggetti trovati e posseduti.
+La capacita' del disco dipende ovviamente dall'esperienza del mago, cosi'
+come anche la sua durata, visto che e' impossibile rimuoverlo.
+~
+
+
+100 AMNESIA~
+La vittima perde ogni conoscenza di spell e abilita'.
+~
+
+
+0 DISRUPTION~
+E' un incantesimo che genera una spirale di energia che si dirige
+verso l'avversario avvolgendolo e infliggendogli dure ferite.
+~
+
+
+0 'GALVANIC WHIP'~
+E' un incantesimo che sfrutta le energie elementali per creare una
+sottile spirale di energia che a comando del caster andra' a frustare
+l'avversario inducendogli un dolore atroce.
+~
+
+
+100 'HELICAL FLOW'~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'helical flow' <persona>
+[32;1mLivello[0;37;40m[37;0m    : 93 Per tutte le classi
+[32;1mMana minima[0;37;40m[37;0m: 80
+[32;1mDurata[0;37;40m[37;0m     : Istantaneo
+
+Versione lievemente modificata del gate.
+~
+
+
+100 MANA 'ENERGIA MAGICA'~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'mana' <persona>
+[32;1mLivello[0;37;40m[37;0m    : 93 Per tutte le classi
+[32;1mDurata[0;37;40m[37;0m     : 50
+[32;1mMana minima[0;37;40m[37;0m: 50
+[32;1mEffetto[0;37;40m[37;0m    : MIN (mana +livello*5, max mana) MANA
+
+E' una versione potenziata del link.
+~
+
+
+100 'RIMUOVI TATUAGGIO' 'REMOVE TATTOO'~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'remove tattoo' <persona>
+[32;1mLivello[0;37;40m[37;0m    : 93 Per tutte le classi
+[32;1mMana minima[0;37;40m[37;0m: 11
+
+Cancella dalla pelle dell'avventuriero il tatuaggio della sua religione.
+~
+
+
+100 TATUAGGIO TATTOO~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'tattoo' <persona>
+[32;1mLivello[0;37;40m[37;0m    : 93 Per tutte le classi
+[32;1mMana minima[0;37;40m[37;0m: 11
+
+Per apporre il sigillo di una divinita' sulla pelle dell'avventuriero
+~
+
+
+0 ASSISTI ASSIST~
+E' un incantesimo che permette al necromante di richiamare barlumi
+di essenza vitale dal confine con l'oltretomba per curare se' o i
+suoi compagni.
+~
+
+
+100 'HIGH EXPLOSIVE'~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'high explosive' <vittima>
+[32;1mLivello[0;37;40m[37;0m    : 93 Per tutte le classi
+[32;1mMana minima[0;37;40m[37;0m: 11
+[32;1mDanno[0;37;40m[37;0m      : numero tra( 30, 120)
+[32;1mDanno[0;37;40m[37;0m      : (numero tra(30,120))/2 con tiro salvezza
+
+E' un tipo di polvere da sparo che viene tenuta chiusa in sacchetti, al momento
+opportuno questi vengono gettati per terra generando un'esplosione.
+~
+
+
+100 'GENERAL PURPOSE'~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'general purpose' <vittima>
+[32;1mLivello[0;37;40m[37;0m    : 93 Per tutte le classi
+[32;1mMana minima[0;37;40m[37;0m: 11
+[32;1mDanno[0;37;40m[37;0m      : numero tra( 25, 100)
+[32;1mDanno[0;37;40m[37;0m      : (numero tra(25,100))/2 con tiro salvezza
+
+E' una rudimentale polvere esplosiva che si puo' trasportare anche senza
+bisogno di particolari precauzioni. Se opportunamente stimolata da una pietra
+focaia genera un'esplosione di entita' rilevante.
+~
+
+
+0 ARCO BOW~
+[32;1mLivello[0;37;40m[37;0m    : 44 Guerriero - 35 Ranger
+
+Destrezza, precisione, concentrazione...l'arco non e' decisamente un'arma
+per tutti, per alcuni si tratta di un'arma "nobile" altri invece considerano
+il colpire il bersaglio da lontano una vera e propria scorrettezza..
+D'altronde pochi altri metodi sono cosi' silenziosi nel distribuire morte..
+~
+
+
+0 'BLIND FIGHTING'~
+Abituarsi a combattere nelle situazioni piu' disparate porta a conoscere
+e prevedere le reazioni dell'avversario in base ai suoi movimenti precedenti
+dopo aver sviluppato un'elevata sensibilita' che aiuti a reagire d'istinto.
+E' cosi' che anche privi della vista molti combattenti riescono ugualmente
+a dare il meglio di se' ignorando l'altrimenti enorme apparente svantaggio.
+~
+
+
+0 ACCECA BLINDNESS 'BLINDNESS DUST'~
+E' una tecnica che sfrutta una particolare polvere urticante che acceca
+le vittime presenti nella stanza.. ovviamente queste reagiranno non appena
+si sentiranno attaccate!
+~
+
+
+0 CAMPO CAMP~
+Vivendo nella natura il ranger impara preso come costruirsi rapidamente
+un piccolo rifugio che gli consenta di riposarsi e recuperare piu' in fretta
+le energie... ovviamente sara' impossibile farlo in citta' o in assenza di
+alberi.
+~
+
+
+0 CONTROLLO 'CONTROLLO ANIMALE' 'CONTROL ANIMAL'~
+[32;1mSintassi[0;37;40m[37;0m   : controlla <vittima>
+
+I vampiri hanno il potere di stregare gli animali sottomettendoli al loro
+controllo, il numero e la possibilita' di riuscita sono comunque proporzionali
+al loro fascino e intelligenza..
+~
+
+
+0 'DUAL BACKSTAB'~
+E' una particolare tecnica, corollario della risaputa pugnalata alle spalle
+tipica dei ladri.
+Imparandola in maniera esemplare e' possibile infatti far seguire alla prima
+pugnalata una seconda estraendo e riaffondando immediatamente il pugnale
+dalla schiena dell'avversario.
+E' raro che un ladro sbagli due volte nel colpire i punti vitali, ma si
+racconta dell'esistenza di guerrieri talmente coriacei da riuscire non solo
+a sopravvivere alla doppia pugnalata, ma addirittura di sconfiggere, pur
+mortalmente feriti, il proprio avversario.
+~
+
+
+0 SCAPPA ESCAPE~
+[32;1mSintassi[0;37;40m[37;0m :  scappa <direzione>
+
+Destrezza e malizia sono alla base di questa tecnica di "ritirata strategica"
+tipica di ninja e ladri, questi infatti possono decidere da quale parte
+dirigere la loro fuga per ripiegare in maniera calcolata e sfruttare a proprio
+vantaggio la situazione.
+~
+
+
+0 'CREA FRECCIA' 'MAKE ARROW'~
+[32;1mSintassi[0;37;40m[37;0m   : make arrow
+[32;1mLivello[0;37;40m[37;0m    : 37 Ranger
+[32;1mMana minima[0;37;40m[37;0m: 50
+
+Incredibili conoscitori della natura e dei boschi i ranger sanno
+come ricavare delle straordinarie frecce dagli alberi piu' nascosti e adatti.
+Piu' e' grande la loro esperienza ,piu' efficaci saranno le frecce...
+~
+
+
+0 'CREA ARCO' 'MAKE BOW'~
+[32;1mSintassi[0;37;40m[37;0m   : make bow
+[32;1mLivello[0;37;40m[37;0m    : 36 Ranger
+[32;1mMana minima[0;37;40m[37;0m: 200
+
+I ranger, cosi' abituati a scivolare silenziosamente nei piu' nascosti angoli
+dei boschi senza farsi notare da nessuno considerano l'arco la loro arma preferita,
+silente e efficace e in armonia con la natura. La sua costruzione rappresenta la vera
+iniziazione del ranger conferendogli il rispetto del suo bosco.
+~
+
+
+0 'BLUE ARROW''GREEN ARROW''RED ARROW''WHITE ARROW'~
+[32;1mSintassi[0;37;40m[37;0m   : make arrow <tipo>
+
+Incredibili conoscitori della natura e dei boschi i ranger sanno
+come ricavare delle straordinarie frecce dagli alberi piu' nascosti e adatti.
+Piu' e' grande la loro esperienza ,piu' efficaci saranno le frecce...
+Ogni tipologia di freccia ha delle caratteristiche differenti rispetto
+agli altri tipi.
+~
+
+
+0 SPINGI PUSH~
+[32;1mSintassi[0;37;40m[37;0m   : push <vittima> <direzione>
+
+C'e' una guardia proprio davanti alla porta che vorresti aprire?Chissa'
+se con una opportuna spintarella non riuscirai a farle cambiare direzione
+per poter agire indisturbato..
+~
+
+
+0 'SENSE LIFE'~
+[32;1mSintassi[0;37;40m[37;0m   : sense
+
+I sensi del vampiro sono terribilmente affinati, cosi' tanto da permettergli
+di percepire , anche se non perfettamente, le creature nascoste nell'ombra o
+invisibili.
+~
+
+
+0 VAMPIRE VAMPIRE~
+Giunti alla totale consapevolezza del loro stato di non morti i vampiri
+riescono a sprigionare in questo modo tutta la loro forza cambiando
+totalmente aspetto e diventando molto piu' potenti e feroci... ma attenzione
+alla luce!
+~
+
+
+0 'SECONDARY ATTACK'~
+[32;1mLivello[0;37;40m[37;0m    : 57 Guerriero
+
+Solo i guerrieri piu' prestanti riescono a migliorare a tal punto la
+loro abilita' con la seconda arma che impugnano da poter condurre a
+termine attacchi potenti come quelli dell'arma principale.
+~
+
+
+0 'FOURTH ATTACK'~
+[32;1mLivello[0;37;40m[37;0m    : 30 Guerriero
+
+E' tipico dei guerrieri il riuscire a sfruttare ogni singola esitazione
+o movimento falso dell'avversario per infilare un proprio attacco supplementare.
+~
+
+
+0 'FIFTH ATTACK'~
+[32;1mLivello[0;37;40m[37;0m    : 52 Guerriero
+
+E' tipico dei guerrieri il riuscire a sfruttare ogni singola esitazione
+o movimento falso dell'avversario per infilare un proprio attacco supplementare.
+~
+
+
+0 'LAY HANDS'~
+[32;1mSintassi[0;37;40m[37;0m   : layhands <persona>
+[32;1mLivello[0;37;40m[37;0m    : 63 Paladino
+[32;1mDurata[0;37;40m[37;0m     : 2
+[32;1mEffetto[0;37;40m[37;0m    : MIN(hp persona + livello*2, max hp persona) HP
+
+L'aura di bonta' che attraversa i fedeli paladini si trasforma in un flusso
+benefico che per mezzo delle loro mani e' in grado di guarire qualsiasi ferita!
+~
+
+
+0 'POISON SMOKE'~
+Da esperto alchimista il ninja sa sfruttare al meglio il suo equipaggiamento
+riuscendo a creare mediante il miscuglio di alcune polveri una nube velenosa
+che stordisce l'avversario indebolendolo.
+~
+
+
+93 TERANGREAL~
+Incantesimo simile allo sleep.
+~
+
+
+0 ENTRA LASCIA ENTER LEAVE~
+[32;1mSintassi[0;37;40m[37;0m   : enter <oggetto>
+[32;1mSintassi[0;37;40m[37;0m   : leave <oggetto>
+
+Se vedi un portale prendi le tue debite precauzioni stando ben attendo a
+dove possa portare...se ti fidi o se sei un tipo in cerca di gua...avventure
+ecco come entrarci!
+~
+
+
+0 USA USE~
+[32;1mSintassi[0;37;40m[37;0m   : use <oggetto>
+
+Ecco come utilizzare degli oggetti (solitamente staffe o bastoni) ottenendone
+cio' per cui sono creati.
+~
+
+
+0 CANALI CHANNELS~
+[32;1mSintassi[0;37;40m[37;0m   : canali
+
+Ecco come visualizzare la situazione di tutti i canali dedicati ai
+messaggi che ti sono riservati in questo mondo.
+~
+
+
+0 UCCIDI KILL~
+[32;1mSintassi[0;37;40m[37;0m   : uccidi <vittima>
+
+Sei in vena cattiva? Vuoi provare ad affrontare qualche creatura che
+non sia un avventuriero? Ecco come iniziare il combattimento!
+~
+
+
+0 SIEDITI SIT~
+[32;1mSintassi[0;37;40m[37;0m   : siediti
+[32;1mSintassi[0;37;40m[37;0m   : siediti <oggetto>
+
+Ecco come sedersi e prendere riposo...per terra...o preferibilmente su
+di una comoda poltrona.
+~
+
+
+0 LEGGI READ~
+[32;1mSintassi[0;37;40m[37;0m   : leggi <parola>
+[32;1mSintassi[0;37;40m[37;0m   : leggi <oggetto>
+
+Se vedi un'iscrizione...ecco il modo per leggerla!
+~
+
+
+0 SCRUTA SCAN~
+[32;1mSintassi[0;37;40m[37;0m   : scan
+[32;1mSintassi[0;37;40m[37;0m   : scan <direzione>
+
+Un avventuriero deve avere sempre i sensi all'erta per sapere in ogni momento
+chi e quanti lo circondano...puoi farlo li' dove ti trovi oppure in una direzione
+particolare.
+~
+
+
+0 PARLA SPEAK~
+[32;1mSintassi[0;37;40m[37;0m   : speak
+[32;1mSintassi[0;37;40m[37;0m   : speak <lingua>
+
+Molte razze hanno una conoscenza specifica di una determinata lingua, ecco come
+sapere quali sono quelle che tu conosci e come decidere di parlarne una o un'altra.
+~
+
+
+0 WORTH~
+[32;1mSintassi[0;37;40m[37;0m   : worth
+
+Socchiudi gli occhi tracciando un rapido resoconto di quanto ha reso
+la tua vita di avventuriero...in cifre!
+~
+
+
+0 CANCELLA CLEAR CLS~
+[32;1mSintassi[0;37;40m[37;0m :  cancella
+[32;1mSintassi[0;37;40m[37;0m :  cls
+
+Per avere una visione piu'.. pulita, almeno fino alla prossima mossa!
+~
+
+
+0 COMBINA COMBINE~
+[32;1mSintassi[0;37;40m[37;0m: combina
+
+Seleziona la modalita' con la quale le liste di oggetti verranno
+visionate, l'inventario ad esempio, permettendo cosi' di raggruppare
+le tipologie di oggetti identici senza occupare spazio inutile
+(visivamente parlando).
+~
+
+
+0 DESCRIZIONE DESCRIPTION~
+[32;1mSintassi[0;37;40m[37;0m   : description <frase>
+[32;1mSintassi[0;37;40m[37;0m   : description -
+[32;1mSintassi[0;37;40m[37;0m   : description +
+[32;1mSintassi[0;37;40m[37;0m   : description
+
+L'abito non fa il monaco...ma una buona apparenza spesso e' importante e rende
+piu' piacevole la propria presenza! Prova in questo modo a costruire la tua
+immagine.
+~
+
+
+0 NOSACCHEGGIA NOLOOT~
+[32;1mSintassi[0;37;40m[37;0m   : noloot
+
+Invoca la protezione degli Dei per il proprio corpo, affinche' non sia
+depredato dai ladri in seguito ad una morte. Non funziona se il ladro
+in questione e' un avventuriero..
+~
+
+
+0 NOEVOCATO NOSUMMON~
+[32;1mSintassi[0;37;40m[37;0m   : nosummon
+
+E' il modo di proteggersi da evocatori che potrebbero approfittare del loro
+maggior potere trasferendoti altrove.
+~
+
+
+0 RIPETI REPLAY~
+[32;1mSintassi[0;37;40m[37;0m   : replay
+
+Riporta alla mente frasi e parole che non si e' riusciti ad ascoltare
+per differenti cause.. non sempre riesce a restituire cio' che ci si
+potrebbe aspettare.. ma meglio di niente.
+~
+
+
+0 URLA YELL~
+[32;1mSintassi[0;37;40m[37;0m   : yell <messaggio>
+
+E' il modo di parlare che permette di farsi sentire da tutti i presenti
+nella zona.
+~
+
+
+0 DISONORA DISHONOR DISHONOUR~
+Se sei un samurai il tuo onore non ti permettera' di scappare mai se non
+di fronte ad avversari immensamente piu' forti... ma anche in quel caso
+non riuscirai a salvare completamente il tuo onore.
+~
+
+
+0 ASSASSINA MURDER~
+[32;1mSintassi[0;37;40m[37;0m   : murder <vittima>
+
+Iniziare un duello?Attaccare il vostro avversario a viso aperto? Ecco come...
+~
+
+
+0 UMANO HUMAN~
+Molti vampiri soffrono di solitudine, e pur essendo di natura asociali
+spesso provano il desiderio di mescolarsi ai mortali per chiacchierare
+o attirarli in trappola per poi cibarsi del loro sangue.
+Ecco come celano sotto mentite e umane spoglie la propria vera natura
+vampirica..
+~
+
+
+0 ALISTA SLIST~
+[32;1mSintassi[0;37;40m[37;0m   : slist <classe>
+
+E' possibile srotolare una pergamena che vi illustrera'
+tutte le abilita' che possono essere apprese da una particolare
+classe e che tipo di esperienza e' necessaria per poterne
+usufruire.
+~
+
+
+0 INDUCT~
+[32;1mSintassi[0;37;40m[37;0m   : induct <avventuriero> <cabala>
+
+I capocabala possono con questo gesto aggiungere nuovi membri che si
+siano dimostrati meritevoli nella loro gilda.
+~
+
+
+0 PRETENDI DEMAND~
+[32;1mSintassi[0;37;40m[37;0m   : demand <oggetto> <vittima>
+[32;1mLivello[0;37;40m[37;0m    : Per tutti gli AntiPaladini
+
+Grazie al loro carisma gli antipaladini a volte riescono a ottenere
+cio' che desiderano anche con le buone maniere...ovvero chiedendo
+l'oggetto al suo possessore, in questo modo.
+~
+
+
+0 TIRA SHOOT~
+[32;1mSintassi[0;37;40m[37;0m :  tira <direzione> <vittima>
+
+Con arco e frecce i bersagli piu' lontani sembreranno sempre a
+portata di mano!
+~
+
+
+0 LUCE LIGHT~
+Per distinguere forme ed esseri viventi al buio avrai bisogno di una
+luce, trovarne una non ti sara' difficile.. potrai anche parzialmente
+farne a meno se sei dotato naturalmente di infravisione oppure se hai
+un copricapo che riesca comunque ad illuminare l'ambiente circostante.
+~
+
+
+0 'GROUND STRIKE'~
+Sono delle particolari forme di attacco che il ranger mette in atto
+sfruttando a suo vantaggio il terreno che si alzera' sotto il suo
+avversario colpendolo con violenza.
+~
+
+0 SEPPELLISCI SEPPELLIRE SCAVA SCAVARE SEPOLTURA BURY CEREMONY DIG~
+[32;1mSintassi[0;37;40m[37;0m :  seppellisci <corpse>
+[32;1mSintassi[0;37;40m[37;0m :  scava
+
+Per evitare che un corpo si decomponga i chierici sono soliti seppellirli
+in un'ampia fossa nel terreno che poi ricopriranno di terra.
+Chiunque potra' in seguito, scavando opportunamente, disseppellire il
+cadavere.
+~
+
+
+0 TRASCINA TRASCINARE DRAG~
+[32;1mSintassi[0;37;40m[37;0m :  trascina <object> <direction>
+
+Spesse volte non si riescono a portar via oggetti pesanti come corpi o
+grossi forzieri, in  questi casi la soluzione migliore consiste nel
+trascinare l'oggetto in questione fino al luogo desiderato, ovviamente
+ci sono dei limiti che tengono in considerazione la forza.
+~
+
+
+-1 WANDS STAVES SCROLLS BACCHETTE STAFFE INCANTESIMI~
+Gli artefatti magici richiedono pratica per poter essere usati adeguatamente.
+Se la preparazione o le caratteristiche di colui che utilizza l'oggetto non
+corrispondono ai requisiti minimi di questo c'e' la possibilita' di rovinarlo
+irreparabilmente o distruggerlo.
+Le abilita' necessarie per la manipolazione e l'utilizzo degli artefatti sono:
+
+scrolls		Abilita' di leggere incantesimi da pergamene e libri arcani
+                Per maggiori informazioni consulta il capitolo dedicato al
+                'recita' incantesimi.
+staves		Abilita' nell'uso di staffe magiche e artefatti simili.
+                Per maggiori informazioni consultare il capitolo dedicato al
+                'brandisci'.
+wands		Abilita' nell'uso di bacchette e artefatti simili.
+                Per maggiori informazioni consultare il capitolo dedicato al
+                'punta'.
+~
+
+
+-1 EXOTIC WEAPONS WEAPON WEAPONSMASTER AXE DAGGER FLAIL MACE POLEARM SPEAR SWORD WHIP ARROW BOW LANCE~
+La conoscenza di un'arma influenza non solo la capacita' di attacco che si
+possiede con la medesima ma anche la riuscita di un'eventuale difesa da un
+avversario che la brandisca.
+
+Ecco alcuni tipi di armi:
+
+arrow		Freccia, da usare necessariamente con un buon arco.
+axe		A volte non c'e' molta differenza tra un nemico ed un albero
+bow		Gli Elfici si dice che siano i migliori.
+dagger		Daghe e coltelli dalla lama corta e affilata.
+lance		Lance lunghe non da lancio di vario tipo.
+flail		Armi che terminano con una palla legata ad una catena.
+mace		Randelli, mazze di vario tipo e martelli.
+polearm		Tutte le armi con una lunga asta eccetto le lancie.
+spear		Lance da tiro al bersaglio.
+sword		Ogni tipo di spada.
+whip		Fruste e catene di ogni tipo.
+exotic		Particolare categoria di armi non meglio identificata.
+~
+
+
+-1 'SHIELD BLOCK'~
+Si tratta dell'abilita' di riuscire a parare gli attacchi con lo scudo,
+in teoria e' una tecnica apprendibile da tutte le classi ma in realta'
+solo chierici e guerrieri riescono ad apprenderla ai massimi livelli.
+Attentenzione pero' visto che armi agili come le fruste e le catene
+riescono facilmente ad aggirare questa difesa, inoltre le asce e le
+spade piu' potenti spesse volte possono addirittura ridurre in frantumi
+quasi qualsiasi scudo..
+~
+
+
+-1 BACKSTAB 'DUAL BACKSTAB' PUGNALA~
+Uno dei vantaggi del non appartenera ad una qualunque casta di guerrieri,
+specialisti o meno, risiede nel fatto che non esistono 'colpi proibiti'.
+Normalmente si parla di lealta' e onore come leggi non scritte che regolano
+l'andamento di un combattimento.. pero' ad un ladro e' permessa l'ignoranza
+di una qualsiasi di queste famose regole..
+Sfruttando le sue naturali doti di agilita' e sveltezza il ladro puo' quindi
+avvicinarsi all'ignara vittima e pugnalare con una fulminea esecuzione il
+malcapitato alla schiena, facendo bene attenzione che la punta arrivi a
+colpire il cuore. In caso la prima pugnalata non faccia abbastanza male..
+si puo' estrarre il coltello.. e colpire una seconda volta.
+Ovviamente se anche allora la vittima dovesse sopravvivere ed avere anche
+abbastanza energie e fegato da affrontarvi.. meglio scegliere con piu'
+saggezza il prossimo avversario!
+~
+
+
+-1 BASH SBILANCIA~
+[32;1mSintassi[0;37;40m[37;0m : bash <vittima>
+
+Si tratta di una tecnica che permette di far cadere l'avversario rendendolo
+incapace di lanciare incantesimi o di eseguire alcune delle
+tecniche piu' complesse.
+Si esegue colpendo il nemico con una violenta spallata mentre si fara' attenzione
+a tenere il peso del corpo concentrato sulla gamba che avanza.
+Oltre alla forza e' importante avere un certo senso dell'equilibrio per centrare
+l'avversario.. e non fare pessime figure finendo a terra al posto suo.
+~
+
+
+-1 BERSERK~
+'Il sangue mi ardeva come fuoco, e pulsava nelle vene con cosi' tanta violenza
+che sentivo che sarebbero scoppiate da un momento all'altro'.
+Cosi' Kughel, uno dei piu' valenti guerrieri che le terre del nord abbiano mai
+avuto, parlava del suo modo di avvicinarsi ad un combattimento con la furia
+tipica del Berserker in corpo.
+Catalizzare la propria rabbia trasformandola in energia e forza.. cosi'
+i piu' inclini al combattimento corpo a corpo sfruttano la propria ferocia
+in battaglia, aumentando la loro capacita' d'attacco ma tralasciando
+l'attenzione per la difesa.. in ogni caso tutta la rabbia che li possiede
+riuscira' persino a proteggerli maggiormente dagli incantesimi.
+~
+
+
+-1 POLVERE DIRT 'DIRT KICKING'~
+Anche chiamato 'calcio sporco', questa tecnica appartiene all'infinito ramo
+di quelle particolari manovre d'attacco che suscitano dibattiti fra i
+teorici del combattimento.
+C'e' chi la considera altamente disonorevole e chi invece non si fa problemi
+ad usarla perche' indubbiamente utile visto che acceca momentaneamente la
+vittima.. quello che e' certo e' che calciare della terra negli occhi
+dell'avversario non e' gentile!
+~
+
+
+-1 DISARM~
+[32;1mSintassi[0;37;40m[37;0m: disarm
+[32;1mSintassi[0;37;40m[37;0m: disarm <seconda arma dell'avversario>
+
+L'arma non e' tutto.. pero' sicuramente privare un avversario della sua
+fida spada comporta un bel vantaggio nei suoi confronti.
+Ovviamente ci vuole una grande forza coadiuvata da prontezza di riflessi
+e sveltezza.. ma se si vogliono evitare gli effetti negativi di una
+particolare lama che si conosce bene.. vale la pena provarci.
+~
+
+
+-1 DODGE~
+Flessibilita', destrezza ed ottimi riflessi sono alla base di questa tecnica
+che permette di evitare di essere colpiti semplicemente schivando.. piu' facile
+a dirsi che a farsi.
+~
+
+
+-1 'ENHANCED DAMAGE'~
+E' una tecnica che consiste nel contrarre i muscoli che portano a termine
+il colpo solo all'ultimo istante, garantendo cosi' una forza d'impatto
+ed un danno lievemente maggiorati.
+~
+
+
+-1 ENVENOM~
+Avvelenare le proprie armi e' una delle tecniche piu' infide per indebolire
+l'avversario, il veleno ha effetto non appena la lama trapassa le carni della
+vittima..
+Tuttavia l'influsso venefico sulla lama dopo un po' si perde e bisognera'
+rinnovarlo.
+E' anche possibile avvelenare cibi o bevande.. utile strategia nel caso in cui
+la vittima si trovi distante da eventuali curatori.
+~
+
+
+-1 'HAND TO HAND'~
+Il combattimento a mani nude e' per alcuni solo una tecnica d'emergenza,
+per altri diventa un'arte che si e' perfezionata nei secoli fino a creare
+delle grandi scuole ognuna con una sua filosofia di pensiero, allenamenti
+speciali, tecniche segrete e colpi micidiali. I ninja in particolare sono
+i principali fautori di questo stile di lotta, ma anche un forzuto guerriero
+non avra' problemi a sferrare un potente diretto sul viso dell'avversario,
+ovviamente la tecnica dell'artista marziale e' piu' efficace.
+~
+
+
+-1 KICK~
+Un calcio ben assestato e' sempre un buon intercalare tra una parata ed
+un fendente.. Ovviamente necessita di precisione, forza ed equilibrio
+altrimenti si rischia di cadere favorendo l'avversario.
+Anche in questa specialita' del combattimento ci sono diverse varianti e
+proprio per questo alcune classi sono piu' avvantaggiate di altre nell'
+effettuare la manovra.
+~
+
+
+-1 PARRY 'CROSS BLOCK'~
+A seconda della conoscenza che hai della tua arma e di quella dell'avversario
+ti sara' piu' facile capire dove arriveranno i colpi e intercettarli di
+conseguenza.
+Nel caso in cui tu stia utilizzando un'arma per braccio nel portare l'attacco
+potresti riuscire a intercettare i colpi dell'avversario incrociando le lame
+e deviando il colpo prima di ripartire.
+~
+
+
+-1 'HAND BLOCK'~
+Se non hai un'arma puoi cercare ugualmente di bloccare l'attacco che ti viene
+portato contro con le mani, ovviamente e' molto difficile farlo senza rischi
+ma e' sempre meglio che farsi colpire in un punto vitale.
+~
+
+
+-1 SOCCORRI RESCUE~
+Se intendi salvare da un avversario pericoloso un tuo compagno usa questa
+tecnica e se hai abbastanza abilita' riuscirai a combattere al suo posto, serve
+una buona forza e soprattutto destrezza.
+~
+
+
+-1 TRIP~
+E' una tecnica che i ladri considerano molto piu' elegante del solito
+spintone tipico dei guerrieri, altri tuttavia la ritengono una tecnica
+da balordi senza forze.. altri addirittura disonorevole.. ma se l'avversario
+e' piu' grosso ed ha i piedi per terra puo' sempre tornar utile il vecchio
+trucco dello sgambetto!
+~
+
+
+-1 'SECOND ATTACK' 'THIRD ATTACK' 'FOURTH ATTACK' 'FIFTH ATTACK'~
+Gestire al meglio i propri movimenti fa si che ci si renda veloci
+e coordinati al punto tale da riuscire a colpire piu' volte in
+un solo attacco portato a termine.. Ovviamente i migliori in
+questa tecnica e coloro che la possono portare piu' in avanti
+sono i guerrieri.
+~
+
+
+-1 'SECONDARY ATTACK'~
+Colpire con precisione e forza quando si impugna un'arma per braccio non
+e' cosi' semplice come potrebbe sembrare, e' per questo che mediante questa
+tecnica si impara ad allenare il braccio che regge l'arma secondaria in
+maniera tale che non sfiguri troppo rispetto all'attacco primario.
+~
+
+
+-1 'SECOND WEAPON' 'DUAL WIELD'~
+Impugnare una seconda arma e coordinarla al meglio con i ritmi del resto
+del corpo non e' una tecnica da tutti, oltre ad una grande forza serve
+molto allenamento e pratica..
+~
+
+
+-1 NASCONDITI HIDE~
+L'abilita' del nascondersi e' tipica delle classi maestre delle ombre,
+ma non si e' mai completamente al sicuro.. meglio trattenere il fiato e
+non muoversi nemmeno di un millimetro in quei casi..
+~
+
+
+-1 FURTIVO SNEAK~
+Caratteristica innata di alcune razze e' una tecnica caratteristica di
+coloro che preferiscono muoversi nascostamente nelle ombre.. senza
+destare attenzione..
+~
+
+
+-1 'FAST HEALING'~
+Abituare il proprio corpo alla sofferenza significa anche insegnargli
+a recuperare piu in fretta le proprie ferite, in questo modo la vitalita'
+dell'avventuriero si ripristinera' in maniera piu' rapida e indolore.
+~
+
+
+-1 TRADIZIONE LORE~
+Si tratta di una stima approssimativa di un oggetto, molto meno
+precisa di un'identificazione e spesso erronea.. ma meglio di niente
+in mancanza d'altro!
+~
+
+
+-1 HAGGLE HAGGLING~
+L'antichissima arte della contrattazione...ovviamente i piu' bravi
+in questo sono i ladri.
+~
+
+-1 PEEK~
+L'occhio svelto e acuto del ladro riesce facilmente a scrutare le
+tasche degli altri avventurieri osservando per bene cosa portano
+nell'inventario..
+~
+
+
+-1 PICK 'PICK LOCK'~
+Permette di provare a sbloccare una porta o un oggetto, le probabilita' sono
+legate al tipo di serratura che chiude il lucchetto/serratura.
+~
+
+
+-1 PERCEPTION~
+Un occhio attento accompagnato da un particolare sesto senso.. ecco
+cosa rende i ladri capaci di identificare anche le uscite nascoste
+ad un comune avventuriero..
+~
+
+
+-1 MEDITATION~
+E' una particolare tecnica che aiuta a sincronizzare meglio il respiro
+con l'energia circostante degli elementi, in maniera tale da accelerare
+il ritmo di recupero del mana.
+~
+
+
+-1 RUBA STEAL~
+I ladri piu' smaliziati adorano rubare.. e lo fanno sia che la loro vittima
+stia dormendo sia che sia in piedi, magari pronta a combattere!
+Ovviamente non c'e' nulla di meglio per un ladro del rubare una bella daga
+dorata dopo che il negoziante non ha concesso il giusto sconto che gli avevate
+gentilmente chiesto..
+~
+
+
+60 'DETECT GOOD'~
+E' un semplice incantesimo che permette di potenziare la vista rendendo
+distinguibili le auree dorate sugli esseri viventi..
+~
+
+
+-1 'DISPEL GOOD'~
+E' un incantesimo che sfrutta il principio della negativita', chi lo lancia
+riesce a far bruciare all'interno della vittima ogni sentimento che lo leghi
+alla bonta' adducendogli un dolore assolutamente insopportabile.
+~
+
+
+-1 'RECHARGE'~
+Sfruttando il proprio mana e' talvolta possibile ricaricare oggetti
+magici che stiano per esaurire la propria scorta di incantesimi, cio'
+non e' sempre possibile o consigliato in quanto si potrebbe far
+esplodere l'oggetto in caso di fallimento.
+~
+
+
+-1 'DEMONFIRE'~
+E' una potentissima invocazione che permette al fedele di richiamare
+al suo cenno roventissime fiamme demoniache strappandole al fuoco
+degli inferi e lasciando che queste avviluppino in letali spire il suo
+nemico.
+~
+
+
+-1 'BLUEFIRE'~
+L'ira degli dei invocata tramite questa preghiera si rivelera' tramite
+una colonna di fuoco bluastra che investira' l'avversario in pieno..
+~
+
+
+-1 'RAY OF TRUTH'~
+E' un potente raggio di energia positiva che scaturisce dalle mani di colui che
+lancia l'incantesimo, questo va a colpire con violenza la vittima che a seconda
+della sua malvagita' sara' punita con un danno piu' o meno grande.
+~
+
+
+-1 'PORTAL'~
+E' un incantesimo che sfrutta un determinato tipo di pietra in grado di creare,
+qualora il potere ne venga evocato nella giusta maniera, un portale
+unidirezionale che punta su di una determinata vittima.
+~
+
+
+-1 'NEXUS'~
+Sfruttando il potere di alcune pietre molto particolari e' possibile creare
+un portale di andata e ritorno concentrandosi sull'ubicazione della vittima
+da raggiungere. Ovviamente il portale ha una durata limitata..
+~
+
+
+-1 'HEAT METAL'~
+E' un incantesimo che genera un particolare plasma rovente che andra' a finire
+sull'equipaggiamento dell'avversario ustionandolo dolorosamente in caso non si
+decida a liberarsi degli oggetti!
+~
+
+
+-1 'HOLY WORD'~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'holy word'
+
+Il chierico con questa preghiera invoca tutta la potenza del suo Dio con
+effetti disastrosi sui suoi avversari e benefici per gli alleati..
+Questi verranno infatti benedetti e riempiti dell'energia divina, gli altri
+invece verranno feriti dagli artigli della furia e maledetti dalla divinita'.
+E' una preghiera che richiede oltre che grande concentrazione anche grande
+dispendio di energie da parte del chierico.
+~
+
+
+-1 FRENZY~
+E' una sorta di benedizione che puo' essere concessa solo ad avventurieri
+che seguano lo stesso sentiero della divinita' di colui che lancia l'incantesimo.
+In questa maniera potranno ricevere l'aiuto e la forza mediante la rabbia
+del Dio.
+~
+
+
+-1 CALM~
+E' una delle abilita' clericali piu' utilizzate in virtu' del potere che
+possiede di rappacificare gli animi dei presenti.
+Fede e carisma sono componenti fondamentali per poter effettivamete porre
+un termine ad eventuali combattimenti ispirando nel contempo un senso
+di calma e pace mentale in chi osservi il gesto con il quale viene
+eseguito l'incantesimo.
+~
+
+
+-1 HASTE~
+E' un incantesimo che stimola determinati centri nervosi all'interno del corpo
+della vittima rendendone il metabolismo e i movimenti molto piu' veloci del
+normale. Purtroppo a causa della restrizione di alcune ghiandole causa un
+altrettanto notevole rallentamento del ripristino del mana e delle energie.
+Proprio per questo motivo e' assolutamente nocivo spingere oltre un certo
+limite il potere di questo incantesimo.
+~
+
+
+-1 SLOW~
+E' un incantesimo che viene utilizzato per invertire alcuni ritmi metabolici
+nella vittima affinche' si muova piu' lentamente, puo' anche essere usato pero'
+su se' stessi quando si ha bisogno di recuperare in fretta delle energie..
+Occhio ad usarlo su compagni pero', visto che e' chiaramente un incantesimo
+d'offesa.
+~
+
+
+-1 PLAGUE~
+E' un incantesimo che sfrutta come componenti alcune spore velenose che hanno
+il potere di richiamare una terribile e immediata pestilenza nel corpo della
+vittima.
+~
+
+
+-1 'CREATE ROSE'~
+Crea dal nulla una semplice rosa.
+~
+
+
+60 'PROTECTION GOOD' 'PROTECTION EVIL'~
+Sono delle protezioni particolari che isolano il corpo dal danneggiamento
+ad opera di agenti appartenenti rispettivamente alla sfera del bene o del
+male. In principio si pensava che la presenza di una protezione inibisse
+l'utilizzo dell'altra ma in seguito a studi incrociati si riusci' a stabilire
+che formulando gli incantesimi in tempi separati e con una piccola variante
+nella formula era comunque possibile avere attive entrambe le protezioni
+senza conseguenze negative.
+Tuttavia in seguito alla separazione delle scuole di magie il segreto della
+coesistenza dei due incantesimi venne disperso e perduto, come anche il
+modo di trasferire la protezione su di un altro individuo.
+~
+
+
+0 'GIANT STRENGTH'~
+
+Questo incantesimo richiama le forze elementali della terra concentrando
+le energie positive che danno piu' tono e volume alla muscolatura del
+bersaglio.
+~
+
+
+-1 'CHAIN LIGHTNING'~
+L'energia dei fulmini non e' controllabile in maniera perfetta
+tuttavia sono molti i maghi che ne cedono al fascino.. Questo
+incantesimo in particolare evoca una scarica di fulmini che
+invade l'area intorno al mago colpendo i suoi avversari.. e a volte
+anche poveri innocenti o il mago stesso! Attenzione dunque!
+~
+
+
+60 FARSIGHT~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'farsight' <direzione>
+
+E' un incantesimo che permette al mago di avere una chiara immagine mentale
+della zona a lui adiacente.. questa dura pochi istanti ma e' nitidissima.
+Tuttavia l'alta concentrazione richiesta lascia il mago un po' spossato..
+~
+
+
+-1 MASS HEALING~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'mass healing'
+
+E' un incantesimo che permette al chierico di ristorare e curare alcune delle
+ferite del gruppo grazie all'aiuto della propria divinita'.
+~
+
+
+-1 'FLOATING DISC'~
+E' un incantesimo che aiuta gli stregoni, mai troppo consenzienti quando
+si tratta di fare degli sforzi fisici, creando un disco magico che li segua
+trasportando per loro eventuali oggetti trovati e posseduti.
+La capacita' del disco dipende ovviamente dall'esperienza del mago, cosi'
+come anche la sua durata, visto che e' impossibile rimuoverlo.
+~
+
+
+-1 FIREPROOF~
+[32;1mSintassi[0;37;40m[37;0m   : cast 'fireproof' <oggetto>
+
+Un'aura magica circondera' l'oggetto che diverra' resistente (finche' la barriera
+avra' effetto) al fuoco, alle scosse, ai fulmini e tutto quanto potra' danneggiarlo.
+~
+
+
+0 ESCAPE~
+[32;1mSintassi[0;37;40m[37;0m :  scappa <direzione>
+
+Destrezza e malizia sono alla base di questa tecnica di "ritirata strategica"
+tipica di ninja e ladri, questi infatti possono decidere da quale parte
+dirigere la loro fuga per ripiegare in maniera calcolata e sfruttare a proprio
+vantaggio la situazione.
+~
+
+
+-1 'MAKE ARROW' 'MAKE BOW'~
+[32;1mSintassi[0;37;40m[37;0m   : make arrow
+[32;1mLivello[0;37;40m[37;0m    : 37 Ranger
+[32;1mMana minima[0;37;40m[37;0m: 50
+
+Incredibili conoscitori della natura e dei boschi i ranger sanno
+come ricavare delle straordinarie frecce dagli alberi piu' nascosti e adatti.
+Piu' e' grande la loro esperienza ,piu' efficaci saranno le freccie...
+~
+
+
+-1 SPINGI PUSH~
+[32;1mSintassi[0;37;40m[37;0m   : push <vittima> <direzione>
+
+C'e' una guardia proprio davanti alla porta che vorresti aprire?Chissa'
+se con una opportuna spintarella non riuscirai a farle cambiare direzione
+per poter agire indisturbato..
+~
+
+
+-1 'SENSE LIFE'~
+[32;1mSintassi[0;37;40m[37;0m   : sense
+
+I sensi del vampiro sono terribilmente affinati, cosi' tanto da permettergli
+di percepire , anche se non perfettamente, le creature nascoste nell'ombra o
+invisibili, l'entita' non sara' riconoscibile nelle sue fattezze ma il vampiro
+sara' perlomeno cosciente della sua presenza.
+~
+
+
+-1 'BLUE ARROW' 'GREEN ARROW' 'WHITE ARROW' 'RED ARROW'~
+[32;1mSintassi[0;37;40m[37;0m   : make arrow <tipo>
+
+Incredibili conoscitori della natura e dei boschi i ranger sanno
+come ricavare delle straordinarie frecce dagli alberi piu' nascosti e adatti.
+Piu' e' grande la loro esperienza ,piu' efficaci saranno le frecce...
+Ogni tipologia di freccia ha delle caratteristiche differenti rispetto
+agli altri tipi.
+~
+
+
+-1 'LAY HANDS'~
+[32;1mSintassi[0;37;40m[37;0m   : layhands <avventuriero>
+
+L'aura dorata, la profonda fede, la forza interiore ed il grande carisma che
+pervade i paladini li rende capaci di incanalare tali energie positive in un
+flusso ristoratore che riesce senza l'aiuto di alcuna formula magica a curare
+ferite anche gravi sul corpo di qualsiasi avventuriero.
+~
+
+
+-1 'POISON SMOKE'~
+Da esperto alchimista il ninja sa sfruttare al meglio il suo equipaggiamento
+riuscendo a creare mediante il miscuglio di alcune polveri una particolare
+miscela finissima che liberata al momento opportuno nell'aria genera, venendo
+a contatto con l'ossigeno, una nube velenosa che ha un effetto stordende su
+chiunque la respiri.
+~
+
+
+0 SUICIDE DELETE~
+[32;1mSintassi[0;37;40m[37;0m : delete delete
+[32;1mSintassi[0;37;40m[37;0m : delete <altro> (per annullare)
+
+Per sparire DEFINITIVAMENTE da queste terre.
+~
+
+
+0 HEALER~
+I sacerdoti curatori sono lieti di prestare i loro servigi agli avventurieri
+in difficolta', sempre che questi si degnino di devolvere una piccola offerta
+in proporzione al servizio ricevuto.
+Ecco la lista completa degli incantesimi di cura disponibili:
+
+  light   : cura ferite leggere      10 gold
+  serious : cura ferite gravi        15 gold
+  critic  : cura ferite estese       25 gold
+  heal    : cure ferite critiche     50 gold
+  blind   : cura cecita'             20 gold
+  disease : cura malattie            15 gold
+  poison  : cura veleno              25 gold
+  uncurse : rimuovi maledizione      50 gold
+  refresh : ristora movimento         5 gold
+  mana    : ristora   mana           10 gold
+  master heal: per ferite massicce  200 gold
+  energize : grande apporto di mana 200 gold
+
+  Per ottenere la cura heal + tipo di cura.
+~
+
+
+-1 GUADAGNA GAIN~
+[32;1mSintassi[0;37;40m[37;0m : gain
+
+gain revert : converte una sessione di train in 10 sessioni di pratica.
+gain convert: converte 10 sessioni di pratica in una di allenamento.
+~
+
+
+92 CLONE~
+[32;1mSintassi[0;37;40m[37;0m : clone obj <oggetto>
+[32;1mSintassi[0;37;40m[37;0m : clone mob <mob>
+[32;1mSintassi[0;37;40m[37;0m : clone <nome>
+
+Permette di copiare un oggetto o png, eccezion fatta per le extra desc. d
+egli oggetti.
+~
+
+
+0 SKILLS SPELLS~
+Mostra la lista completa delle abilita' e incantesimi disponibili.
+Tieni conto che se sei particolarmente ferito le tue capacita' sulle
+abilita' decrementano esponenzialmente.
+~
+
+
+0 OUTFIT~
+[32;1mSintassi[0;37;40m[37;0m : outfit
+
+Permette di riottenere un equipaggiamento basilare.. solo per i primissimi
+passi in queste terre (max level=5).
+~
+
+
+0 AUTO AUTOLIST AUTOLOOT AUTOGOLD AUTOSAC AUTOEXIT AUTOASSIST AUTOSPLIT NOSUMMON NOCANCEL~
+autolist  : lista di tutte le azioni automatizzabili
+autoloot  : prendi tutto l'equipaggiamento dai mob che uccidi
+autogold  : prendi tutte le monete dai mob che uccidi
+autosac	  : sacrifica i corpi dei mob che uccidi
+autoexit  : mostra le uscite aperte nella stanza
+autosplit : divide equamente le monete all'interno del gruppo
+autoassit : permette di aiutare i compagni del gruppo che vengono attaccati
+nosummon  : ti rende evocabile solo da chi puo' ucciderti
+nocancel  : allows only group members to cancel the spells that you are affected
+~
+
+
+-1 COUNT~
+Conta gli avventurieri coscienti sulle terre nel momento in cui lo azioni.
+~
+
+
+-1 GATE~
+I maghi si sa.. non brillano certo per spessore atletico.. e quando si tratta
+di muoversi sarebbero capaci di tirare in ballo mille scuse pur di non dover
+camminare. Proprio per questo arrivati ad un certo punto della loro crescita
+spirituale apprendono questo VITALE incantesimo che gli permette di aprire
+un varco fino alla vittima predestinata dell'incantesimo.
+~
+
+
+-1 'ASTRAL WALK'~
+Le streghe imparano un po' prima dei maghi il loro incantesimo per riuscire
+a spostarsi su di un bersaglio, queste infatti utilizzano le loro conoscenze
+delle stelle  e del cielo, sfruttando gli archi in cielo da queste disegnate,
+anche le piu' nascoste alla luce del giorno.
+~
+
+
+-1 'MIST WALK'~
+Anche i vampiri imparano con il passare del tempo un modo piu' veloce per
+muoversi da una parte all'altra del globo, essi sfruttano la loro abilita'
+di mutarsi in nebbia e guidati dalle correnti, dal vento e dai loro
+incredibilmente sviluppati sensi si dirigono verso la vittima per ghermirla..
+~
+
+
+-1 'SOLAR FLIGHT'~
+Anche i chierici imparano un modo tutto loro di accorciare drasticamente i
+tempi richiesti dai loro spostamenti, infatti con questo incantesimo
+riusciranno letteralmente a farsi trasportare dalla luce fino al loro
+bersaglio!
+~
+
+
+-1 AFFETTO AFFEZIONI AFFECT AFFECTS RAFFECT~
+Ti permette di sapere quali incantesimi sono attivi sul tuo corpo in questo
+momento.
+Se hai poca esperienza riuscirai a capire solo il tipo di incantesimo
+mentre crescendo riuscirai a conoscerne anche la durata
+
+Raffect comporta la stessa specie di analisi ma sulla stanza.
+~
+
+
+0 $~
+
+#$

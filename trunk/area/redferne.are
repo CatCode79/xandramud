@@ -1,0 +1,585 @@
+#AREA
+redferne.are~
+Residenza dei FelceRossa~
+{20 30} Diku    Residenza dei FelceRossa~
+7900 7999
+
+#RESETMESSAGE
+Senti in lontananza il clangore e gli stridii della Catena.~
+
+
+#HELPS
+0 'T2TEAM FELCEROSSA' 'T2TEAM REDFERNE'~
+Quest'area e' stata tradotta, modificata da Miciko e testata dal T2Team.
+L'autore dell'area originale e' Diku.
+Per altre risorse Mud visitare il sito http://www.terra-secunda.net
+~
+
+0 $~
+
+
+#MOBILES
+#7900
+cavaliere paladino~
+il Gran Cavaliere dell'ordine dei Paladini~
+Il Gran Cavaliere ti osserva benevolo, se hai bisogno puoi contare sul suo
+aiuto.
+~
+Il Paladino si erge di fronte a te in tutta la sua possenza, indossa un'armatura
+d'argento ed un avvolgente mantello bianco bordato di blu.
+Nei suoi occhi riluce la fierezza della propria missione: aiutare e salvare gli
+innocenti e gli indifesi.
+~
+human~
+AGKQe DH 1000 0
+29 0 6d12+778 29d9+100 5d14+18 none
+-9 -9 -9 4
+EIKU AB 0 0
+stand stand male 0
+0 0 medium 0
+
+#7901
+paladin solamnia~
+Paladin of Solamnia~
+A retired paladin of solamnia, is wasting his time with resting.
+~
+   After so many years fight against anti-paladins he has retired and
+responsible for the stone kassandra.
+~
+human~
+AHSe DEPZ 1000 2402
+91 40 10d30+21400 100d10+100 5d35+60 punch
+-41 -41 -41 0
+FHKN 0 0 D
+stand stand male 1499
+0 0 small 0
+
+#0
+
+
+#OBJECTS
+#7909
+monete tesoro~
+un ingente tesoro~
+Non passa di certo inosservato questo tesoro, vero?~
+silver gold~
+money 0 A
+-100 0 0 0 0
+0 0 0 P
+E
+tesoro~
+Si direbbe proprio una bella montagna di monete! Una di esse pare incisa..
+~
+E
+incisione lettere parole~
+A stento leggi alcune parole: "Lasciami qui per favore"
+~
+#7910
+baule cesto~
+un baule di legno~
+In un angolo vedi un grazioso baule di legno.~
+wood~
+container 0 A
+100 ABCD 7911 20 100
+0 4000 100 P
+E
+baule cesto~
+Robuste assi di legno, tenute insieme da paraspigoli in ferro battuto, disegnano
+la linea semplice ma elegante del baule. Un piccolo lucchetto d'ottone fa la
+guardia alla serratura.
+~
+#7911
+chiave~
+una chiavina d'ottone~
+Una piccola chiave d'ottone e' posata accanto al baule.~
+brass~
+key 0 A
+7910 0 0 0 0
+0 10 0 P
+E
+chiave~
+E' solo ottone modellato a forma di chiave, nessuna incisione aggiuntiva, ne' un
+segno di alcun tipo.
+~
+#0
+
+#ROOMS
+#7900
+Davanti alla Magione dei Felcerossa~
+Un posto di cui non stancarsi mai: un pavimento di soffici nubi accoglie i tuoi
+passi, la lieve brezza ti scompiglia i capelli giocosamente mentre i caldi raggi
+del sole ti coccolano con il loro tepore.
+Le nuvole attutiscono i gia' deboli rumori provenienti dalla sottostante
+Midgaard.
+Dinnanzi a te si apre la grande Magione di Naris, dimora dei Felcerossa.
+~
+0 CJ 0
+D0
+Un imponente cancello introduce alla magnifica costruzione.
+~
+gate door huge arched~
+2 -1 7901
+D2
+You see some pretty clouds!
+~
+~
+0 0 9101
+D5
+La Magione di Naris e' ancorata al suolo grazie a questa robusta catena.
+~
+~
+0 -1 7918
+S
+#7901
+Il lato meridionale dell'androne~
+L'ingresso della Magione e' molto ampio, guardandoti intorno cerchi di
+capire quali siano le deboli luci che illuminano l'ambiente ma non trovi
+risposta al tuo quesito.
+Dalle pareti si emana un calore benevolo, pare una sorta di benvenuto per chi
+si addentra in questa casa; su uno dei muri e' appeso un ritratto.
+Guardi a destra e a sinistra per orientarti: ad est vedi un corridoio
+che conduce fuori dall'atrio per terminare di fronte ad una massiccia porta
+in legno di quercia; verso ovest c'e' una porta di uno strano colore indefinito.
+A nord si estende ancora il grande salone mentre a girandoti verso sud puoi
+vedere l'enorme portone d'ingresso forgiato in ferro battuto.
+Accanto a te uno scalone con gradini in legno conduce al piano superiore.
+~
+0 CDJ 0
+D0
+Il corridoio prosegue dritto verso il portone di quercia; sui lati, nella zona
+sotto la scala, si aprono altre porte.
+~
+~
+0 -1 7904
+D1
+Intravedi il portone di quercia poco lontano, su di esso scorgi degli strani
+simboli, paiono rune scolpite nel legno.
+~
+quercia porta portone~
+2 -1 7910
+D2
+E' davvero un bel portone! Probabilmente sarebbe piu' adatto indicarlo come
+cancello, data la sua grandezza. Un cartello appeso alla maniglia del portone
+recita a chiare lettere "Uscita d'emergenza".
+~
+portone~
+2 -1 7900
+D3
+Questa sembra una porta vera e propria, non come il portone di quercia dalla
+parte opposta. E' dipinta di una tonalita' particolare di giallo che fa
+risaltare alcune piccole lettere nere.
+~
+ovest giallo porta~
+2 -1 7902
+D4
+Lo scalone sale su verso la cima della torre e da quaggiu' ti pare di vederne la
+fine sulla soglia di una stanza da letto.
+~
+~
+0 -1 7909
+E
+rune~
+Forse tu conosci un altro alfabeto runico perche' non ti par proprio di
+comprendere il linguaggio di questi simboli..
+Ma e' il tuo giorno fortunato! Qualcuno ha provveduto a tradurre la scritta
+in Lingua Comune: "Non aprire questa porta, se ti preme la vita. E cosi'
+dovrebbe essere, dato che sei mortale"
+~
+E
+lettere~
+Semplici nella forma, chiare nel contenuto: "Biblioteca".
+~
+S
+#7902
+La Biblioteca~
+Pile  di  libri e  pergamene  sono riposte  con  molta cura  sugli  scaffali che
+occupano  praticamente tutte  le pareti  della biblioteca.  L'arredamento della
+stanza  e' sobrio  ma variegato:  nell'angolo nord-ovest,  su un  piedistallo di
+marmo, e' ospitata  una mappa sferica  dei Reami.  Poco  davanti,  due  poltrone
+in pelle, dall'aria molto confortevole, sono sistemate accanto alle rispettive
+scrivanie, ricavate sempre dall'ottimo legno di quercia.
+Alzando lo sguardo troverai il lampadario di cristallo che provvede
+all'illuminazione dell'intero ambiente, ad occhio e croce si trova a circa dieci
+piedi dal soffitto.
+Ad est vedi la porta gialla d'ingresso mentre ad ovest una larga finestra
+richiama la tua attenzione verso l'esterno.
+~
+0 CDJ 0
+D1
+Vedi la porta d'ingresso alla biblioteca.
+~
+porta est giallo~
+2 -1 7901
+E
+sfera globo mappa~
+Un sistema geniale ed insolito di rappresentare i Reami: la superficie
+sferica del globo ospita una fedele riproduzione di questo mondo. Puoi
+divertirti a cercare i nomi delle tante citta' disegnate e probabilmente non ti
+sfuggira' Midgaard, che risalta come la citta' piu' grande della cartina.
+Chi ha redatto questa mappa non s'e' dimenticato di aggiungere anche i
+particolari geografici delle varie regioni: montagne, fiumi, laghi e pianori..
+non manca nulla!
+~
+E
+Midgaard citta'~
+Vedi segnata sulla cartina una zona confinante ad ovest con un piccolo bosco, ad
+est con le pianure, a nord con le montagne. A sud, da questa zona si diparte un
+sentiero che percorre la mappa fino ad un grande castello.
+Infine noti anche un fiume piuttosto largo che attraversa Midgaard.
+~
+E
+poltrone pelle~
+Si tratta di due poltrone perfettamente identiche e dall'aspetto molto
+confortevole. La pelle che le riveste sembra ormai lisa e datata, tuttavia
+questo particolare e' solo un'ulteriore conferma che in molti si son fermati
+qui per riposare un po'.
+~
+E
+finestra vetri~
+Lunghe vetrate compongono le finestre della biblioteca, partendo da pavimento
+fin quasi a raggiungere il soffitto. Se ti avvicini e provi a guardare fuori
+magari potrai scoprire qualcosa di interessante dietro questi vetri.
+~
+E
+fuori dietro~
+Una fitta coltre di nuvole forma la base su cui poggia l'intero edificio,
+aguzzando la vista, attraverso una delle nubi piu' sottili si intravede la
+lontana Midgaard e la sua frenetica attivita'.
+~
+E
+fiume~
+Segui sulla cartina il percorso del fiume dalla sorgente, un lago nell'interno,
+sino alla foce nel Grande Mare dell'ovest, passando sotto i ponti di Midgaard.
+~
+S
+#7903
+La camera dei monili di Naris~
+La penombra di questa stanza e' lievemente rischiarata dall'inspiegabile forma
+di luce emessa dalle pareti. Nel centro della camera sono disposti alcuni
+oggetti dai contorni davvero bizzarri e cio' che pare ancor piu' strana e' la
+totale assenza di altro mobilio. L'unica uscita pare essere la porta ad ovest.
+~
+0 CDJ 0
+D3
+You see only the back of a safe's steel door.
+~
+~
+0 -1 -1
+S
+#7904
+Il lato nord dell'androne~
+Questa parte dell'atrio e' interamente sotto la volta delle scale e percio' qui
+la luce sembra piu' soffusa che non vicino al portone d'entrata.
+Da nord giungono dei profumini invitanti.. sara' arrosto? Piu' a sud puoi vedere
+il gigantesco portone d'ingresso. Verso est e verso ovest ci sono due porte, una
+di metallo pesante l'altra di legno massiccio, a te la scelta.
+~
+0 CDJ 0
+D0
+~
+~
+0 -1 7906
+D1
+Ti avvicini per esaminarla meglio ma un fetore insopportabile ti costringe ad
+indietreggiare di un passo. Un pensiero ti balena per la mente.. "Mostri?" e
+chissa' perche' s'affievolisce il desiderio di scoprire cosa si celi dietro
+questa porta.
+~
+acciaio metallo porta~
+2 -1 7913
+D2
+Vedi il salone d'ingresso e l'imponente entrata.
+~
+~
+0 -1 7901
+D3
+E' ricavata da legno di pioppo e finemente decorata con piccole incisioni
+raffiguranti elfi di bosco. Una scritta sul bordo superiore indica che sei
+davanti alla porta del salotto.
+~
+pioppo porta~
+2 -1 7905
+S
+#7905
+Il salotto di Naris~
+Una galleria di ritratti di Re e Regine adorna le pareti lignee del salotto. Uno
+in particolare attira il tuo sguardo: rappresenta un principe vestito con
+armatura da guerra.
+Poggiata contro uno dei muri vedi una vecchia poltroncina.
+L'unica uscita e' la porta ad est.
+~
+0 CDJ 0
+D1
+Sembra essere una porta pesante, interamente ricavata dal tronco del pioppo.
+~
+pioppo pesante porta~
+2 -1 7904
+E
+poltrona~
+Ci pensi due volte prima di sederti, la poltrona sembra davvero molto vecchia.
+Pero' e' fornita di un morbido ed accogliente cuscino..
+~
+S
+#7906
+La cucina di Naris~
+Dai muri della cucina si spande ancora il profumo di vivande e cio' serve
+solo a ricordarti che hai fame! Da qualche parte, nelle tane nascoste, ti par
+di sentire un rumorino di rosicchiamento, come se i topi stessero banchettando
+con carne e pane e chissa' cos'altro ancora.
+A nord vedi la dispensa, ad est c'e' la ghiacciaia.
+L'uscita per tornare nell'atrio e' a sud.
+~
+0 CDJ 0
+D0
+Nonostante il buio, lo squittire persistente parla da se': si tratta proprio di
+topi.
+~
+dispensa~
+2 -1 7907
+D1
+Ti volti a guardare la ghiacciaia.. forse c'e' qualcosa di buono dentro.
+~
+ghiacciaia~
+2 -1 7908
+D2
+Da qui vedi il lato settentrionale dell'androne.
+~
+~
+0 -1 7904
+S
+#7907
+La dispensa~
+Cibo ovunque! Purtroppo sui sacchi pieni di farina ed altri cibi, scorrazzano
+felici ratti di proporzioni inverosimili, mordendo e mangiucchiando tutto quello
+che trovano.
+~
+0 CDJ 0
+D2
+~
+porta dispensa uscita~
+2 -1 7906
+S
+#7908
+La ghiacciaia~
+Un'unica stanza adibita a ghiacciaia della Magione ed e' piena di bottiglie di
+vino ed altre bevande.
+~
+0 CDJ 0
+D3
+~
+porta uscita ghiacciaia frigorifero~
+2 -1 7906
+S
+#7909
+Su per le scale~
+Alzi ed abbassi il capo per vedere le scale in tutta la loro lunghezza eppure
+sembrano non avere un inizio ne' una fine. Sembra un percorrere i gradini senza
+meta, in entrambi i versi.
+Qualcosa ti dice che proseguendo verso l'alto prima o poi troverai la camera da
+letto dei Felcerossa.
+~
+0 CDJ 0
+D4
+~
+~
+0 -1 7911
+D5
+~
+~
+0 -1 7901
+S
+#7910
+La stanza del Tesoro~
+E' un posto stranamente cupo, l'unica uscita e' ad ovest attraverso la porta di
+quercia.
+~
+0 CDJ 0
+D1
+~
+safe steel~
+0 -1 -1
+D3
+Vedi una porta ricavata dal legno di quercia.
+~
+porta quercia~
+2 -1 7901
+S
+#7911
+La camera da letto dei Felcerossa~
+L'arredamento di questa stanza sembra ben studiato per delle serate romantiche.
+Lungo la parete orientale sta un ampio camino che, con il tranquillo
+crepitio del legno e l'odore della brace, dona un'atmosfera familiare alla
+camera.
+Dopo un'occhiata lievemente perplessa al resto della stanza ti rendi conto che
+per meta' essa e' occupata dal gigantesco letto, ben riordinato e adeguato per
+fredde notti invernali. Ai piedi del materasso, infatti, riposte sopra il
+copriletto stanno due larghe coperte di lana pesante.
+Se vuoi tornare di sotto ti bastera' scendere la scala oppure puoi continuare ad
+esplorare i dintorni uscendo sul balcone dalla porta-finestra che e' a sud.
+~
+0 CDJ 0
+D2
+Il sole inonda la stanza con la sua calda luce.
+~
+porte~
+1 -1 7912
+D5
+~
+~
+0 -1 7909
+S
+#7912
+Il balcone~
+L'aria fresca accompagna i profumi che giungono a te dalle verdi vallate
+circostanti che si stendono a perdita d'occhio per miglia e miglia verso sud.
+Guardando in basso riesci a scorgere l'ingresso dell'edificio, a nord il
+finestrone riconduce alla stanza da letto.
+~
+0 CJ 0
+D0
+Vedi l'interno della camera da letto.
+~
+porta porte~
+2 -1 7911
+D5
+You see the ground on which this castle is set. Funnily it seems to you that
+it's no more than clouds.
+~
+~
+0 -1 -1
+S
+#7913
+Il recinto del Mostro~
+Hai messo piede in quella che parrebbe la gabbia di un'enorme bestia carnivora.
+Considerando lo stato delle pareti piene di segni simili a graffi, puoi arguire
+la notevole aggressivita' dell'inquilino di questo posto.. E certo la cosa non
+ti rende felice.
+~
+0 D 0
+D3
+Sembra essere l'unica uscita.
+~
+porta gabbia recinto~
+2 -1 7904
+S
+#7914
+Salendo una grossa catena~
+Da qui si gode una bella vista di Midgaard, l'unica pecca consta nella poca
+liberta' di movimento: puoi solo salire o scendere.. A meno che tu non desideri
+avventurarti nell'aria, abbandonando l'appiglio sicuro della catena.
+~
+0 C 5
+D4
+La catena prosegue in alto, perdendosi fra le nuvole.
+~
+~
+0 -1 7916
+D5
+Sotto di te la catena e' ancorata al suolo, poco distante da un grande incrocio
+di strade.
+~
+~
+0 -1 3120
+S
+#7916
+Lungo la grande Catena di Naris~
+Continui a salire con convinzione. Piu' che l'acciaio della catena, ti sostiene
+la consapevolezza che un solo passo falso porrebbe fine alla tua esistenza.
+Ancora non hai questo grande desiderio di morire, quindi tieni salda la presa e
+affronta la scalata con coraggio!
+~
+0 C 5
+D4
+Da qui c'e' un'unica via da intraprendere, continuare a salire.
+~
+~
+0 -1 7918
+D5
+~
+~
+0 -1 7914
+S
+#7918
+La possente Catena di Naris~
+Hai quasi raggiunto la cima della enorma catena e lanciando un'occhiata veloce
+in basso a stento trattieni un moto di stupore.. Da qui si vede l'intera
+regione!
+Una luce meravigliosa accompagna le tue fatiche ma gia' intravedi un'apertura
+fra le nuvole che consente una miglior visuale degli appigli. Non lontano sopra
+le nubi si staglia la Magione di Naris, dimora dei Felcerossa, mentre guardando
+in basso la catena sembra svanire fra le nuvole.
+~
+0 C 5
+D4
+Vedi la cima della catena ed oltre questa la casa dei Felcerossa finalmente!
+~
+~
+0 -1 7900
+D5
+~
+~
+0 -1 7916
+S
+
+#0
+
+
+#RESETS
+D 0 7900   0    1	* Outside Redferne's residence north
+D 0 7901   2    1	* The Southern end of the hall south
+D 0 7902   1    1	* Redferne's Library east
+D 0 7901   3    1	* The Southern end of the hall west
+D 0 7901   1    1	* The Southern end of the hall east
+D 0 7910   3    1	* The Treasure room west
+D 0 7904   1    1	* The Northern end of the hall east
+D 0 7913   3    1	* The Monster Pen west
+D 0 7911   2    1	* Redferne's Bedroom south
+D 0 7912   0    1	* The Balcony of Redferne's Residence north
+D 0 7904   3    1	* The Northern end of the hall west
+D 0 7905   1    1	* The Sitting room of Naris east
+D 0 7906   1    1	* The Kitchen of Naris east
+D 0 7908   3    1	* The Fridge west
+D 0 7906   0    1	* The Kitchen of Naris north
+D 0 7907   2    1	* The Larder south
+M 0 7900   1 7900  1	* the Grand Knight of paladins
+E 1 5221  99   16	*   a red dragon claw
+E 1 7217  99    5	*   a silvery breast plate
+E 1 7218  99    7	*   some silvery leg plates
+E 1 7219  99    9	*   a pair of silvery gloves
+E 1 7220  99    6	*   a silvery helmet
+E 1 7221  99   11	*   the shield of the rose
+E 1 7223  99   10	*   some silvery arm plates
+E 1 7222  99    8	*   a pair of silvery boots
+E 1 7224  99   12	*   a white cloak
+G 1 7911  99     	*   a small brass key
+M 0 7901  1  7907  1	* paladin solamnia
+O 0 6013  10 7908	* the barrel
+O 0 7910   1 7910	* a wooden chest
+P 1 7298   1 7910  1	*   a huge treasure
+P 1 7208   6 7910  1	*   a small stick
+O 0 7909  10 7903	* a huge treasure
+S
+
+
+#SHOPS
+0
+
+
+#SPECIALS
+M 7900 spec_cast_cleric    	* the Grand Knight of paladins
+M 7901 spec_breath_any		* the solamnia
+S
+
+
+#OMPROGS
+M 7901 greet_prog greet_prog_solamnia
+M 7901 give_prog give_prog_solamnia
+S
+
+
+#PRACTICERS
+M 7900 group_curative		* grand knight of paladin
+S
+
+
+#$

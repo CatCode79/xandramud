@@ -1,0 +1,3535 @@
+#AREA
+moria.are~
+Moria~
+{ 5 15} Jamirithiana    Moria~
+3900 4199
+
+#RESETMESSAGE
+Una roccia rotola in lontananza, rompendo il silenzio del luogo..~
+
+
+#HELPS
+0 'T2TEAM MORIA'~
+Quest'area e' stata tradotta, modificata da Jamirithiana e testata dal T2Team.
+L'autore dell'area originale e' Alfa.
+Per altre risorse Mud visitare il sito http://www.terra-secunda.net
+~
+
+0 $~
+
+
+#MOBILES
+#4000
+serpente pitone~
+Un velenoso pitone~
+Un grosso serpente solleva il capo di scatto e sibila minaccioso verso di te.
+~
+Ti sta fissando, incurva il corpo flessuoso lentamente.
+Forse si sta preparando all'attacco.
+~
+snake~
+ABF D -200 0
+11 2 11d9+110 1d1+99 3d4+2 bite
+-1 0 3 6
+FHNOR 0 F 0
+stand stand either 0
+0 0 large 0
+#4001
+piccolo serpente arrotolato~
+Un piccolo serpente~
+Un piccolo serpente arrotolato sulle sue spire volta il capo verso di te.
+~
+Sembra inoffensivo.. ma chi puo' dirlo con certezza?
+~
+snake~
+ABU 0 -100 0
+7 0 7d7+60 1d1+99 1d10+1 bite
+2 3 5 8
+FHR 0 E 0
+stand stand either 0
+0 0 small 0
+#4002
+millepiedi~
+Un millepiedi~
+Un piccolo millepiedi striscia lentamente lungo il pavimento cercando qualcosa
+di cui cibarsi..
+~
+Sembra immerso nella sua ricerca, e quindi completamente innocuo..
+~
+centipede~
+ABU 0 100 0
+3 0 3d3+30 1d1+99 1d6+0 sting
+6 7 9 10
+FR 0 0 0
+stand stand none 0
+0 0 tiny 0
+#4003
+coboldo~
+Un Coboldo~
+Un orrendo Coboldo mugugna rumorosamente in un angolo..
+~
+E' talmente brutto che pure sua madre deve aver provato ribrezzo quando l'ha
+messo al mondo..
+~
+kobold~
+ACGT 0 -100 0
+4 0 4d4+40 1d1+99 1d4+1 claw
+7 7 7 10
+R 0 0 0
+stand stand either 18
+0 0 small 0
+#4004
+orco~
+Un Orco~
+Un Orco spalanca le fauci ringhiando sinistramente.
+forse e' meglio stargli alla larga..
+~
+Ti guarda negli occhi con una vena di ferocia..
+~
+orc~
+ACFGT 0 -400 0
+5 2 6d5+50 1d1+199 1d6+3 beating
+7 7 7 10
+CDNR 0 C 0
+stand stand male 60
+B 0 medium 0
+#4005
+orco grosso~
+Un grosso Orco~
+Un grosso Orco si guarda nervosamente attorno in cerca di qualcuno di piccola
+mole da acciuffare
+~
+Si muove continuamente ringhiando e sbuffando..
+~
+orc~
+ACGT 0 -500 0
+7 1 6d7+70 1d1+99 1d8+2 punch
+4 5 5 8
+CJR 0 0 0
+stand stand either 120
+0 0 medium 0
+#4050
+guerriero~
+Un Guerriero~
+Un Guerriero dalla statura elevata e' qui, si guarda attorno e sembra spaventato
+almeno quanto te!
+~
+E' sicuramente forte e coraggioso almeno quanto tu lo sei..
+~
+human~
+ABCFT 0 -300 0
+12 3 10d12+120 1d1+149 1d8+4 punch
+1 -1 2 5
+CIQR 0 0 0
+stand stand male 300
+0 0 medium 0
+#4051
+guerriero ~
+Un vecchio Guerriero~
+Un vecchio Guerriero e' qui. Potrebbe avere l'eta' di tuo padre.
+~
+Dai suoi occhi profondi emerge la tua totale conoscenza in fatto di armi..
+Forse ti mostrera' la sua abilita'.. o forse no..
+~
+human~
+ACFT 0 -400 0
+7 2 8d7+70 1d1+99 1d7+2 punch
+4 5 4 8
+CIQR 0 0 C
+stand stand male 140
+0 0 medium 0
+#4052
+hobgoblin piccolo~
+Un piccolo Hobgoblin~
+Un piccolo Hobgoblin piagnucola rintanato in un cantuccio .
+~
+Guardandolo con attenzione ti accorgi che sta tremando e che ha gli occhi pieni
+di lacrime. Provi compassione per la sua condizione?
+~
+hobgoblin~
+ACGHT 0 -300 0
+6 0 6d6+40 1d1+99 1d6+1 beating
+6 5 5 8
+N 0 0 C
+stand stand male 12
+0 0 medium 0
+#4053
+serpentello~
+Un serpentello~
+Un esile serpentello marrone striscia lentamente verso di te..
+~
+Socchiude gli occhi avanzando.. e' affamato..
+~
+snake~
+ABFU 0 -600 0
+10 1 4d10+100 1d1+99 2d6+1 bite
+0 2 2 5
+FGNR 0 EF 0
+stand stand either 0
+0 0 medium 0
+#4054
+millepiedi~
+Un millepiedi~
+Un millepiedi bianco gironzola distrattamente..
+~
+Pare che non si sia accorto della tua presenza, al momento.
+~
+centipede~
+ABU 0 -100 0
+5 0 5d5+50 1d1+99 1d8+0 sting
+4 7 5 10
+FR 0 0 0
+stand stand none 0
+0 0 small 0
+#4055
+hobgoblin robusto~
+Un robusto Hobgoblin~
+Un robusto Hobgoblin si volta a guardarti.
+~
+Gocce di sangue e bulbi oculari mezzo masticati gli pendono dalle labbra..
+e' decisamente disgustoso..
+~
+hobgoblin~
+ACGT 0 -500 0
+10 2 2d10+120 1d1+149 2d4+3 punch
+2 2 1 5
+CDJR 0 C 0
+stand stand male 210
+0 0 medium 0
+#4056
+orco~
+Un Orco~
+Un Orco e' qui, vaga alla ricerca di qualcosa.. o qualcuno.. da mangiare.
+~
+Sbava vistosamente appena si accorge di te.. ha davvero appetito..
+Non dev'essere piacevole fargli da spuntino..
+~
+orc~
+ACFGT 0 -800 0
+8 1 3d10+90 1d1+99 1d8+2 beating
+3 3 2 5
+CNR 0 0 0
+stand stand either 60
+0 0 medium 0
+#4057
+leone montagna~
+Un leone di montagna~
+Un leone di montagna spalanca le fauci ruggendo rumorosamente.
+Scuote il capo scrollando la folta criniera..
+~
+Gli orribili artigli ricurvi e le grosse zanne aguzze mostrano chiaramente la
+sua possenza.. cerca di non essere la sua prossima vittima..
+~
+cat~
+AFG 0 -100 0
+9 2 4d10+100 1d1+99 2d6+1 claw
+0 0 0 4
+ER 0 E 0
+stand stand either 0
+0 0 large 0
+#4058
+cumulo gigantesco montagnella~
+Un gigantesco Cumulo di terra~
+Posto in un angolo c'e' un gigantesco Cumulo di terra.
+Rigurgita rocce e pietrisco tutt'intorno.
+~
+E' alto circa nove piedi e dal suo comportamento disordinato ed istintivo
+comprendi che non e' affatto un essere dotato di intelligenza..
+~
+giant~
+AGT 0 0 0
+13 2 10d10+150 10d10+100 2d6+6 smash
+0 -2 0 4
+DOR 0 D 0
+stand stand male 500
+0 0 huge 0
+#4100
+mago uomo~
+Un Mago~
+Un piccolo uomo dinoccolato e' immerso in una riflessione profonda.
+Da come e' abbigliato sembra un Mago o comunque uno che si diletta con artefatti
+e formule magiche.
+~
+Per quanto e' snodato ti rendi conto che sarebbe capace di sedersi mostrandoti
+il volto e allo stesso tempo allacciare le membra all'indietro!
+~
+human~
+ABCFR D -100 0
+13 1 7d5+130 13d10+100 1d6+2 punch
+-2 -2 -2 2
+FQ 0 C 0
+stand stand male 400
+0 0 medium 0
+#4101
+troll~
+Un Troll~
+Un grosso Troll ti corre incontro appena ti vede! Attento, sta cercando di
+catturarti!
+~
+Sembra molto agile nonostante la mole e sembra che voglia qualcosa di tenero da
+masticare.. qualcosa che somiglia a.. te!
+~
+troll~
+ABCFT 0 -800 0
+12 2 7d10+150 5d10+100 2d7+3 claw
+0 -3 2 6
+CEOR 0 0 0
+stand stand male 200
+0 0 large 0
+#4102
+guardiano serpente~
+Un grosso serpente~
+Un grosso serpente dalle scaglie lucide fa la guardia a qualcosa..
+~
+Attento.. come avvicini la mano per toccare qualcosa qui, il serpente allunga
+paurosamente il collo nell'intento preciso di morderti!
+~
+snake~
+ABCF 0 -700 0
+10 2 4d10+100 1d1+99 2d6+1 bite
+0 0 2 6
+HMNOR 0 F G
+stand stand either 0
+0 0 medium 0
+#4103
+ladruncolo ladro essere smilzo~
+Un Ladruncolo~
+Un essere smilzo tutto vestito di scuro si muove sinuosamente nell'ombra.
+~
+Bene.. conta un po' il tuo denaro, ora..!
+~
+human~
+ACHS PQ -100 0
+8 1 6d8+80 1d1+99 1d5+1 punch
+2 4 3 7
+EFJN 0 0 0
+stand stand either 100
+0 0 medium 0
+#4104
+orco~
+Un Orco~
+Un disgustoso Orco ha appena finito di mangiare..
+~
+Acc.. ti ha appena ruttato in faccia! Ma l'educazione qui difetta parecchio!
+~
+orc~
+ACFGHT 0 -200 0
+7 1 7d7+70 1d1+99 1d8+3 punch
+4 5 5 8
+CJR 0 0 0
+stand stand male 150
+0 0 medium 0
+#4105
+millepiedi~
+Un millepiedi~
+Un inoffensivo millepiedi striscia sul selciato in cerca di una fibra vegetale
+con cui nutrirsi..
+~
+Non si e' accorto di te. Probabilmente per lui non rappresenti nulla di
+importante.
+~
+centipede~
+ABU 0 300 0
+6 1 8d5+50 1d1+99 2d4+1 sting
+3 6 4 10
+FR 0 0 0
+stand stand none 0
+0 0 small 0
+#4106
+guerriero~
+Un Guerriero~
+Un giovane Guerriero ridacchia perfidamente verso di te..
+~
+Non sembra un tipo disposto a fraternizzare facilmente..
+~
+human~
+ACFGT 0 -300 0
+9 2 4d10+130 1d1+99 1d8+3 punch
+3 2 4 6
+CJQU 0 0 0
+stand stand male 300
+0 0 medium 0
+#4107
+coboldo~
+Un Coboldo~
+Un curioso Coboldo, dalla pelle completamente verde zoppica verso il muro della
+caverna..
+~
+Si trascina lentamente ed ogni tanto si ferma..come adesso..
+Ops! Sta vomitando!
+~
+kobold~
+ACFGT 0 -100 0
+7 1 8d4+50 1d1+99 2d4+1 claw
+5 5 5 10
+NR 0 0 0
+stand stand either 25
+0 0 small 0
+#4150
+pipistrello blu~
+Un pipistrello blu~
+Un pipistrello blu taglia l'aria e vola in circolo formando scie elettriche
+nell'aria.
+~
+Attenzione, se vola in basso potresti essere fulminato da un colpo d'ala..
+~
+bat~
+ABF 0 -100 0
+7 1 3d10+70 1d1+99 1d9+1 shbite
+4 4 4 6
+R J 0 RYZ
+stand stand either 0
+0 0 tiny 0
+#4151
+pipistrello rosso~
+Un pipistrello rosso~
+Un pipistrello rosso fuoco e' sospeso a testa in giu' ad una trave nel soffitto.
+~
+Ti senti avvolto da un calore improvviso. Sara' febbre?
+~
+bat~
+ABF 0 -100 0
+7 1 3d10+70 1d1+99 1d9+1 flbite
+4 4 4 6
+R H 0 IR
+stand stand either 0
+0 0 tiny 0
+#4152
+pipistrello verde~
+Un pipistrello verde~
+Un pipistrello verde vola di muro in muro sollevando melma col battito d'ali..
+~
+Ma che schifo! Se non stai attento ti ritroverai schizzato di roba verdognola..
+~
+bat~
+ABF 0 -100 0
+7 1 3d10+70 1d1+99 1d9+1 bite
+4 4 4 6
+R L 0 0
+stand stand either 0
+B 0 tiny 0
+#4153
+pipistrello bianco~
+Un pipistrello bianco~
+Un pipistrello bianco e' fermo sul soffitto.
+Senti la temperatura dell'ambiente scendere vorticosamente fino a gelare..
+~
+Mmm.. e' complicato distinguere questo immobile essere alato dai piccoli coni
+di ghiaccio che lo circondano..
+~
+bat~
+ABF 0 -100 0
+7 1 3d10+70 1d1+99 1d9+1 frbite
+4 4 4 6
+R I 0 H
+stand stand either 0
+0 0 tiny 0
+#4154
+pipistrello nero~
+Un pipistrello nero~
+Un pipistrello nero vola di muro in muro schizzando tutt'intorno una strana
+sostanza dall'odore pungente.
+~
+Ma guarda te! Il pipistrello si sta ricoprendo da solo di acido!
+~
+bat~
+ABF 0 -100 0
+7 1 3d10+70 1d1+99 1d9+1 acbite
+4 4 4 6
+R K 0 0
+stand stand either 0
+0 0 tiny 0
+#4155
+ladruncolo figura~
+Un Ladruncolo~
+Una losca figura fa capolino tra le ombre.. per poi sparire all'istante
+~
+Non riesci a distinguere la sua forma, e' troppo rapido a sparire..
+ma indubbiamente sta facendo qualcosa di costruttivo. Almeno per se stesso..
+~
+human~
+ACGS BQ 400 0
+12 2 3d20+130 1d1+99 2d4+3 punch
+2 0 0 6
+BFJNQU 0 0 0
+stand stand male 500
+0 0 medium 0
+#4156
+troll grosso~
+Un grosso Troll~
+Un orribile grosso Troll e' qui e sta bofonchiando rumorosamente tra i denti..
+~
+Sembra tranquillo e disinteressato a te. Almeno per ora..
+~
+troll~
+ABCFT 0 -700 0
+14 3 8d20+140 14d4+100 3d4+5 claw
+-1 -3 -1 4
+CEOR 0 0 C
+stand stand male 1000
+0 0 huge 0
+#4157
+mago uomo~
+Un Mago~
+Un piccolo uomo e' immerso nello studio di un grosso libro di incantamenti.
+Ha tutta l'aria di essere un Mago.
+~
+Sta fermo ed ha la testa completamente immersa nel libro di magia.. sarebbe
+sconveniente distrarlo dai suoi studi..
+~
+human~
+ACFGR 0 -200 0
+11 0 4d10+100 11d12+100 1d6+1 beating
+0 0 0 2
+QU 0 C 0
+stand stand male 200
+0 0 medium 0
+#4158
+serpente~
+Un serpente~
+Un serpente dalle squame brune ti si avvicina sibilando.
+~
+Mmm.. qualcosa ti dice che vuole tanto usarti come spuntino..
+~
+snake~
+ABFU 0 200 0
+9 1 2d10+100 1d1+99 1d12+1 bite
+1 3 3 6
+FGNR 0 EF 0
+fight fight either 0
+0 0 medium 0
+#4159
+troll~
+Un piccolo Troll~
+Un piccolo Troll danza felicemente.. e canticchia pure!
+~
+Peccato che non si renda conto di quanto sia sgraziato anche nel ballo..
+~
+troll~
+ACFGT 0 -300 0
+8 2 3d10+80 8d4+100 2d5+2 bite
+3 1 3 6
+EJR 0 0 0
+stand stand male 100
+0 0 large 0
+#4160
+orco grosso~
+Un grosso Orco~
+Un grosso Orco si volta, ti vede e ringhia sinistramente contro di te.
+~
+Sembra non abbia gradito la tua presenza. Decisamente.
+~
+orc~
+ACFGT 0 -200 0
+9 1 3d10+100 1d1+99 1d8+2 beating
+2 2 1 5
+CJNR 0 0 0
+stand stand either 150
+0 0 medium 0
+#0
+
+#OBJECTS
+#4000
+anello giallo verde~
+Un anello giallo e verde~
+Un anello dalle screziature giallo-verdi e' posato in terra.
+E' decisamente molto vecchio.~
+copper~
+treasure 0 AB
+0 0 0 0 0
+0 10 0 A
+A
+1 -2
+E
+anello~
+E' spesso e doppio. Forse anche pesante.
+~
+#4001
+cadavere cartografo~
+Un Cadavere~
+Un Cadavere in decomposizione avanzata e' riverso sul pavimento.~
+flesh~
+npc_corpse P A
+0 0 0 0 0
+0 1000 0 P
+E
+cadavere~
+Indubbiamente sono i resti di un cartografo, a giudicare dal fatto che l'ossuta
+mano regge ancora in pugno un brandello di mappa..
+~
+#4002
+mucchietto monete~
+Alcune monete~
+Un mucchietto di monete giace in terra.~
+silver~
+money 0 A
+200 3 0 0 0
+0 5000 0 P
+#4003
+pugnale arrugginito~
+Un pugnale arrugginito~
+Scorgi in un angolo un vecchio pugnale coperto di ruggine.~
+iron~
+weapon 0 AN
+dagger 1 5 stab 0
+0 10 165 W
+A
+18 -1
+E
+pugnale~
+E' vecchio e arruginito ma ancora puo' ancora rivelarsi utile..
+~
+#4004
+frusta striscia~
+Una frusta di pelle~
+Una striscia di pelle e' arrotolata su se stessa.. puo' fungere da frusta!~
+leather~
+weapon 0 AN
+whip 1 7 whip 0
+3 30 240 G
+A
+18 1
+E
+frusta striscia~
+Non si capisce se la pelle indurita che compone questo frustino sia di un
+animale o..
+no..
+~
+#4005
+clava albero grossa~
+Una grossa clava~
+Una grossa clava e' appoggiata trasversalmente al muro.~
+wood~
+weapon 0 AN
+mace 2 9 crush F
+14 250 780 G
+A
+18 -2
+E
+clava albero~
+E' la piu' grossa clava che tu abbia mai visto! E' l'opera di un gigante,
+sicuramente..
+infatti e' ricavata da un tronco levigato e.. ancora reca all'apice le radici
+dell'albero originario!
+~
+#4006
+pelliccia ammasso~
+Vari pezzi di pelliccia~
+Un maleodorante ammasso di pelliccia e' gettato in un angolo accanto alla
+parete.~
+fur~
+armor 0 AK
+5 6 5 1 3
+8 100 510 A
+A
+2 -1
+E
+pelliccia ammasso~
+E' composto da pezzi di pelliccia, indubbiamente pesanti e puzzolenti e
+sicuramente trasportarli rallenterebbe il tuo passo.. ma potrebbero fornire
+un'adeguata protezione..
+~
+#4050
+pozione violacea ampolla~
+Una pozione violacea~
+Un'ampolla violacea e' appoggiata al pavimento.~
+glass~
+potion 0 AO
+13 'cure blindness' 'sanctuary' '' ''
+11 10 720 G
+E
+pozione violacea ampolla~
+Il liquido all'interno dell'ampollina e' stranamente denso..
+~
+#4051
+elmo metallo~
+Un elmo di metallo~
+In terra c'e' un elmo di metallo.~
+iron~
+armor G AE
+4 4 3 2 1
+5 40 650 G
+A
+20 -1
+E
+elmo metallo~
+Non e' ben tenuto, presenta qualche ammaccatura ma e' pur sempre un copricapo..
+~
+#4052
+fungo~
+Un fungo~
+In un angolo coperto da umidita' e' cresciuto un piccolo fungo.~
+food~
+food 0 A
+2 2 0 1 0
+0 10 0 G
+E
+fungo~
+Prendilo pure ma prima di mangiarlo.. pensaci..!
+~
+#4053
+daga~
+Una daga~
+Una bella daga intagliata e' stata dimenticata qui.~
+steel~
+weapon G AN
+dagger 2 5 stab 0
+8 20 590 G
+A
+19 1
+A
+18 1
+E
+daga~
+Questa daga e' di media lunghezza, e' finemente lavorata ed e' composta da una
+particolare lega di metallo grigio scuro.
+La sua lama sottile e' a doppio filo.. ogni ladro ne vorrebbe una..
+~
+#4054
+ascia guerra~
+Un'ascia da guerra~
+Posata in terra c'e' un'affilata ascia da guerra.~
+steel~
+weapon G AN
+axe 3 4 chop 0
+12 70 930 P
+A
+19 1
+E
+ascia~
+E' talmente affilata che se solo sfiori la sua lama con un dito potresti
+tagliarti..
+~
+#4055
+spada grossa larga~
+Una grossa spada~
+Una bella spada, dal piatto largo, e' stata lasciata qui.~
+steel~
+weapon 0 AN
+sword 1 10 chop 0
+6 80 550 G
+E
+spada~
+E' pregevole la sua fattura, ma non appare abbastanza semplice da gestire..
+forse per il suo peso..
+~
+#4056
+correggia~
+Una correggia~
+Una correggia a sfere chiodate e' stata lasciata qui.~
+iron~
+weapon 0 AN
+flail 1 7 smash 0
+3 70 290 A
+A
+17 1
+A
+19 2
+E
+correggia~
+Il corpo della correggia e' di legno duro e due sfere chiodate sono legate alle
+estremita'..
+~
+#4057
+mazza ferro pesante~
+Una pesante mazza di ferro~
+Una larga mazza di ferro e' stata dimenticata qui.~
+iron~
+weapon 0 AN
+mace 2 4 pound 0
+6 100 390 G
+A
+19 1
+E
+mazza~
+Una sfera di ferro montata su una pesante mazza da guerra.
+~
+#4058
+falce spada ricurva~
+Una falce~
+Per terra vedi una grossa spada ricurva.~
+iron~
+weapon 0 AN
+sword 2 4 chop 0
+5 80 490 G
+E
+falce~
+La lama e' curva come quella delle scimitarre, solo che e' piu' corta e anche il
+manico e' differente.
+~
+#4059
+arma comune~
+Un'arma comune~
+Una lunga arma da taglio, dalla lama ricurva, e' appoggiata al suolo.~
+iron~
+weapon 0 AN
+polearm 2 6 slash F
+10 120 520 A
+A
+17 -1
+E
+arma comune~
+Una via di mezzo tra un coltello, uno spadino, una mazza..
+~
+#4100
+lama nera demoniaca~
+Una lama nera~
+Giace in terra una demoniaca lama nera.~
+adamantite~
+weapon GJL AN
+sword 3 4 cleave CF
+11 80 940 P
+E
+lama~
+Attento.. se usi questa lama potrai essere contagiato dalla sua malvagita'..
+~
+#4101
+guanti~
+Guanti da schermitore~
+Un paio di guanti e' stato lasciato qui. Sembra siano parte di un
+equipaggiamento completo~
+leather~
+armor G AH
+1 3 3 1 1
+7 10 730 G
+A
+19 1
+A
+18 1
+E
+guanti~
+Fanno parte dell'equipaggiamento di uno spadaccino, indubbiamente.
+~
+#4102
+pergamena ysafg~
+Una pergamena intitolata "ysafg"~
+Una pergamena giace in terra, e' molto vecchia e percio' fragilissima..~
+parchment~
+scroll G AO
+10 'identify' '' '' ''
+7 10 840 W
+E
+pergamena~
+Mmm c'e' scritto solo.. "ysafg"
+~
+#4103
+melma chiazza~
+Una chiazza di melma verdognola~
+Una chiazza di melma verdastra sgocciola da una parete.. e' disgustoso anche
+l'odore che emana..~
+food~
+food P A
+24 24 0 0 0
+0 10 0 G
+E
+melma chiazza~
+Mmm.. non e' cibo.. almeno, non per te!
+~
+#4104
+chiazza melma~
+Una chiazza di melma verdognola~
+Una chiazza di melma verdastra sgocciola da una parete.. e' disgustoso anche
+l'odore che emana..~
+food~
+food P A
+24 24 0 1 0
+0 10 0 G
+E
+melma chiazza~
+Mmm.. non e' cibo.. almeno, non per te!
+~
+#4105
+bastone ferro~
+Un sottile bastone di ferro~
+Un sottile bastone sormontato da un globo di ferro e' poggiato al muro.~
+iron~
+weapon 0 AN
+staff 2 5 pound F
+10 60 630 G
+A
+17 -2
+E
+bastone~
+arma perfetta..sia per un mago che per un guerriero..!
+~
+#4150
+pozione nera nero liquido ampollina~
+Una pozione nera~
+Un'ampollina piena di liquido nero e' stata lasciata qui, in terra..~
+glass~
+potion G AO
+9 'cure critical' '' '' ''
+5 10 320 G
+E
+pozione nera liquido nero~
+Mmm non riesci proprio ad identificarne le qualita'..
+~
+#4151
+bacchetta quercia legno~
+Una spessa bacchetta~
+Un'antica bacchetta di spesso legno di quercia e' stata dimenticata qui.~
+wood~
+staff G AO
+15 4 2 'harm' 0
+13 50 5400 G
+A
+12 -20
+E
+rune~
+Le Rune recitano: Funthark. E cosa mai significhera'?
+~
+E
+bacchetta quercia~
+Vi sono alcune strane Rune incise sopra..
+~
+#4152
+pugnale luminoso sottile argentato~
+Un sottile pugnale argentato~
+Un luminoso pugnale d'argento e' appoggiato al suolo.~
+silver~
+weapon 0 AN
+dagger 2 4 stab 0
+7 20 660 P
+A
+17 -1
+A
+18 1
+E
+pugnale luminoso sottile argentato~
+E' l'arma preferita dai ladri..
+~
+#4153
+stella mattino mattutina~
+Una stella mattutina~
+Qualcosa e' qui in terra, ricorda una stella mattutina..
+E' pesante ed e' fornita di punte chiodate.~
+iron~
+weapon 0 AN
+mace 2 6 smash 0
+9 120 270 G
+A
+2 -1
+A
+19 1
+E
+stella mattutina~
+E' una mazza di legno sormontata da una sagoma in ferro recante il simbolo di
+una lucida stella. Le sue punte terminano con bordature chiodate. Pericolsa!
+~
+#4154
+mappa moria secondo livello~
+La Mappa del Secondo Livello di Moria~
+Vedi in terra una mappa arrotolata.~
+paper~
+map 0 A
+1 0 0 0 0
+0 10 100 W
+E
+Mappa del Secondo Livello di Moria~
+.
+    * * * MORIA - Mappa 2 * * *
+     = = =============== = =
+
+Dedalo--Dedalo
+ |        |     (Mappa 1)
+ |      Dedalo--Galleria*
+ |
+Dedalo--Dedalo--Dedalo--Dedalo
+                 |
+      Ampia---Ampia
+     Caverna Caverna
+        |       |
+       Ampia--Ampia--Galleria--Fine della
+     Caverna Caverna    |      Galleria
+                    *Buco
+                   (Mappa 3)
+~
+#4155
+mappa moria terzo livello~
+La Mappa del Terzo Livello di Moria~
+Una mappa arrotolata e' qui.~
+paper~
+map 0 A
+1 0 0 0 0
+0 10 200 G
+E
+Mappa del Terzo Livello di Moria~
+.
+                                                     (Mappa 1*)
+                         Galleria                        |
+    Galleria--Galleria----Lunga---Galleria--Galleria--Galleria
+        |                   |
+        |                Caverna---Caverna
+        |                Dorata    Dorata
+        |                   |      |
+        |              Caverna--Caverna--Passaggio
+        |              Dorata   Dorata     |
+        |                  |             Passaggio--Galleria--Galleria--Galleria
+        |   Passaggio*---Caverna           |
+        |     Buio       Dorata            |     Stanza
+        |                              Passaggio Segreta
+        |                       Buco       |       |
+        |                        |     Passaggio Stanza
+     Ampia    Ampia   Ampia     Piccolo    |     Segreta---Caverna--Caverna
+   Galleria--Galeria--Galleria--Passaggio  |                  |      |
+        |                        |     Passaggio-----------Caverna--Caverna
+        |                     Galleria
+        |                      Lunga
+    Galleria  Piccolo Piccolo    |
+     Umida----Dedalo--Dedalo Iscrizione
+        |       |       |        |
+   Galleria Piccolo--Piccolo--Piccolo
+     Umida  Dedalo   Dedalo    Dedalo
+        |       |                |
+        |      Dedalo  Dedalo  Fine della
+      Acqua    Umido---Umido---Galleria
+        |        |       |
+      Acqua---Acqua  Fine del
+                     Dedalo*
+                     (Mappa 2)
+~
+#0
+
+#ROOMS
+#3900
+La Strada Occidentale nei pressi di Midgaard~
+Sei appena giunto alla polverosa strada che costeggia le mura
+esterne di Midgaard. A est la muraglia s'erige altissima e
+impraticabile mentre guardando verso occidente si intravede la
+Foresta di Haon-Dor. La strada collega i versanti meridionale
+e settentrionale snodandosi lungo le mura.
+~
+0 0 2
+D0
+Una strada polverosa serpeggia snodandosi verso nord.
+~
+~
+0 -1 3901
+D2
+Una strada impolverata conduce fuori del cancello occidentale di Midgaard.
+~
+~
+0 -1 3052
+S
+#3901
+La Strada Occidentale nei pressi di Midgaard~
+Stai proseguendo lungo questa polverosa strada, fuori dalle mura
+di Midgaard. Ancora dal versante occidentale e visibile
+la Foresta di Haon-Dor mentre quello orientale affianca la muraglia.
+La strada prosegue ancora da sud a nord, costeggiando le mura.
+~
+0 0 2
+D0
+La strada si piega ad angolo, di pari passo con le mura cittadine.
+~
+~
+0 -1 3902
+D2
+La polverosa strada continua verso sud.
+~
+~
+0 -1 3900
+S
+#3902
+L'Angolo Nord-Ovest della Strada.~
+Sei arrivato all'angolo nord-occidentale delle mura cittadine.
+La strada piega cosi' verso est seguendo il cordone della muraglia,
+volgendo invece lo sguardo a sud, intravedi da lontano il cancello
+meridionale di Midgaard.
+~
+0 0 2
+D1
+La strada impolverata prosegue ancora costeggiando le mura di Midgaard.
+~
+~
+0 -1 3903
+D2
+La polverosa strada conduce al Cancello cittadino proseguendo verso sud.
+~
+~
+0 -1 3901
+S
+#3903
+La Strada lungo le Mura Settentrionali di Midgaard.~
+Stai ancora percorrendo la polverosa strada all'esterno delle
+mura settentrionali di Midgaard. I tuoi passi sono
+attutiti dal pulviscolo che ricopre il selciato..
+~
+0 0 2
+D1
+Lo stradone impolverato segue ancora le mura settentrionali di Midgaard.
+~
+~
+0 -1 3904
+D3
+Qui la strada polverosa si piega ad angolo seguendo ancora la muraglia, e
+conduce alla Foresta di Haon Dor.
+~
+~
+0 -1 3902
+S
+#3904
+Seguendo le Mura Settentrionali di Midgaard.~
+Sei all'esterno del Cancello settentrionale di Midgaard.
+Riesci a mala pena a distinguere gli edifici
+della citta'.. il solo Tempio appare nella sua impressionante
+estensione anche a questa distanza. Puoi proseguire seguendo la
+strada che gira ancora verso est, salire a nord o ritornare in citta'
+scendendo a sud.
+~
+0 0 2
+D0
+Un piccolo sentiero si snoda tra le distese pianeggianti.
+~
+~
+0 -1 300
+D1
+Lo stradone impolverato segue ancora le mura settentrionali di Midgaard.
+~
+~
+0 -1 3905
+D2
+Scorgi il Cancello Settentrionale di Midgaard.
+~
+~
+0 -1 3268
+D3
+Lo stradone impolverato segue ancora le mura settentrionali di Midgaard.
+~
+~
+0 -1 3903
+S
+#3905
+Seguendo le Mura Settentrionali di Midgaard~
+Sei ancora sulla via del grande stradone che costeggia le
+mura esterne a nord di Midgaard.
+~
+0 0 2
+D1
+Lo stradone impolverato piega ad angolo seguendo la muraglia.
+Intravedi una catena montuosa apparire in lontananza..
+~
+~
+0 -1 3906
+D3
+Lo stradone impolverato segue ancora le mura settentrionali di Midgaard.
+~
+~
+0 -1 3904
+S
+#3906
+L'Angolo Nord-Est della Strada~
+Sei giunto al punto dove la muraglia esterna a Midgaard piega
+formando un angolo nord-orientale. La strada mostra il muro di nord
+legato al versante occidentale, mentre prendendo la strada a sud si
+torna al Cancello cittadino.
+~
+0 0 2
+D2
+Lo stradone polveroso conduce al Cancello settentrionale di Midgaard.
+~
+~
+0 -1 3907
+D3
+Lo stradone impolverato segue ancora le mura settentrionali di Midgaard.
+~
+~
+0 -1 3905
+S
+#3907
+La Strada Orientale nei pressi di Midgaard~
+Sei sulla strada che costeggia le mura esterne di Midgaard.
+Alla tua sinistra la muraglia e' alta e sovrasta
+ogni cosa mentre dal versante orientale s'affaccia alla vista
+di una catena montuosa e, sebbene sia ancora parecchio lontana,
+appare ad ogni modo smisurata.
+La strada prosegue ancora lungo le mura, a nord e a sud.
+~
+0 0 2
+D0
+A nord la strada prende una svolta, seguendo il percorso delle mura cittadine.
+~
+~
+0 -1 3906
+D2
+La strada polverosa prosegue verso sud.
+~
+~
+0 -1 3908
+S
+#3908
+La Strada Orientale nei pressi di Midgaard~
+Continua ancora questo stradone polveroso, estendendosi di pari passo alla
+muraglia esterna di Midgaard. Il versante laterale ad occidente e' stretto dal
+perimetro del muro mentre quello orientale mostra ancora la catena montuosa in
+lontananza.. L'unica prosecuzione e' verso nord, costeggiando ancora le mura..
+~
+0 0 2
+D0
+Lo stradone impolverato segue ancora le mura settentrionali di Midgaard.
+~
+~
+0 -1 3907
+D2
+Lo stradone impolverato conduce all'esterno del Cancello orientale
+di Midgaard.
+~
+~
+0 -1 3053
+S
+#4000
+Le Colline Oscure~
+Sei finito su un piccolo sentiero che s'inerpica tra le colline..
+Sei disorientato, ma proseguire e'l'unica cosa da fare, almeno per ora..
+Il meridione s'affaccia su una splendida vista: una sconfinata distesa
+pianeggiante..
+A nord invece, le colline continuano allungando i loro picchi ed assumono man
+mano un aspetto oscuro ed imponente.
+A volte hai l'impressione che il male permei queste silenti colline, un solo
+uccello taglia in volo l'aria in questo luogo.
+Volgendo il capo alla tua destra vedi le montagne circostanti il Regno dei Nani:
+ci sei vicino ma non abbastanza, riconosci appena le Miniere, da
+quest'angolazione..
+~
+0 C 4
+D0
+Prosegue il tortuoso percorso degli oscuri colli..
+~
+~
+0 0 4001
+D1
+Le vaste montagne nere circostanti il Regno dei Nani.
+~
+~
+0 0 6562
+D2
+Prosegue il viottolo sulla sconfinata distesa pianeggiante.
+~
+~
+0 0 3500
+S
+#4001
+Le Colline Oscure~
+Prosegui e ti trovi completamente circondato da queste silenziose colline oscure
+e sinistre.
+Benche' esse siano ancora distanti da te ti appaiono comunque sconfinate ed
+opprimenti. Ti sovrastano.. Cominci a pensare che il piccolo sentiero sia stato
+progettato per confondere i viandanti, dato che spesso finisci col percorre
+alcune diramazioni inutilmente.. accorgendoti solo alla fine di essere tornato
+al punto di partenza.
+Verso sud le colline assumono un aspetto meno oscuro e piu' rassicurante mentre
+verso nord esse appaiono quasi fuse con le distanti montagne nere.
+~
+0 C 4
+D0
+Scorgi la terminazione del sentiero, da questa parte..
+~
+~
+0 0 4002
+D2
+Il sentiero attraverso gli oscuri poggi.
+~
+~
+0 0 4000
+S
+#4002
+La Fine del Sentiero~
+A questo punto il percorso mostra il suo vero epilogo.
+Termina qui, come rannicchiato nella terra.. come se fosse giunto fin qui solo
+per condurci proprio te..
+Ti sembra di sentire mille voci soffocate invocare aiuto, ma forse e' solo la
+tua immaginazione.. Deglutisci adagio e ti guardi intorno cercando di scacciare
+il pesante senso di inquietudine che ti attanaglia. Noti solo una macchia di
+rovi e cespugli. Fermi lo sguardo affinche' si abitui alla vista dello
+scenario.. ed e' cosi' che scorgi un liso cartello di legno accanto all'entrata
+di quella che sembra essere una caverna o.. una tomba..
+~
+0 C 4
+D0
+Una caverna seminascosta da cespugli e rovi.
+~
+~
+0 0 4010
+D2
+Da qui il sentiero scende a ritroso.
+~
+~
+0 0 4001
+E
+cartello legno liso~
+Inciso nella superficie rovinata del legno:
+
+        /---------------------\
+        |  .     .  - ___   . |
+        |    -    .           |
+        |  MINIERE di MORIA   |
+        |  _ .   .      .  -  |
+        | .          .      _ |
+        \---------------------/
+                 | |
+                 | |
+                 | |
+                 | |
+~
+E
+rovi cespugli~
+Intricati cespugli di rovi e spine seguono il versante meridionale.
+~
+S
+#4010
+La Caverna~
+Sei all'imbocco di un'ernorme caverna della quale non riesci a vedere il
+soffitto, confuso nell'oscurita'.
+Il pavimento, tuttavia, e' estremamente illuminato e ti accorgi percio' che stai
+vacillando sopra numerose pietre tombali, distrutte e rovinate.. Solo una tra
+esse, appare eccentricamente intatta, perfetta, quasi nuova..
+Una piccola brezza di aria fresca entra da sud..
+Gonfia i tuoi polmoni e prendi un buon respiro, potrebbe essere l'ultima boccata
+di aria salubre per molto tempo..
+A nord una piccola galleria continua nella montagna.
+~
+0 AD 2
+D0
+Una piccola galleria continua nella montagna.
+~
+~
+0 0 4011
+D2
+La via del ritorno, la bocca della caverna tra i cespugli.
+~
+~
+0 0 4002
+E
+pietra tombale tomba~
+Sulla pietra tombale sono scritte, col sangue, le ultime parole di uno
+sfortunato avventore:
+
+  "Sembrava un'inezia, niente di cui preoccuparsi..solo una piccola biscia.."
+~
+S
+#4011
+La Galleria~
+Stringendoti nelle spalle e spostandoti di profilo t'infili in una galleria
+piccola e stretta i cui margini acuminati tagliano e graffiano le tue carni.
+Da sud t'arriva la percezione di un refolo fresco, cosa piuttosto insolita in
+una galleria soffocante e umida come questa. A nord la galleria prosegue.
+~
+0 AD 3
+D0
+La galleria prosegue..
+~
+~
+0 0 4014
+D2
+L'antro della caverna principale..
+~
+~
+0 0 4010
+S
+#4012
+La Galleria~
+Sei arrivato arrancando in questa parte della galleria che sembra identica a
+quanto gia' percorso ad eccezione della curvatura nord-orientale che ti si
+presenta davanti.
+A nord la galleria s'allarga in una caverna.
+~
+0 AD 3
+D0
+Un'ampia apertura s'allarga da questa direzione.
+~
+~
+0 0 4016
+D1
+Una galleria di comunicazione.
+~
+~
+0 0 4013
+S
+#4013
+la Galleria~
+Questa galleria, che lega l'est e l'ovest, sembra sia stata attraversata
+raramente. Uno spesso strato di polvere copre interamente il pavimento, l'aria
+e' pesante e soffoca.
+L'umidita' penetra le tue ossa, boccheggi.. porti una mano al petto per
+comprimere il diaframma e rilasciarlo subito dopo, tentando di ridare la
+perduta elasticita' ai polmoni..
+~
+0 AD 3
+D1
+Il percorso all'interno della galleria prosegue..
+~
+~
+0 0 4014
+D3
+Continua il condotto all'interno della galleria..
+~
+~
+0 0 4012
+S
+#4014
+La Galleria~
+Penetri a fatica, ansimando, in una stretta galleria.
+Le sue pareti non sono arrotondate, sono solo rudimentali fiancate ricavate dal
+taglio della roccia sovrastante..
+Spigoli e sporgenze lacerano la carne delle tue spalle e anche dal pavimento
+ostacoli acuminati si frappongono ad ogni tentativo di passo svelto,
+costringendoti a vacillare e ad appoggiarti di continuo.. A sud la galleria si
+restringe ed e' quasi impossibile entrarvi, mentre a nord si dilata man mano,
+fino ad aprirsi in una caverna. Alla tua sinistra vedi un'ulteriore
+ramificazione della galleria.
+~
+0 AD 3
+D0
+Il condotto si dilata dolcemente..
+~
+~
+0 0 4018
+D1
+Un'ulteriore svolta della galleria.
+~
+~
+0 0 4015
+D2
+Il condotto si restringe bruscamente..
+~
+~
+0 0 4011
+D3
+Una ramificazione della galleria.
+~
+~
+0 0 4013
+S
+#4015
+La Galleria~
+Sei finito in un punto della galleria che curva dolcemente, congiungendo ovest e
+nord. Non c'e' abbastanza chiarore e non puoi distinguere con chiarezza cosa ti
+circonda, non completamente, almeno..
+~
+0 AD 3
+D0
+Una ramificazione della galleria.
+~
+~
+0 0 4019
+D3
+Un'ulteriore svolta della galleria.
+~
+~
+0 0 4014
+S
+#4016
+Un'Ampia Caverna~
+Eccoti in un'ampia caverna, dove finalmente non dovrai misurare di continuo ogni
+tuo movimento.. La caverna prosegue tra i versanti laterali, est ed ovest,
+mentre a sud intravedi una piccola galleria.
+~
+0 AD 2
+D1
+La caverna prosegue da questa parte.
+~
+~
+0 0 4017
+D2
+Una piccola galleria si affaccia da qui.
+~
+~
+0 0 4012
+D3
+La caverna prosegue in questa direzione.
+~
+~
+0 0 4023
+S
+#4017
+L'Ampia Caverna~
+Sei giunto nella diramazione orientale dell'ampia caverna.
+L'ambiente appare sensibilmente piu' luminoso.
+~
+0 AD 2
+D3
+Una caverna abbastanza ampia.
+~
+~
+0 0 4016
+S
+#4018
+La Caverna~
+Sei nella parte meridionale della caverna, a sud intravedi una galleria.
+Rabbrividisci alla vista del lungo e buio corridoio, sul cui pavimento sono
+sparsi mucchi di ossa..
+~
+0 AD 2
+D0
+Una caverna, ancora..
+~
+~
+0 0 4025
+D2
+La galleria prosegue in questa direzione..
+~
+~
+0 0 4014
+E
+mucchi mucchio ossa~
+Data la loro forma, ti e' chiaro che non si tratta dei resti di un animale..
+~
+S
+#4019
+La Galleria~
+Sei nel punto esatto in cui il tunnel collega il versante settentrionale e
+quello meridionale.
+~
+0 AD 3
+D0
+Da qui la galleria si dirama in svariati budelli.
+~
+~
+0 0 4026
+D2
+La caverna prosegue da questa parte.
+~
+~
+0 0 4015
+S
+#4020
+Una Breccia nel Pavimento~
+Ops! Stavi per finire in questo buco posto nel nel bel mezzo del pavimento! Ti
+sei fermato in tempo.. Puoi scendere giu' o proseguire a nord.
+~
+0 ACD 3
+D0
+La galleria prosegue da questa parte.
+~
+~
+0 0 4027
+D5
+La galleria scivola dolcemente in pendenza..
+~
+~
+0 0 4064
+S
+#4021
+Una Breccia nel Pavimento~
+Guardandoti intorno ti accorgi che il pavimento presenta un pertugio.. forse
+abbastanza largo da riuscire ad infilarsi..
+~
+0 ACD 3
+D1
+Un budello umido si dirama da questo lato..
+~
+~
+0 0 4022
+D5
+Sembra a prima vista uno stretto cunicolo buio..
+~
+~
+0 0 4115
+S
+#4022
+Una Galleria Gocciolante~
+Sei finito in una galleria impregnata d'umidita'.
+Il soffitto gocciola di continuo, emettendo un ticchettio sinistro e le pareti
+trasudano acqua gelida.
+Rabbrividisci per il freddo e provi a stringerti nelle spalle ma gli abiti ormai
+fradici ti si sono attaccati addosso.. La galleria prosegue a nord, guardando
+alla tua sinistra noti una breccia nel pavimento mentre ad est si presenta
+l'ingresso di un'ampia caverna..
+~
+0 AD 3
+D0
+Occhieggia da nord la bocca di un'ampia caverna.
+~
+~
+0 0 4023
+D1
+Un budello umido diparte da qui..
+~
+~
+0 0 4024
+D3
+Ti sembra di notare uno squarcio nella pavimentazione, lungo questa direzione..
+~
+~
+0 0 4021
+S
+#4023
+L'Ampia Caverna~
+Sei giunto nella diramazione occidentale dell'ampia caverna. Attratto da uno
+strano ticchettio guardi a sud, ed intravedi una galleria gocciolante.
+~
+0 AD 2
+D1
+Il condotto raggiunge un'ampia cava.
+~
+~
+0 0 4016
+D2
+Un budello umidiccio si snoda verso sud.
+~
+~
+0 0 4022
+S
+#4024
+La Galleria Gocciolante~
+Rabbrividendo e avanzando a fatica, tra le pozze d'acqua gelida che allagano il
+pavimento di questa galleria acquosa, ne raggiungi il punto dov'essa piega,
+formando una brusca angolatura.
+Puoi prendere la via occidentale o quella a sud.
+~
+0 AD 3
+D2
+Il condotto prosegue verso questa direzione.
+~
+~
+0 0 4059
+D3
+Un budello sopraffatto dall'umidita' svolta ad ovest..
+~
+~
+0 0 4022
+S
+#4025
+La Caverna~
+Sei nella parte settentrionale della caverna.
+Alla tua destra vedi diramarsi diverse gallerie, grazie alla maggiore, sebbene
+ancora insufficiente, illuminazione dell'antro.
+~
+0 AD 2
+D1
+Il percorso si dirama in svariati bracci da qui..
+~
+~
+0 0 4026
+D2
+Ancora una caverna..
+~
+~
+0 0 4018
+D5
+Non riesci proprio a capire dove sbuchi questa strada, per quanto ti sforzi..
+~
+floor~
+1 -1 16000
+S
+#4026
+Varie Gallerie~
+Eccoti al punto d'intersezione dal quale si diramano diverse gallerie..
+Che decidi di fare?
+~
+0 AD 3
+D0
+Ancora una galleria..senti arrivare una ventata da nord..
+~
+~
+0 0 4028
+D1
+Ancora una piegata della galleria..
+~
+~
+0 0 4027
+D2
+Ancora una curva nel percorso della galleria..
+~
+~
+0 0 4019
+D3
+Una caverna s'affaccia da questo punto..
+~
+~
+0 0 4025
+S
+#4027
+La Galleria~
+Sei arrivato dove il condotto collega nord e sud.
+Guardando verso occidente vedi ancora una galleria.
+Sollevando il capo e spingendo lo sguardo verso il nord percepisci una folata
+d'aria fresca espandersi dal versante settentrionale..
+~
+0 AD 3
+D0
+Ancora una caverna..
+~
+~
+0 0 4029
+D2
+Scorgi un pertugio nella pavimentazione, a sud di qui..
+~
+~
+0 0 4020
+D3
+Svariati budelli del condotto si ramificano da questo punto.
+~
+~
+0 0 4026
+S
+#4028
+La Galleria Areata~
+Sei arrivato dove il tunnel collega nord e sud e intravedi una fievole luce
+provenire dal nord..
+Ti soffermi a guardare meglio e questo ti permette di osservare come da
+settentrione si propaghi, oltre ai bagliori luminosi, anche uno strano odore..
+~
+0 AD 3
+D0
+Un antro particolarmente illuminato.
+~
+~
+0 0 4030
+D2
+Svariate ramificazioni della galleria proseguono da questo punto del condotto.
+~
+~
+0 0 4026
+S
+#4029
+La Caverna Ventilata~
+Sei finito in una caverna stranamente ventilata..
+L'aria e' fresca e sana e sferza il tuo volto scompigliandoti i capelli.
+Ti accorgi che questo impetuoso vento rigenerante proviene da nord e,
+lanciando un'occhiata a sud invece, puoi notare una piccola galleria proseguire
+all'interno della montagna.
+~
+0 ACD 2
+D0
+Una piccola vallata si apre a settentrione.
+~
+~
+0 0 4031
+D2
+Ancora una galleria..
+~
+~
+0 0 4027
+S
+#4030
+La Caverna Illuminata~
+Eccoti nel bel mezzo di un caverna completamente rischiarata dalla luce.
+Guardando con attenzione ti accorgi che l'illuminazione proviene da uno squarcio
+nel pavimento, proprio ai tuoi piedi..
+L'unica via di ritorno sembra essere una piccola galleria a sud.
+~
+0 0 2
+D2
+Ancora una caverna dal cui antro soffia un venticello fresco.
+~
+~
+0 0 4028
+S
+#4031
+La Valle~
+Sei giunto in una piccola vallata circondata dalle colline. Lo scenario che ti
+appare e' nel complesso piacevole e distensivo ma non ti senti completamente
+sereno.. Volgendo lo sguardo a sud ti fermi a contemplare l'altezza di una
+montagna e ti sembra di scorgere al suo interno, una caverna..
+~
+0 0 2
+D0
+Le pendici del pendio.
+~
+~
+0 0 4032
+D2
+Ancora una caverna, scavata nella montagna..
+~
+~
+0 0 4029
+E
+caverna~
+Sicuramente non ha un bell'aspetto..ma e' l'unica strada che puoi prendere..
+~
+S
+#4032
+Alla Base della Collina~
+Sei su un sentiero che, serpeggiando, attraversa i morbidi colli dall'altro lato
+della montagna.
+Il sentiero si snoda continuando verso nord.
+~
+0 0 2
+D0
+Un crocicchio tra i colli.
+~
+~
+0 0 4033
+D2
+La distesa pianeggiante, a valle.
+~
+~
+0 0 4031
+S
+#4033
+Un'Intersezione nel Sentiero~
+Il piccolo sentiero che hai seguito finora ti ha portato qui: ad
+un'intersezione. Puoi percio' scegliere di proseguire a nord o a sud o invece
+puoi scegliere di seguire la pista ad est, avanzando nella direzione delle
+montagne..
+~
+0 0 2
+D0
+Una zona verdeggiante, una prateria forse..
+~
+~
+0 0 4034
+D1
+Un viottolo attraverso le colline..
+~
+~
+0 0 4037
+D2
+Le pendici del pendio.
+~
+~
+0 0 4032
+S
+#4034
+La Zona Erbosa delle Colline~
+Eccoti in una piccola prateria. L'erba e' particolarmente alta qui anche se c'e'
+qualche punto dove essa appare pestata, come se qualcosa o qualcuno l'abbia
+travolta e schiacciata col peso, lasciando al suo posto una grossa macchia
+verdastra.. qualche grosso sasso e' sparso ovunque.
+Puoi scegliere di proseguire a nord, a sud o ad ovest.
+~
+0 0 2
+D0
+Le colline si interrompono dolcemente..
+~
+~
+0 0 4035
+D2
+Un crocicchio tra i dolci poggi.
+~
+~
+0 0 4033
+D3
+Una sporgenza del pendio..
+~
+~
+0 0 4042
+S
+#4035
+Lo Scorcio del Pendio~
+Arrivi al termine della base della collina.
+Vedi le pianure distendersi a nord di qui e, sforzando ancora lo sguardo oltre,
+rivelarsi in lontananza una piccola e raccolta cittadina.
+~
+0 0 2
+D0
+Una sconfinata distesa pianeggiante.
+~
+~
+0 0 4036
+D2
+Una vasta zona erbosa, forse una prateria?
+~
+~
+0 0 4034
+S
+#4036
+Le Pianure~
+Arrivi nella distesa pianeggiante e guardando alla tua sinistra scorgi il
+bastione del Regno di Shienar, puoi seguire percio' questo viottolo per
+raggiungerlo.
+A nord invece, in lontananza, riconosci la cima frastagliata della montagna..
+~
+0 0 2
+D0
+~
+Il Sentiero per Craggy Tor attraverso le pianure.
+~
+0 0 30800
+D2
+Una prateria alle pendici del pendio.
+~
+~
+0 0 4035
+D3
+~
+Nella Zona di Confine.
+~
+0 0 23114
+S
+#4037
+Il Sentiero sulla Collina~
+Puoi solo proseguire nei versanti laterali: est oppure ovest..
+~
+0 0 2
+D1
+Si staglia qui la montagna..sei ai suoi piedi.
+~
+~
+0 0 4038
+D3
+Un crocicchio si snoda tra i dolci poggi..
+~
+~
+0 0 4033
+S
+#4038
+Ai Piedi della Montagna~
+Puoi solo proseguire nei versanti laterali: est oppure ovest..
+~
+0 0 2
+D1
+Un viottolo s'inerpica sulla montagna.
+~
+~
+0 0 4039
+D3
+Un sentiero attraversa le collinette.
+~
+~
+0 0 4037
+S
+#4039
+Un Viottolo sulla Montagna~
+Puoi solo proseguire nei versanti laterali: est oppure ovest..
+~
+0 0 2
+D1
+L'imponente vetta della montagna..
+~
+~
+0 0 4040
+D3
+La base della montagna..
+~
+~
+0 0 4038
+S
+#4040
+La Vetta della Montagna~
+Puoi proseguire nei versanti laterali est ed ovest, oppure salire verso nord..
+~
+0 0 2
+D0
+La tana di un animale.. muoviti con circospezione..
+~
+~
+0 0 4041
+D1
+Questa via non appare sicura..
+~
+~
+0 0 7114
+D3
+Ancora una pista attraverso la montagna..
+~
+~
+0 0 4039
+S
+#4041
+La Tana del Leone~
+L'unica via d'uscita e' a sud..
+~
+0 0 2
+D2
+Eh.. uscirai da qua!
+~
+~
+0 0 4040
+S
+#4042
+Un Punto del Pendio~
+Puoi solo proseguire nei versanti laterali:
+est oppure ovest..
+~
+0 0 2
+D1
+Una distesa erbosa..
+~
+~
+0 0 4034
+D3
+Ti sembra di vedere l'antro di una caverna, a ovest di qui..
+~
+~
+0 0 4043
+S
+#4043
+L'Entrata della Caverna~
+Puoi solo proseguire nei versanti laterali: est oppure ovest..
+~
+0 0 2
+D1
+Tra le colline..
+~
+~
+0 0 4042
+D3
+Una grossa caverna tra le colline..
+~
+~
+0 0 4044
+S
+#4044
+Un'Ampia Caverna nella Collina~
+L'unica via possibile e' ad est..
+~
+0 0 2
+D1
+Uscirai di qui, ovviamente..
+~
+~
+0 0 4043
+S
+#4050
+La Galleria~
+Qui la galleria piega dolcemente in una curva, continuando verso oriente e
+a sud..
+~
+0 AD 3
+D1
+Ancora una galleria..
+~
+~
+0 0 4051
+D2
+Prosegue la galleria..
+~
+~
+0 0 4053
+S
+#4051
+La Galleria~
+Sei in una strettoia della galleria, che si snoda morbidamente nei versanti
+laterali: est ed ovest.
+~
+0 AD 3
+D1
+Ancora prosegue la galleria..
+~
+~
+0 0 4052
+D3
+Ancora si snoda la galleria..
+~
+~
+0 0 4050
+S
+#4052
+La Galleria~
+Sei giunto ad una piegata della galleria, che prosegue verso meridione o ad est.
+~
+0 AD 3
+D2
+La galleria avanza..
+~
+~
+0 0 4100
+D3
+La galleria prosegue..
+~
+~
+0 0 4051
+S
+#4053
+La Galleria~
+In questo punto la galleria piega dolcemente in una curva, legando est e nord..
+~
+0 AD 3
+D0
+La galleria avanza..
+~
+~
+0 0 4050
+D1
+La galleria prosegue..
+~
+~
+0 0 4054
+S
+#4054
+La Caverna Illuminata~
+Sei in una caverna completamente rischiarata dalla vivida fiamma di un falo'
+collocato a sud di qui.
+A est ed ovest le gallerie ricominciano.
+~
+0 D 2
+D1
+Un intricato groviglio si snoda da qui, un labirinto?
+~
+~
+0 0 4055
+D2
+La galleria prosegue..
+~
+~
+0 0 4056
+D3
+La galleria avanza..
+~
+~
+0 0 4053
+S
+#4055
+Il Dedalo~
+Sei finito in un labirinto formato da innumerevoli piccole gallerie umide.
+Puoi solo andare ad ovest..
+~
+0 AD 3
+D3
+La galleria prosegue..
+~
+~
+0 0 4054
+S
+#4056
+La Caverna Illuminata~
+Sei in una caverna particolarmente illuminata.
+Vedi davanti a te un vivace fuoco scoppiettare..
+E' quella la fonte della luce di quest'antro, e ti consente di vederne la
+prosecuzione..
+~
+0 D 2
+D0
+La galleria prosegue..
+~
+~
+0 0 4054
+D2
+La galleria avanza..
+~
+~
+0 0 4061
+S
+#4057
+Il Dedalo~
+Sei in un labirinto formato da innumerevoli gallerie umide.. Dipartono da ogni
+direzione..
+~
+0 AD 3
+D1
+L'intricato labirinto prosegue il suo cammino tortuoso..
+~
+~
+0 0 4058
+D2
+Avanzi lungo le infinite diramazioni del labirinto..
+~
+~
+0 0 4062
+S
+#4058
+Il Dedalo~
+Cerchi di destreggiarti in un complicato labirinto formato da innumerevoli
+gallerie umide..
+~
+0 AD 3
+D2
+L'intricato labirinto prosegue il suo cammino tortuoso..
+~
+~
+0 0 4063
+D3
+Avanzi lungo le infinite diramazioni del labirinto..
+~
+~
+0 0 4057
+S
+#4059
+La Galleria~
+Sei arrivato in una galleria il cui unico sbocco sembra essere rappresentato
+dalla diramazione orientale.
+Puo' darsi pero' che essa discenda in qualche modo verso il basso..
+~
+0 ACD 3
+D0
+Un'altra prosecuzione del budello umidiccio si snoda a nord di qui..
+~
+~
+0 0 4024
+D1
+I condotti sotterranei continuano..
+~
+~
+0 0 4060
+S
+#4060
+La Galleria~
+Sei in un'angusta galleria che prosegue verso ovest.
+Dal lato orientale pero' riesci ad intravedere alcuni bagliori profondersi..
+~
+0 AD 3
+D1
+Una caverna illuminata.
+~
+~
+0 0 4061
+D3
+Proseguono le diramazioni delle gallerie..
+~
+~
+0 0 4059
+S
+#4061
+La Caverna Illuminata~
+Sei nella parte meridionale di una caverna particolarmente illuminata.
+~
+0 D 2
+D0
+La galleria continua a nord.
+~
+~
+0 0 4056
+D3
+Il condotto di gallerie sotterranee prosegue da qui..
+~
+~
+0 0 4060
+S
+#4062
+Il Dedalo~
+Ti trovi nel bel mezzo di un intricato labirinto costituito da innumerevoli
+piccole gallerie umide..
+~
+0 AD 3
+D0
+L'intricato labirinto prosegue il suo cammino tortuoso..
+~
+~
+0 0 4057
+D1
+Avanzi lungo le infinite diramazioni del labirinto..
+~
+~
+0 0 4065
+S
+#4063
+Il Dedalo~
+Continui a muoverti in un articolato labirinto composto da infinite piccole
+gallerie umidicce..
+~
+0 AD 3
+D0
+L'intricato labirinto prosegue il suo cammino tortuoso..
+~
+~
+0 0 4058
+D1
+I budelli sotterranei proseguono da questa parte..
+~
+~
+0 0 4064
+S
+#4064
+La Galleria~
+Sei giunto nella terminazione orientale della galleria..
+~
+0 AD 3
+D3
+Continuano, snodandosi e confondendosi, le innumerevoli svolte del labirinto..
+~
+~
+0 0 4063
+D4
+Una breccia nella pavimentazione attira il tuo sguardo..
+~
+~
+0 0 4020
+S
+#4065
+Il Dedalo~
+Ti avvicendi confusamente in un complicato labirinto costituito da infinite
+piccole gallerie umidicce..
+~
+0 AD 3
+D1
+Avanzi lungo le infinite diramazioni del labirinto..
+~
+~
+0 0 4066
+D3
+Continuano, snodandosi e confondendosi, le innumerevoli svolte del labirinto..
+~
+~
+0 0 4062
+S
+#4066
+Il Dedalo~
+Cerchi di destreggiarti in un complicato labirinto composto da innumerevoli
+gallerie umide..
+~
+0 AD 3
+D1
+L'intricato labirinto prosegue il suo cammino tortuoso..
+~
+~
+0 0 4067
+D2
+L'antro di una grossa caverna..
+~
+~
+0 0 4069
+D3
+Continuano, snodandosi e confondendosi, le innumerevoli svolte del labirinto..
+~
+~
+0 0 4065
+S
+#4067
+Il Dedalo~
+Ti aggiri in questo ingarbugliato labirinto formato da infinite piccole gallerie
+umidicce..
+~
+0 AD 3
+D3
+L'intricato labirinto prosegue il suo cammino tortuoso..
+~
+~
+0 0 4066
+S
+#4068
+Un'Ampia Caverna~
+Sei nella terminazione nord-occidentale della caverna.
+~
+0 AD 2
+D1
+L'ampia caverna prosegue da qui..
+~
+~
+0 0 4069
+D2
+L'ampia caverna si estende ancora da questo punto..
+~
+~
+0 0 4070
+S
+#4069
+Un'Ampia Caverna~
+Sei giunto alla terminazione nord-orientale della caverna smisurata..
+A nord scorgi la bocca di una piccola galleria umidiccia.
+~
+0 AD 2
+D0
+Avanzi lungo le infinite diramazioni del labirinto..
+~
+~
+0 0 4066
+D2
+L'ampia caverna continua..
+~
+~
+0 0 4071
+D3
+L'ampia caverna prosegue da qui..
+~
+~
+0 0 4068
+S
+#4070
+Un'Ampia Caverna~
+Sei arrivato alla terminazione sud-occidentale della grossa caverna..
+~
+0 AD 2
+D0
+Procede l'ampia caverna, da questo punto..
+~
+~
+0 0 4068
+D1
+Ancora la gola dell'ampia caverna..
+~
+~
+0 0 4071
+S
+#4071
+Un'Ampia Caverna~
+Sei finito nella terminazione sud-orientale della grossa caverna.. A est scorgi
+una piccola galleria.
+~
+0 AD 2
+D0
+L'ampia caverna prosegue da qua..
+~
+~
+0 0 4069
+D1
+Noti una piccola galleria..
+~
+~
+0 0 4072
+D3
+L'ampia caverna prosegue da questa direzione..
+~
+~
+0 0 4070
+S
+#4072
+La Galleria~
+Eccoti in questa angusta grotta, le cui diramazioni portano a est e a sud.
+Scrutando attentamente verso occidente, ti accorgi di un'ulteriore prosecuzione,
+che conduce all'entrata di un'ampia caverna..
+~
+0 AD 3
+D1
+Forse la galleria si smorza qui.. vai a vedere, no?
+~
+~
+0 0 4073
+D2
+Una breccia nel bel mezzo del pavimento..
+~
+~
+0 0 4074
+D3
+La galleria continua qui..
+~
+~
+0 0 4071
+S
+#4073
+Fine della Galleria~
+Oh! La galleria e' terminata.. proprio qui.
+~
+0 AD 3
+D3
+Torna indietro, eh!
+~
+~
+0 0 4072
+S
+#4074
+Un Foro nel Pavimento~
+Guarda! Ti fermi ad osservare il grosso squarcio nel pavimento. Rifletti bene..
+puoi andartene prendendo la via a nord.. oppure tentare la fortuna infilandoti
+giu' per il buco, verso l'ignoto.. Decidi tu!
+~
+0 AD 3
+D0
+I budelli sotterranei di questa galleria proseguono a nord..
+~
+~
+0 0 4072
+D5
+Sara' la fine del labirinto?
+~
+~
+0 0 4171
+S
+#4100
+La Galleria~
+Rifletti e.. improvvisamente immagini che la galleria possa in qualche modo
+condurre in basso..
+~
+0 ACD 3
+D0
+A nord prosegue la galleria..
+~
+~
+0 0 4052
+D3
+Noti l'antro di una galleria dritta e lunga..
+~
+~
+0 0 4101
+S
+#4101
+La Galleria Lunga~
+Sei in un lungo condotto che lega i lati orientale e occidentale, e l'ambiente
+si presenta particolarmente silenzioso, qui.
+~
+0 AD 3
+D1
+La galleria continua da questo punto..
+~
+~
+0 0 4100
+D3
+Avanza in questa direzione la lunga galleria..
+~
+~
+0 0 4102
+S
+#4102
+La Galleria Lunga~
+Prosegui in questa galleria particolarmente lunga e noti come il percorso del
+condotto si restringe svoltando a ovest.
+~
+0 AD 3
+D1
+La galleria prosegue da qui..
+~
+~
+0 0 4101
+D3
+La lunga galleria svolta ad ovest..
+~
+~
+0 0 4103
+S
+#4103
+La Galleria Lunga~
+La galleria qui si presenta particolarmente silenziosa e alquanto stretta.. a
+sud vedi un piccolo foro nel pavimento..
+~
+0 AD 3
+D1
+Continua la lunga galleria..
+~
+~
+0 0 4102
+D2
+Bagliori dorati si riflettono sulle pareti..
+~
+~
+0 0 4106
+D3
+Prosegue la lunga galleria..
+~
+~
+0 0 4104
+S
+#4104
+La Galleria Lunga~
+Avanzi nella galleria lunga e la strada prosegue pendendo in discesa, verso
+ovest.
+~
+0 AD 3
+D1
+Avanza ancora il condotto della lunga galleria.
+~
+~
+0 0 4103
+D3
+La galleria prosegue da questa parte..
+~
+~
+0 0 4152
+S
+#4105
+La Caverna Dorata~
+Ecco.. hai appena messo il piede in questa enorme caverna.. Noti con meraviglia
+le pareti rifulgere di vivida luce dorata.. sorridi e ti perdi per un istante a
+seguire gli innumerevoli bagliori aurei rincorrersi tra ombre e guizzi di luce.
+~
+0 D 1
+D2
+Bagliori dorati si riflettono sulle pareti della galleria..
+~
+~
+0 0 4108
+D3
+Continua intensa l'aurea luce..
+~
+~
+0 0 4106
+S
+#4106
+La Caverna Dorata~
+La fulgida luce d'oro allieta il tuo percorso, prosegui avanzando a passo
+lento.. non puoi evitare di soffermarti ogni tanto alla vista del mirabile
+spettacolo delle pareti dorate di questa lucente caverna. La scia d'oro prosegue
+verso sud e ad est mentre a nord si apre una stretta galleria.
+~
+0 D 1
+D0
+Una lunga galleria avanza da nord..
+~
+~
+0 0 4103
+D1
+Bagliori dorati si riflettono sui muri della galleria..
+~
+~
+0 0 4105
+D2
+Ghirigori di luce dorata luccicano dalle pareti della galleria..
+~
+~
+0 0 4109
+S
+#4107
+Un Passaggio~
+Eccoti in un angusto passaggio, conduce a sud. Ti guardi intorno e vedi da ovest
+i bagliori emanati da una caverna dorata..
+~
+0 AD 3
+D2
+Sembra che il percorso si richiuda in un cunicolo stretto..
+~
+~
+0 0 4113
+D3
+Bagliori dorati si riflettono sulle pareti della galleria..
+~
+~
+0 0 4108
+S
+#4108
+La Caverna Dorata~
+Immergendoti completamente nella luce brillante dell'oro che invade questa
+caverna, noti le sue pareti patinate dall'aureo minerale e, scorrendo ancora lo
+sguardo, ti rendi conto che la cava prosegue a nord e ad ovest, mentre alla tua
+destra scorgi un piccolo passaggio..
+~
+0 D 1
+D0
+Giochi di luci dorate e ombre si riflettono sulle pareti della galleria..
+~
+~
+0 0 4105
+D1
+Un cunicolo angusto parte da qui..
+~
+~
+0 0 4107
+D3
+Ghirigori di luce dorata luccicano dalle pareti della galleria..
+~
+~
+0 0 4109
+S
+#4109
+La Caverna Dorata~
+Agilmente ti sposti all'interno di questa caverna.
+Tutto risplende della luce dell'oro piu' brillante..
+Dai giochi armoniosi di ombre e luci auree intravedi il prosieguo del condotto
+lucente: sud, est e nord..
+~
+0 D 1
+D0
+Bagliori dorati si riflettono sulle pareti della galleria..
+~
+~
+0 0 4106
+D1
+Ghirigori di luce dorata luccicano dalle pareti della galleria..
+~
+~
+0 0 4108
+D2
+Arabeschi di luce dorata luccicano dalle pareti della galleria..
+~
+~
+0 0 4114
+S
+#4110
+La Galleria~
+Eccoti giunto alla terminazione della galleria.
+~
+0 ACD 3
+D3
+La galleria prosegue da questo punto..
+~
+~
+0 0 4111
+S
+#4111
+La Galleria~
+Sei in un piccolo condotto che dal lato orientale conduce a quello occidentale..
+~
+0 AD 3
+D1
+La galleria prosegue da questa parte.
+~
+~
+0 0 4110
+D3
+La galleria avanza in questa direzione.
+~
+~
+0 0 4112
+S
+#4112
+La Galleria~
+Sei in una rientranza abbastanza larga di una galleria. Il condotto conduce
+verso oriente..
+~
+0 AD 3
+D1
+Il condotto continua da qui..
+~
+~
+0 0 4111
+D3
+Ti sembra di scorgere un passaggio ad occidente..
+~
+~
+0 0 4113
+S
+#4113
+Un passaggio~
+Sei in un passaggio che conduce a sud. Alla tua destra puoi scorgere l'inizio di
+una galleria..
+~
+0 AD 3
+D0
+Il passaggio prosegue da qui..
+~
+~
+0 0 4107
+D1
+La galleria continua in questa direzione..
+~
+~
+0 0 4112
+D2
+Il passaggio continua da qui..
+~
+~
+0 0 4116
+S
+#4114
+La Caverna Dorata~
+Eccoti in un'ampia caverna dalle pareti d'oro zecchino. Tutto risplende dei
+bagliori lucenti e la vista ne appare rincuorata.. lo spettacolo e' ipnotico..
+Volgi il capo e ti accorgi che la cava prosegue a nord, mentre alla tua sinistra
+noti un piccolo passaggio buio..
+~
+0 D 1
+D0
+Continuano gli sfarfallii di luci dorate da questa direzione..
+~
+~
+0 0 4109
+D3
+Scorgi un antro buio, forse una breccia, forse un passaggio..
+~
+~
+0 0 4115
+S
+#4115
+Il Passaggio Buio~
+Ti sei avvicendato all'interno di questo buio passaggio che prosegue verso est..
+Sollevando il capo scruti il soffitto e ti accorgi di un piccolo buco tra le
+travi. Sembra abbastanza largo da poter essere attraversato..
+~
+0 AD 3
+D1
+Una fulgida luce dorata rischiara l'ambiente da questo punto..
+~
+~
+0 0 4114
+D4
+Uno squarcio nel pavimento..
+~
+~
+0 0 4021
+S
+#4116
+Un Passaggio~
+Sei in un passaggio che unisce nord e sud..
+Fermando lo sguardo percepisci nel buio la presenza di una flebile luce
+provenire da sud..
+~
+0 AD 3
+D0
+Il cunicolo prosegue da qui..
+~
+~
+0 0 4113
+D2
+Il cunicolo avanza da questa parte..
+~
+~
+0 0 4120
+S
+#4117
+La Stanza Segreta~
+Sei giunto in questo luogo che ha tutta l'aria di essere una stanza segreta..
+~
+0 AD 3
+D2
+Ad una prima e fugace occhiata sembra che qui vi sia una stanza.
+~
+~
+0 0 4122
+S
+#4118
+La Caverna delle Torce~
+Sei in una caverna illuminata da varie torce sistemate ordinatamente lungo le
+pareti, a mezz'altezza. L'illuminazione e' sufficiente e ti permette di scrutare
+l'ambiente: la grotta prosegue a sud e ad ovest mentre a nord un piccolo
+pertugio conduce ad una galleria..
+~
+0 D 1
+D2
+La caverna continua da questa parte.
+~
+~
+0 0 4123
+D3
+La caverna prosegue da questa direzione.
+~
+~
+0 0 4119
+S
+#4119
+La Caverna delle Torce~
+Prosegui nell'ambiente luminoso di questa grotta. Le torce disseminate lungo le
+mura ondeggiano al tuo passaggio.. Il percorso si snoda a est e a sud..
+~
+0 D 1
+D1
+La caverna prosegue da questa parte.
+~
+~
+0 0 4118
+D2
+La caverna continua da questa direzione.
+~
+~
+0 0 4124
+D3
+L'antro di una strana galleria si affaccia da qui..
+~
+~
+0 0 4121
+S
+#4120
+Un Passaggio~
+Sei in un passaggio che lega nord e sud..
+Qualcosa a sud emana una sensibile luce..
+~
+0 AD 3
+D0
+Il passaggio prosegue da questo punto..
+~
+~
+0 0 4116
+D2
+Il passaggio continua in questa direzione..
+~
+~
+0 0 4125
+S
+#4121
+La Grotta Segreta~
+Sei finito in una galleria segreta.
+L'aria e' satura di perversione maligna e continuamente guardi a ovest.. e'
+evidente che vuoi uscire di qui il piu' presto possibile..
+~
+0 AD 3
+D1
+La caverna continua da questa parte.
+~
+~
+0 0 4119
+D3
+A prima vista sembra una stanza, quella che appare a ovest di qui..
+~
+~
+0 0 4122
+S
+#4122
+La Stanza Segreta~
+Sei una stanza segreta completamente permeata da un'opprimente atmosfera
+maligna. Non vedi l'ora di abbandonare questo posto..
+~
+0 AD 3
+D0
+Una stanza particolare?
+~
+~
+0 0 4117
+D1
+La strana galleria prosegue da qui.
+~
+~
+0 0 4121
+S
+#4123
+La Caverna delle Torce~
+Eccoti in una caverna illuminata da una fila di torce disposte a mezz'aria lungo
+entrambe le pareti del condotto che si snoda a nord e piega ad ovest..
+~
+0 D 1
+D0
+La caverna prosegue da questa parte.
+~
+~
+0 0 4118
+D3
+La caverna continua da questa direzione.
+~
+~
+0 0 4124
+S
+#4124
+La Caverna delle Torce~
+Prosegui beandoti del chiarore fornito dalle torce disoste lungo i muri della
+grotta e vedi il condotto continuare a est e a nord mentre a ovest riesci a
+malapena a scorgere un passaggio seminascosto..
+~
+0 D 1
+D0
+La caverna continua da questa direzione.
+~
+~
+0 0 4119
+D1
+La caverna prosegue da questa parte.
+~
+~
+0 0 4123
+D3
+Un cunicolo si apre da ovest..
+~
+~
+0 0 4125
+S
+#4125
+Un Passaggio~
+Giungi in un angusto passaggio alla cui destra intravedi la bocca di una caverna
+dalla quale filtra un fascio di luce densa che illumina di riflesso il
+passaggio. A nord il passaggio invece si getta nella piu' profonda oscurita'..
+~
+0 AD 3
+D0
+Il passaggio prosegue da questo punto.
+~
+~
+0 0 4120
+D1
+La caverna continua da questa parte.
+~
+~
+0 0 4124
+S
+#4150
+Il Buco Nero~
+Sei finito nei pressi di un pertugio nel pavimento e la luce e' troppo poca per
+guardarci attraverso..
+Un angusto passaggio conduce a meridione e mentre ti guardi intorno cominci ad
+abituarti al buio e riesci a distinguere un'Iscrizione sul muro:
+Balrog e' vivo..
+~
+0 ACD 3
+D2
+Uno stretto condotto s'affaccia a sud..
+~
+~
+0 0 4151
+S
+#4151
+Un Piccolo Passaggio~
+Approdi nei pressi di un angusto passaggio dal quale riesci a vedere a nord e
+scorgi un pertugio nel pavimento e a sud dove invece scorgi un'ampia grotta..
+L'aria e' umida e ti costringe a stringere gli occhi e a battere i denti per il
+freddo..
+~
+0 AD 3
+D0
+Oscurita' totale.. bisogna che avanzi per capire dove conduce..
+~
+~
+0 0 4150
+D2
+Prosegue da qui una lunga galleria..
+~
+~
+0 0 4156
+D3
+Un'ampia galleria si diparte da questa direzione..
+~
+~
+0 0 4155
+S
+#4152
+La Galleria~
+Ecco.. in un attimo il tuo passo e' parso incerto e sdrucciolevole e ti sei
+fermato a guardarti in giro: il condotto prosegue in discesa..
+~
+0 ACD 3
+D1
+Una lunga e dritta galleria si snoda da questo punto..
+~
+~
+0 0 4104
+D2
+Incede il percorso di un'ampia galleria, a sud..
+~
+~
+0 0 4153
+S
+#4153
+Un'Ampia Galleria~
+Appoggi una mano alla parete della grotta e prendi fiato.. sei stanco e l'aria
+zeppa d'umidita' del condotto non ti aiuta a recuperare energia.. puoi svoltare
+verso est..
+~
+0 AD 3
+D0
+La caverna prosegue in questa direzione.
+~
+~
+0 0 4152
+D1
+L'ampia caverna continua da questa parte.
+~
+~
+0 0 4154
+D2
+Una pungente sensazione di umidita' proviene da sud..
+~
+~
+0 0 4157
+S
+#4154
+Un'Ampia Galleria~
+Ti muovi lentamente, il pavimento e' allagato e ti ostacola frapponendo piccole
+onde gelide alla tua falcata..
+~
+0 AD 3
+D1
+Un'ampia caverna continua da questa parte.
+~
+~
+0 0 4155
+D3
+Un'ampia caverna prosegue in questa direzione.
+~
+~
+0 0 4153
+S
+#4155
+Un'Ampia Galleria~
+Quasi trascinandoti nell'acquitrinio che riempie il pavimento di questa grotta
+gelida arrivi nel punto esatto dove il condotto svolta ad occidente mentre a est
+ti si mostrata una galleria piuttosto lunga e dritta..
+~
+0 AD 3
+D1
+Il condotto si restringe fino a formare un piccolo passaggio..
+~
+~
+0 0 4151
+D3
+Un'ampia caverna continua da questa parte.
+~
+~
+0 0 4154
+S
+#4156
+La Galleria Lunga~
+Sei in un lungo condotto che si snoda da sud a nord. L'ambiente e' meno umido e
+almeno smetti di tremare..
+~
+0 AD 3
+D0
+Il condotto si restringe fino a formare uno stretto passaggio..
+~
+~
+0 0 4151
+D2
+La caverna continua da questa parte.
+C'e' qualcosa laggiu' che cattura la tua attenzione..
+~
+~
+0 0 4160
+S
+#4157
+La Galleria Umida~
+Proseguendo arrivi in questo tratto del condotto il cui pavimento e'
+completamente ricoperto d'acqua..
+Il gelo ti penetra fino alle ossa e ormai i tuoi abiti sono inzuppati..
+~
+0 AD 3
+D0
+Un'ampia caverna continua da questa parte.
+~
+~
+0 0 4153
+D1
+S'aprono infiniti budelli da questa parte.. si tratta di un labirinto?
+~
+~
+0 0 4158
+D2
+Una caverna impregnata d'umidita' continua da questa parte.
+~
+~
+0 0 4161
+S
+#4158
+Il Piccolo Dedalo~
+Approdi faticosamente in un piccolo labirinto.
+Le strade ricominciano a biforcarsi e moltiplicarsi..
+il pavimento allagato non aiuta i tuoi movimenti..
+Dove andare? Est, sud, oppure ovest?
+~
+0 AD 3
+D1
+Proseguono le intricate diramazioni del labirinto..
+~
+~
+0 0 4159
+D2
+Avanzano tortuosamente i condotti del dedalo..
+~
+~
+0 0 4162
+D3
+Continua il complesso disegno del labirinto..
+~
+~
+0 0 4157
+S
+#4159
+Il Piccolo Dedalo~
+Avanzi nell'intricato labirinto, le gambe pesanti per il continuo avanzare
+nell'acqua, ogni tanto ti fermi..
+Le diramazioni ricominciano a sud e verso occidente.
+L'aria umida e' opprimente e sembra bloccarti anche la capacita' di riflettere
+lucidamente..
+~
+0 AD 3
+D2
+Continua il complesso disegno del labirinto..
+~
+~
+0 0 4163
+D3
+Proseguono le intricate diramazioni del labirinto..
+~
+~
+0 0 4158
+S
+#4160
+Accanto all'Iscrizione nella Galleria~
+Eccoti nell'umida atmosfera di un condotto che unisce il nord e il sud.
+Un'Iscrizione ricopre uno dei muri, metti a fuoco stringendo gli occhi e provi a
+leggerla..
+~
+0 AD 3
+D0
+Una lunga galleria prosegue da questa direzione..
+~
+~
+0 0 4156
+D2
+Un intricato intreccio di vie si racchiude qui. Forse e' un'entrata, o forse,
+un'uscita..
+~
+~
+0 0 4164
+E
+iscrizione~
+Leggi:
+
+    Anno 631 dopo la distruzione del Regno dei Nani.
+
+  Abbiamo trovato la spada del Re dei Nani ma era custodita
+da un enorme drago verde e sotto il suo soffio venefico due
+di noi persero nell'immediato la vita. Noialtri siamo pronti
+a morire anche subito ma non consegneremo la resa al drago.
+
+                    Trather e Oralane
+~
+S
+#4161
+La Galleria Umida~
+Prosegui in questo condotto che lega il sud e il nord.
+L'acqua che invade il pavimento sfiora le tue ginocchia in certi punti, tanto
+che e' profonda, per poi ritirarsi lenta a lambirti le caviglie in altri..
+~
+0 AD 3
+D0
+Una galleria prosegue da questa direzione..
+~
+~
+0 0 4157
+D2
+Una galleria continua in questo punto..
+~
+~
+0 0 4165
+S
+#4162
+Il Piccolo Dedalo~
+Sei immerso in un groviglio di viuzze tortuose che avanzano verso nord, est e
+sud. La pavimentazione e' completamente ricoperta d'acqua fredda e sporca.
+~
+0 AD 3
+D0
+L'intricato complesso di svolte prosegue da questo punto..
+~
+~
+0 0 4158
+D1
+Continua il tortuoso snodarsi del labirinto..
+~
+~
+0 0 4163
+D2
+Proseguono le intricate diramazioni del labirinto..
+~
+~
+0 0 4166
+S
+#4163
+Il Piccolo Dedalo~
+Sei decisamente arrivato in un piccolo e complicato labirinto.. l'aria satura di
+umidita' ti attanaglia la gola.
+Rabbrividisci e cominci a battere i denti..
+Guardandoti intorno cerchi di familiarizzare con il posto.
+Segui il nord o svolti verso est?
+~
+0 AD 3
+D0
+Continua il complesso disegno del labirinto..
+~
+~
+0 0 4159
+D1
+Un intricato intreccio di vie si racchiude qui.
+Forse e' un'uscita, o forse, un'entrata..
+~
+~
+0 0 4164
+D3
+Proseguono le intricate diramazioni del labirinto..
+~
+~
+0 0 4162
+S
+#4164
+L'Entrata del Piccolo Dedalo~
+Eccoti in un intricato dedalo umidiccio..
+Rabbrividendo sollevi il capo e scruti le prime possibili diramazioni:
+segui il nord o svolti ad ovest?
+~
+0 AD 3
+D0
+La galleria prosegue in questo versante settentrionale.
+Qualcosa cattura la tua attenzione.
+Vai a vedere di che si tratta?
+~
+~
+0 0 4160
+D2
+Ha tutta l'aria di essere un punto d'arrivo ma finche' non ci vai non potrai
+averne certezza..
+~
+~
+0 0 4168
+D3
+Continua il tortuoso snodarsi del labirinto..
+~
+~
+0 0 4163
+S
+#4165
+Nell'Acqua~
+Stai attraversando una zona completamente sommersa d'acqua ghiacciata.
+Il condotto prosegue in due direzioni: nord e sud.
+~
+0 AD 6
+D0
+Acqua ovunque..
+~
+~
+0 0 4161
+D2
+Pozzanghere e gorgoglii ovunque..
+~
+~
+0 0 4169
+S
+#4166
+Il Dedalo Umido~
+Qui l'ambiente si presenta completamente invaso dall'acqua.
+Il pavimento e' allagato e gocce gelide continuano a scivolare dalle pareti
+della galleria..
+Le prosecuzioni si snodano a nord, est ed ovest..
+~
+0 AD 3
+D0
+Continua il tortuoso snodarsi del labirinto..
+~
+~
+0 0 4162
+D1
+Gli intricati budelli del labirinto proseguono da questa parte..
+~
+~
+0 0 4167
+D2
+Un cadenzato rumore d'acqua smossa proviene da questa parte..
+~
+~
+0 0 4170
+S
+#4167
+Il Dedalo Umido~
+Sei completamente inoltrato in questo umido piccolo labirinto, le cui pareti e
+soffitto grondano acqua ghiacciata e sporca.
+Anche il pavimento e' allagato e non ti consente passi spediti.
+Le diramazioni si snodano verso sud, est ed ovest.
+~
+0 AD 3
+D1
+Continua il percorso della galleria, in questo punto.
+~
+~
+0 0 4168
+D2
+Prosegue il tortuoso snodarsi del labirinto..
+~
+~
+0 0 4171
+D3
+Il labirinto incede ancora in questa direzione..
+~
+~
+0 0 4166
+S
+#4168
+La Fine della Galleria~
+La galleria termina improvvisamente qui; l'unica via d'uscita e' rappresentata
+dal braccio occidentale.
+L'aria e' completamente impregnata di umidita' e le pareti appaiono segnate da
+venature melmose..
+~
+0 AD 3
+D0
+Continua il tortuoso snodarsi del labirinto..
+~
+~
+0 0 4164
+D3
+Gli infiniti budelli dell'intricato labirinto proseguono da questa direzione..
+~
+~
+0 0 4167
+S
+#4169
+Nell'Acqua~
+Continui a muoverti lentamente, i tuoi passi sono ostacolati dall'acqua che
+ricopre interamente questa zona e puoi solo augurarti di uscire al piu' presto
+possibile da questo complicato budello..
+~
+0 AD 6
+D0
+Pozzanghere ovunque..
+~
+~
+0 0 4165
+D1
+Vedi dell'acqua riversarsi sul pavimento e proviene da questa direzione..
+~
+~
+0 0 4170
+S
+#4170
+Nell'Acqua~
+Sei completamente sommerso dall'acqua almeno fino al girovita, ti muovi a fatica
+e stai gelando..
+Il condotto mostra una chiusura frontale e prosegue invece la sua estensione a
+ovest e ad est..
+~
+0 AD 6
+D0
+Gli infiniti budelli dell'intricato labirinto continuano in questa direzione..
+~
+~
+0 0 4166
+D1
+Forse una passerella di fortuna o forse e' solo un'illusione ottica provocata
+dal gioco di ombre e fioche luci sull'acqua scura..
+~
+~
+0 0 4172
+D3
+Gorgoglii d'acqua e pozzanghere ovunque..
+~
+~
+0 0 4169
+S
+#4171
+La Fine del Dedalo~
+Sembra che tu sia giunto alla terminazione del piccolo labirinto e vedi uno
+squarcio sulla parete, a mezz'altezza.. appare abbastanza largo per il passaggio
+di una persona alla volta..
+~
+0 ACD 3
+D0
+Gli infiniti budelli dell'intricato labirinto continuano in questa direzione..
+~
+~
+0 0 4167
+D4
+Il pavimento che vedi da questo punto e' segnato da un pertugio profondo.
+~
+~
+0 0 4074
+S
+#4172
+Una Striscia di Sabbia~
+Stai camminando su una pista di sabbia, lunga e stretta, attraversando in modo
+piu' agevole l'acqua sottostante..
+~
+0 AD 3
+D3
+C'e' dell'acqua che si riversa da ovest e raggiunge il punto nel quale ti
+trovi..
+~
+~
+0 0 4170
+S
+#0
+
+
+#RESETS
+M 0 4000 1 4030 1	* the huge python
+G 1 4001 10 	* a corpse
+P 1 4002 -1 4001 1	* some coins
+G 1 4154 9 	* a map of the second level of Moria
+M 0 4001 2 4025 1	* the garter snake
+M 0 4001 2 4015 1	* the garter snake
+M 0 4002 3 4023 1	* the centipede
+M 0 4002 3 4017 1	* the centipede
+M 0 4002 3 4020 1	* the centipede
+M 0 4003 6 4021 1	* the kobold
+E 1 4003 8 16	* a rusty dagger
+M 0 4003 6 4021 1	* the kobold
+E 1 3023 10 16	* a club
+M 0 4003 6 4013 1	* the kobold
+E 1 3021 10 16	* a small sword
+E 1 3117 10 11	* a small wooden shield
+M 0 4003 6 4013 1	* the kobold
+E 1 3023 10 16	* a club
+M 0 4003 6 4027 1	* the kobold
+E 1 3021 10 16	* a small sword
+M 0 4003 6 4027 1	* the kobold
+E 1 3025 8 16	* a hand axe
+E 1 3117 10 11	* a small wooden shield
+M 0 4004 3 4015 1	* the orc
+E 1 3029 3 16	* a flail
+M 0 4004 3 4028 1	* the orc
+E 1 4004 4 16	* a bullwhip
+M 0 4004 3 4028 1	* the orc
+M 0 4005 1 4022 1	* the large orc
+E 1 4000 5 1	* a yellow and green ring
+E 1 3022 -1 16	* a long sword
+E 1 3114 9 9	* a pair of chain mail gauntlets
+M 0 4057 2 4042 2	* the mountain lion
+M 0 4058 1 4044 1	* the hill giant
+E 1 4005 5 16	* a huge club
+E 1 4006 5 12	* some smelly furs
+M 0 4050 1 4062 1	* the warrior
+E 1 4051 3 6	* a metal helmet
+E 1 4054 4 16	* a war axe
+E 1 3116 10 11	* a large metal shield
+M 0 4051 4 4070 1	* the warrior
+E 1 3027 10 16	* a spear
+E 1 3072 20 6	* a scale mail jerkin
+M 0 4051 4 4050 1	* the warrior
+E 1 4056 5 16	* a two-headed flail
+E 1 3077 20 10	* a pair of scale mail sleeves
+M 0 4051 4 4073 1	* the warrior
+E 1 4055 5 16	* a broad sword
+E 1 3072 20 5	* a scale mail jerkin
+M 0 4051 4 4055 1	* the warrior
+E 1 4057 5 16	* a heavy iron mace
+E 1 3074 20 7	* a long scale mail skirt
+M 0 4052 3 4056 1	* the hobgoblin
+E 1 3023 20 16	* a club
+M 0 4052 3 4065 1	* the hobgoblin
+E 1 3025 20 16	* a hand axe
+M 0 4052 3 4059 1	* the hobgoblin
+E 1 3028 29 16	* a wooden staff
+M 0 4053 2 4058 1	* the snake
+M 0 4053 2 4068 1	* the snake
+M 0 4054 3 4060 1	* the centipede
+M 0 4054 3 4053 1	* the centipede
+M 0 4054 3 4052 1	* the centipede
+M 0 4055 2 4064 1	* the large hobgoblin
+E 1 4058 5 16	* a falchion
+G 1 4050 15 	* a purple potion
+M 0 4055 2 4071 1	* the large hobgoblin
+E 1 4059 5 16	* a voulge
+G 1 4050 15 	* a purple potion
+M 0 4056 2 4067 1	* the orc
+E 1 4004 10 16	* a bullwhip
+E 1 3097 20 11	* a small metal shield
+M 0 4056 2 4057 1	* the orc
+E 1 3026 20 16	* a battle axe
+O 0 4052 1 4068	* a mushroom
+O 0 4052 1 4069	* a mushroom
+O 0 4052 1 4070	* a mushroom
+O 0 4052 1 4071	* a mushroom
+M 0 4100 1 4114 1	* the Mage
+G 1 4102 4 	* a scroll which reads "ysafg"
+G 1 4155 9 	* a map of the third level of Moria
+E 1 3351 -1 16	* a standard issue dagger
+M 0 4101 1 4122 1	* the troll
+E 1 4100 2 16	* the black demon blade
+M 0 4102 2 4111 2	* the guardian snake
+G 1 4103 10 	* a green slime mold
+M 0 4102 2 4111 2	* the guardian snake
+G 1 4104 3 	* a green slime mold
+M 0 4102 3 4103 1	* the guardian snake
+G 1 4103 10 	* a green slime mold
+M 0 4103 1 4103 1	* the thief
+E 1 4053 4 16	* a thieves dirk
+E 1 3068 8 7	* a pair of hard leather pants
+E 1 3066 8 5	* a hard leather jerkin
+E 1 3069 8 8	* a pair of hard leather boots
+M 0 4104 3 4124 3	* the orc
+E 1 4057 8 16	* a heavy iron mace
+G 1 4104 10 	* a green slime mold
+M 0 4105 3 4108 3	* a centipede
+M 0 4106 2 4113 2	* the Warrior
+E 1 4105 5 16	* an iron-shod staff
+E 1 4101 3 9	* swordsman's gloves
+M 0 4107 1 4119 1	* the green kobold
+E 1 3023 10 16	* a club
+G 1 4104 10 	* a green slime mold
+M 0 4150 2 4155 1	* the blue bat
+M 0 4150 2 4170 1	* the blue bat
+M 0 4151 2 4157 1	* the red bat
+M 0 4151 2 4159 1	* the red bat
+M 0 4152 2 4159 1	* the green bat
+M 0 4152 2 4155 1	* the green bat
+M 0 4153 2 4164 1	* the white bat
+M 0 4153 2 4170 1	* the white bat
+M 0 4154 2 4164 1	* the black bat
+M 0 4154 2 4157 1	* the black bat
+M 0 4155 1 4158 1	* the thief
+E 1 4152 3 16	* a light silver dagger
+M 0 4156 1 4151 1	* the troll
+E 1 4105 5 16	* an iron-shod staff
+M 0 4157 2 4167 2	* the Mage
+E 1 3351 -1 16	* a standard issue dagger
+M 0 4157 2 4167 2	* the Mage
+E 1 4151 3 17	* a heavy oak staff
+E 1 3351 -1 16	* a standard issue dagger
+M 0 4158 2 4162 1	* the snake
+M 0 4158 2 4169 1	* the snake
+M 0 4159 2 4168 1	* the small troll
+M 0 4159 2 4153 1	* the small troll
+M 0 4160 2 4160 1	* the orc
+E 1 3045 20 5	* a scale mail jacket
+E 1 4055 9 16	* a broad sword
+G 1 4150 -1 	* a black potion
+M 0 4160 2 4161 1	* the orc
+E 1 3110 20 5	* a chain mail shirt
+E 1 3026 20 16	* a battle axe
+D 0 4025 5 	1
+S
+
+
+#SHOPS
+0
+
+
+#SPECIALS
+M 4000 spec_poison         	* the huge python
+M 4001 spec_poison         	* the garter snake
+M 4053 spec_poison         	* the snake
+M 4100 spec_cast_mage      	* the Mage
+M 4102 spec_poison         	* the guardian snake
+M 4150 spec_breath_lightning	* the blue bat
+M 4151 spec_breath_fire    	* the red bat
+M 4152 spec_breath_gas     	* the green bat
+M 4153 spec_breath_frost   	* the white bat
+M 4154 spec_breath_acid    	* the black bat
+M 4155 spec_thief          	* the thief
+M 4157 spec_cast_mage      	* the Mage
+M 4158 spec_poison         	* the snake
+S
+
+
+#$
+

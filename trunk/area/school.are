@@ -1,0 +1,2426 @@
+#AREA
+school.are~
+Campo di addestramento~
+{ 1  5} Jamirithiana Campo di addestramento~
+3700 3799
+
+
+#HELPS
+0 'T2TEAM SCHOOL' 'T2TEAM CAMPO ADDESTRAMENTO'~
+Quest'area e' stata tradotta, modificata da Jamirithiana e testata dal T2Team.
+L'autore dell'area originale e' Hatchet.
+Per altre risorse Mud visitare il sito http://www.terra-secunda.net
+~
+
+0 $~
+
+
+#MOBILES
+
+#3700
+accolito Tyire~
+L'accolito di Tiyre~
+Gli occhi severi di un accolito di Tiyre ti scrutano a lungo prima di darti il
+benvenuto in questo luogo..
+~
+La sua figura e' alta ed imponente. Sara' bene non importunarlo..
+~
+human~
+ABGQTV CH 1000 0
+30 10 1d1+999 1d1+999 2d4+30 beating
+-15 -15 -15 -15
+ACEFHIKN ABCD 0 0
+stand stand male 0
+0 0 medium 0
+
+#3701
+grumo sostanza mostro~
+il grumo animato~
+Un grosso grumo di sostanza molliccia e' qui e striscia lentamente..
+Verso di te.
+~
+E' grosso e malevolo. E' capace di inglobarti con la sola distensione delle
+sue membra informi, te ne rendi conto. Almeno fosse incatenato ci sarebbe una
+probabilita' di successo da parte tua ma ora. Forse la miglior cosa e' la fuga.
+~
+unique~
+ABGe C 0 0
+5 -5 1d1+49 1d1+99 1d1+0 digestion
+-15 -15 -15 -15
+AN AB CD 0
+stand stand none 0
+BSc 0 large 0
+
+#3702
+creatura mostruosa mostro~
+una creatura mostruosa~
+Legata al muro con un grosso guinzaglio di ferro c'e' una creatura mostruosa.
+~
+E' orribile e profondamente maligna, te ne accorgi dal suo sguardo sfuggente e
+dal suo rantolo sommesso.. Ma e' legata e forse puoi ucciderla con un po' di
+fortuna..
+~
+school monster~
+AB 0 0 0
+1 0 1d1+7 1d1+99 1d3+0 claw
+10 10 10 10
+0 0 0 0
+stand stand none 10
+0 0 medium 0
+
+#3703
+individuo mostruoso qualcuno rannicchiato mostro~
+un individuo rannicchiato~
+Agganciato alla parete attraverso un pesante cordone d'acciaio c'e' qualcuno.
+Un individuo strano, non gli vedi il viso: e' rannicchiato su se' stesso.
+~
+Ha paura.. Ma il suo rantolo profondo non ti rassicura affatto. Uccidilo ora
+che e' incatenato e prima che sia tu a finire al ferro..
+~
+school monster~
+ABH 0 0 0
+1 0 1d1+7 1d1+99 1d2+0 claw
+10 10 10 10
+O 0 0 0
+stand stand none 10
+0 0 medium 0
+
+#3704
+essere inferocito mostro~
+un essere inferocito~
+Ti fissa ruggendo rumorosamente, quest'essere inferocito. Strattona di continuo
+il legaccio solido che lo tiene assicurato alla parete..
+~
+Spalanca le fauci mostrando la dentatura aguzza e urla di ruggiti minacciosi.
+E meno male che e' incatenato al muro.. Te la senti di affrontarlo?
+~
+school monster~
+ABF 0 0 0
+1 0 1d1+7 1d1+99 1d4+0 claw
+10 10 10 10
+EK 0 0 0
+stand stand none 10
+0 0 medium 0
+
+#3705
+essere mostruoso intimorito mostro~
+un essere mostruoso~
+Legato al muro c'e' un essere mostruoso. E' visibilmente intimorito ma non per
+questo meno aggressivo..
+~
+E' intimorito ma non smette di minacciarti agitando il braccio libero verso di te..
+Finche' resta legato al muro dovrebbe essere facile ucciderlo. Forse..
+~
+school monster~
+ABFH 0 0 0
+1 0 1d1+7 1d1+99 1d3+0 claw
+10 10 10 10
+J 0 0 0
+stand stand none 10
+0 0 medium 0
+
+#3706
+grossa grande goffa creatura sagoma mostro~
+la grande creatura~
+Riempie quasi la stanza la sagoma goffa e sproporzionata di questa creatura!
+~
+Ops.. Non e' proprio semplice da sconfiggere quest'immensa creatura pero'..
+..vuoi mettere la soddisfazione? Prova..
+~
+school monster~
+AB JZ 0 0
+2 1 2d2+20 1d1+99 1d4+1 claw
+8 8 8 10
+FN 0 0 0
+stand stand none 25
+0 0 medium 0
+
+#3707
+adepto drieos~
+l'adepto di Drieos~
+Un adepto di Drieos e' qui a contemplare i tuoi progressi.
+~
+E' imponente e solenne nei modi e nella fisionomia. Spera di non litigarci..
+~
+human~
+ABGQTV CH 1000 0
+30 10 1d1+999 1d1+999 2d4+30 beating
+-15 -15 -15 -15
+ACEFHIKN ABCD 0 0
+stand stand male 0
+0 0 medium 0
+
+#3708
+adepto dathetep~
+l'adepto di Dathetep~
+Un adepto di Dathetep e' qui e ti sorride socievolmente.
+~
+Nonostante l'aria socievole ha una statura elevata.. Sii rispettoso.
+~
+human~
+ABGQTV CH 1000 0
+30 10 1d1+999 1d1+999 2d4+30 beating
+-15 -15 -15 -15
+ACEFHIKN ABCD 0 0
+stand stand male 0
+0 0 medium 0
+
+#3709
+coniglio~
+il coniglio~
+Un coniglio saltella allegramente tutt'intorno.
+~
+Ti guarda con i suoi occhi rosati muovendo velocemente il musetto.
+~
+rabbit~
+AGHU 0 100 0
+1 0 1d1+10 1d1+99 1d3+0 bite
+10 10 10 10
+0 0 0 0
+stand stand either 0
+0 0 tiny 0
+
+#3710
+lucertola~
+la lucertola~
+Una lucertola scivola sinuosamente tra i tuoi piedi..
+~
+Si muove a scatti rapidi e.. Attento! Sta cercando di azzannarti una caviglia!
+~
+lizard~
+AGU 0 -100 0
+2 0 2d2+20 1d1+99 1d4+1 bite
+8 8 8 10
+R 0 0 0
+stand stand either 0
+0 0 small 0
+
+#3711
+cinghiale~
+il cinghiale~
+Un grosso cinghiale carica contro di te!
+~
+Digrigna il muso e scopre le zanne.. Non e' un buon inizio..
+~
+pig~
+AGU 0 0 0
+3 1 3d3+30 1d1+99 1d6+1 charge
+7 7 7 9
+CDFR 0 0 0
+stand stand either 0
+0 0 medium 0
+
+#3712
+volpe rossa~
+la volpe~
+Una bella volpe rossa ti sta fissando.
+~
+La sua pelliccia potrebbe valere molto..
+~
+fox~
+AGHU 0 100 0
+1 1 1d1+12 1d1+99 1d3+1 bite
+8 8 8 10
+NR 0 0 0
+stand stand either 0
+0 0 small 0
+
+#3713
+lumaca~
+la lumaca~
+Una lumaca striscia lentamente.. Sta cercando di evitarti o di raggiungerti?
+~
+Ma che schifo! Lascia la sua bava lucente ed appiccicaticcia ovunque!
+~
+unique~
+AGU 0 0 0
+0 0 1d1+0 1d1+99 1d1+0 digestion
+10 10 10 10
+0 0 0 0
+stand stand none 0
+AGQc AFHM tiny 0
+
+#3714
+bestia~
+la bestia~
+Un'orribile bestia si avvicina lentamente..
+~
+Ha un aspetto orribile ed e' visibilmente affamata. Faresti meglio a fuggire..
+~
+school monster~
+AFT Z 0 0
+5 1 5d5+55 1d1+99 1d6+3 bite
+5 5 5 8
+EKM 0 HI 0
+stand stand none 50
+0 0 large 0
+
+#3715
+orso grosso~
+l'orso~
+Un grosso orso apre le fauci e ti ringhia contro!
+~
+E' molto piu' grande di te.. Fa' bene i tuoi calcoli e.. buona fortuna!
+~
+bear~
+AGU 0 0 0
+4 1 4d4+44 1d1+99 1d6+2 claw
+6 5 6 7
+CR 0 0 0
+stand stand either 0
+0 0 large 0
+
+#3716
+lupo nero~
+il lupo nero~
+Un lupo nero digrigna i denti fissandoti con occhi di brace..
+~
+Il fatto e' che questo lupo non ama essere infastidito..
+~
+wolf~
+AGU 0 0 0
+4 0 4d4+44 1d1+99 1d6+2 bite
+7 7 7 10
+NR 0 0 0
+stand stand either 0
+0 0 medium 0
+
+#3717
+adepto tezhaia~
+l'adepto di Tezhaia~
+Un adepto di Tezhaia e' qui, sorride e mostra la mercanzia in vendita.
+~
+La sua stazza non consente dubbi in proposito: sii gentile..
+~
+human~
+ABCQTV CH 1000 0
+30 10 1d1+999 1d1+999 2d4+30 beating
+-15 -15 -15 -15
+ACEFHIKN ABCD 0 0
+stand stand male 0
+0 0 medium 0
+
+#3718
+adepto nustrooac~
+l'adepto di Nustrooac~
+Un adepto di Nustrooac e' qui, impegnato ad addestrare alcuni giovani..
+~
+Alto e muscoloso quest'individuo pare molto paziente. Non e' proprio il caso di
+spazientirlo allora, non trovi?
+~
+human~
+ABCJQTV CH 1000 0
+30 10 1d1+999 1d1+999 2d4+30 beating
+-15 -15 -15 -15
+ACEFHIKN ABCD 0 0
+stand stand male 0
+0 0 medium 0
+
+#3719
+sacerdote naderon~
+il sacerdote di Naderon~
+Dinanzi a te si para l'alta e imponente figura del sacerdote di Naderon, pronto ad
+aiutarti.
+~
+Sii cordiale e rispettoso. Ti conviene e te ne accorgi dopo la prima occhiata
+alla sua stazza imponente..
+~
+human~
+ABCKQTV CH 1000 0
+30 10 1d1+999 1d1+999 2d4+30 beating
+-15 -15 -15 -15
+ACEFHIKN ABCD 0 0
+stand stand male 0
+0 0 medium 0
+
+#3720
+animale feroce~
+l'animale feroce~
+Hai davanti un animale feroce.. Ruggisce mostrando le zanne aguzze..
+Ma.. ha qualcosa in bocca! Che sia il tanto agognato Diploma?
+~
+Quest'orrenda creatura e' l'ultima prova del campo di addestramento.
+Sconfiggila e potrai prendere il Diploma, finalmente!
+~
+school monster~
+ABe J 0 0
+3 1 2d4+30 1d1+99 1d6+1 claw
+8 8 8 10
+EFN 0 0 0
+stand stand none 30
+0 0 medium 0
+#0
+
+#OBJECTS
+
+#3700
+mazza bronzo~
+una mazza di bronzo~
+Vedi in terra una mazza di bronzo.~
+bronze~
+weapon U AN
+mace 1 6 pound 0
+1 60 250 P
+A
+18 1
+E
+mazza bronzo~
+Forse e' un po' troppo pesante ma la qualita' e' buona. E' in bronzo.
+~
+
+#3701
+pugnale bronzo~
+un pugnale di bronzo~
+Vedi in terra un pugnale di bronzo.~
+bronze~
+weapon U AN
+dagger 1 4 pierce 0
+0 10 210 P
+A
+18 1
+E
+pugnale bronzo~
+Forse un po' troppo leggero ma la qualita' e' buona. E' in bronzo.
+~
+
+#3702
+spada bronzo~
+una spada di bronzo~
+Vedi in terra una spada di bronzo.~
+bronze~
+weapon U AN
+sword 1 6 slash 0
+1 30 360 P
+A
+18 1
+E
+spada bronzo~
+Non sara' il massimo della resistenza ma la qualita' e' buona. E' in bronzo.
+~
+
+#3703
+veste cuoio~
+una veste di cuoio~
+In terra, ripiegata malamente su se' stessa c'e' una veste di cuoio.~
+leather~
+armor U AD
+1 1 1 0 0
+0 50 144 P
+E
+veste cuoio~
+Non e' resistentissima ma e' sicuramente meglio che andare a torso nudo, no?
+~
+
+#3704
+scudo legno~
+uno scudo di legno~
+Appoggiato ad una parete c'e' uno scudo di legno.~
+wood~
+armor U AJ
+1 1 1 0 0
+0 30 108 P
+E
+scudo legno~
+Magari presenta qualche scheggiatura, ma e' fatto di buon legno..
+~
+
+#3705
+mantello panno~
+un mantello di panno~
+Abbandonato in terra scorgi un mantello di panno.~
+cloth~
+armor U AC
+1 1 1 0 1
+0 40 72 P
+E
+mantello panno~
+E' impolverato ma non e' strappato da nessuna parte..
+~
+
+#3706
+elmo cuoio~
+un elmo di cuoio~
+In terra c'e' un elmo di cuoio.~
+leather~
+armor U AE
+1 1 1 0 0
+0 30 72 P
+E
+elmo cuoio~
+E' ben fatto e non e' completamente rovinato..
+~
+
+#3707
+gambali cuoio~
+un paio di gambali di cuoio~
+Ti sembra di scorgere un paio di gambali di cuoio, in terra.~
+leather~
+armor U AF
+1 1 1 0 0
+0 30 72 P
+E
+gambali cuoio~
+Questo paio di gambali in cuoio sembra perfetto! Nemmeno uno strappo!
+~
+
+#3708
+stivali cuoio~
+un paio di stivali di cuoio duro~
+In terra vedi un paio di stivali di cuoio.~
+leather~
+armor U AG
+1 1 1 0 0
+0 30 72 P
+E
+stivali cuoio~
+Realizzati in cuoio duro, questi stivali sono ancora in perfette condizioni..
+~
+
+#3709
+guanti cuoio~
+un paio di guanti in cuoio morbido~
+In terra vedi un paio di guanti di cuoio.~
+leather~
+armor U AH
+1 1 1 0 0
+0 10 72 P
+E
+guanti cuoio~
+Realizzati in cuoio morbido, questi guanti sono ancora in perfette condizioni..
+~
+
+#3710
+maniche cuoio~
+un paio di maniche di cuoio~
+In terra vedi un paio di maniche di cuoio.~
+leather~
+armor U AI
+1 1 1 0 0
+0 20 72 P
+E
+maniche cuoio~
+Sono realizzate in cuoio di buona qualita'. Prendi, e' un discreto oggetto.
+~
+
+#3711
+cappa panno~
+una cappa di panno~
+In terra, ripiegata malamente su se' stessa, c'e' una cappa di panno.~
+cloth~
+armor U AK
+1 1 1 0 0
+0 20 72 P
+E
+cappa panno~
+E' impolverata ma ancora intatta.. Una discreta copertura, indossala!
+~
+
+#3712
+cinta cuoio~
+una cinta di cuoio~
+In terra vedi una cinta di cuoio.~
+leather~
+armor U AL
+1 1 1 0 0
+0 10 72 P
+E
+cinta cuoio~
+E' in ottime condizioni e il fermaglio che ne consente la regolazione in vita
+non presenta nemmeno tracce di ruggine!
+~
+
+#3713
+bracciale bronzo~
+un bracciale di bronzo~
+Brilla tra la polvere un bracciale di bronzo.~
+bronze~
+armor U AM
+0 1 1 0 0
+0 10 48 P
+E
+bracciale bronzo~
+E' ancora liscio e non presenta ammaccature. Un buon oggetto, no?
+~
+
+#3714
+chiave rame~
+una chiave di rame~
+Luccica tra la polvere una chiave di rame..~
+brass~
+key P A
+0 0 0 0 0
+0 10 0 P
+
+#3715
+diploma foglio arrotolato~
+un diploma arrotolato~
+E cos'e' quel foglio arrotolato la', in terra?~
+vellum~
+treasure GU AO
+0 0 0 0 0
+0 10 1140 P
+A
+4 1
+A
+5 1
+E
+diploma~
+E' l'attestato di superamento del campo di addestramento!
+Ed ha poteri magici, a quanto dice la gente.. Portalo con te e vedrai..
+~
+
+#3716
+stendardo di guerra~
+uno stendardo di guerra~
+Appoggiato al muro c'e' uno stendardo di guerra~
+cloth~
+light AG A
+0 0 200 0 0
+0 20 380 P
+A
+17 -1
+A
+20 -1
+E
+stendardo di guerra~
+Con questo potrai affrontare l'oscurita'..
+~
+
+#3717
+fiocina~
+una fiocina di legno~
+In terra c'e' una lancia di legno~
+wood~
+weapon U AN
+staff 1 6 thrust 0
+1 50 111 P
+A
+18 1
+E
+fiocina legno~
+E' robusta e ancora in buone condizioni.
+~
+
+#3718
+staffa legno~
+una staffa di legno~
+Appoggiata alla parete c'e' una staffa di legno~
+wood~
+weapon U AN
+staff 1 5 pound F
+1 40 290 P
+A
+18 2
+A
+19 1
+E
+staffa legno~
+E' robusta e ancora in buone condizioni.
+~
+
+#3719
+ascia bronzo~
+un'ascia bronzo~
+In terra vedi un'ascia bronzo.~
+bronze~
+weapon U AN
+axe 1 6 chop 0
+1 50 350 P
+A
+18 1
+E
+ascia bronzo~
+Non e' una tra le migliori asce che esistono ma e' di buona qualita'. Ed e'
+tutta in bronzo.
+~
+
+#3720
+coreggia bronzo~
+una coreggia di bronzo~
+In terra vedi una coreggia di bronzo~
+bronze~
+weapon U AN
+flail 1 5 crush 0
+1 50 310 P
+A
+19 1
+E
+coreggia di bronzo~
+E' in perfette condizioni.
+~
+
+#3721
+frusta cuoio~
+una frusta di cuoio~
+Arrotolata su se' stessa, in terra, c'e' una frusta di cuoio.~
+leather~
+weapon U AN
+whip 2 2 whip 0
+1 20 330 P
+A
+18 2
+E
+frusta di cuoio~
+E' in ottimo legno morbido ed e' ancora ben ingrassata..
+~
+
+#3722
+alabarda legno~
+un'alabarda di legno~
+In terra vedi un'alabarda di legno.~
+wood~
+weapon U AN
+polearm 1 7 slash F
+1 80 183 P
+A
+19 1
+E
+alabarda legno~
+Robusta e ancora in perfette condizioni. Tienila..
+~
+
+#3723
+arco legno~
+un arco di legno~
+In terra c'e' un arco di legno.~
+wood~
+weapon U AN
+bow 1 7 none F
+1 80 183 P
+A
+19 1
+E
+arco legno~
+Flessuoso e ancora ben teso, e' in ottime condizioni quest'arco di legno.
+~
+
+#3724
+lancia ferro~
+una lancia di ferro~
+In terra noti una lancia di ferro.~
+iron~
+weapon U AN
+lance 1 7 none F
+1 80 183 P
+A
+19 1
+E
+lancia ferro~
+Non presenta ne' ruggine ne' scheggiature. E' una buona arma..
+~
+#0
+
+#ROOMS
+
+#3700
+Entrata al campo di addestramento~
+Questa e' l'entrata al campo di addestramento. Prosegui a nord ed entrerai
+all'interno del campo, se invece vuoi recarti all'arena, hai da prendere la
+direzione opposta, a sud.
+
+Un'insegna avverte: [1;32m'[0;37mnon sara' piu' possibile entrare al campo al superamento del livello [1;31m5[0;37m.[1;32m'[0;37m
+~
+0 CD 0
+D0
+Intravedi l'interno del campo di addestramento.
+~
+~
+0 0 3757
+D1
+Da qui si accede al museo.
+~
+~
+0 -1 400
+D2
+Questa che vedi e' una delle porte dell'arena.
+~
+porta~
+1 -1 3744
+D5
+Nel suo splendore, ecco il Tempio di Midgaard.
+~
+~
+0 0 3001
+S
+
+#3701
+Una stanza nel campo di addestramento~
+Sei in una stanza quadrata ed ampia, le cui bianchissime mura non presentano
+finestre ma l'illuminazione e' assicurata da luci fluorescenti che tagliano
+l'ambiente con i loro fasci soffusi e incrociati, partendo dal soffitto.
+Una piccola placca di marmo impegna il laterale di una delle pareti recando
+una sottile scrittura tra le venature rosate.
+~
+0 CDR 0
+D2
+Da qui raggiungi un'altra stanza.
+~
+~
+0 -1 3757
+D3
+Proseguendo per questa direzione si giunge ad un'altra stanza.
+~
+~
+0 -1 3702
+E
+placca marmo scrittura venature rosate~
+E' tempo di controllare l'equipaggiamento!  Digita '[1;32mEQUIPMENT[0;37m' per vedere cos'hai addosso al momento.  Molto bene
+adesso hai solo una veste, uno scudo e un'arma.  Andare nel campo d'addestramento
+ti sara' utile anche per trovare dell'altro equipaggiamento.
+
+Per prendere gli oggetti da terra, quando li vedi, digita '[1;32mGET[0;37m oggetto'.
+Per indossare un pezzo d'armatura digita '[1;32mWEAR[0;37m oggetto'.
+Per impugnare una sorgente di luce digita '[1;32mHOLD[0;37m oggetto'.
+Per maneggiare un'arma digita '[1;32mWIELD[0;37m arma'.
+Per smettere di usare un oggetto digita '[1;32mREMOVE[0;37m oggetto'.
+Infine, per vedere ogni oggetto presente nell'inventario digita '[1;32mINVENTORY[0;37m'.
+
+Quando sei pronto e vuoi proseguire, vai ad ovest.
+~
+S
+
+#3702
+La stanza centrale~
+Ripete ancora lo stile dell'intera costruzione anche questa stanza:
+quadrata, ampia e dalle pareti immacolate, senza finestra. L'illuminazione
+e' assicurata pero' da a luci fluorescenti che tagliano l'ambiente con i
+loro fasci soffusi e incrociati, partendo dal soffitto. Una piccola placca
+di marmo impegna il laterale di una delle pareti recando una sottile scrittura
+tra le venature celesti. Ci sono uscite in tutte le direzioni..
+~
+0 CDR 0
+D0
+Ecco la direzione che ti condurra' alla prossima sezione del campo.
+~
+~
+0 0 3703
+D1
+E' una stanza.
+~
+~
+0 0 3701
+D2
+Vedi una stanza.
+~
+~
+0 0 3705
+D3
+C'e' una stanza.
+~
+~
+0 0 3704
+D4
+Proseguendo entrerai in una stanza.
+~
+~
+0 0 3708
+D5
+Ancora una stanza.
+~
+~
+0 0 3707
+E
+placca marmo scrittura venature celesti~
+Qui imparerai ad usare le direzioni.  Le direzioni che puoi prendere in ogni
+stanza sono: nord, sud, est, ovest, alto e basso.  Chiaramente non ogni stanza
+avra' tutte le uscite disponibili.
+
+Per vedere tutte le uscite di una stanza digita '[1;32mEXITS[0;37m'.
+
+Le porte possono essere chiuse, chiuse a chiave o segrete. A volte incontrerai
+indizi, nella descrizione della stanza, che ti mostreranno l'esistenza di porte e
+uscite, altre volte dovrai andare per tentativi, per esempio dirigendoti in una
+direzione e magari sbattendo contro una porta chiusa!
+
+Prova a raggiungere tutte le direzioni da qui.. Quando hai finito, vai a NORD.
+~
+S
+
+#3703
+Una stanza nel campo di addestramento~
+Sei in una stanza quadrata ed ampia, le cui bianchissime mura non presentano
+finestre ma l'illuminazione e' assicurata da luci fluorescenti che tagliano
+l'ambiente con i loro fasci soffusi e incrociati, partendo dal soffitto.
+Una piccola placca di marmo impegna il laterale di una delle pareti recando
+una sottile scrittura tra le venature verdine. Ci sono uscite a nord e a sud.
+~
+0 CDR 0
+D0
+Hai davanti a te la prossima sezione del campo.
+~
+~
+0 -1 3709
+D2
+Distingui chiaramente la stanza centrale.
+~
+~
+0 0 3702
+E
+placca marmo scrittura venature verdine~
+Eccoti pronto per un'altra lezione. Imparerai a vedere le tue statistiche personali
+digitando '[1;32mSCORE[0;37m'.  Per ora e' sufficiente questo, ai livelli piu' alti
+invece, il comando 'SCORE' fornira' maggiori informazioni.
+~
+S
+
+#3704
+Una stanza nel campo di addestramento~
+Sei in una stanza quadrata ed ampia, le cui bianchissime mura non presentano
+finestre ma l'illuminazione e' assicurata da luci fluorescenti che tagliano
+l'ambiente con i loro fasci soffusi e incrociati, partendo dal soffitto.
+Un'insegna impegna il laterale di una delle pareti recando una scritta.
+L'unica uscita e' ad est.
+~
+0 CDR 0
+D1
+Vedi chiaramente la stanza centrale.
+~
+~
+0 0 3702
+E
+insegna scritta~
+Seguendo l'est arriverai alla stanza centrale del campo di addestramento.
+~
+S
+
+#3705
+Una stanza nel campo di addestramento~
+Sei in una stanza quadrata ed ampia, le cui bianchissime mura non presentano
+finestre ma l'illuminazione e' assicurata da luci fluorescenti che tagliano
+l'ambiente con i loro fasci soffusi e incrociati, partendo dal soffitto.
+Un'insegna impegna il laterale di una delle pareti recando una scritta.
+L'unica uscita e' a nord.
+~
+0 CDR 0
+D0
+Distingui nettamente la stanza centrale.
+~
+~
+0 0 3702
+E
+insegna scritta~
+Prosegui a nord per la stanza centrale del campo di addestramento.
+~
+S
+
+#3707
+Una stanza nel campo di addestramento~
+Sei in una stanza quadrata ed ampia, le cui bianchissime mura non presentano
+finestre ma l'illuminazione e' assicurata da luci fluorescenti che tagliano
+l'ambiente con i loro fasci soffusi e incrociati, partendo dal soffitto.
+Un'insegna impegna il laterale di una delle pareti recando una scritta.
+L'unica uscita e' in alto.
+~
+0 CDR 0
+D4
+Ecco la stanza centrale!
+~
+~
+0 0 3702
+E
+insegna scritta~
+Prendi la direzione alto per raggiungere la stanza centrale del campo di addestramento.
+~
+S
+
+#3708
+Una stanza nel campo di addestramento~
+Sei in una stanza quadrata ed ampia, le cui bianchissime mura non presentano
+finestre ma l'illuminazione e' assicurata da luci fluorescenti che tagliano
+l'ambiente con i loro fasci soffusi e incrociati, partendo dal soffitto.
+Un'insegna impegna il laterale di una delle pareti recando una scritta.
+L'unica uscita e' in basso.
+~
+0 CDR 0
+D5
+Scorgi la stanza centrale.
+~
+~
+0 0 3702
+E
+insegna scritta~
+Vai in basso se vuoi raggiungere la stanza centrale del campo di addestramento.
+~
+S
+
+#3709
+La stanza centrale~
+Ripete ancora lo stile dell'intera costruzione anche questa stanza:
+quadrata, ampia e dalle pareti immacolate, senza finestra. L'illuminazione
+e' assicurata pero' da a luci fluorescenti che tagliano l'ambiente con i
+loro fasci soffusi e incrociati, partendo dal soffitto. Una piccola placca
+di marmo impegna il laterale di una delle pareti recando una sottile scrittura
+tra le venature grigie. Le uscite disponibili sono ad ovest e in basso.
+~
+0 CDR 0
+D3
+Puoi vedere la prossima sezione del campo di addestramento.
+~
+~
+0 -1 3711
+D5
+Vedi una cella senza sbarre.
+~
+~
+0 0 3710
+E
+placca marmo scrittura venature grigie~
+Benvenuto all'addestramento al combattimento.
+
+La prima lezione riguarda la conoscenza della creatura contro la quale si lotta.
+Utilizza il comando '[1;32mCONSIDER[0;37m' per considerare l'opportunita' o meno di
+attaccare una determinata creatura.
+
+La seconda lezione e' la fuga.  C'e' un mostro nella stanza in basso: il grumo.
+Il grumo e' troppo forte per te ma non ti uccidera'.
+Allora, vai in 'BASSO' da qui, quindi 'CONSIDER', e quindi 'KILL'.
+Dopo un po' digita 'FLEE' per scappare da lui.
+
+Puoi anche settare le tue caratteristiche per scappare automaticamente, con il
+comando 'WIMPY'.
+Digita 'HELP WIMPY' per maggiori informazioni sul comando 'WIMPY'.
+
+Dopo la fuga puoi tornare in questa stanza. Quando sei pronto per la prossima
+tappa dirigiti a 'OVEST'.
+~
+S
+
+#3710
+La cella del grumo~
+Ti trovi in un'umida cella ma le sue pareti sono stranamente pulite.. Ed e'
+per questo che riesci a notare un'insegna sopra una di esse, e c'e' scritto
+qualcosa.. L'unica uscita e' in alto.
+~
+0 DR 0
+D4
+In alto c'e' una stanza di salvezza..
+~
+~
+0 0 3709
+E
+scritta insegna~
+Ricorda! Non combattere il mostro fino alla fine! Devi solo digitare 'KILL GRUMO', e
+mentre stai combattendo, digitare 'FLEE' fino a che non riesci a scappare e finisci
+fuori di qui.
+~
+S
+#3711
+Una stanza nel campo di addestramento~
+Sei in una stanza quadrata ed ampia, le cui bianchissime mura non presentano
+finestre ma l'illuminazione e' assicurata da luci fluorescenti che tagliano
+l'ambiente con i loro fasci soffusi e incrociati, partendo dal soffitto.
+Un'insegna impegna il laterale di una delle pareti recando una scritta.
+~
+0 CDR 0
+D1
+Di qui si va alla prossima sezione del campo.
+~
+~
+0 0 3709
+D5
+Una sala di combattimento!
+~
+~
+0 0 3712
+E
+insegna scritta~
+Benvenuto. Qui combatterai in modo reale, senza fuggire (a meno che non sia
+indispensabile). Uccidi ogni creatura e affina le tattiche. Le creature
+posseggono l'equipaggiamento che a te serve.. Per iniziare, vai in basso.
+Buona fortuna
+~
+S
+
+#3712
+La stanza delle celle~
+Sei nella stanza delle celle, infatti tutt'intorno le pareti sono occupate
+da quattro grosse nicchie, celle per la precisione.. Nessuna finestra, le
+solite luci fluorescenti emanate dal soffitto spiovono dritte stavolta,
+investendo il pavimento.. Un'insegna impegna il laterale di una delle
+pareti recando una scritta. Le uscite sono in tutte le direzioni cardinali
+piu' un'altra in basso..
+~
+0 CDR 0
+D0
+Ma la' c'e' una creatura mostruosa!
+~
+~
+0 -1 3713
+D1
+Guarda! La' c'e' un individuo rannicchiato!
+~
+~
+0 -1 3716
+D2
+Hai visto giusto: la' c'e' un essere inferocito!
+~
+~
+0 -1 3715
+D3
+Dentro quella stanza c'e' un essere mostruoso!
+~
+~
+0 -1 3714
+D5
+Ecco la prossima sezione del campo.
+~
+~
+0 -1 3717
+E
+insegna scritta~
+Benvenuto nella stanza delle celle. Gli adepti del campo di addestramento hanno
+catturato queste creature affinche' tu le uccida. Nelle quattro celle laterali ci
+sono quattro orribili creature diverse. Uccidile tutte!
+
+Dopo che avrai ucciso ogni creatura, prendi tutto l'equipaggiamento dai loro corpi
+con il comando '[1;32mGET ALL CORPSE[0;37m'.
+Dopo di cio' puoi usare il comando '[1;32mWEAR ALL[0;37m' per indossare tutto quello
+che hai appena prelevato.
+
+Non appena avrai finito ed il corpo della creatura, vuoto oramai, non e' piu' di alcun
+utilizzo, digita '[1;32mSACRIFICE CORPSE[0;37m' per donarlo al tuo Dio.
+Gli Dei apprezzeranno questo tuo gesto.
+
+Durante un combattimento potresti aver bisogno di riposare o dormire per rigenerare le
+tue ferite, ed allora puoi digitare '[1;32mREST[0;37m' per rigenerare i punti-ferita,
+oppure puoi digitare '[1;32mSLEEP[0;37m' che ti rinfranchera' in maniera piu' veloce
+rispetto a 'REST', ma dormendo sarai sicuramente meno consapevole di quanto ti accade
+intorno..
+~
+S
+
+#3713
+Una cella~
+Sei entrato in una delle quattro celle.. Sangue e resti di corpi ovunque..
+Tra gli schizzi di sangue rappreso, sporco e ragnatele, su una parete scorgi
+ugualmente un grosso cartello di legno. L'unica uscita e' a sud.
+~
+0 DR 0
+D2
+La' c'e' la stanza delle celle..
+~
+~
+0 -1 3712
+E
+cartello~
+C'e' una creatura aggressiva in questa stanza. Uccidila!
+Ricordati di saccheggiare e poi sacrificare il corpo.
+~
+S
+
+#3714
+Una cella~
+Sei entrato in una delle quattro celle.. Sangue e resti di corpi ovunque..
+Tra gli schizzi di sangue rappreso, sporco e ragnatele, su una parete scorgi
+ugualmente un grosso cartello di legno. L'unica uscita e' ad est.
+~
+0 DR 0
+D1
+Ecco la stanza delle celle..
+~
+~
+0 -1 3712
+E
+cartello~
+C'e' una creatura aggressiva in questa stanza. Uccidila!
+Ricordati di saccheggiare e poi sacrificare il corpo.
+~
+S
+
+#3715
+Una cella~
+Sei entrato in una delle quattro celle.. Sangue e resti di corpi ovunque..
+Tra gli schizzi di sangue rappreso, sporco e ragnatele, su una parete scorgi
+ugualmente un grosso cartello di legno. L'unica uscita e' a nord.
+~
+0 DR 0
+D0
+La stanza delle celle e' proprio qui..
+~
+~
+0 -1 3712
+E
+cartello~
+C'e' una creatura intimorita in questa stanza. Uccidila!
+Ricordati di saccheggiare e poi sacrificare il corpo.
+~
+S
+
+#3716
+Una cella~
+Sei entrato in una delle quattro celle.. Sangue e resti di corpi ovunque..
+Tra gli schizzi di sangue rappreso, sporco e ragnatele, su una parete scorgi
+ugualmente un grosso cartello di legno. L'unica uscita e' ad ovest.
+~
+0 DR 0
+D3
+La stanza delle celle, eccola..
+~
+~
+0 -1 3712
+E
+cartello~
+C'e' una creatura mostruosa in questa stanza. Uccidila!
+Ricordati di saccheggiare e poi sacrificare il corpo.
+~
+S
+
+#3717
+Una stanza nel campo di addestramento~
+Sei in una stanza quadrata ed ampia, le cui bianchissime mura non presentano
+finestre ma l'illuminazione e' assicurata da luci fluorescenti che tagliano
+l'ambiente con i loro fasci soffusi e incrociati, partendo dal soffitto.
+Un'insegna impegna il laterale di una delle pareti recando una scritta.
+Trova da solo le uscite possibili..
+~
+0 CDR 0
+D1
+La prossima sezione del campo.
+~
+porta~
+1 -1 3719
+D2
+Non ti sbagli: e' proprio una piccola bottega quella..
+~
+~
+0 0 3718
+D4
+Di qui si torna alla stanza delle celle.
+~
+~
+0 -1 3712
+E
+insegna scritta~
+A questo punto sarai affamato ed assetato.. Ed e' tempo di acquisti!
+A sud c'e' una bottega, entra ed usa i seguenti comandi:
+
+    [1;32mBUY[0;37m    Compra un oggetto
+    [1;32mLIST[0;37m   Listino prezzi
+
+Dopo aver acquistato cibo e bevande, digitando 'EAT' e 'DRINK' rispettivamente per
+l'oggetto da mangiare e quello da bere, sarai saziato e dissetato.
+
+Dopo di cio' cerca da solo l'uscita..
+~
+S
+
+#3718
+Una piccola bottega~
+Eccoti in una ristretta ma accogliente bottega.. Anche qui e' ripetuto
+lo stile dell'intera costruzione: pareti bianchissime e nessuna finestra e
+fasci di luce pendono incrociandosi dal soffitto. Le pareti pero' non sono
+sgombre: scaffali e mensole stipati di pacchi e merci. Ed un'insegna che
+reca una scritta e' presente su uno dei muri. L'unica uscita e' a nord.
+~
+0 DR 0
+D0
+Ecco l'unica uscita presente.
+~
+~
+0 0 3717
+E
+insegna scritta~
+L'insegna riporta:
+
+   Buy   - Per comprare qualcosa dal negoziante.
+   List  - Il negoziante ti mostrera' la lista degli oggetti e il prezzo.
+   Value - Il negoziante stimera' gli oggetti che gli porgi per un'eventuale vendita.
+   Sell  - Per vendere qualcosa al negoziante.
+~
+S
+
+#3719
+Una stanza nel campo di addestramento~
+Sei in una stanza quadrata ed ampia, le cui bianchissime mura non presentano
+finestre ma l'illuminazione e' assicurata da luci fluorescenti che tagliano
+l'ambiente con i loro fasci soffusi e incrociati, partendo dal soffitto.
+Un'insegna impegna il laterale di una delle pareti recando una scritta.
+Le uscite sono a nord e ad ovest ed una porta ad est.
+~
+0 CDR 0
+D0
+E' una stanza completamente buia.
+~
+~
+0 0 3720
+D1
+Ecco la prossima sezione del campo.
+~
+porta~
+2 3714 3721
+D3
+Potrai vedere l'inerno della stanza solo entrandoci..
+~
+porta~
+1 -1 3717
+E
+insegna scritta~
+A nord di qui c'e' una stanza buia. Ce l'hai una lanterna? Altrimenti
+dovrai tornare alla bottega ad acquistarne una.
+
+Nella stanza c'e' una creatura che possiede la chiave che ti interessa..
+Appena avrai ucciso la creatura e preso la chiave, torna qui, digita poi
+[1;32mUNLOCK EAST[0;37m, [1;32mOPEN EAST[0;37m, e prosegui ad est.
+~
+S
+
+#3720
+Una stanza completamente buia~
+Questa stanza e' stata oscurata di proposito.. Cosi' che i novizi imparassero
+la necessita' e l'utilizzo di avere sempre con se' una fonte luminosa..
+Le mura sono al solito bianchissime e l'unica uscita e' a sud.
+~
+0 ADR 0
+D2
+Eh.. vedi nient'altro che la stanza dalla quale sei venuto..
+~
+~
+0 0 3719
+S
+
+#3721
+La fine del campo di addestramento~
+E' una stanza molto piu' ampia delle precedenti e molto piu' brillante.
+I fasci di luce qui sono piu' numerosi e spessi e creano intrecci mobili
+e rapidi, abbagliando le porzioni dell'ambiente in modo rasserenante.
+Al centro della stanza un piedistallo di marmo bianco ed una figura in
+piedi, abbigliata d'argento lucente ti guarda negli occhi. Su una delle
+pareti immacolate una placca di marmo reca una scritta tra le venature
+grigie. L'unica uscita e' dall'altro lato del cancello, a nord.
+~
+0 DR 0
+D0
+La vedi? E' l'arena..
+~
+cancello~
+1 -1 3722
+E
+placca marmo scritta venature grigie~
+Ti sei diplomato! Conserva con cura il tuo diploma, con la massima cura..
+Recati a 'NORD' se vuoi visitare l'arena. Ci sono creature di basso livello,
+potrai esercitarti facilmente ma attento! Non aggredire gli altri giocatori!
+
+Per tornare immediatamente al tempio, in ogni momento, digita '[1;32mRECALL[0;37m'.
+
+Non dimenticare di digitare 'SAVE' per salvare i tuoi progressi, dato che fino
+al livello 2 non e' previsto il salvataggio automatico al quit, percio' dovrai
+digitarlo di volta in volta prima di quittare.
+
+Se hai bisogno di aiuto durante il gioco digita 'HELP'.
+Se noti qualcosa di sbagliato, di anomalo o hai commenti, usa i comandi
+'BUG', 'IDEA', or 'TYPO' per comunicarli.
+
+Buon proseguimento.
+~
+S
+
+#3722
+Il muro meridionale dell'arena~
+Sei nell'arena. Ricorda, se vuoi uscire di qui devi solo andare in alto.
+L'ambiente che ti circonda e' vastissimo tanto che il soffitto puo' essere
+a malapena scorto sollevando il capo.. Ti senti protetto: in un certo senso
+sai che lo sguardo delle divinita' e' posato su di te.
+~
+0 D 0
+D0
+~
+~
+0 0 3729
+D1
+~
+~
+0 0 3725
+D3
+~
+~
+0 0 3723
+D4
+Cosa vedi? L'USCITA!
+~
+~
+0 0 3760
+S
+
+#3723
+Il muro meridionale dell'arena~
+Sei nell'arena. Ricorda, se vuoi uscire di qui devi solo andare in alto.
+L'ambiente che ti circonda e' vastissimo tanto che il soffitto puo' essere
+a malapena scorto sollevando il capo.. Ti senti protetto: in un certo senso
+sai che lo sguardo delle divinita' e' posato su di te.
+~
+0 D 0
+D0
+~
+~
+0 0 3728
+D1
+~
+~
+0 0 3722
+D3
+~
+~
+0 0 3724
+D4
+Cosa vedi? L'USCITA!
+~
+~
+0 0 3760
+S
+
+#3724
+L'angolo sud-occidentale dell'arena~
+Sei nell'arena. Ricorda, se vuoi uscire di qui devi solo andare in alto.
+L'ambiente che ti circonda e' vastissimo tanto che il soffitto puo' essere
+a malapena scorto sollevando il capo.. Ti senti protetto: in un certo senso
+sai che lo sguardo delle divinita' e' posato su di te.
+~
+0 D 0
+D0
+~
+~
+0 0 3727
+D1
+~
+~
+0 0 3723
+D4
+Cosa vedi? L'USCITA!
+~
+~
+0 0 3760
+S
+
+#3725
+Il muro meridionale dell'arena~
+Sei nell'arena. Ricorda, se vuoi uscire di qui devi solo andare in alto.
+L'ambiente che ti circonda e' vastissimo tanto che il soffitto puo' essere
+a malapena scorto sollevando il capo.. Ti senti protetto: in un certo senso
+sai che lo sguardo delle divinita' e' posato su di te.
+~
+0 D 0
+D0
+~
+~
+0 0 3730
+D1
+~
+~
+0 0 3726
+D3
+~
+~
+0 0 3722
+D4
+Cosa vedi? L'USCITA!
+~
+~
+0 0 3760
+S
+
+#3726
+L'angolo sud-orientale dell'arena~
+Sei nell'arena. Ricorda, se vuoi uscire di qui devi solo andare in alto.
+L'ambiente che ti circonda e' vastissimo tanto che il soffitto puo' essere
+a malapena scorto sollevando il capo.. Ti senti protetto: in un certo senso
+sai che lo sguardo delle divinita' e' posato su di te.
+~
+0 D 0
+D0
+~
+~
+0 0 3731
+D3
+~
+~
+0 0 3725
+D4
+Cosa vedi? L'USCITA!
+~
+~
+0 0 3760
+S
+
+#3727
+Il muro occidentale dell'arena~
+Sei nell'arena. Ricorda, se vuoi uscire di qui devi solo andare in alto.
+L'ambiente che ti circonda e' vastissimo tanto che il soffitto puo' essere
+a malapena scorto sollevando il capo.. Ti senti protetto: in un certo senso
+sai che lo sguardo delle divinita' e' posato su di te.
+~
+0 D 0
+D0
+~
+~
+0 0 3732
+D1
+~
+~
+0 0 3728
+D2
+~
+~
+0 0 3724
+D4
+Cosa vedi? L'USCITA!
+~
+~
+0 0 3760
+S
+
+#3728
+L'arena~
+Sei nell'arena. Ricorda, se vuoi uscire di qui devi solo andare in alto.
+L'ambiente che ti circonda e' vastissimo tanto che il soffitto puo' essere
+a malapena scorto sollevando il capo.. Ti senti protetto: in un certo senso
+sai che lo sguardo delle divinita' e' posato su di te.
+~
+0 D 0
+D0
+~
+~
+0 0 3733
+D1
+~
+~
+0 0 3729
+D2
+~
+~
+0 0 3723
+D3
+~
+~
+0 0 3727
+D4
+Cosa vedi? L'USCITA!
+~
+~
+0 0 3760
+S
+
+#3729
+L'arena~
+Sei nell'arena. Ricorda, se vuoi uscire di qui devi solo andare in alto.
+L'ambiente che ti circonda e' vastissimo tanto che il soffitto puo' essere
+a malapena scorto sollevando il capo.. Ti senti protetto: in un certo senso
+sai che lo sguardo delle divinita' e' posato su di te.
+~
+0 D 0
+D0
+~
+~
+0 0 3734
+D1
+~
+~
+0 0 3730
+D2
+~
+~
+0 0 3722
+D3
+~
+~
+0 0 3728
+D4
+Cosa vedi? L'USCITA!
+~
+~
+0 0 3760
+S
+
+#3730
+L'arena~
+Sei nell'arena. Ricorda, se vuoi uscire di qui devi solo andare in alto.
+L'ambiente che ti circonda e' vastissimo tanto che il soffitto puo' essere
+a malapena scorto sollevando il capo.. Ti senti protetto: in un certo senso
+sai che lo sguardo delle divinita' e' posato su di te.
+~
+0 D 0
+D0
+~
+~
+0 0 3735
+D1
+~
+~
+0 0 3731
+D2
+~
+~
+0 0 3725
+D3
+~
+~
+0 0 3729
+D4
+Cosa vedi? L'USCITA!
+~
+~
+0 0 3760
+S
+
+#3731
+Il muro orientale dell'arena~
+Sei nell'arena. Ricorda, se vuoi uscire di qui devi solo andare in alto.
+L'ambiente che ti circonda e' vastissimo tanto che il soffitto puo' essere
+a malapena scorto sollevando il capo.. Ti senti protetto: in un certo senso
+sai che lo sguardo delle divinita' e' posato su di te.
+~
+0 D 0
+D0
+~
+~
+0 0 3736
+D2
+~
+~
+0 0 3726
+D3
+~
+~
+0 0 3730
+D4
+Cosa vedi? L'USCITA!
+~
+~
+0 0 3760
+S
+
+#3732
+Il muro occidentale dell'arena~
+Sei nell'arena. Ricorda, se vuoi uscire di qui devi solo andare in alto.
+L'ambiente che ti circonda e' vastissimo tanto che il soffitto puo' essere
+a malapena scorto sollevando il capo.. Ti senti protetto: in un certo senso
+sai che lo sguardo delle divinita' e' posato su di te.
+~
+0 D 0
+D0
+~
+~
+0 0 3737
+D1
+~
+~
+0 0 3733
+D2
+~
+~
+0 0 3727
+D4
+Cosa vedi? L'USCITA!
+~
+~
+0 0 3760
+S
+
+#3733
+L'arena~
+Sei nell'arena. Ricorda, se vuoi uscire di qui devi solo andare in alto.
+L'ambiente che ti circonda e' vastissimo tanto che il soffitto puo' essere
+a malapena scorto sollevando il capo.. Ti senti protetto: in un certo senso
+sai che lo sguardo delle divinita' e' posato su di te.
+~
+0 D 0
+D0
+~
+~
+0 0 3738
+D1
+~
+~
+0 0 3734
+D2
+~
+~
+0 0 3728
+D3
+~
+~
+0 0 3732
+D4
+Cosa vedi? L'USCITA!
+~
+~
+0 0 3760
+S
+
+#3734
+Il centro dell'arena~
+Sei nell'arena. Ricorda, se vuoi uscire di qui devi solo andare in alto.
+L'ambiente che ti circonda e' vastissimo tanto che il soffitto puo' essere
+a malapena scorto sollevando il capo.. Ti senti protetto: in un certo senso
+sai che lo sguardo delle divinita' e' posato su di te.
+C'e' un GROSSO CARTELLO qui, bene in vista.
+~
+0 D 0
+D0
+~
+~
+0 0 3739
+D1
+~
+~
+0 0 3735
+D2
+~
+~
+0 0 3729
+D3
+~
+~
+0 0 3733
+D4
+Cosa vedi? L'USCITA!
+~
+~
+0 0 3760
+D5
+L'inizio di un labirinto, buio ed intricato.
+~
+grata~
+1 -1 3748
+E
+grosso cartello~
+Se sei valoroso con molta probabilita' vorrai avventurarti nel labirinto..
+Fai attenzione laggiu': ci sono creature aggressive e la via di fuga non e'
+agevole, data la natura intricata del luogo. Buona fortuna, avventuriero.
+~
+S
+
+#3735
+L'arena~
+Sei nell'arena. Ricorda, se vuoi uscire di qui devi solo andare in alto.
+L'ambiente che ti circonda e' vastissimo tanto che il soffitto puo' essere
+a malapena scorto sollevando il capo.. Ti senti protetto: in un certo senso
+sai che lo sguardo delle divinita' e' posato su di te.
+~
+0 D 0
+D0
+~
+~
+0 0 3740
+D1
+~
+~
+0 0 3736
+D2
+~
+~
+0 0 3730
+D3
+~
+~
+0 0 3734
+D4
+Cosa vedi? L'USCITA!
+~
+~
+0 0 3760
+S
+
+#3736
+Il muro orientale dell'arena~
+Sei nell'arena. Ricorda, se vuoi uscire di qui devi solo andare in alto.
+L'ambiente che ti circonda e' vastissimo tanto che il soffitto puo' essere
+a malapena scorto sollevando il capo.. Ti senti protetto: in un certo senso
+sai che lo sguardo delle divinita' e' posato su di te.
+~
+0 D 0
+D0
+~
+~
+0 0 3741
+D2
+~
+~
+0 0 3731
+D3
+~
+~
+0 0 3735
+D4
+Cosa vedi? L'USCITA!
+~
+~
+0 0 3760
+S
+
+#3737
+Il muro occidentale dell'arena~
+Sei nell'arena. Ricorda, se vuoi uscire di qui devi solo andare in alto.
+L'ambiente che ti circonda e' vastissimo tanto che il soffitto puo' essere
+a malapena scorto sollevando il capo.. Ti senti protetto: in un certo senso
+sai che lo sguardo delle divinita' e' posato su di te.
+~
+0 D 0
+D0
+~
+~
+0 0 3742
+D1
+~
+~
+0 0 3738
+D2
+~
+~
+0 0 3732
+D4
+Cosa vedi? L'USCITA!
+~
+~
+0 0 3760
+S
+
+#3738
+L'arena~
+Sei nell'arena. Ricorda, se vuoi uscire di qui devi solo andare in alto.
+L'ambiente che ti circonda e' vastissimo tanto che il soffitto puo' essere
+a malapena scorto sollevando il capo.. Ti senti protetto: in un certo senso
+sai che lo sguardo delle divinita' e' posato su di te.
+~
+0 D 0
+D0
+~
+~
+0 0 3743
+D1
+~
+~
+0 0 3739
+D2
+~
+~
+0 0 3733
+D3
+~
+~
+0 0 3737
+D4
+Cosa vedi? L'USCITA!
+~
+~
+0 0 3760
+S
+
+#3739
+L'arena~
+Sei nell'arena. Ricorda, se vuoi uscire di qui devi solo andare in alto.
+L'ambiente che ti circonda e' vastissimo tanto che il soffitto puo' essere
+a malapena scorto sollevando il capo.. Ti senti protetto: in un certo senso
+sai che lo sguardo delle divinita' e' posato su di te.
+~
+0 D 0
+D0
+~
+~
+0 0 3744
+D1
+~
+~
+0 0 3740
+D2
+~
+~
+0 0 3734
+D3
+~
+~
+0 0 3738
+D4
+Cosa vedi? L'USCITA!
+~
+~
+0 0 3760
+S
+
+#3740
+L'arena~
+Sei nell'arena. Ricorda, se vuoi uscire di qui devi solo andare in alto.
+L'ambiente che ti circonda e' vastissimo tanto che il soffitto puo' essere
+a malapena scorto sollevando il capo.. Ti senti protetto: in un certo senso
+sai che lo sguardo delle divinita' e' posato su di te.
+~
+0 D 0
+D0
+~
+~
+0 0 3745
+D1
+~
+~
+0 0 3741
+D2
+~
+~
+0 0 3735
+D3
+~
+~
+0 0 3739
+D4
+Cosa vedi? L'USCITA!
+~
+~
+0 0 3760
+S
+
+#3741
+Il muro orientale dell'arena~
+Sei nell'arena. Ricorda, se vuoi uscire di qui devi solo andare in alto.
+L'ambiente che ti circonda e' vastissimo tanto che il soffitto puo' essere
+a malapena scorto sollevando il capo.. Ti senti protetto: in un certo senso
+sai che lo sguardo delle divinita' e' posato su di te.
+~
+0 D 0
+D0
+~
+~
+0 0 3746
+D2
+~
+~
+0 0 3736
+D3
+~
+~
+0 0 3740
+D4
+Cosa vedi? L'USCITA!
+~
+~
+0 0 3760
+S
+
+#3742
+L'angolo nord-occidentale dell'arena~
+Sei nell'arena. Ricorda, se vuoi uscire di qui devi solo andare in alto.
+L'ambiente che ti circonda e' vastissimo tanto che il soffitto puo' essere
+a malapena scorto sollevando il capo.. Ti senti protetto: in un certo senso
+sai che lo sguardo delle divinita' e' posato su di te.
+~
+0 D 0
+D1
+~
+~
+0 0 3743
+D2
+~
+~
+0 0 3737
+D4
+Cosa vedi? L'USCITA!
+~
+~
+0 0 3760
+S
+
+#3743
+Il muro orientale dell'arena~
+Sei nell'arena. Ricorda, se vuoi uscire di qui devi solo andare in alto.
+L'ambiente che ti circonda e' vastissimo tanto che il soffitto puo' essere
+a malapena scorto sollevando il capo.. Ti senti protetto: in un certo senso
+sai che lo sguardo delle divinita' e' posato su di te.
+~
+0 D 0
+D1
+~
+~
+0 0 3744
+D2
+~
+~
+0 0 3738
+D3
+~
+~
+0 0 3742
+D4
+Cosa vedi? L'USCITA!
+~
+~
+0 0 3760
+S
+
+#3744
+Il muro orientale dell'arena~
+Sei nell'arena. Ricorda, se vuoi uscire di qui devi solo andare in alto.
+L'ambiente che ti circonda e' vastissimo tanto che il soffitto puo' essere
+a malapena scorto sollevando il capo.. Ti senti protetto: in un certo senso
+sai che lo sguardo delle divinita' e' posato su di te.
+~
+0 D 0
+D1
+~
+~
+0 0 3745
+D2
+~
+~
+0 0 3739
+D3
+~
+~
+0 0 3743
+D4
+Cosa vedi? L'USCITA!
+~
+~
+0 0 3760
+S
+
+#3745
+Il muro orientale dell'arena~
+Sei nell'arena. Ricorda, se vuoi uscire di qui devi solo andare in alto.
+L'ambiente che ti circonda e' vastissimo tanto che il soffitto puo' essere
+a malapena scorto sollevando il capo.. Ti senti protetto: in un certo senso
+sai che lo sguardo delle divinita' e' posato su di te.
+~
+0 D 0
+D1
+~
+~
+0 0 3746
+D2
+~
+~
+0 0 3740
+D3
+~
+~
+0 0 3744
+D4
+Cosa vedi? L'USCITA!
+~
+~
+0 0 3760
+S
+
+#3746
+L'angolo nord-orientale dell'arena~
+Sei nell'arena. Ricorda, se vuoi uscire di qui devi solo andare in alto.
+L'ambiente che ti circonda e' vastissimo tanto che il soffitto puo' essere
+a malapena scorto sollevando il capo.. Ti senti protetto: in un certo senso
+sai che lo sguardo delle divinita' e' posato su di te.
+~
+0 D 0
+D2
+~
+~
+0 0 3741
+D3
+~
+~
+0 0 3745
+D4
+Cosa vedi? L'USCITA!
+~
+~
+0 0 3760
+S
+
+#3748
+Il centro del labirinto~
+Sei giunto al centro di un enorme stanzone fiocamente illuminato da un blando
+raggio di luce, mostra appena che il pavimento e' completamente ricoperto di
+fango e limo. Non e' proprio un luogo ameno, te ne rendi perfettamente conto.
+Le uscite si diramano in tutte le direzioni ma chissa' perche' stai guardando
+proprio quella dalla quale sei appena arrivato..
+~
+0 D 0
+D0
+Scorgi il muro settentrionale.
+~
+~
+0 0 3750
+D1
+Scorgi il muro orientale.
+~
+~
+0 0 3753
+D2
+Scorgi il muro meridionale.
+~
+~
+0 0 3755
+D3
+Scorgi il muro occidentale.
+~
+~
+0 0 3752
+D4
+Sei salvo!
+~
+grata~
+1 -1 3734
+S
+
+#3749
+L'angolo nord-occidentale del labirinto~
+Ops.. Sei contro uno dei muri del labirinto! E' talmente buio che nemmeno
+l'avevi vista la piegata. La mancanza di finestre spiega perfettamente il
+forte odore di umido stagnante che ti avvolge completamente..
+~
+0 AD 0
+D1
+Scorgi il muro settentrionale.
+~
+~
+0 0 3750
+D2
+Scorgi il muro meridionale.
+~
+~
+0 0 3752
+S
+
+#3750
+Il muro settentrionale del labirinto~
+Ops.. Sei contro uno dei muri del labirinto! E' talmente buio che nemmeno
+l'avevi vista la piegata. La mancanza di finestre spiega perfettamente il
+forte odore di umido stagnante che ti avvolge completamente..
+~
+0 AD 0
+D1
+Vedi l'angolo nord-orientale.
+~
+~
+0 0 3751
+D2
+Ecco il centro del labirinto.
+~
+~
+0 0 3748
+D3
+Vedi l'angolo nord-occidentale.
+~
+~
+0 0 3749
+S
+
+#3751
+L'angolo nord-orientale del labirinto~
+Ops.. Sei contro uno dei muri del labirinto! E' talmente buio che nemmeno
+l'avevi vista la piegata. La mancanza di finestre spiega perfettamente il
+forte odore di umido stagnante che ti avvolge completamente..
+~
+0 AD 0
+D2
+Scorgi il muro orientale.
+~
+~
+0 0 3753
+D3
+Scorgi il muro settentrionale.
+~
+~
+0 0 3750
+S
+
+#3752
+Il muro occidentale del labirinto~
+Ops.. Sei contro uno dei muri del labirinto! E' talmente buio che nemmeno
+l'avevi vista la piegata. La mancanza di finestre spiega perfettamente il
+forte odore di umido stagnante che ti avvolge completamente..
+~
+0 AD 0
+D0
+Vedi l'angolo nord-occidentale del labirinto.
+~
+~
+0 0 3749
+D1
+Vedi il centro del labirinto.
+~
+~
+0 0 3748
+D2
+Vedi l'angolo sud-occidentale del labirinto.
+~
+~
+0 0 3754
+S
+
+#3753
+Il muro orientale del labirinto~
+Ops.. Sei contro uno dei muri del labirinto! E' talmente buio che nemmeno
+l'avevi vista la piegata. La mancanza di finestre spiega perfettamente il
+forte odore di umido stagnante che ti avvolge completamente..
+~
+0 AD 0
+D0
+Vedi l'angolo nord-orientale del labirinto.
+~
+~
+0 0 3751
+D2
+Vedi l'angolo sud-orientale del labirinto.
+~
+~
+0 0 3756
+D3
+Vedi il centro del labirinto.
+~
+~
+0 0 3748
+S
+
+#3754
+L'angolo sud-occidentale del labirinto~
+Ops.. Sei contro uno dei muri del labirinto! E' talmente buio che nemmeno
+l'avevi vista la piegata. La mancanza di finestre spiega perfettamente il
+forte odore di umido stagnante che ti avvolge completamente..
+~
+0 AD 0
+D0
+Scorgi il muro settentrionale del labirinto.
+~
+~
+0 0 3752
+D1
+Scorgi il muro meridionale del labirinto.
+~
+~
+0 0 3755
+S
+
+#3755
+Il muro meridionale del labirinto~
+Ops.. Sei contro uno dei muri del labirinto! E' talmente buio che nemmeno
+l'avevi vista la piegata. La mancanza di finestre spiega perfettamente il
+forte odore di umido stagnante che ti avvolge completamente..
+~
+0 AD 0
+D0
+Ecco il centro del labirinto.
+~
+~
+0 0 3748
+D1
+Vedi l'angolo sud-orientale del labirinto.
+~
+~
+0 0 3756
+D3
+Vedi l'angolo sud-occidentale del labirinto.
+~
+~
+0 0 3754
+S
+
+#3756
+L'angolo sud-orientale del labirinto~
+Ops.. Sei contro uno dei muri del labirinto! E' talmente buio che nemmeno
+l'avevi vista la piegata. La mancanza di finestre spiega perfettamente il
+forte odore di umido stagnante che ti avvolge completamente..
+~
+0 AD 0
+D0
+Scorgi il muro orientale del labirinto.
+~
+~
+0 0 3753
+D3
+Scorgi il muro meridionale del labirinto.
+~
+~
+0 0 3755
+S
+
+#3757
+Una stanza nel campo di addestramento~
+Eccoti giunto in una bella stanza del campo di addestramento:
+i ritratti dei piu' illustri diplomati del campo si affacciano alle
+pareti adornandole con i loro colori brillanti e le cornici dorate..
+Ad ovest vedi la stanza di Nustrooac, ad est c'e' quella di Tiyre
+mentre a nord di qui c'e' un'altra sezione del campo, la prossima.
+C'e' un'INSEGNA a ridosso di un muro, per leggerne il dettato:
+digita '[1;32mLOOK INSEGNA[0;37m'.
+~
+0 CDR 1
+D0
+Puoi vedere la prossima sezione del campo, da qui..
+~
+~
+0 0 3701
+D1
+La stanza di Tiyre. La' potrai migliorare le tue abilita'.
+~
+~
+0 0 3759
+D2
+l'entrata del campo di addestramento.
+~
+~
+0 0 3700
+D3
+La stanza di Nustrooac. La' potrai migliorare le tue caratteristiche.
+~
+~
+0 0 3758
+E
+insegna~
+Controlla le tue caratteristiche digitando '[1;32mscore[0;37m'.
+Puoi incrementare le tue caratteristiche nella stanza di Nustrooac,
+ad ovest. Poi puoi migliorare le tue abilita' ed incantesimi nella
+stanza di Tiyre, immediatamente ad est. Infine puoi proseguire verso
+la prossima sezione del campo di addestramento andando a nord.
+
+Se hai guadagnato una nuova 'pratica', vai ad 'OVEST', migliora
+la tua caratteristica, poi torna qui e prosegui verso 'NORD'.
+~
+S
+
+#3758
+La stanza di Nustrooac~
+Ecco il luogo dove si migliora se' stessi.. Avverti subito l'aria pregna
+di energie fisiche e mentali ed ovunque posi lo sguardo trovi ogni sorta
+di materiale: dalle attrezzature di ogni genere ai libri voluminosi.
+C'e' un'INSEGNA sul muro.
+~
+0 CDR 1
+D1
+E' la stanza dalla quale sei venuto!
+~
+~
+0 0 3757
+E
+insegna~
+Benvenuto nella stanza di Nustrooac.
+Qui potrai migliorare le tue caratteristiche e per farlo hai bisogno di
+nuove 'pratiche'. Per controllare quante sessioni di pratica possiedi,
+digita '[1;32mtrain[0;37m' mentre sei in questa stanza.
+Quindi, per migliorare uno specifico attributo digita 'train <attr>' dove
+'attr' sono le prime 3 lettere dell'attributo che vuoi incrementare.
+Digita 'help train' per ulteriori informazioni.
+~
+S
+
+#3759
+La stanza di Tiyre~
+Eccoti giunto nella stanza di Tiyre, dove si migliorano le proprie abilita'.
+C'e' ogni tipo di arma qui, libri e altri attrezzi da allentamento per il
+combattimento.. Ne e' passata di gente da questa stanza: te lo mostra l'usura
+degli attrezzi: alcuni presentano tagli, spaccature, bruciature. E' questo e'
+un buon segno, come benefica e' l'aura magica e rassicurante che riempie la
+stanza. C'e' un'INSEGNA su una delle pareti.
+~
+0 CDR 1
+D3
+E' la stanza dalla quale sei giunto!
+~
+~
+0 0 3757
+E
+insegna~
+Benvenuto nella stanza di Tiyre.
+Qui potrai migliorare le tue abilita' ed i tuoi incantesimi.
+Per controllare quali abilita' ed incantesimi puoi migliorare e
+quante sessioni di 'pratica' possiedi, digita '[1;32mpractice[0;37m'.
+Per migliorare un'abilita' specifica digita 'practice <skill>', dove
+'skill' e' appunto l'abilita' o l'incantesimo che vuoi migliorare.
+Il miglioramento delle abilita' e incantesimi incrementa il valore degli
+stessi fino al massimo consentito relativamente per ogni personaggio.
+Quando hai completato le pratiche che desideri, vai ad OVEST.
+~
+S
+
+#3760
+Una stanza di salvezza~
+Sei al sicuro qui, riposa pure.. Qui nessuna creatura dell'arena puo'
+raggiungerti.. Puoi sostare qui per rigenerare il tuo corpo stanco o
+prendere la via in alto e raggiungere il magnifico tempio di Midgaard.
+~
+0 CD 0
+D4
+La vedi nettamente la magnificenza del tempio di Midgaard..
+~
+~
+0 0 3001
+S
+#0
+
+#RESETS
+M 0 3720   1 3721  1	* l'animale feroce
+E 1 3715  -1   17	    * il diploma
+M 0 3700   1 3701  1	* l'accolito di Tiyre
+D 0 3700   2    1	    * Entrata al campo. sud
+M 0 3701   1 3710  1	* il grumo
+M 0 3702   1 3716  1	* una creatura mostruosa
+E 1 3705  -1    3	    * un mantello di panno
+E 1 3705  -1    4	    * un mantello di panno
+M 0 3703   1 3715  1	* un individuo rannicchiato
+E 1 3706  -1    6	    * un elmo di cuoio
+E 1 3711  -1   12	    * una cappa di panno
+M 0 3704   1 3713  1	* un essere inferocito
+E 1 3707  -1    7	    * un paio di gambali di cuoio
+E 1 3712  -1   13	    * una cintura di cuoio
+M 0 3705   1 3714  1	* un essere mostruoso
+E 1 3708  -1    8	    * un paio di stivali di cuoio
+E 1 3713  -1   14	    * un bracciale di bronzo
+D 0 3717   1    1	    * Una stanza nel campo. est
+D 0 3719   3    1	    * Una stanza nel campo. ovest
+D 0 3719   1    2	    * Una stanza nel campo. est
+M 0 3717   1 3718  1	* l'adepto di Tezhaia
+G 1 3138  -1     	    *   a buffalo water skin
+G 1 3031  -1     	    *   a hooded brass lantern
+M 0 3706   1 3720  1	* la grande creatura
+E 1 3709  -1    9	    * un paio di guanti di cuoio
+E 1 3710  -1   10	    * un paio di maniche di cuoio
+E 1 3714  -1   17	    * una chiave di rame
+E 1 3713  -1   14	    * un bracciale di bronzo
+D 0 3721   0    1	    * L'uscita dal campo. nord
+D 0 3734   5    1	    * Il centro dell'arena. down
+D 0 3748   4    1	    * Il centro del labirinto. up
+M 0 3709   4 3734  4	* il coniglio
+M 0 3710   3 3742  3	* la lucertola
+M 0 3711   3 3746  3	* il cinghiale
+M 0 3712   3 3726  3	* la volpe rossa
+M 0 3713   5 3724  5	* la lumaca
+M 0 3714   1 3749  1	* la bestia
+M 0 3715   2 3751  2	* l'orso
+M 0 3716   2 3754  2	* il lupo nero
+M 0 3707   1 3712  1	* l'adepto di Drieos
+M 0 3708   1 3721  1	* l'adepto di Dathetep
+M 0 3718   1 3758  1	* l'adepto di Nustrooac
+M 0 3719   1 3759  1	* il sacerdote di Naderon
+S
+
+
+#SHOPS
+3717  1 15 17 19  0 	 100 100 	 0 23 	* l'adepto di Tezhaia
+0
+
+#SPECIALS
+M 3707 spec_cast_adept     	* l'adepto di Drieos
+M 3708 spec_cast_adept     	* l'adepto di Dathetep
+M 3714 spec_fido           	* la bestia
+S
+
+#OMPROGS
+O 3700 fight_prog fight_prog_sub_weapon		* mazza
+O 3701 fight_prog fight_prog_sub_weapon		* pugnale
+O 3702 fight_prog fight_prog_sub_weapon		* spada
+O 3717 fight_prog fight_prog_sub_weapon		* fiocina
+O 3718 fight_prog fight_prog_sub_weapon		* staffa
+O 3719 fight_prog fight_prog_sub_weapon		* ascia
+O 3720 fight_prog fight_prog_sub_weapon		* coreggia
+O 3721 fight_prog fight_prog_sub_weapon		* frusta
+O 3722 fight_prog fight_prog_sub_weapon		* balestra
+
+S
+#PRACTICERS
+M 3719 group_weaponsmaster	* il sacerdote di Naderon
+M 3719 group_combat
+M 3719 group_protective
+M 3719 group_defense
+M 3719 group_healing
+M 3719 group_fightmaster
+M 3719 group_illusion
+M 3719 group_harmful
+M 3719 group_wizard
+S
+
+#$

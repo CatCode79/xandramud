@@ -1,0 +1,1301 @@
+#AREA
+ryzen2.are~
+Caverne di Ryzen~
+{25 45} Ryzen -- Korsath   Caverne di Ryzen~
+22000 22049
+
+#RESETMESSAGE
+Un grido agghiacciante rompe il silenzio echeggiando nelle caverne~
+
+#HELPS
+0 'T2TEAM CAVERNE DI RYZEN' 'T2TEAM CAVERNS OF RYZEN'~
+Quest'area e' stata tradotta, modificata da Korsath e testata dal T2Team.
+L'autore dell'area originale e' Ryzen.
+Per altre risorse Mud visitare il sito http://www.terra-secunda.net
+~
+
+0 $~
+
+
+#MOBILES
+
+#22002
+fantasma nomade~
+un fantasma nomade~
+Un fantasma vaga qua e la’ bloccato tra la vita e la morte.
+~
+Riesci a scorgere un’ombra..  Guardando bene noti un fantasma che fisicamente
+appare con la forma di un corpo umano ma con una consistenza quasi nulla.
+E’ un’anima che non avra’ pace finche’ non verra’ distrutta ponendo fine al suo
+vagare eterno.
+~
+human~
+AG BTU -200 0
+25 0 5d10+550 1d50+100 2d10+7 wrath
+-7 -7 -7 0
+EFU 0 D N
+stand stand none 0
+AHIMV ABCDEFGHIJK medium 0
+#22003
+spettro malvagio~
+uno spettro malvagio~
+Uno spettro ti fissa silenziosamente.
+~
+Lo spettro fluttua lentamente cercando una nuova anima e dal suo sguardo gelido
+capisci che non e’ mosso da intenzioni amichevoli.
+~
+human~
+AGO U -1000 0
+34 0 9d80+1200 34d10+100 4d7+10 claw
+-11 -10 -11 5
+CEFH 0 0 NY
+stand stand none 0
+AHIMV ABCDEFGHIJK medium 0
+#22004
+spettro orrendo~
+uno spettro~
+Uno spettro orrendo e’ nascosto nelle ombre.
+~
+Uno spettro dall’aspetto decisamente poco attraente.  E’ una creatura maligna e
+dal suo sguardo capisci che brama il tuo sangue.
+~
+human~
+AGO QU -800 0
+32 0 5d10+1000 2d20+1000 6d4+9 slash
+-10 -10 -10 4
+CDFH 0 0 NYZ
+stand stand none 0
+AHIMV ABCDEFGHIJK medium 0
+#22005
+sciacallo~
+uno sciacallo~
+Uno sciacallo banchetta mangiucchiando un vecchio osso.
+~
+Un disgustoso essere che potresti scambiarlo per un cadavere resuscitato se non
+fosse che il suo aspetto e’ molto piu’ feroce.  Lo vedi banchettare con un
+vecchio osso di braccio da cui strappa gli ultimi resti di carne.
+~
+human~
+AGO 0 -950 0
+36 0 5d25+1400 36d10+100 3d10+11 claw
+-12 -12 -12 3
+CDHK 0 0 N
+stand stand none 500
+AHIMV ABCDEFGHIJK medium 0
+#22006
+demone lemure~
+un lemure~
+Un lemure cammina lentamente.
+~
+Un lemure cammina a fatica e guardando il suo corpo capisci che non puo’
+spostarsi piu’ velocemente di cosi’.
+~
+human~
+AGO 0 -600 0
+25 0 5d10+550 1d50+100 2d10+7 charge
+0 0 0 0
+CDF 0 0 NZ
+stand stand none 0
+AHIMV ABCDEFGHIJK medium 0
+#22007
+demone obeso~
+un demone~
+Un demone obeso vagabonda di qua e di la’.
+~
+Dal suo portamento capisci che nella scala gerarchica dei demoni questo essere
+e’ superiore al lemure.  Osservando il corpo noti disgustato tutto il grasso che
+ricopre il suo corpo rendendogli difficoltoso anche il minimo spostamento.
+~
+human~
+AGO 0 -700 0
+27 0 5d10+650 27d10+100 5d4+7 charge
+-8 -8 -8 6
+CDF 0 0 NZ
+stand stand none 0
+AHIMV ABCDEFGHIJK large 0
+#22008
+demone spinagon~
+un Spinagon~
+Un demone vola verso di voi.
+~
+Questo demone e’ molto simile ad un grande folletto con due grandi ali che lo
+tengono a mezz’aria.
+~
+human~
+AGO T -1000 0
+33 0 5d20+1200 39d10+1100 6d4+10 none
+-11 -11 -11 5
+DEFIKN 0 0 N
+stand stand none 500
+AHIMV ABCDEFGHIJK medium 0
+#22009
+signore sciacallo~
+il signore degli sciacalli~
+Il signore degli sciacalli sta aspettando qualcuno.
+~
+Sarebbe uno sciacallo come gli altri se non fosse un po’ piu’ alto degli altri e
+decisamente piu’ inquietante.  Mentre ti guarda si lecca le labbra squamose con
+la sua lingua biforcuta.  Un essere cosi’ ripugnante non puo’ essere che il
+signore degli sciacalli.
+~
+human~
+ABO J -1000 0
+42 0 5d50+2250 42d10+4400 3d12+14 blast
+-14 -14 -14 0
+CDEFHK 0 0 NZ
+stand stand male 800
+AHIMV ABCDEFGHIJK large 0
+#22010
+drago nero~
+un drago oscuro~
+Un grande drago nero dormicchia qui.
+~
+Un grande drago con acuminate scaglie nere e con artigli affilati come spade.
+Questo drago deve esser appena tornato da un’estenuante caccia perche’ sembra
+terribilmente stanco, almeno riuscirai a sferrargli il primo attacco prima che
+reagisca uccidendoti.
+~
+dragon~
+ABG T -800 0
+45 0 10d100+3000 45d10+4100 8d4+16 claw
+-15 -15 -15 -1
+CDEKM 0 HIJK F
+sleep stand male 20000
+AHZc ADEFIKLPQUVX medium 0
+#22011
+bestia nonmorta~
+una bestia nonmorta~
+Un mostruoso nonmorto sta cercando il suo spuntino.
+~
+Un orrendo nonmorto e’ qui.  Il suo corpo e’ formato da un’insieme piu’ o meno
+organizzato di pezzi ormai in via di decomposizione ed emana un orodore
+insopportabile. Sarebbe meglio ucciderlo prima che ti passi qualche malanno.
+~
+unique~
+ABFGO Z -900 0
+38 0 9d50+1600 38d10+4100 5d6+12 bite
+-13 -13 -13 3
+CDEF 0 0 NY
+stand stand none 500
+AGIV ACDEFJKQV large 0
+#22012
+
+monaco Ryzen~
+un monaco~
+Un Monaco cerca qui i suoi compagni dispersi.
+~
+A guardarlo sembra un monaco come tanti altri ma dopo averci parlato un po’
+capisci che e’ Ryzen, il monaco che ha alimentato tante leggende.
+Sembra che si sia perso nelle caverne ma ti racconta che sta cercando i compagni
+che si sono separati durante un assalto da parte dei nonmorti.
+~
+human~
+ABGQ 0 800 0
+35 0 10d50+1300 40d10+4150 4d7+11 none
+-11 -11 -11 3
+CEKLS 0 0 0
+stand stand male 500
+AHMV ABCDEFGHIJK medium 0
+#22013
+cavaliere~
+un cavaliere ben armato~
+Un cavaliere si guarda intorno un po’ confuso.
+~
+Questo giovane uomo indossa una grande armatura e una spada.
+Noti che l’armatura e’ adornata con un grande drago blu e che nonostante la
+spada argentata sembri molto pesante l’uomo non mostra nessuna indecisione
+nell’impugnarla saldamente.
+~
+human~
+AGT C 1000 0
+26 0 5d10+600 26d10+1100 3d7+17 none
+-7 -7 -7 4
+CEFIKS 0 0 0
+stand stand male 500
+AHMV ABCDEFGHIJK medium 0
+#22014
+ladro halfling~
+un ladro~
+Un halfling si guarda intorno cercando qualcosa.
+~
+Questo Halfling ti scruta attentamente soffermandosi molto sui tuoi oggetti..
+Meglio non fidarsi.
+~
+halfling~
+AGS J -400 0
+29 0 6d12+778 29d10+1100 4d6+8 pierce
+-9 -9 -9 4
+FJNS 0 0 Z
+stand stand male 1200
+AHMV ABCDEFGHIJK small 0
+#22015
+potente incantatrice~
+una potente incantatrice~
+Un’incantatrice cammina alla ricerca di qualcuno o qualcosa.
+~
+Una bella incantatrice vaga alla ricerca dei suoi compagni che si sono persi
+dopo una lotta. Sembra che lei sia abbastanza fiduciosa nella sua magia e non
+dubita che riuscira’ a trovarli.
+~
+human~
+AGR H -600 0
+31 0 10d10+928 50d10+2200 4d6+9 pierce
+0 0 0 0
+FNS 0 C 0
+stand stand female 1000
+AHMV ABCDEFGHIJK medium 0
+#0
+
+
+#OBJECTS
+#22000
+cintura forza giganti~
+cintura della forza dei giganti~
+Una magica cintura di adamantide e’ in terra.~
+adamantite~
+armor BG AL
+20 20 20 10 0
+42 3 2000 P
+A
+19 5
+A
+1 5
+E
+Cintura forza giganti~
+Sembra una cintura decisamente pesante e resistente.  Guardandola bene noti
+alcune incisioni che raffigurano dei giganti.. Capisci che si tratta della
+cintura che racchiude la forza dei giganti donandola a chi l’indossa.
+~
+
+#22001
+chiave osso~
+una chiave di osso~
+Una piccola chiave di osso con una piccola incisione e’ stata lasciata qui.~
+stone~
+key 0 A
+0 0 0 0 0
+40 1 25 P
+#22002
+gambali veloci~
+i gambali della velocita’~
+Un paio di gambali in argento sono in terra.~
+silver~
+armor A AF
+9 9 9 0 0
+30 5 1000 P
+A
+14 100
+A
+2 2
+#22003
+corazza decorata~
+una corazza decorata~
+Una corazza in argento con decorazioni dorate e’ qui.~
+silver~
+armor 0 AD
+8 7 7 0 0
+25 13 1200 P
+A
+19 1
+A
+18 1
+#22004
+anello magico~
+l’anello della magia~
+Un anello magico fluttua a mezz’aria.~
+mithril~
+armor AG AB
+9 9 9 4 0
+28 1 1000 P
+A
+12 50
+A
+3 2
+E
+Anello magico~
+Un bel anello in mithril con alcune rune magiche che oltre a conferirgli alcune
+proprieta’ speciali lo rendono particolarmente elegante.
+~
+
+#22005
+guaina polso~
+una guaina da polso~
+Una guaina da polso in pelle per pugnali giace qui.~
+leather~
+container GY AM
+10 0 0 5 50
+26 2 500 P
+A
+17 -10
+A
+2 2
+A
+19 4
+A
+18 4
+#22006
+arpione spinagon~
+l’arpione degli spinagon~
+Un’arpione affilato come una spada giace in terra.~
+mithril~
+weapon EG AN
+staff 5 8 thrust DEFH
+35 9 1300 P
+A
+19 6
+A
+18 2
+#22007
+asta comando~
+l’asta del comando~
+Un’asta con incise alcune parole e’ in terra.~
+adamantite~
+armor ABG AO
+13 12 12 5 0
+38 5 5000 P
+A
+18 4
+A
+13 100
+A
+19 7
+#22008
+collare sangue~
+un collare sporco di sangue~
+Un collare sporco di sangue di una bestia morta e’ in terra.~
+gold~
+armor G AC
+12 12 12 6 0
+36 7 800 P
+A
+18 2
+A
+19 4
+A
+13 10
+#22010
+fiala acqua santa~
+una fiala di acqua santa~
+Una fiala contenente un acqua limpida e’ stata lasciata qui.~
+glass~
+potion I AO
+35 'bless' 'heal' '' ''
+30 1 5600 P
+E
+Fiala acqua santa~
+Una fiala contenente un’acqua limpida..  E’ sicuramente purissima e santa.
+~
+
+#22011
+spada argento lunga~
+una lunga spada argentata~
+Una lunga spada argentata con sopra alcune rune e’ stata posata qui.~
+silver~
+weapon GI AN
+sword 5 5 slash D
+23 4 1350 P
+A
+18 1
+A
+19 3
+A
+4 1
+E
+spada argento lunga~
+Guardando bene questa spada noti che le rune da cui e’ coperta sono rune
+mistiche da battaglia.. E’ sicuramente una spada fuori dal comune.
+~
+#0
+
+
+#ROOMS
+#22000
+L’entrata delle caverne~
+Ti trovi davanti all’entrata delle caverne maledette.  Non riesci neanche
+immaginare quali creature ti aspettino all’interno..  Due oscure gallerie si
+diramano da qui verso est e verso ovest conducendo alle caverne.
+Mentre decidi il da farsi noti una incisione INCISIONE ormai logora.
+~
+0 AD 0
+D4
+~
+~
+0 0 29373
+D1
+~
+~
+0 0 22002
+D3
+~
+~
+0 0 22001
+E
+incisione~
+Stai guardando una incisione ormai logorata dal tempo..
+A fatica riesci a leggere “Tornate indietro finche’ potete.  Ryzen”
+~
+S
+#22001
+Una galleria buia~
+Stai percorrendo una galleria in cui a causa della scarsa visibilita’ non riesci
+a distinguere quasi nulla.
+Man mano che avanzanzi vieni inghiottito sempre di piu’ nell’oscurita’ in
+un silenzio innaturale.
+~
+0 AD 0
+D5
+~
+~
+0 0 22008
+D2
+~
+~
+0 0 22003
+D1
+~
+~
+0 0 22000
+S
+#22002
+Una galleria buia~
+Arrivati qui ti trovi davanti a tre possibili direzioni da intraprendere..
+Una meno invitante dell’altra e tutte avvolte nell’oscurita’.
+~
+0 AD 0
+D5
+~
+~
+0 0 22011
+D2
+~
+~
+0 0 22004
+D3
+~
+~
+0 0 22000
+S
+#22003
+Una curva nella galleria~
+La galleria affronta una piccola curva e le direzioni possibili da percorrere
+sono tutte immerse nell’oscurita’.
+~
+0 AD 0
+D2
+~
+~
+0 0 22005
+D0
+~
+~
+0 0 22001
+S
+#22004
+Una curva nella galleria~
+La galleria fa una decisa svolta.  Ora puoi proseguire solamente verso sud e
+verso nord..  Sempre che tu non tema i pericoli celati nelle ombre e te la senti
+di continuare avanzare.
+~
+0 AD 0
+D2
+~
+~
+0 0 22006
+D0
+~
+~
+0 0 22002
+S
+#22005
+Una galleria buia~
+Le gallerie annerite si estendono dinanzi a te.  Le uscite conducono verso est e
+verso nord.
+~
+0 AD 0
+D5
+~
+~
+0 0 22024
+D1
+~
+~
+0 0 22007
+D0
+~
+~
+0 0 22003
+S
+#22006
+Una galleria buia~
+L'oscurità totale di questi corridoi e’ spaventosa.  Avanzando senti che un tuo
+passo ha pestato in una specie di pozza..  Incuriosito fai luce in terra e noti
+che e’ pieno di pozze di sangue in direzione nord-sud.
+~
+0 AD 0
+D5
+~
+~
+0 0 22014
+D2
+~
+~
+0 0 22007
+D0
+~
+~
+0 0 22004
+S
+#22007
+Una svolta nella galleria~
+La galleria si dirama in due direzione: est e ovest.
+~
+0 AD 0
+D1
+~
+~
+0 0 22006
+D3
+~
+~
+0 0 22005
+S
+#22008
+Una galleria buia~
+Sei davanti a qualcosa e l’unica cosa che riesci a notare e’ una grande uscita a
+sud.
+~
+0 AD 0
+D4
+~
+~
+0 0 22001
+D2
+~
+~
+0 0 22009
+S
+#22009
+Una galleria buia~
+Sei arrivato in una galleria per nulla illuminata con due sole uscite entrambe
+immerse nell'oscutita' piu' totale.
+~
+0 AD 0
+D3
+~
+~
+0 0 22010
+D0
+~
+~
+0 0 22008
+S
+#22010
+La fine della galleria~
+Sei finalmente arrivati alla fine della galleria.  L’unica direzione in cui puoi
+proseguire ora e’ ad est.
+~
+0 AD 0
+D1
+~
+~
+0 0 22009
+S
+#22011
+Una galleria buia~
+Ti trovi in una galleria in cui noti una strana scala in pietra e un’uscita ad
+est che conduce chissa’ dove.
+~
+0 AD 0
+D4
+~
+~
+0 0 22002
+D1
+~
+~
+0 0 22012
+S
+#22012
+Una galleria buia~
+Sei immerso nell’oscurita’ totale..  Riesci a scorgere a malapena le due uscite
+ad ovest ed a sud.
+~
+0 AD 0
+D2
+~
+~
+0 0 22013
+D3
+~
+~
+0 0 22011
+S
+#22013
+La fine della galleria~
+Sei finalmente giunto alla fine della galleria.  Adesso puoi proseguire
+solamente a nord.
+~
+0 AD 0
+D0
+~
+~
+0 0 22012
+S
+#22014
+Una caverna scarsamente illuminata~
+Sei in un’enorme caverna che si estende a sud ed a est. Ogni tuo passo crea un
+forte eco che ti infastidisce notevolmente.
+~
+0 AD 0
+D1
+~
+~
+0 0 22015
+D2
+~
+~
+0 0 22016
+D4
+~
+~
+0 0 22006
+S
+#22015
+Nella caverna~
+Le dimensioni della caverna iniziano a diminuire..  Man mano che avanzi
+l’altezza della caverna continua ad abbassarsi a tal punto da costringere anche
+un nano a chinare la testa.  Una piccola galleria conduce a sud mentre la
+caverna continua ad estendersi ad ovest.
+~
+0 AD 0
+D3
+~
+~
+0 0 22014
+D2
+~
+~
+0 0 22017
+S
+#22016
+Nella caverna~
+La caverna termina qui in questa stanza enorme.  Il soffitto e’ talmente alto
+che e’ quasi impossibile vederlo e anche i giganti piu' alti potrebbero stare
+tranquillamente in piedi.  Fissando l’oscurita’ ti chiedi quale possente
+creatura possa vivere in questa caverna.  L’unica uscita e’ a nord.
+~
+0 AD 0
+D0
+~
+~
+0 0 22014
+S
+#22017
+Una galleria buia~
+Sei in una piccolo galleria avvolta nell’oscurita’ che si biforca a nord e a
+sud.
+~
+0 AD 0
+D2
+~
+~
+0 0 22018
+D0
+~
+~
+0 0 22015
+S
+#22018
+Un incrocio nelle gallerie~
+Sei arrivato in una specie di incrocio in cui puoi scegliere in che direzione
+proseguire.  La scelta non ti appare semplice in quanto guardandoti attorno non
+riesci a scorgere nulla a causa dell’oscurita’.
+~
+0 A 0
+D1
+~
+~
+0 0 22020
+D3
+~
+~
+0 0 22019
+D0
+~
+~
+0 0 22017
+S
+#22019
+Un incrocio nelle gallerie~
+Sei arrivato in una specie di incrocio in cui puoi scegliere in che direzione
+proseguire.  La scelta non ti appare semplice in quanto guardandoti intorno non
+riesci a scorgere nulla a causa dell’oscurita’.
+~
+0 A 0
+D2
+~
+~
+0 0 22021
+D5
+~
+~
+0 0 22032
+D1
+~
+~
+0 0 22018
+S
+#22020
+Una galleria buia~
+La galleria continua a sud e ad ovest e mentre avanzi costantemente
+nell’oscurita’ inizi un po’ a rimpiangere l’aria che si respirava in
+superficie..  Chissa’ se un giorno riuscirai ad uscire da qui.
+~
+0 AD 0
+D2
+~
+~
+0 0 22022
+D3
+~
+~
+0 0 22018
+S
+#22021
+Una galleria buia~
+Una galleria totalmente immersa nell’oscurita’.
+~
+0 A 0
+D0
+~
+~
+0 0 22019
+D1
+~
+~
+0 0 22023
+D3
+~
+~
+0 0 22039
+S
+#22022
+Una galleria buia~
+Le gallerie continuano ad estendersi dinanzi a te ed ormai il tuo senso
+dell’orientamento inizia a darti qualche preoccupazione.
+~
+0 AD 0
+D0
+~
+~
+0 0 22020
+D5
+~
+~
+0 0 22036
+D3
+~
+~
+0 0 22023
+S
+#22023
+Una svolta nella galleria~
+Alla fine di questa piccola galleria c’e’ una svolta che ti costringe ad andate
+o a ovest o a est.
+~
+0 AD 0
+D1
+~
+~
+0 0 22022
+D3
+~
+~
+0 0 22021
+S
+#22024
+Una caverna buia~
+Le caverne continuano a stagliarsi dinanzi a te.  Con un po’ di fatica riesci a
+distinguere rocce di varie forme e grandezze e decidi di proseguire facendo
+attenzione a dove metti i piedi.
+~
+0 AD 0
+D3
+~
+~
+0 0 22025
+D4
+~
+~
+0 0 22005
+S
+#22025
+Una galleria buia~
+Sempre il solito monotono ambiente: nient’altro che rocce, sassi e buio..
+Lo sconforto inizia ad impadronirsi di te.
+~
+0 AD 0
+D1
+~
+~
+0 0 22024
+D3
+~
+~
+0 0 22026
+S
+#22026
+Una diramazione nella galleria~
+Alla fine di questa piccola galleria c’e’ una diramazione che ti costringe ad
+andare o a ovest o a nord.
+~
+0 AD 0
+D1
+~
+~
+0 0 22025
+D0
+~
+~
+0 0 22027
+S
+#22027
+Una svolta nella galleria~
+Alla fine di questa piccola galleria c’e’ una svolta che ti costringe ad andate
+o a nord o a sud.
+~
+0 AD 0
+D0
+~
+~
+0 0 22028
+D2
+~
+~
+0 0 22026
+S
+#22028
+Un insieme di scale~
+Raggiungi l’inizio delle scale ed improvvisamente senti un rumore sinistro..
+Come se ci fosse qualcuno.  Inizi a guardarti attorno ma l’oscurita’ gioca a tuo
+sfavore.
+~
+0 AD 0
+D2
+~
+~
+0 0 22027
+D5
+~
+~
+0 0 22029
+S
+#22029
+In fondo alle scale~
+Sei in fondo alle scale e salendo puoi raggiungere una galleria.  C’e’ anche
+un’uscita a nord.
+~
+0 AD 0
+D4
+~
+~
+0 0 22028
+D0
+~
+~
+0 0 22030
+S
+#22030
+Una galleria buia~
+Lo sconforto ormai si e’ impadronito di te: attorno ci sono solo altre gallerie.
+Improvvisamente senti un ringhio provenire da est..
+~
+0 AD 0
+D1
+~
+~
+0 0 22031
+D2
+~
+~
+0 0 22029
+S
+#22031
+La fine~
+Questa stanza non e’ come le altre: ci sono molte ossa in terra e non e’ affatto
+semplice muoversi perche’ sono di notevole intralcio.  Sembra un covo di qualche
+animale..
+~
+0 AD 0
+D3
+~
+~
+0 0 22030
+S
+#22032
+Una sinistra galleria~
+Sei in una galleria in cui c’e’ un forte odore di cadavere e dove scorgi una
+flebile luce provenire da lontano.
+~
+0 AD 0
+D4
+~
+~
+0 0 22019
+D2
+~
+~
+0 0 22033
+S
+#22033
+Una sinistra galleria~
+L’odore nauseante che sentivi da un po’ si fa man mano sempre piu’ forte quando
+un’agghiacciante risata rimbomba nella galleria facendoti sobbalzare.
+~
+0 AD 0
+D0
+~
+~
+0 0 22032
+D3
+~
+~
+0 0 22034
+S
+#22034
+Una sinistra galleria~
+La puzza ormai e’ diventata nausante..  Inoltre adesso continue grida strazianti
+provengono da non troppo lontano.  Il pavimento e’ tutto cosparso di lembi di
+carne strappati.
+~
+0 AD 0
+D3
+~
+~
+0 0 22035
+D1
+~
+~
+0 0 22033
+S
+#22035
+La tana del signore degli sciacalli~
+Sei arrivato in una stanza in cui la quantita’ di cadaveri e di sangue versato
+fa si che l’odore sia insopportabile.  Guardandoti attentamente intorno noti che
+mezzo alla stanza troneggia un orripilante essere che sta banchettando coi lembi
+di carne strappati dai cadaveri.
+~
+0 AD 0
+D1
+~
+~
+0 0 22034
+S
+#22036
+Una galleria oscura~
+Una galleria come tante altre con la sola differenza che da lontano scorgi una
+flebile luce.
+~
+0 AD 0
+D4
+~
+~
+0 0 22022
+D2
+~
+~
+0 0 22037
+S
+#22037
+Una caverna di cristallo~
+Questa caverna e’ costituita tutta di un cristallo purissimo.  La debole luce
+che proviene da ovest s’infrange su di essa creando dei bellissimi giochi di
+luci che lasciano senza fiato.  Tutta la caverna si illumina di colori brillanti
+e sfavillanti..  Un vero piacere per gli occhi.
+~
+0 AD 0
+D3
+~
+~
+0 0 22038
+D0
+~
+~
+0 0 22036
+S
+#22038
+La fine della caverna di cristallo~
+Non riesci a non rimaner estasiato dagli effetti di luce che le pareti di
+cristallo creano.  Nonostante la luminosita’ qui sia aumentata quasi accecandoti
+non ti senti per nulla infastidito.
+~
+0 AD 0
+D1
+~
+~
+0 0 22037
+S
+#22039
+Una galleria oscura~
+La galleria in cui sei si divide dalla galleria principale e si dirige verso
+sud.  La visibilita’ e’ quasi nulla e non riesci ad udire niente che non siano i
+tuoi passi.
+~
+0 AD 0
+D2
+~
+~
+0 0 22040
+D1
+~
+~
+0 0 22021
+S
+#22040
+Una galleria oscura~
+Non riesci a scorgere nulla tranne la biforcazione della galleria che porta a
+ovest ed a nord.
+~
+0 AD 0
+D3
+~
+~
+0 0 22041
+D0
+~
+~
+0 0 22039
+S
+#22041
+La fine della galleria~
+Qualcosa non ti convince: man mano che avanzi hai come la sensazione che
+qualcuno di estremamente pericoloso sia sempre piu' vicino.
+Ti guardi attentamente intorno ma non vedi altro che ombre.
+Meglio far attenzione.
+~
+0 AD 0
+D1
+~
+~
+0 0 22040
+D5
+~
+~
+0 0 22042
+S
+#22042
+Una lunga caverna~
+Una lunga caverna si estende verso est.  Le stalagmiti e le altre diverse
+formazioni rocciose ingombrano la stanza tanto che e’ meglio prestare un po’
+d’attenzione mentre cammini.
+~
+0 AD 0
+D1
+~
+~
+0 0 22043
+D4
+~
+~
+0 0 22041
+S
+#22043
+Una lunga caverna~
+La caverna si staglia ad ovest e ad est.  La particolare conformazione delle
+rocce catturano ogni tanto la tua attenzione.  Per fortuna per te non sembra che
+in questo posto si possa tendere un agguato.
+~
+0 AD 0
+D1
+~
+~
+0 0 22044
+D3
+~
+~
+0 0 22042
+S
+#22044
+La fine della caverna~
+Le formazioni di roccia ti costringono ad arrestare un attimo la tua avanzata
+prima di entrare in questa stanza.  Immediatamente senti un senso di disagio
+come se la avvertisti una straordinaria presenza maligna.
+Inizi a guardarti intorno temendo un attacco furtivo ma l’oscurita’ che
+attanaglia la stanza e’ tale da non farti scorgere nulla.
+~
+0 AD 0
+D3
+~
+~
+0 0 22043
+D5
+~
+~
+0 0 22045
+S
+#22045
+Una galleria scarsamente illuminata~
+Le urla agghiaccianti che senti ti fanno capire che sei vicino ad un essere
+dalla malvagita’ tremenda..  Non e’ il caso di tornare sui tuoi passi?!?
+~
+0 D 0
+D2
+~
+~
+0 0 22046
+D4
+~
+~
+0 0 22044
+S
+#22046
+Una galleria debolmente illuminata~
+Mentre stai continuando a camminare senti uno strano rumore di acqua che cade.
+Questo rumore inizialmente quasi non ci fai caso ma dopo un po’, man mano che
+aumenta di intensita’, inizia a metterti un po’ a disagio.
+~
+0 D 0
+D0
+~
+~
+0 0 22045
+D1
+~
+~
+0 0 22047
+S
+#22047
+Una svolta nella galleria~
+Il rumore dello scroscio dell’acqua diventa sempre piu’ forte, forse c’e’ un
+fiume piu’ avanti.
+~
+0 D 0
+D2
+~
+~
+0 0 22048
+D3
+~
+~
+0 0 22046
+S
+#22048
+Una galleria debolmente illuminata~
+E’ ormai un bel po’ che senti il rumore dell’acqua che circola..
+Giureresti che ormai e’ questione di poco prima di trovare la fonte di tale
+suono.  Guardandoti intorno pero’ non riesci neancora ad individuare la fonte.
+~
+0 D 0
+D2
+~
+~
+0 0 22049
+D0
+~
+~
+0 0 22047
+S
+#22049
+Il covo del drago~
+Tutte le pareti della stanza sono fatte di cristallo.  La tua luce riflettendosi
+crea un particolare gioco di luce che va ad infastidire il grande drago che sta
+dormendo al centro di questa caverna..  Forse e’ meglio scappare prima che si
+desti.
+~
+0 AD 0
+D0
+~
+~
+0 0 22048
+S
+#0
+
+
+
+#SPECIALS
+M 22010 spec_breath_lightning Load to: A Deep Dragon
+M 22012 spec_cast_cleric Load to: a Holy Cleric
+M 22015 spec_cast_mage Load to: A Powerful Enchantress
+S
+
+
+
+#RESETS
+M 0 22002 10 22001 1
+M 0 22013 1 22002 1
+E 0 22003 0 5
+E 0 22011 0 16
+M 0 22007 5 22003 1
+M 0 22002 10 22004 1
+M 0 22007 5 22004 1
+M 0 22014 1 22006 1
+E 0 22005 0 14
+M 0 22002 10 22007 1
+M 0 22007 5 22008 1
+M 0 22006 5 22009 1
+M 0 22007 5 22011 1
+M 0 22002 10 22012 1
+M 0 22006 5 22012 1
+M 0 22004 3 22013 1
+M 0 22007 5 22014 1
+M 0 22004 3 22016 1
+M 0 22002 10 22017 1
+M 0 22005 5 22018 1
+M 0 22002 10 22020 1
+M 0 22015 1 22020 1
+E 0 22004 0 1
+M 0 22006 5 22021 1
+M 0 22005 5 22022 1
+M 0 22003 2 22023 1
+M 0 22002 10 22024 1
+M 0 22012 1 22029 1
+E 0 22002 0 7
+G 0 22010 0
+M 0 22011 1 22031 1
+E 0 22008 0 3
+M 0 22005 5 22032 1
+M 0 22002 10 22033 1
+M 0 22005 5 22034 1
+M 0 22009 1 22035 1
+E 0 22007 0 17
+M 0 22004 3 22036 1
+M 0 22010 1 22049 1
+G 0 22000 0
+M 0 22005 5 22039 1
+M 0 22003 2 22040 1
+M 0 22006 5 22040 1
+M 0 22002 10 22041 1
+M 0 22008 5 22041 1
+E 0 22006 0 16
+M 0 22006 5 22043 1
+M 0 22008 5 22043 1
+E 0 22006 0 16
+M 0 22008 5 22045 1
+E 0 22006 0 16
+M 0 22002 10 22046 1
+M 0 22008 5 22047 1
+E 0 22006 0 16
+M 0 22008 5 22049 1
+E 0 22006 0 16
+S
+
+
+#SHOPS
+0
+
+
+#OMPROGS
+O 22000 wear_prog wear_prog_girdle_giant
+O 22000 remove_prog remove_prog_girdle_giant
+S
+
+
+#OLIMITS
+O 22005 1   * concealable wrist sheath
+O 22007 1   * Rod of Rulership
+O 22000 1   * girdle giant strength
+
+S
+
+
+#$

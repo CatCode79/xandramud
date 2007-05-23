@@ -1,0 +1,1043 @@
+#AREA
+selva.are~
+La Selva Ancestrale~
+{1 10} Jamirithiana La Selva Ancestrale~
+100 199
+
+#RESETMESSAGE
+Un refolo fruttato solletica le tue narici..~
+
+
+#MOBILES
+#101
+spirito selva essere~
+uno spirito della selva~
+Un sinuoso essere etereo volteggia i tronchi..
+~
+E' snello e alto, la testa termina in forma lievemente allungata. Ti
+accorgi che s'avvicina perche' il rumore dei suoi passi e' simile al suono
+emesso da una mano che scorre tra le fronde..
+~
+sprite~
+A CT 100 0
+1 0 2d4+2 0d9+100 1d2+0 none
+10 10 10 10
+0 0 0 DI
+stand stand male 1
+AHMV ABCDEFGHIJK medium 0
+
+#102
+satiro querceto querce~
+un satiro del querceto~
+Due occhi caprini ti fissano: e' un satiro delle querce!
+~
+Appoggiato ad un tronco ti fissa con fare spavaldo e divertito.. Agita lo
+zoccolo strisciando sulla terra umida.. Ti sta sfidando?
+~
+satyr~
+A J 100 0
+1 0 2d4+2 0d9+100 1d2+0 none
+10 10 10 10
+0 0 QX 0
+stand stand male 1
+AHMV ABCDEFGHIJK medium 0
+
+#103
+folletto silvestre~
+un folletto silvestre~
+Un'acuta risatina rompe il silenzio: un folletto ti si avvicina
+rapidamente.
+~
+La pelle color delle foglie, gli occhi vispi e gialli a scrutarti in ogni
+particolare. Si muove velocemente, accerchiandoti..
+~
+sprite~
+A CT 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+0 0 0 DI
+stand stand male 1
+AHMV ABCDEFGHIJK medium 0
+#104
+essere linfatico figura ~
+un essere linfatico~
+Guizza tra le ombre una figura allungata..
+~
+Probabilmente è un essere della linfa: creature dedite alla cura delle
+vene degli alberi.. Non riesci a vederlo mai completamente, l'intravedi
+forse. Non perchè sparisca ma per la sua stessa natura..
+~
+unique~
+A 0 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+0 0 0 0
+stand stand male 1
+0 0 medium 0
+
+#105
+creatura elementale aria tornado~
+un piccolo elementale d'aria~
+Ciocche di vento attorniano un piccolo tornado..
+~
+Ha movimenti lenti che ricordano la dissolvenza arborea, eterea quasi la
+corporatura, questa creatura appartiene alle prime schiere dell'elemento
+aria. La pelle e' ambrata così come le pupille.. Ti sta fissando dondolando
+ritmatamente il capo..
+~
+air elementar~
+A 0 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+G 0 AD 0
+stand stand male 1
+AHZ AD medium 0
+#106
+esploratore figura~
+un esploratore~
+Una figura sbuca dall'ombra scivolandoti accanto..
+~
+Ti sta osservando, magari domandandosi quanto tu stesso ti chiedi.. Chi
+agira' per primo?
+~
+human~
+AGHS DF 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+BEFJNU 0 0 0
+stand stand male 1
+AHMV ABCDEFGHIJK medium 0
+#107
+essere alato~
+un essere alato~
+Un battito d'ali riecheggia nel silenzio e un essere alato si mostra..
+~
+La sua figura e le sue movenze suggeriscono l'appartenenza al sesso
+femminile. Gira i piccoli occhi torvi osservandoti, come un'aquila
+riflessiva ora, piega le ali..
+~
+unique~
+A 0 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+0 0 0 0
+stand stand female 1
+0 0 medium 0
+
+#108
+creatura elementale acqua~
+un piccolo elementale d'acqua~
+Dal gorgoglio dell'acqua appare improvvisamente una curiosa creatura..
+~
+Fluida nei movimenti e leggera nella corporatura, questa creatura
+appartiene alle prime schiere dell'elemento acqua. La pelle e' chiara così
+come le iridi cristalline che.. Sta puntando nei tuoi occhi proprio ora..
+~
+water elementar~
+A 0 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+G 0 DHI 0
+stand stand male 1
+AHZ AD medium 0
+
+#109
+ninfa ~
+una ninfa eterea~
+Avanza sinuosa la figura di un'eterea ninfa..
+~
+La sua pelle ricorda la superficie dell'acqua, di un pallore delicato,
+quasi trasparente..
+~
+unique~
+A 0 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+0 0 0 0
+stand stand female 1
+0 0 medium 0
+
+#110
+creatura terra elementale~
+un piccolo elementale di terra~
+Un sommesso scricchiolio ti annuncia la presenza di una massiccia
+creatura..
+~
+Massiccia nella corporatura, questa creatura appartiene alle prime
+schiere dell'elemento terra. La pelle e' bruna così come le iridi. Muove le
+terminazioni delle braccia come a pronunciare incantamenti arcani..
+~
+earth elementar~
+A 0 100 0
+10 0 2d6+110 10d9+100 1d8+1 none
+2 2 2 6
+G 0 AD 0
+stand stand male 2
+AHZ AD medium 0
+
+#111
+spirito primo silvestre~
+uno spirito silvestre~
+Uno spirito silvestre inizia a vorticare su se stesso..
+~
+Creata dall'humus profondo della terra boschiva, evocata dal pianto del
+cielo e dal grido del tuono, questa creatura non possiede tratti comuni: e'
+l'essenza silvestre..
+~
+sprite~
+A CT -100 0
+10 0 2d7+121 10d9+100 1d7+2 none
+1 1 1 7
+0 0 0 DI
+stand stand male 2
+AHMV ABCDEFGHIJK medium 0
+
+#112
+serpente biscia opalescente traslucida~
+una grossa biscia opalescente~
+Sibila sorgendo dalle tortuose spire, una grossa biscia traslucida..
+~
+Sibila sollevando il capo dalla volta di spire e la tonalità vitrea e lucente
+del suo corpo irradia mille e più bagliori.. Meraviglioso fascino.. se non
+fosse che sta sibilando minacciosamente.~
+snake~
+A 0 -100 0
+8 0 2d7+96 4d9+100 1d7+2 none
+3 3 3 9
+0 0 L I
+stand stand male 1
+AGXYc ADEFKLQVX medium 0
+#0
+
+
+
+#OBJECTS
+#100
+ghianda ~
+una ghianda ~
+Una piccola ghianda e' caduta qui..~
+food~
+pill 0 A
+8 '' '' 'detect magic' ''
+0 20 180 P
+#101
+coroncina corda erba~
+una coroncina di corda ~
+Giace in terra una coroncina di corda intrecciata di fili d'erba..~
+glass~
+clothing A AE
+0 0 0 0 0
+3 20 270 P
+A
+4 1
+A
+2 -1
+
+#102
+ghirlanda coroncina~
+una ghirlanda d'erba~
+Una campestre ghirlanda d'erba e' stata lasciata in terra, qui..~
+cloth~
+armor 0 AE
+0 0 0 0 0
+3 20 310 P
+
+#103
+ascia piccola~
+una piccola ascia~
+La lama di una piccola ascia attira la tua attenzione..~
+wood~
+weapon 0 AN
+'axe' 1 7 'slash' 0
+3 20 370 P
+
+#104
+cordoncino oro~
+un cordoncino d'oro~
+Brilla in terra un cordoncino dorato, ai tuoi piedi..~
+gem~
+jewelry A AC
+0 0 0 0 0
+5 20 550 P
+A
+3 1
+
+#105
+ampolla pozione rosata~
+una pozione rosata~
+Attira la tua attenzione un'ampolla di vetro chiaro, in terra..~
+glass~
+potion 0 A
+6 'armor' 'cure blindness' '' ''
+0 20 160 P
+
+#106
+bacchetta legno~
+una lunga bacchetta di legno~
+Guardando meglio in terra scorgi una bacchetta di legno.~
+wood~
+wand 0 AO
+5 1 1 'burning hands' 0
+3 20 540 P
+
+#107
+chiavetta legno~
+una chiavetta di legno~
+Una piccola chiavetta di legno giace in terra.~
+wood~
+key 0 A
+0 0 0 0 0
+0 20 0 P
+
+#108
+ruscello acqua~
+un gorgogliante ruscelletto~
+Uno stretto ruscello cristallino taglia il pianoro..~
+stone~
+fountain 0 0
+50 50 'water' 0 0
+0 0 0 P
+
+#109
+chiave lunga legno ricurva~
+una lunga chiave di legno~
+In terra c'e' una lunga chiave ricurva..~
+wood~
+key 0 A
+0 0 0 0 0
+0 20 0 P
+#0
+
+
+
+#ROOMS
+#101
+Un Pittoresco Acciottolato~
+S'apre alla vista un acciottolato lungo e dritto. I ciottoli sono tondi,
+azzurrognoli.. Come se una qualche strana alchimia aerea, fatta di ossigeno
+e sale li avesse pazientemente dipinti uno ad uno..
+~
+0 0 2
+D0
+Il sentiero si snoda verso settentrione..
+~
+~
+0 -1 102
+D2
+La strada riprende il suo corso a ritroso..
+~
+~
+0 -1 3525
+S
+
+#102
+Lungo l'Acciottolato ~
+Prosegui calpestando l'acciottolato. L'aria sembra aver perduto la sua
+salinita' per far posto a lievi fragranze fruttate, delle quali ancora
+ignota appare la predominante composizione. L'ultimo pezzo di sentiero e'
+ormai vicino, e un intreccio di foglie apre un varco alla radura poco
+distante..
+~
+0 0 2
+D0
+Proseguendo ancora raggiungerai presto una radura..
+~
+~
+0 -1 103
+D2
+L'inizio del simpatico sentiero di ciottoli azzurri..
+~
+~
+0 -1 101
+S
+
+#103
+La fine dell' Acciottolato~
+Il familiare sentiero di ciottoli azzurri termina qui. Davanti a te
+s'erige una folta boscaglia ma riesci a scorgere un varco tra il basso
+fogliame dei primi alberi..
+~
+0 0 2
+D0
+Un varco tra le foglie si staglia a nord di qui, vicinissimo.
+~
+~
+0 -1 104
+D2
+Il grazioso acciottolato prosegue..
+~
+~
+0 -1 102
+S
+
+#104
+Un Varco tra le Foglie~
+E si, hai deciso di attraversare questo spesso muro di foglie.. Esse
+sembrano accondiscendere accogliendo la tua sagoma nella loro trama..
+Leggera carezza nel passaggio, ondeggiano lievi e sincroniche.. Chissa',
+forse ti stavano aspettando..
+~
+0 0 3
+D0
+Un incredibile panorama boscoso si apre alla tua vista..
+~
+~
+0 -1 105
+D2
+Fa' pochi passi e raggiungerai un grazioso sentiero di ciottoli azzurri..
+~
+~
+0 -1 103
+S
+
+#105
+L'Entrata del Bosco dei Cedri~
+Questo antico bosco pulsa di vita propria.. E' il regno odoroso di ninfe
+e incantatori, di animali liberi è la culla.. Segreti antichi si celano in
+ogni foglia e in ogni anfratto erboso, e all'ombra di ogni tronco umido e
+profumato.. E non basterà una vita per scoprirli tutti..
+~
+0 0 3
+D0
+Il folto intreccio di alberi prosegue per un lungo tratto a nord..
+~
+~
+0 -1 106
+D1
+La boscaglia fitta piega ad est curvandosi..
+~
+~
+0 -1 110
+D2
+Un varco tra le foglie.. Uhm non tanto largo poi.. C'e' da faticare per
+passarvi..
+~
+~
+0 -1 104
+D3
+La terra si spiana ad occidente, dando luogo ad una piccola radura..
+~
+~
+0 -1 111
+S
+
+#106
+L'Aranceto Dorato~
+Hai appena attraversato il terreno umido e scuro seguendo il corso degli
+arbusti.. E sei arrivato all'aranceto. Gli alberi snelli e ricurvi aprono i
+rami formando imponenti volte dorate, cariche di profumate arance lucide..
+~
+0 0 3
+D1
+Un'immensa piana di alberi carichi di frutti verdissimi!
+~
+~
+0 -1 120
+D2
+Quello che vedi senza ombra di dubbio, guardando a sud di qui, seppure in
+lontananza, e' l'Entrata del Bosco dei Cedri..
+~
+~
+0 -1 105
+D3
+L' oro bruno dell'aranceto sfuma verso occidente, riecheggiando il
+pallore lucente della doratura gialla..
+~
+~
+0 -1 112
+S
+
+#107
+Il Querceto Secolare~
+La splendida vista di un querceto saluta il tuo sguardo non appena arrivi..
+Imponenti ed austere, le querce raccontano della storia dei tempi ondeggiando
+le folte chiome al soffio del vento. Il sentiero immerso nella vegetazione si
+estende ancora a nord, est ed ovest.. Una delicata brezza miscela nell'aria
+intensi e differenti aromi..
+~
+0 0 3
+D0
+Tra l'intreccio dei profumi silvestri percepisci piu' intenso l'aroma di
+pesco..
+~
+~
+0 -1 108
+D1
+Un delicato aroma di nocciola si propaga da est..
+~
+~
+0 -1 116
+D3
+Guardando in terra noti ovunque mucchietti di ghiande disseminati in modo
+stranamente ordinato.. Che sia una traccia?
+~
+~
+0 -1 129
+S
+
+#108
+Il Tratto dei Peschi~
+L'aria turbina di petali rosa. Essi danzano a lungo disegnando scie
+profumate tra gli alberi di pesco.. Solcano l'atmosfera e sembrano
+sorriderti prima di adagiarsi al suolo ad incrementare lo splendido tappeto
+naturale sul quale hai appena poggiato i piedi..
+~
+0 0 3
+D0
+Il bosco si oscura.. Non riesci a vedere altro che le sagome immote degli
+alberi in fila..
+~
+~
+0 0 109
+D1
+Basse siepi frastagliano il laterale orientale. Da lontano scorgi piccoli
+arbusti carichi di frutti rossi..
+~
+~
+0 -1 117
+D2
+Da lontano scorgi la maestosa sagoma di alcune querce secolari..
+~
+~
+0 -1 107
+D3
+Una fila d'alberi bruni sembra indicarti il percorso, verso occidente..
+~
+~
+0 -1 123
+S
+
+#109
+La Radura del Noce~
+Immenso, maestoso nella sua stazza nodosa, un nobile e antichissimo noce
+s'erge nel centro esatto della silente radura. I lunghi rami mostrano il
+tempo che fu e le foglie sussurrano forse del tempo che sara'.. Le radici
+gonfiano il terreno e tutt'attorno giace in rispettoso silenzio. Un corso
+d'acqua cristallina attraversa un angolo della radura, sparendo tra un
+grappolo di sassi rotondi..
+~
+0 0 3
+E
+ruscello acqua~
+Anche questo meraviglioso corso d'acqua pare scorrere di moto silente,
+qui.. Sparendo subito dopo tra un grappolo di rocce levigate..
+~
+D1
+Siepi alte e cespugli spessi coprono la visuale..
+~
+~
+0 -1 118
+D2
+Fissa lo sguardo a sud, abituandoti ai colori del bosco potrai scorgere
+il meraviglioso pescheto poco distante..
+~
+~
+0 0 108
+D3
+Arriva da ovest la fragranza dei mandorli in fiore?
+~
+~
+0 -1 114
+S
+
+#110
+Un Angolo Boscoso~
+Inoltrandoti nella piegata, accompagnato dalla carezza delle fronde
+sporgenti delle siepi, giungi al centro della curva.. Uno scoiattolo
+interrompe il silenzio smuovendo un cespuglio.. E' questione di un attimo:
+non lo vedi piu'.. Puoi proseguire a nord o tornare indietro..
+~
+0 0 3
+D0
+Piu' a nord la fine della piegata s'apre in un rettilineo verdeggiante..
+~
+~
+0 -1 119
+D3
+L'Entrata del Bosco dei Cedri, a ovest..
+~
+~
+0 -1 105
+S
+
+#111
+Una Radura~
+Intenso e' l'odore del cedro in questo punto del bosco.. Gli arbusti sono
+in fiore e riempiono lo sguardo di estatica contemplazione..
+~
+0 0 2
+D0
+L'entrata al bosco dei limoni..
+~
+~
+0 -1 112
+D1
+L'Entrata al bosco dei Cedri, ad est..
+~
+~
+0 -1 105
+S
+
+#112
+La Conca dei Limoni~
+Questo pianoro è punteggiato di solidi arbusti carichi di limoni maturi,
+color giallo paglierino. Il bosco prosegue a nord e ad ovest ma lo sguardo
+non riesce a spingersi oltre la macchia fitta dei rami..
+~
+0 0 3
+D1
+Una folata arriva da est.. Profuma d'arancio..
+~
+~
+0 -1 106
+D2
+In lontananza ti sembra di scorgere una piccola radura..
+~
+~
+0 -1 111
+D3
+Il bosco prosegue verso occidente.. Che fai, segui il corso naturale
+degli arbusti?
+~
+~
+0 -1 122
+S
+
+#113
+Un Sentiero Incolto~
+In questo tratto del bosco il sentiero e' incolto e presenta ovunque
+siepi massicce e intricate. Prosegui pure ma fa' attenzione a non graffiarti
+districandoti tra i rovi.. Pero' le bacche puoi sempre mangiarle. O no?
+~
+0 0 2
+D1
+Una fila di meli si snoda indicando la prosecuzione al versante
+orientale.
+~
+~
+0 -1 115
+D2
+Un grosso albero di magnolia occupa tutta la visuale. Devi scendere a sud
+e vedere da vicino..
+~
+~
+0 107 125
+S
+
+#114
+L'Angolo dei Mandorli Amari~
+Sei circondato da mandorli in fiore.. Nuvole leggere di petali bianchi e
+profumati vorticano nell'aria, spostate da un soffio di vento, per poi
+ricoprire il terreno circostante.. Le fronde si smuovono costringendo il tuo
+sguardo a voltarsi: uno scoiattolino e' appena tornato a casa..
+~
+0 0 3
+D1
+Una lunga fila di faggi sembra mostrare un percorso..
+~
+~
+0 -1 109
+D2
+Da sud proviene l'inconfondibile odore delle castagne..
+~
+~
+0 0 123
+D3
+Il panorama si apre in lontananza, mostra una macchia di meli alti e
+severi..
+~
+~
+0 -1 115
+S
+
+#115
+La Macchia dei Meli~
+Ti sei spinto fino a questa incantevole macchia di pomi.. Alti e spessi
+questi alberi mostrano orgogliosamente i loro frutti perfetti:
+un'incredibile vastita' di mele di ogni qualita' s'affaccia da ogni ramo,
+tra l'assenso delle gemme e delle foglie..
+~
+0 0 3
+D1
+La lunga fila di arbusti di melo prosegue verso oriente..
+~
+~
+0 -1 114
+D2
+Ascolta.. E' il canto allegro di un corso d'acqua.. Seguilo
+~
+~
+0 -1 124
+S
+
+#116
+Il Pianoro dei Noccioli~
+Il regno degli scoiattoli! Noccioli smisurati circondano questa piccola
+piana formandone il sicuro perimetro.. Ogni cosa mostra la presenza dei
+piccoli abitanti del bosco.. Rumori improvvisi e guizzi tra i cespugli.. Uno
+squittio acuto ti distoglie dai tuoi pensieri..
+~
+0 0 3
+D0
+Prosegue per di qua il cuore del bosco..
+~
+~
+0 -1 117
+D3
+Una macchia di querce secolari indica la prosecuzione verso occidente..
+~
+~
+0 -1 107
+S
+
+#117
+Il Cerchio dei Melograni~
+Tra le siepi basse e frastagliate di questo angolo del bosco scorgi
+alcuni arbusti di melograno. I frutti maturi sembrano invitarti e l'aroma e'
+irresistibile. Ogni piccola gemma di questi magnifici alberi presenta uno
+sfondo rosso fuoco rigato da screziature giallo oro..
+~
+0 0 3
+D0
+Snelli alberi dai frutti di svariati colori agitano i rami al soffio di
+un vento sferzante.. L
+~
+~
+0 -1 118
+D2
+Uno scoiattolino sgattaiola rapido verso sud.. Cos'e' che l'attira la'?
+~
+~
+0 -1 116
+D3
+Di tanto in tanto uno sbuffo di vento dell' ovest spinge una manciata di
+profumatissimi petali rosa fin qui..
+~
+~
+0 -1 108
+S
+
+#118
+Lo Spiazzo dei Peri~
+Questo tratto del bosco ospita grossi peri di ogni specie. Ognuno di essi
+si presenta alto e snello, ma carico di appetitosi frutti colorati.. Ma
+qualcosa da nord attira la tua attenzione..
+~
+0 0 3
+D0
+Ti e' parso di sentire un leggero cigolio metallico, vero?
+~
+~
+0 0 126
+D2
+Attraverso le basse siepi, vedi chiaramente una circolare distesa di
+melograni, a sud..
+~
+~
+0 -1 117
+D3
+I rami degli alberi gettano un'ombra spessa e troppo densa perche' si
+possa vedere oltre..
+~
+~
+0 -1 109
+S
+
+#119
+Inoltrandosi nel Bosco~
+Mille aromi s'intrecciano avanzando oltre il regno degli alberi..
+Fruttate essenze e effluvi silvestri a solleticarti gentilmente le narici.
+Ogni foglia sembra cantare.. Il bosco ascolta e non gli sfugge nemmeno il
+tuo respiro..
+~
+0 0 3
+D0
+Un folto gruppo di alti cedri ti si para davanti, a nord di qui..
+~
+~
+0 0 120
+D2
+Una morbida curva nel sentiero naturale degli arbusti..
+~
+~
+0 -1 110
+S
+
+#120
+La Piana dei Cedri~
+Sei circondato da alti fusti di cedro, l'aroma e' cosi' intenso che a
+tratti pare stordirti nonostante sia piacevolissimo.. Ogni ramo e' carico
+dei delicati frutti verde scuro. Forse questo bosco magico davvero non
+conosce stagione..
+~
+0 0 3
+D3
+Gli alberi continuano ad indicare il percorso.. Mutano le loro chiome
+lucenti, dallo smeraldo all'oro..
+~
+~
+0 -1 106
+S
+
+#121
+Una Capanna di Spighe~
+E' una piccola ma spaziosa capanna formata da spighe dorate intrecciate.
+L'interno è vuoto, ad eccezione di una robusta panca di legno posta al
+centro. E' dunque soltanto un rifugio per viandanti.. Ricordatene allora,
+potresti averne bisogno.. Ops! Ma e' gia' occupata?
+~
+0 0 0
+D0
+Shh.. Ascolta bene: acqua..
+~
+~
+0 -1 124
+D2
+Il percorso nella boscaglia prosegue.. E in lontananza scorgi alti alberi
+da frutto, ancora..
+~
+~
+0 0 122
+S
+
+#122
+La Distesa degli Albicocchi~
+Gioiose creature alate sfrecciano a bassa quota tintinnando e colorando
+l'aria di una scia brillante.. Mentre guardi affascinato le miniature alate,
+l'ombra degli albicocchi pare muoversi accanto alla tua.. Maestosi alberi
+generosi mostrano i loro appetibili frutti dall'alto di tronchi di un metro
+circa di diametro.. Che incredibile regalo della natura..
+~
+0 0 3
+D0
+Non distingui bene, ma quanto appare in lontananza scrutando a nord
+sembra essere un grosso cono giallo.. Vai a vedere?
+~
+~
+0 0 121
+D1
+Il vento d'oriiente agita le fronde degli arbusti di limone, piu' in la'..
+~
+~
+0 -1 112
+S
+
+#123
+Il Castagneto Bruno~
+Il terreno umido toglie ogni suono ai tuoi passi, ora.. Ti fermi a
+respirare l'aria frizzante del Castagneto nel quale sei arrivato. Il vento
+e' tuttavia tiepido e non sferza, quasi a completamento della tonalita'
+calda dell'angolo dei castagni del bosco..
+~
+0 0 3
+D0
+Un soffice turbinio di petali bianchi arriva da nord, sospinto dal vento..
+~
+~
+0 0 114
+D1
+Un nugolo di petali rosa arriva da est, sospinto dal vento..
+~
+~
+0 -1 108
+D2
+Un gruppo di lecci si spinge ordinatamente a sud, segnando un percorso..
+~
+~
+0 0 129
+D3
+Il canto del bosco si ritira dolcemente per un istante.. Puoi udire il
+timido scrosciare di un corso d'acqua, ora..
+~
+~
+0 0 124
+S
+
+#124
+Il Ruscello Cristallo~
+Gli alberi qui si distanziano e costeggiano la piana.. Tesi i rami
+all'esterno, quasi a tenersi per mano, altalenando dolcemente al soffio di
+un venticello tiepido.. Il bosco sussurra di magiche nenie antiche e un
+cristallino corso d'acqua risponde gorgogliando allegramente attraversando
+quest'angolo suggestivo ..
+~
+0 0 3
+D0
+Il bosco estende la sua macchia alberata a nord..
+~
+~
+0 -1 115
+D1
+Il bosco prosegue a est..
+~
+~
+0 0 123
+D2
+C'e' qualcosa a sud, forse una rudimentale costruzione?
+~
+~
+0 0 121
+S
+
+#125
+La Tettoia di Rami ~
+Due grossi alberi di magnolia hanno unito nel tempo i loro rami piu'
+bassi quasi in un abbraccio, formando una confortevole tettoia. E tu.. Ci
+sei proprio sotto. Le foglie dei cespugli circostanti e i pruni selvatici,
+posti in un naturale circolo attorno ai fusti giganti si adattano
+stringendosi attorno ai colossi, come solide mura..
+~
+0 0 3
+D0
+Un sentiero si snoda verso nord, districandosi a malapena tra le siepi
+incolte che l'attorniano..
+~
+door~
+1 107 113
+S
+
+#126
+Una Passerella di Legno~
+Un sinistro scricchiolio saluta il tuo ingresso in questo luogo. L'hai
+provocato tu stesso, ponendo il piede su una passerella di legno robusto.
+Dev'essere molto antica ma ugualmente stabile. Gli alberi attorno sono neri
+e stretti.. Il vento urla tra i rami scuotendoli.. E tu che intenzione hai?
+Prosegui?
+~
+0 0 2
+D0
+Il cigolio metallico si fa' piu' acuto..
+~
+~
+0 -1 127
+D2
+Un flebile manto d'improvvisa oscurita' cela la visuale a settentrione..
+~
+~
+0 -1 118
+S
+
+#127
+Un Cancello di Ferro Battuto~
+L'aria e' pesante qui, come intrisa di pioggia invisibile, la terra umida
+si presenta pesante sotto i piedi.. Tutto in quest'angolo ristretto della
+boscaglia appare ammantato da nebbie spesse e fumose. Un cancello in ferro
+battuto ferma il tuo prosieguo verso nord..
+~
+0 0 2
+D0
+Oltre il cancello, a nord, s'intravede la sagoma cupa di una roccaforte..
+~
+door~
+1 109 128
+D2
+Una solida passerella di legno si snoda verso sud..
+~
+~
+0 -1 126
+S
+
+#128
+La Rocca Ancestrale~
+Hai varcato la soglia della Rocca Ancestrale, Dimora assoluta delle
+nature incorporee del bosco, fin dalla prima Alba.. Volte energiche di
+svariati colori mai veduti e mai conosciuti solcano il soffitto di questa
+Rocca antica piu' del mondo... Qui tutto c'e' e c'e' sempre stato..
+~
+0 0 0
+D2
+Scorgi l'antro oscuro della roccaforte e in lontananza, un cancello di
+ferro battuto..
+~
+door~
+1 109 127
+S
+
+#129
+La Ghiandaia Antica~
+Shh.. Fai attenzione ora.. Le leggende narrano che questa silente
+ghiandaia sia il ritrovo dalle creature del bosco.. Complici, i meravigliosi
+lecci silenziosi hanno spostato le loro radici sottoterra nei secoli.. E
+ora, alteri custodi, tutto sanno e tutto hanno visto..
+~
+0 0 3
+D0
+L'aroma che proviene da nord e' inconfondibile.. Dev'essere un castagneto..
+~
+~
+0 0 123
+D1
+Una grossa macchia di alberi secolari.. Si, sono querce..
+~
+~
+0 -1 107
+S
+#0
+
+
+
+#RESETS
+M 0 101 8 104 1
+G 0 102 10
+M 0 101 8 105 1
+M 0 101 8 107 1
+M 0 101 8 108 1
+G 0 102 10
+O 0 108 1 109
+M 0 101 8 109 1
+M 0 101 8 110 1
+G 0 102 10
+M 0 101 8 111 1
+M 0 101 8 112 1
+G 0 102 10
+M 0 102 3 116 1
+G 0 100 10
+M 0 102 3 117 1
+G 0 100 10
+M 0 102 3 118 1
+G 0 100 10
+M 0 103 1 119 1
+E 0 101 8 6
+M 0 104 1 120 1
+E 0 103 8 16
+M 0 106 1 121 1
+E 0 103 8 16
+M 0 105 1 122 1
+M 0 107 1 123 1
+M 0 108 1 124 1
+M 0 110 1 125 1
+G 0 105 10
+G 0 109 8
+M 0 111 1 128 1
+E 0 106 8 17
+M 0 112 1 128 1
+M 0 109 1 129 1
+E 0 104 8 3
+G 0 107 8
+S
+
+
+
+#SHOPS
+0
+
+
+
+#SPECIALS
+M 101 spec_thief
+M 102 spec_thief
+M 103 spec_thief
+M 104 spec_thief
+M 105 spec_thief
+M 106 spec_thief
+M 107 spec_thief
+M 108 spec_thief
+M 109 spec_thief
+M 110 spec_cast_mage
+M 111 spec_cast_cleric
+M 112 spec_poison
+S
+
+
+
+#$

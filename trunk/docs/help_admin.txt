@@ -1,0 +1,778 @@
+ADVANCE
+Sintassi: advance <personaggio> <livello>
+
+Permette di aumentare il livello di esperienza di un avventuriero fino al
+valore specificato. E' l'unico modo per creare un immortale e permette di
+acquisire tutte le caratteristiche dei livelli precedenti e del livello stesso
+a cui si e' stati innalzati.
+Puo' essere usato per decrementare il livello di un avventuriero.
+Per gli immortali di livello inferiore al 99 e' possibile avanzare solamente
+quei personaggi che sono pronti per divenire Avatar.
+
+
+
+AT
+Sintassi: trust <room> <comando>
+
+Esegue un qualunque comando alla room desiderata come se si fosse materialmente presenti la'.
+La room puo' essere specificata con il vnum, con il nome di un mob o di un pg o con il nome di un
+oggetto.
+
+ 
+ 
+FIND
+Sintassi : find <mob>
+
+Mostra il path relativo.
+
+
+
+FLAG
+Sintassi:
+Sintassi: flag mob  <nome> <campo> <flags>
+Sintassi: flag char <nome> <campo> <flags>
+Sintassi: flag obj  <nome> <campo> <flags>
+Sintassi: flag room <stanza> <campo> <flags>
+  
+  mob  flags: act,aff,off,imm,res,vuln,form,part
+  char flags: plr,comm,aff,imm,res,vuln,
+  obj  flags: extra,wear,weap,cont,gate,exit
+  room flags: room
+  +: aggiunge una flag, -: rimuove una flag, = set equal to
+  altrimenti si tolgono quelli presenti in precedenza.
+  
+  
+  
+GWHO
+  
+Mostra i gruppi del mud.
+
+
+
+GRANT
+Sintassi : grant <pg>
+
+Induce un pg alla propria cabala.
+
+
+
+LIMITED
+
+Espone la lista degli oggetti limitati (i rari) del mud.
+
+
+
+LOOKUP
+Sintassi: lookup <incantesimo/abilita'>
+
+Info sugli incantesimi/abilita'.
+
+
+
+MAXIMUM
+Sintassi: maximum
+Sintassi: maximum newbies
+Sintassi: maximum oldies
+
+Visualizza il limite massimo di newbie o di oldies che possono esistere
+nel mud. Gli oldies sono i giocatori totali esistenti nel mud.
+
+Sintassi:  maximum reset
+Configura i limiti massimi ai loro valori di default.
+
+  
+ 
+OBJLIST
+ 
+Scrive su file la lista delle stats  le stat leggibili di un oggetto degli 
+oggetti indossati.
+
+
+
+PREFIX
+Sintassi: prefix <prefisso>
+
+Aggiunge un prefisso a tutti i comandi che vengono lanciati dal pg in questione.
+Per eliminarlo basta non specificare alcun prefisso.
+
+
+ 
+RENAME
+SintassiSintassi: rename <pg> <nuovo nome>
+
+Cambia il nome ad un un pg.
+Se il pg e' gia' membro di una cabala, bisogna prima escluderlo dalla stessa 
+e poi e' cambiargli il nome. Se il nuovo nome e' gia' utilizzato non sara' 
+consentita la modifica.
+
+
+
+RPGPERS
+Sintassi: rpgpers <pg> <nuova short>
+
+Cambia la short description ad un un pg. La nuova short dovra' contenere pero'
+il nome del pg altrimenti sara' esclusa l'interazione di questi con gli altri.
+
+
+
+TRUST
+Sintassi: trust <personaggio> <livello>
+
+Definisce la credibilita'(trust) di un personaggio al livello specificato.
+E' paragonabile a far avanzare un personaggio, per fargli avere accesso ai
+comandi da immortale, ma senza avere effetto sulle caratteristiche proprie del
+personaggio (forza, potenza, etc.)
+E' possibile anche diminuire la credibilita' di un personaggio.
+Porre la credibilita' a 0 significa permettere di usare quella naturale.
+
+
+
+TVALUE
+Sintassi: tvalue <pg> <arge|oro|puntiquest> <cifra>
+Sintassi: tvalue <pg> <arge|oro|puntiquest> <-cifra>
+Sintassi: tvalue <mob> <arge|oro> <cifra>
+Sintassi: tvalue <mob> <arge|oro> <-cifra>
+
+Finanziamento (anche autofinanziamento) dei pg e mob di monete d'oro, argento.
+I punti quest solo nel caso degli avventurieri.
+
+
+
+ALLOW
+Sintassi: allow   <ip>
+
+Rimuove un ip o un host dalla lista dei siti bannati.
+
+
+
+BAN
+Sintassi: ban <ip> <newbies|all|permit>
+
+Proibisce l'accesso a coloro che provengono da un determinato ip o host
+Senza argomenti mostra la lista di tutti gli ip bannati.
+Si puo' proibire l'entrata di tutti i giocatori, di nuovi giocatori, o di
+alcuni giocatori in specifico (editando il file del giocatore): basta
+cambiare l'argomento dopo l'host.
+L'asterisco (*) puo' essere utilizzato sia come suffisso (*.it ) sia come
+prefisso ( uno.*), o come "titolo" (*andrews*), ma va usato solo in alcuni
+casi, per non bloccare l'accesso da troppi host.
+Un ban normale non viene salvato e al reboot quindi, si cancella.
+
+
+
+PERMBAN
+Sintassi: permban <ip>
+
+E' l'unico modo per proibire in modo permanente l'accesso da un determinato ip.
+
+
+
+REBOOT
+Sintassi: reboot
+Sintassi: reboot <now>
+Sintassi: reboot <tempo>
+Sintassi: reboot status
+Sintassi: reboot cancel
+
+Permette di chiudere il server e di farlo ripartire normalmente dopo circa 15
+secondi.
+Scrivendo reboot now, il reboot viene fatto senza preavviso e immediatamente.
+Altrimenti si puo' determinare fra quanto tempo vi sara' un reboot, con il
+comando reboot <tempo>. Ogni tot di tick un beep avvisera' tutti i giocatori
+che sta per avvenire un reboot.
+
+
+
+SHUTDOWN
+Sintassi: shutdown
+
+Chiude il server e non permette il normale riavvio.
+
+
+
+WIZLOCK
+Sintassi: wizlock
+
+Blocca i tentativi di connessione a tutti i giocatori che non sono Immortali
+ad eccezione di tutti i giocatori link-dead che si riconnetteranno.
+
+
+
+NEWLOCK
+Sintassi: newlock
+
+Blocca i tentativi di creazione di un nuovo personaggio.
+In genere viene utilizzato per prevenire l'ingresso di giocatori fastidiosi che
+tentano di farsi nuovi personaggi.
+
+
+
+DENY
+Sintassi: deny <nome>
+
+Impedisce ad un pg di rientrare in gioco, in maniera permanente e rende il nome 
+del pg inutilizzabile. Puo' essere rimosso solo editando il file, per questo e' 
+preferibile utilizzare il FREEZE.
+
+
+
+DISCONNECT
+Sintassi: disconnect <nome>
+
+Interrompe la connessione di un giocatore al Mud. 
+
+
+
+FREEZE
+Sintassi: freeze <nome>
+
+Impedisce qualunque comando o movimento ad un personaggio specificato.
+Congela il pg, in pratica.
+
+
+
+FORCE
+Sintassi: force <personaggio> <comando>
+Sintassi: force all <comando>
+
+Forza un personaggio ad eseguire un comando, ad eccezione della cancellazione.
+
+
+
+SOCKETS
+Sintassi: sockets
+Sintassi: sockets <nome>
+
+Riporta tutti gli utenti visibili connessi al server.
+
+I due numeri fra parentesi indicano il numero del canale al quale si e'
+connessi e lo stato di connessione.
+Stato di connessione:
+0 : e' in gioco
+1 : sta scrivendo il nome
+2 : sta scrivendo la password
+3 : nuovo giocatore: nome
+4 : nuovo giocatore: password
+5 : nuovo giocatore: conferma della password
+6 : nuovo giocatore: razza
+7 : nuovo giocatore: sesso
+8 : nuovo giocatore: classe
+9 : nuovo giocatore: allineamento
+10: nuovo giocatore: scelte di default
+11: nuovo giocatore: gruppo
+12: nuovo giocatore: arma
+13: sta leggendo l'imotd
+14: sta leggendo il motd
+15: connessione interrotta
+16: nuovo giocatore: sta rollando le statistiche
+17: nuovo giocatore: ha accettato le statistiche
+18: nuovo giocatore: patria
+19: nuovo giocatore: ethos
+20: nuovo giocatore: scelta linguaggio dei comandi
+21: nuovo giocatore: creazione completata
+22: nuovo giocatore: menu di ingresso
+23: nuovo giocatore: scelta delle nuove classi
+
+
+
+LOAD
+Sintassi: load mob <vnum>
+Sintassi: load obj <vnum>
+
+Permette la creazione di nuovi oggetti (solo per immortali di livello pari a
+100) o nuovi mob (e' conveniente utilizzare il comando CLONE nel caso di
+oggetti e mob restringati ). I vnum degli oggetti e dei mob possono essere
+trovati con il comando VNUM o con il comando STAT applicato a un mob o un
+oggetto gia' esistente.
+L'oggetto creato finira' in inventario, se puo' essere trasportato, altrimenti
+verra' poggiato a terra.
+Il mob sara' creato sempre nella stessa stanza dove si trova l'immortale.
+
+
+
+SET
+
+Sintassi: set mob   <nome> <campo> <valore>
+Sintassi: set char  <nome> <campo> <valore>
+Sintassi: set obj   <oggetto> <campo> <valore>
+Sintassi: set room  <numero> <campo> <valore>
+Sintassi: set skill <nome> <abilita'/incantesimo> <%>
+Sintassi: set skill <nome> all <%>
+
+Questo comando permette di cambiare i valori numerici di diverse strutture,
+dai personaggi, alle stanze, agli oggetti.
+Per vedere tutte le opzioni per ogni "classe" basta scrivere set <classe>.
+In ogni caso qui viene riportata tutte le informazioni che possono essere utili.
+
+ set char <nome> <campo> <valore>
+ set mob  <nome> <campo> <valore>
+
+Con questo comando si possono cambiare le caratteristiche di mob e personaggi.
+Il personaggio deve essere in gioco per essere modificato e il suo livello non
+deve essere maggiore o uguale a quello dell'immortale. Le modifiche effettuate
+non si aggiungeranno ai valori presenti, ma li sostituiranno completamente.
+I campi possibili sono:
+* str, int, wis, dex, con, cha: rappresentano le statistiche (o attributi) del
+            personaggio. Esse devono essere comprese tra 3 e il valore massimo
+            consentito dalla razza e dalla classe del personaggio.
+* sex    :  indica il sesso. Se uguale a 2, il sesso sara' femminile, uguale a
+            1 sara' maschile, mentre uguale a 0 sara' asessuato.
+* class  :  modifica la classe del personaggio. Non puo' essere modificata la
+            classe di un mob, in quanto ne sono sprovvisti. Le classi possibili
+            al momento sono: evocatore, chierico, ladro, guerriero, paladino,
+            anti-paladino, ninja, ranger, trasmutatore, samurai, vampiro,
+            necromante, elementalista.
+* level  :  indica il livello. Non si puo' modificare il livello dei mob e il
+            valore deve essere compreso tra 0 e 100.
+* race   :  e' la razza. Quella dei mob non puo' essere modificata. Le razze
+            consentite sono quelle che possono essere scelte al momento della
+            creazione del personaggio. Le abilita' di razza verranno
+            automaticamente imparate al 70%.
+* gold, silver: modificano la quantita' di monete in possesso dal personaggio.
+* life, mana, move: indicano le caratteristiche del personaggio. I valore dei
+            punti vita e' compreso tra -10 e 30000, il mana e il movimento
+            invece sono compresi tra 0 e 60000, comunque questi sono i massimi
+            assoluti, vi sono dei massimi relativi ad ogni razza.
+* practice: esprime il numero di pratiche in possesso del personaggio. Il
+            valore deve essere compreso tra 0 e 250.
+* align   : indica l'allineamento (NON l'ethos!) di un personaggio. Il suo
+            valore deve essere compreso tra -1000 e 1000. I valori tra -300 e
+            300 circa indicano la sfera della neutralita'. Bisogna, inoltre,
+            far attenzione alla patria del personaggio in questione, affinche'
+            non siano in mutua esclusione l'un l'altro.
+* train   : esprime il numero di sessioni di allineamento in possesso del
+            personaggio. Il numero deve essere compreso tra 0 e 50.
+* thirst  : indica quanto e' assetato un personaggio. Non puo' essere applicato
+            sui mob. Il valore deve essere compreso tra -1 e 100 (-1 indica che
+            si ha una grande sete!).
+* hunger  : indica quanto e' affamato un personaggio. Non puo' essere applicato
+            sui mob. Il valore deve essere compreso tra -1 e 100 (-1 indica una
+            gran fame!)
+* drunk   : indica lo stato di ubriachezza di un personaggio. Non puo' essere
+            applicato sui mob. Il valore deve essere compreso tra 0 e 100 (0
+            indica un personaggio sobrio).
+* full    : indica lo stato di "sazieta'" sia dal cibo che dalle bevande. Non
+            puo' essere applicato sui mob. Il valore deve essere compreso tra
+            -1 e 100. (100 indica che si e' pienamente soddisfatti).
+* hometown: indica la patria del personaggio. Non puo' essere applicato sui
+            mob. Il valore deve essere compreso tra 0 e 4. (Midgaard = 0,
+            Nuova Thalos =1, Valle Titania=2, Nuova Ofcol=3, Midgaard
+            Vec.=4).
+            Attenzione alle citta' e agli allineamenti! Nuova Thalos e' per
+            soli neutrali, Nuova Ofcol e' per i buoni e Midgaard Vecchia per i
+            malvagi.
+* ethos   : indica l'ethos del personaggio. Non puo' essere applicato sui mob.
+            Il valore deve essere compreso tra 1 e 3: 1 = legale, 2= neutrale,
+            3= caotico.
+*questp, questt, questw : sono tre valori relativi alle quest. Questp indica i
+            falchi divini totali del personaggio. Questt indica quanto tempo
+            rimane per completare la missione e questw indica quanto tempo il
+            personaggio deve aspettare per richiedere un'altra missione al
+            Questor. Non puo' essere applicato ai mob.
+*relig    : indica la religione del personaggio. Non puo' essere applicato ai
+            mob.
+            Le religioni possibili sono quelle standard.
+*bloodlust : indica la sete di sangue del personaggio. Non puo' essere
+            applicato ai mob. Il valore deve essere compreso tra -1 e 100 (con
+            0 che indica una fortissima sete di sangue!).
+*desire    : indica il desiderio di tornare a casa. Non puo' essere applicato
+            ai mob.
+            Il valore deve essere compreso tra -1 e 100 (con 100 che indica che
+            a casa non si vuole tornare!).
+
+ set obj   <oggetto> <campo> <valore>
+
+Con questo comando si possono cambiare le caratteristiche degli oggetti.
+L'oggetto deve essere presente in gioco.
+Le modifiche effettuate non si aggiungeranno ai valori presenti, ma li
+sostituiranno completamente.
+I campi che si possono modificare sono:
+* value0, value1, value2, value3, value4: indicano quelle quattro cifre il cui
+        significato, pero', varia da oggetto a oggetto.
+        In particolare, nelle armi  il value1 e il value2 indicano il dado
+        dell'arma. (value1)d(value2) per la precisione.
+* extra : indicano tutti i flag particolari dell'oggetto. Le lettere vanno
+        scritte tutte una di seguito all'altra.
+        Glow= A  Hum= B  Dark=C  Lock=D  Evil=E  Invis=F  Magic=G  Nodrop=H
+        Bless=I  Antigood=J  Antievil=K  Antineutral=L  Noremove=M  Inventory=N
+        Nopurge=O  Rot_death=P  VisDeath=Q  NoSac=R  Nonmetal=S  Nolocate=T
+        MeltDrop=U  HadTimer=V  SellExtract=W  BurnProof=Y  Nouncurse=Z
+
+* wear  : indica dove andra' indossato l'oggetto (e' ancora in forma numerica).
+* level : esprime il livello dell'oggetto.
+* weight: esprime il peso dell'oggetto.
+* cost  : indica il costo dell'oggetto.
+* timer : esprime il timer dell'oggetto.
+
+ set room  <numero> <campo> <valore>
+
+Con questo comando si possono cambiare le caratteristiche delle stanze.
+Il vnum deve essere di una stanza esistente e la stanza non deve essere
+privata.
+Le modifiche effettuate non si aggiungeranno ai valori presenti, ma li
+sostituiranno completamente.
+I campi che si possono modificare sono :
+*flags:  indica tutti i flag di una stanza. (in forma numerica).
+*sector: indica il tipo di settore della stanza. (in forma numerica).
+
+ set skill <nome> <abilita'/incantesimo> <%>
+ set skill <nome> all <%>
+
+Con questo comando si puo' variare la percentuale di apprendimento di
+un'abilita' o di un incantesimo. Il personaggio deve essere in gioco e
+cio' non puo' essere fatto su un mob. E' necessario scrivere il nome
+dell'abilita' o dell'incantesimo. La percentuale varia da 0 a 100.
+Fare set skill <nome> all permette di settare tutte le abilita' e gli
+incantesimi di un personaggio al valore desiderato.
+
+
+
+STRING
+
+Sintassi: string obj <campo> <stringa>
+Sintassi: string mob <campo> <stringa>
+
+Permette di cambiare le stringhe associate ad un oggetto o ad un mob (o
+personaggio).
+Le stringhe "multi-line" non sono supportate, quelle colorate si, pero':
+help color per il codice dei colori.
+
+-MOB e PERSONAGGI
+Il mob deve essere vivo e quindi presente in gioco.
+I campi che possono essere modificati sono :
+*name: cambia il nome del mob (solo su mob)
+*description: modifica la descrizione del mob.
+*short : indica la descrizione breve del mob.
+*long  : indica la descrizione del mob, quando si
+       entra nella stanza dove risiede.
+*title : cambia il titolo del personaggio( non applicabile
+       ai mob ). Il titolo non puo' superare 45 caratteri.
+*spec: cambia il tipo di procedura associato ad un mob.
+    (solo su mob).
+
+-OGGETTI
+L'oggetto deve essere in gioco. Non deve essere per forza in inventario.
+I campi che possono essere modificati sono :
+*name : indica la parola chiave dell'oggetto.
+*short: indica la descrizione dell'oggetto, quando esso e' tenuto
+      in inventario o indossato.
+*long : indica la descrizione dell'oggetto a terra. Deve essere di
+      almeno 10 caratteri.
+*ed   :cambia la descrizione estesa associata all'oggetto.
+     La sintassi esatta e' :
+      string <oggetto> ed <nome> <stringa>
+      nome e' la parola chiave che permette di leggere la stringa.
+
+
+
+NOCHANNELS
+Sintassi: nochannels <personaggio>
+
+Esclude ad un giocatore ogni tipo di comunicazione.
+
+
+
+NOEMOTE
+Sintassi: noemote <personaggio>
+
+Impedisce ai giocatori di fare degli emote.
+
+
+NOYELL
+Sintassi: noyell <personaggio>
+
+Impedisce ai giocatori di utilizzare lo yell.
+
+
+
+NOTELL
+Sintassi: notell <personaggio>
+
+Impedisce ai giocatori di utilizzare il tell.
+
+
+
+PURGE
+Sintassi: purge
+Sintassi: purge <personaggio>
+
+E' utilizzato per ripulire le stanze o chiudere la connessione ad un pg.
+
+
+
+RESTORE
+Sintassi: restore <personaggio>
+Sintassi: restore room
+Sintassi: restore all
+
+Rinfresca e ristora il personaggio, che si ritrovera' curato da malattie,
+veleni e cecita', con mana, punti ferita e movimento al massimo.
+Usato senza argomenti o con argomento room, ristora ogni avventuriero
+presente nella stanza, puo' anche essere indirizzato a tutti gli
+avventurieri contemporaneamente.
+
+
+
+SLAY
+Sintassi: slay <vittima>
+
+Uccide pg/png senza possibilita' di fallimento.
+
+
+TRANSFER TELEPORT
+Sintassi: transfer <vittima>
+Sintassi: transfer all
+Sintassi: transfer <vittima> <locazione>
+Sintassi: transfer all       <locazione>
+Sintassi: teleport <vittima>
+Sintassi: teleport all
+Sintassi: teleport <vittima> <locazione>
+Sintassi: teleport all       <locazione>
+
+Trasferisce la vittima, o tutti gli avventurieri, nella locazione
+in cui ti trovi, o in una locazione specifica.
+In genere e' meglio non trasferire tutti, soprattutto in presenza
+di tanti avventurieri ( rallenta il tutto ).
+Teleport e' sinonimo di transfer.
+
+
+
+ECHO
+Sintassi: echo  <messaggio>
+
+Invia un messaggio a tutti coloro che sono presenti nella tua stessa
+stanza, senza specificare il mittente.
+
+
+
+GECHO
+Sintassi: gecho  <messaggio>
+
+Invia un messaggio a tutti coloro che sono presenti,
+senza specificare il mittente.
+
+
+
+PECHO
+Sintassi: pecho <avventuriero>  <messaggio>
+
+Invia un messaggio ad un avventuriero in particolare presente nel Mud,
+senza specificare il mittente.
+
+
+
+GOTO
+Sintassi: goto <locazione>
+
+Permette di dirigersi alla stanza specificata. Puo' essere specificata
+con il vnum, con il nome di un mob o di un personaggio presente nella
+stanza o con il nome di un oggetto. Per stanze riservate od occupate
+puo' usarsi il comando Violate.
+
+
+
+VIOLATE
+Sintassi: violate <locazione>
+
+Consente di accedere ad una stanza anche se privata o solitaria e
+gia' piena di avventurieri.
+
+
+
+HOLYLIGHT
+Sintassi: holylight
+
+Permette di vedere qualunque cosa presente sul Mud senza aver bisogno di luci
+o altri mezzi. Senza di esso, la visuale e' uguale a quella dei normali
+giocatori.
+
+
+
+INVIS WIZINVIS
+Sintassi: wizinvis <livello>
+Sintassi: invis   <livello>
+
+Permette di rendersi invisibile a tutti gli avventurieri di livello inferiore a
+quello specificato. Senza argomenti, il livello e' il massimo possibile (cioe'
+il tuo livello).
+
+
+
+INCOGNITO
+Sintassi: incognito <livello>
+
+Nasconde la presenza a tutti coloro che sono al di fuori della stanza in cui ti
+trovi, rendendoti irraggiungibile anche ai messaggi.
+
+
+
+MEMORY
+
+Sintassi: memory
+
+Riporta le dimensioni del mud.
+Questi sono i campi che mostra :
+Affects : riporta il numero di "affects" differenti.
+Areas   : indica il numero di aree che compongono il mud.
+ExDes   : indica quante descrizioni estese ci sono.
+Exits   : indica il numero di uscite totali.
+Helps   : riporta il numero di comandi o parole spiegate nell'help.
+Socials : indica il numero di "socials".
+Mobs    : riporta il numero di tipi di mob presenti.
+Objs    : riporta il numero di tipi di oggetti presenti.
+Resets  : mostra il numero totale di reset di tutte le aree.
+Rooms   : indica il numero totale di locazioni.
+Shops   : riporta il numero di negozi.
+Strings : mostra la memoria usata dalle stringhe che compongono i file
+           delle aree. La memoria e' comunque limitata e tale limite e'
+           mostrato.
+Perms   : mostra i blocchi di memoria permanentemente allocati.
+
+
+MPRAC
+Sintassi: mprac
+
+Riporta la lista di tutti i Maestri presenti nel mud.
+
+
+VNUM
+Sintassi: vnum <nome>
+Sintassi: vnum <obj/mob> <nome>
+
+Trova tutti gli oggetti e i mob con un particolare nome e ne stampa
+il risultato. Per restringere la ricerca ad una sola classe basta usare
+vnum obj, per gli oggetti e vnum mob, per i mob.
+
+
+
+STAT
+Sintassi: stat <nome>
+Sintassi: stat mob  <nome>
+Sintassi: stat obj  <nome>
+Sintassi: stat room <vnum>
+
+Fornisce informazioni dettagliate su un oggetto, un avventuriero, un mob od
+una stanza esistenti nel Mud.
+
+
+
+MWHERE
+Sintassi: mwhere <nome>
+Sintassi: mwhere
+
+Mostra tutte le locazioni in cui si trova il mob il cui nome e'
+stato specificato.
+Scritto senza uno specificato nome riporta la locazione di tutti
+i personaggi in gioco.
+
+
+
+PEACE
+Sintassi: peace
+
+Ferma tutti gli avventurieri che stanno combattendo, nella stanza in cui
+ti trovi.
+
+
+
+LOG
+Sintassi: log   <personaggio>
+Sintassi: log   all
+
+Logga tutti i comandi dell'avventuriero in questione nel file di log.
+E' una caratteristica permanente del personaggio, ma non persiste dopo un
+reboot.
+
+
+
+SNOOP
+Sintassi: snoop <personaggio>
+
+Mostra tutti cio' che sta facendo un personaggio, persino i tell che riceve o i
+gtell. Puoi snoopare piu' personaggi contemporaneamente.
+Per chiudere tutte queste "finestre" sul mondo dei mortali, basta snoopare te
+stesso.
+
+
+
+SWITCH
+Sintassi: switch <vittima>
+
+Permette di entrare nel corpo della vittima (necessariamente png).
+
+
+RETURN
+Sintassi: return
+
+Permette di ritornare nel proprio corpo, dopo aver manipolato il corpo di un
+mob.
+
+
+
+IMMTALK
+Sintassi: immtalk <messaggio>
+Sintassi: immtalk
+
+Manda un messaggio a tutti gli immortali.
+Utilizzarlo senza argomenti attiva o disattiva il canale.
+
+
+
+WIZNET
+Sintassi: wiznet
+Sintassi: wiznet on
+Sintassi: wiznet off
+Sintassi: wiznet show
+Sintassi: wiznet status
+Sintassi: wiznet <opzione>
+
+E' una sorta di servizio per gli immortali, che mostra eventi importanti a
+coloro che hanno "acceso" il servizio.
+Senza argomenti visualizza sintassi e le opzioni di sottocanale attivate.
+Con argomento ON attiva il servizio Wiznet, con argomento OFF lo disattiva.
+Con argomento SHOW mostra tutti gli eventi che possono essere scelti.
+
+wiznet <opzione> (attiva o disattiva una opzione di sottocanale)
+Esse sono :
+
+-ticks    : visualizza lo scadere di un tick, per ogni tipo di tick.
+-logins   : visualizza l'entrata in gioco di un pg.
+-links    : mostra quando un pg perde la connessione e va linkdead, e quando riesce a
+            ricollegarsi.
+-deaths   : visualizza le morti dei pg.
+-resets   : mostra tutte le aree che vengono riinizializzate.
+-mobdeaths: non vi e' associato nulla.
+-penalties: mostra tutte le punizioni inflitte.
+-saccing  : mostra quando un pg sta compiendo un sacrificio.
+-levels   : mostra quando un pg aumenta di livello.
+-secure   : mostra tutti i comandi di tutti i giocatori e anche le azioni dei mob. Praticamente
+            mostra i log.
+-switches : mostra quando un immortale prende il corpo di un mob e lo manipola. ( Quando switcha
+            in un mob ).
+-snoops   : mostra quando un pg viene snoopato.
+-restore  : mostra tutte le volte che viene ristorato qualcuno.
+-load     : mostra tutte gli oggetti, mob che vengono creati o clonati.
+-spam     : invia messaggio di quando un pg viene spammato.
+-limited  : invia dei messaggi di controllo sui rari.
+
+
+
+WIZHELP
+Sintassi: wizhelp
+
+Visualizza la lista dei comandi per gli immortali.
+
+
+
+ZECHO
+Sintassi  : zecho  <messaggio>
+
+Invia un messaggio a tutti coloro che sono presenti in quella zona,
+senza specificare il mittente.
+Va utilizzato, in genere, per creare atmosfera, per creare azioni
+"climatiche" o similari.
+Solo gli Dei di livello alto vedranno che questo e' un zecho.
+
+
+
+
