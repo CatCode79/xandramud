@@ -1,0 +1,46 @@
+CLASS_INVOKER		 0
+CLASS_CLERIC		 1
+CLASS_THIEF			 2
+CLASS_WARRIOR		 3
+CLASS_PALADIN		 4
+CLASS_ANTI_PALADIN	 5
+CLASS_NINJA			 6
+CLASS_RANGER		 7
+CLASS_TRANSMUTER	 8
+CLASS_SAMURAI		 9
+CLASS_VAMPIRE		10
+CLASS_NECROMANCER	11
+CLASS_ELEMENTALIST	12
+
+				 0       1       2       3       4       5       6       7       8       9       10      11      12
+human			100,	100,	100,	100,	100,	100,	100,	100,	100,	100,	100,	100,	100
+elf				100,	100,	100,	100,	100,	-1,		-1,		100,	100,	-1,		-1,		-1,		100
+half-elf		100,	100,	100,	100,	100,	100,	100,	100,	100,	-1,		-1,		100,	100
+dark-elf		100,	100,	100,	100,	-1,		100,	100,	-1,		100,	-1,		-1,		100,	100
+rockseer		100,	100,	100,	100,	-1,		-1,		100,	100,	100,	-1,		-1,		-1,		100
+dwarf			100,	100,	-1,		100,	-1,		-1,		-1,		-1,		100,	-1,		-1,		-1,		100
+svirfnebli		100,	100,	100,	100,	-1,		-1,		-1,		-1,		100,	-1,		-1,		-1,		100
+duergar			-1,		100,	100,	100,	-1,		100,	-1,		-1,		-1,		-1,		-1,		100,	-1
+arial			100,	100,	100,	100,	-1,		100,	100,	-1,		100,	-1,		-1,		100,	100
+gnome			100,	100,	100,	100,	-1,		-1,		-1,		-1,		100,	-1,		-1,		-1,		100
+giant			-1,		100,	-1,		100,	-1,		-1,		-1,		100,	-1,		-1,		-1,		-1,		-1
+felar			-1,		-1,		100,	100,	-1,		100,	100,	100,	100,	-1,		-1,		-1,		-1
+githyanki		100,	-1,		-1,		100,	-1,		-1,		100,	100,	100,	-1,		-1,		100,	100
+satyr			-1,		-1,		100,	100,	-1,		-1,		-1,		100,	-1,		-1,		-1,		-1,		-1
+troll			-1,		-1,		-1,		100,	-1,		100,	-1,		100,	-1,		-1,		-1,		-1,		-1
+
+Umano				tutte le classi
+Elfo				NON: anti-paladin, ninja, samurai, vampire, necromancer
+Mezzelfo			NON: samurai, vampire
+Drow				NON: paladin, samurai, vampire, necromancer
+Rockseer			NON: paladin, anti-paladin, samurai, vampire, necromancer
+Nano				NON: thief, paladin, anti-paladin, ninja, ranger, samurai, vampire, necromancer
+Svirfnebli			NON: paladin, anti-paladin, ninja, ranger,  samurai, vampire, necromancer
+Duergar				NON: invoker, paladin, ninja, ranger, transmuter, samurai, vampire
+Arial			    NON: paladin, ranger, samurai, vampire
+Gnomo				NON: paladin, anti-paladin, ninja, ranger, samurai, vampire, necromancer
+Giant				NON: invoker, thief, paladin, anti-paladin, ninja, transmuter, samurai, vampire, necromancer, elementalist
+Felar				NON: invoker, cleric, paladin, samurai, vampire, necromancer, elementalist
+Gythianky			NON: cleric, thief, paladin, anti-paladin, samurai, vampire
+Satyr				NON: invoker, cleric, paladin, anti-paladin, ninja, transmuter, samurai, vampire, necromancer, elementalist
+Troll				NON: invoker, cleric, thief, paladin, ninja, transmuter, samurai, vampire, necromancer, elementalist

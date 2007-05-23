@@ -1,0 +1,791 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1040\deflangfe1040{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f23\froman\fcharset128\fprq1{\*\panose 00000000000000000000}MS Mincho{\*\falt MS ??};}{\f60\froman\fcharset128\fprq1{\*\panose 00000000000000000000}@MS Mincho;}{\f61\froman\fcharset238\fprq2 Times New Roman CE;}
+{\f62\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f64\froman\fcharset161\fprq2 Times New Roman Greek;}{\f65\froman\fcharset162\fprq2 Times New Roman Tur;}{\f66\froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\f67\froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f68\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f77\fmodern\fcharset238\fprq1 Courier New CE;}{\f78\fmodern\fcharset204\fprq1 Courier New Cyr;}
+{\f80\fmodern\fcharset161\fprq1 Courier New Greek;}{\f81\fmodern\fcharset162\fprq1 Courier New Tur;}{\f82\fmodern\fcharset177\fprq1 Courier New (Hebrew);}{\f83\fmodern\fcharset178\fprq1 Courier New (Arabic);}
+{\f84\fmodern\fcharset186\fprq1 Courier New Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;
+\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1040\langfe1040\cgrid\langnp1040\langfenp1040 \snext0 Normal;}{\*\cs10 \additive Default Paragraph Font;}{
+\s15\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \f2\fs20\lang1040\langfe1040\cgrid\langnp1040\langfenp1040 \sbasedon0 \snext15 Plain Text;}}{\info{\title ADVANCE}{\author OEM}{\operator OEM}
+{\creatim\yr2004\mo9\dy25\hr16\min7}{\revtim\yr2004\mo9\dy25\hr16\min16}{\version3}{\edmins9}{\nofpages13}{\nofwords3471}{\nofchars19787}{\*\company OEM}{\nofcharsws24299}{\vern8249}}\paperw11906\paperh16838\margl1152\margr1152\margt1417\margb1134 
+\deftab708\widowctrl\ftnbj\aenddoc\hyphhotz283\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\formshade\horzdoc\dgmargin\dghspace180\dgvspace180\dghorigin1701\dgvorigin1984\dghshow1\dgvshow1
+\jexpand\viewkind4\viewscale100\pgbrdrhead\pgbrdrfoot\splytwnine\ftnlytwnine\htmautsp\nolnhtadjtbl\useltbaln\alntblind\lytcalctblwd\lyttblrtgr\lnbrkrule \fet0\sectd \linex0\headery708\footery708\colsx708\endnhere\sectlinegrid360\sectdefaultcl 
+{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5
+\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang
+{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \s15\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \f2\fs20\lang1040\langfe1040\cgrid\langnp1040\langfenp1040 {
+\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 ADVANCE
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: advance <personaggio> <livello>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Permette di aumentare il livello di esperienza di un avventuriero fino al
+\par \hich\af2\dbch\af23\loch\f2 valore specificato. E' l'unico modo per creare un \hich\af2\dbch\af23\loch\f2 amministratore\hich\af2\dbch\af23\loch\f2  e permette di
+\par \hich\af2\dbch\af23\loch\f2 acquisire tutte le caratteristiche dei livelli preceden\hich\af2\dbch\af23\loch\f2 ti e del livello stesso
+\par \hich\af2\dbch\af23\loch\f2 a cui si e' stati innalzati.
+\par \hich\af2\dbch\af23\loch\f2 Puo' essere usato per decrementare il livello di un avventuriero.
+\par \hich\af2\dbch\af23\loch\f2 Per gli \hich\af2\dbch\af23\loch\f2 amministratori\hich\af2\dbch\af23\loch\f2  di livello inferiore al 99 e' possibile avanzare solamente
+\par \hich\af2\dbch\af23\loch\f2 quei personaggi che sono pronti per divenire Avatar.
+\par 
+\par 
+\par 
+\par }{\b\lang2057\langfe1040\dbch\af23\langnp2057 \hich\af2\dbch\af23\loch\f2 AT
+\par }{\lang2057\langfe1040\dbch\af23\langnp2057 \hich\af2\dbch\af23\loch\f2 S\hich\af2\dbch\af23\loch\f2 intassi: trust <room> <comando>
+\par 
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Esegue un qualunque comando alla room desiderata come se si fo\hich\af2\dbch\af23\loch\f2 sse materialmente presenti la'.
+\par \hich\af2\dbch\af23\loch\f2 La room puo' essere specificata con il vnum, con il nome di un mob\hich\af2\dbch\af23\loch\f2  o di un pg o con il nome di un \hich\af2\dbch\af23\loch\f2 oggetto.
+\par 
+\par \hich\af2\dbch\af23\loch\f2  
+\par \hich\af2\dbch\af23\loch\f2  
+\par }{\b\lang2057\langfe1040\dbch\af23\langnp2057 \hich\af2\dbch\af23\loch\f2 FIND
+\par }{\lang2057\langfe1040\dbch\af23\langnp2057 \hich\af2\dbch\af23\loch\f2 Sintassi \hich\af2\dbch\af23\loch\f2 : find <mob>
+\par 
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Mostra il path relativo.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 FLAG
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi:
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: f\hich\af2\dbch\af23\loch\f2 lag mob  <nome> <campo> <flags>
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: f\hich\af2\dbch\af23\loch\f2 lag char <nome> <campo> <flags>
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: f\hich\af2\dbch\af23\loch\f2 lag obj  <nome> <campo> <flags>
+\par }\pard \s15\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: fla\hich\af2\dbch\af23\loch\f2 g room <stanza> <campo> <flags>
+\par }\pard \s15\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\dbch\af23 
+\par }{\lang2057\langfe1040\dbch\af23\langnp2057 \hich\af2\dbch\af23\loch\f2   \hich\af2\dbch\af23\loch\f2 mob  flags: \hich\af2\dbch\af23\loch\f2 act\hich\af2\dbch\af23\loch\f2 ,aff,off,imm,res,vuln,form,part
+\par \hich\af2\dbch\af23\loch\f2   \hich\af2\dbch\af23\loch\f2 char fl\hich\af2\dbch\af23\loch\f2 ags: plr,comm,aff,imm,res,vuln,
+\par \hich\af2\dbch\af23\loch\f2   obj  flags:\hich\af2\dbch\af23\loch\f2  extra,wear,weap,cont,gate,exit
+\par \hich\af2\dbch\af23\loch\f2   \hich\af2\dbch\af23\loch\f2 room flags: room
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2   \hich\af2\dbch\af23\loch\f2 +: aggiunge una flag, -: r\hich\af2\dbch\af23\loch\f2 imuove una flag, = set equal to
+\par }\pard \s15\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\dbch\af23 \hich\af2\dbch\af23\loch\f2   altrimenti si tolgono quelli presenti in preceden\hich\af2\dbch\af23\loch\f2 za.
+\par }\pard \s15\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\dbch\af23 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 GWHO
+\par }{\dbch\af23 
+\par \hich\af2\dbch\af23\loch\f2 Mostra i gruppi del mud.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 GRANT
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi : grant <pg>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Induce un pg alla propria cabala.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 LIMITED
+\par }{\dbch\af23 
+\par \hich\af2\dbch\af23\loch\f2 Espone la lista degli oggetti limitati (i rari) del mud.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 LOOKUP
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi\hich\af2\dbch\af23\loch\f2 : lookup <incantesimo/abilita'>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Info sugli incan\hich\af2\dbch\af23\loch\f2 tesimi/abilita'.
+\par 
+\par 
+\par 
+\par }{\b\lang1036\langfe1040\dbch\af23\langnp1036 \hich\af2\dbch\af23\loch\f2 MAXIMUM
+\par }{\lang1036\langfe1040\dbch\af23\langnp1036 \hich\af2\dbch\af23\loch\f2 Sintassi: maximum
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: maximum newbies
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: maximum oldies
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Visualizza il limite massimo di newbie o di oldies che possono esistere
+\par \hich\af2\dbch\af23\loch\f2 nel mud. Gli oldies sono i giocatori totali esistenti nel mud.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Sintassi:  maximum res\hich\af2\dbch\af23\loch\f2 et
+\par \hich\af2\dbch\af23\loch\f2 Configura i limiti massimi ai loro valori di default.
+\par 
+\par \hich\af2\dbch\af23\loch\f2   
+\par \hich\af2\dbch\af23\loch\f2  
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 OBJLIST
+\par }{\dbch\af23 
+\par \hich\af2\dbch\af23\loch\f2 Scrive su file la lista delle stats  le stat leggibili di un oggetto degli 
+\par \hich\af2\dbch\af23\loch\f2 oggetti indossati.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 PREFIX
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: prefix <prefisso>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Aggiunge un prefisso a tutti i comandi che ve\hich\af2\dbch\af23\loch\f2 ngon\hich\af2\dbch\af23\loch\f2 o lanciati dal pg in questione.
+\par \hich\af2\dbch\af23\loch\f2 Per eliminarlo basta non specificare alcun prefisso.
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2  
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 RENAME
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 SintassiSin\hich\af2\dbch\af23\loch\f2 tassi: rename <pg> <nuovo nome>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Cambia il nome ad un un pg.
+\par \hich\af2\dbch\af23\loch\f2 Se il pg e' gia' membro di una cabala, bisogna prima escluderlo dalla stessa 
+\par \hich\af2\dbch\af23\loch\f2 e\hich\af2\dbch\af23\loch\f2  poi e' cambiargli il nome. Se il nuovo nome e' gia' utilizzato non sara' 
+\par \hich\af2\dbch\af23\loch\f2 consentita la modifica.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 ITITLE
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sinta\hich\af2\dbch\af23\loch\f2 ssi: \hich\af2\dbch\af23\loch\f2 ititle\hich\af2\dbch\af23\loch\f2  <pg> <nuova short>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Cambia la short description ad un un pg. La nuova short dovra' contenere pero'
+\par \hich\af2\dbch\af23\loch\f2 il nome del pg altrimenti \hich\af2\dbch\af23\loch\f2 sara' esclusa l'interazione di questi con gli altri.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 TRUST
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: trust <personaggio> <livello>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Definisce la credibilita'(trust) di un personaggio al livello specificato.
+\par \hich\af2\dbch\af23\loch\f2 E' paragonabile a far avanzare un personaggio, per fargli avere accesso ai
+\par \hich\af2\dbch\af23\loch\f2 com\hich\af2\dbch\af23\loch\f2 andi da \hich\af2\dbch\af23\loch\f2 amministratore\hich\af2\dbch\af23\loch\f2 , ma senza avere effetto sulle caratteristiche proprie del
+\par \hich\af2\dbch\af23\loch\f2 personaggio (forza, potenza, etc.)
+\par \hich\af2\dbch\af23\loch\f2 E' possibile anche diminuire la credibilita' di un personaggio.
+\par \hich\af2\dbch\af23\loch\f2 Porre la credibilita' a 0 significa permettere di usare quella naturale.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 TVALU\hich\af2\dbch\af23\loch\f2 E
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: tvalue <pg\hich\af2\dbch\af23\loch\f2 > <arge|oro|puntiquest> <cifra\hich\af2\dbch\af23\loch\f2 >
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: tvalue <pg>\hich\af2\dbch\af23\loch\f2  <arge|oro|puntiquest> <-cifra>
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: \hich\af2\dbch\af23\loch\f2 tvalue <mob> <arge|oro> <cifra>
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: t\hich\af2\dbch\af23\loch\f2 value <mob> <arge|oro> <-cifra>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Finanziamento (anche autofinanziamento) dei pg e mob di mo\hich\af2\dbch\af23\loch\f2 nete d'oro, argento.
+\par \hich\af2\dbch\af23\loch\f2 I punti quest solo nel caso degli avventurieri.
+\par 
+\par 
+\par 
+\par }{\b\lang2057\langfe1040\dbch\af23\langnp2057 \hich\af2\dbch\af23\loch\f2 ALLOW
+\par }{\lang2057\langfe1040\dbch\af23\langnp2057 \hich\af2\dbch\af23\loch\f2 Sintassi: allow   <ip>
+\par 
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Rimuove un ip o un host dalla lista dei siti bannati.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 BAN
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: ban <ip> <newbies|all|permit>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Proibisce l'accesso a coloro che provengono da un d\hich\af2\dbch\af23\loch\f2 eterminato ip o host
+\par \hich\af2\dbch\af23\loch\f2 Senza argomenti mostra la lista di tutti gli ip bannati.
+\par \hich\af2\dbch\af23\loch\f2 Si puo' proibire l'entrata di tutti i giocatori, di nuovi giocatori, o di
+\par \hich\af2\dbch\af23\loch\f2 alcuni giocatori in specifico (editando il file del giocatore): basta
+\par \hich\af2\dbch\af23\loch\f2 cambiare l'argomento dopo l'host.
+\par \hich\af2\dbch\af23\loch\f2 L'asterisco (*) puo' essere utilizzato sia come suffisso (*.it ) sia come
+\par \hich\af2\dbch\af23\loch\f2 prefisso ( uno.*), o come "titolo" (*andrews*), ma va usato solo in alcuni
+\par \hich\af2\dbch\af23\loch\f2 casi, per non bloccare l'accesso da troppi host.
+\par \hich\af2\dbch\af23\loch\f2 Un ban normale non viene salvato e al reboot quindi, si ca\hich\af2\dbch\af23\loch\f2 ncella.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 PERMBAN
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: permban <ip>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 E' l'unico modo per proibire in modo permanente l'accesso da un determinato ip.
+\par 
+\par 
+\par 
+\par }{\b\lang2057\langfe1040\dbch\af23\langnp2057 \hich\af2\dbch\af23\loch\f2 REBOOT
+\par }{\lang2057\langfe1040\dbch\af23\langnp2057 \hich\af2\dbch\af23\loch\f2 Sintassi: reboot
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: reboot <now>
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: reboot <tempo>
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: reboot status
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: reboot cancel
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Permette \hich\af2\dbch\af23\loch\f2 di chiudere il server e di farlo ripartire normalmente dopo circa 15
+\par \hich\af2\dbch\af23\loch\f2 secondi.
+\par \hich\af2\dbch\af23\loch\f2 Scrivendo reboot now, il reboot viene fatto senza preavviso e immediatamente.
+\par \hich\af2\dbch\af23\loch\f2 Altrimenti si puo' determinare fra quanto tempo vi sara' un reboot, con il
+\par \hich\af2\dbch\af23\loch\f2 comando reboot <tempo>. O\hich\af2\dbch\af23\loch\f2 gni tot di tick un beep avvisera' tutti i giocatori
+\par \hich\af2\dbch\af23\loch\f2 che sta per avvenire un reboot.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 SHUTDOWN
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: shutdown
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Chiude il server e non permette il normale riavvio.
+\par 
+\par 
+\par 
+\par }{\b\lang1031\langfe1040\dbch\af23\langnp1031 \hich\af2\dbch\af23\loch\f2 WIZLOCK
+\par }{\lang1031\langfe1040\dbch\af23\langnp1031 \hich\af2\dbch\af23\loch\f2 Sintassi: wizlock
+\par 
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Blocca i tentativi di connessione a tutti i giocatori che \hich\af2\dbch\af23\loch\f2 non sono \hich\af2\dbch\af23\loch\f2 Amministratori
+\par \hich\af2\dbch\af23\loch\f2 ad eccezione di tutti i giocatori link-dead che si riconnetteranno.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 NEWLOCK
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: newlock
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Blocca i tentativi di creazione di un nuovo personaggio.
+\par \hich\af2\dbch\af23\loch\f2 In genere viene utilizzato per prevenire l'ingresso di giocatori fastidiosi che
+\par \hich\af2\dbch\af23\loch\f2 te\hich\af2\dbch\af23\loch\f2 ntano di farsi nuovi personaggi.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 DENY
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: deny <nome>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Impedisce ad un pg di rientrare in gioco, in maniera permanente e rende il nome 
+\par \hich\af2\dbch\af23\loch\f2 del pg inutilizzabile. Puo' essere rimosso solo editando il file, per questo e' 
+\par \hich\af2\dbch\af23\loch\f2 preferibile utilizzare il FREE\hich\af2\dbch\af23\loch\f2 ZE.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 DISCONNECT
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: disconnect <nome>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Interrompe la connessione di un giocatore al Mud. 
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 FREEZE
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: freeze <nome>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Impedisce qualunque comando o movimento ad un personaggio specificato.
+\par \hich\af2\dbch\af23\loch\f2 Congela il pg, in pratica.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 FORCE
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: force \hich\af2\dbch\af23\loch\f2 <personaggio> <comando>
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: force all <comando>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Forza un personaggio ad eseguire un comando, ad eccezione della cancellazione.
+\par 
+\par 
+\par 
+\par }{\b\lang2057\langfe1040\dbch\af23\langnp2057 \hich\af2\dbch\af23\loch\f2 SOCKETS
+\par }{\lang2057\langfe1040\dbch\af23\langnp2057 \hich\af2\dbch\af23\loch\f2 Sintassi: sockets
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: sockets <nome>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Riporta tutti gli utenti visibili connessi al server.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 I due numeri\hich\af2\dbch\af23\loch\f2  fra parentesi indicano il numero del canale al quale si e'
+\par \hich\af2\dbch\af23\loch\f2 connessi e lo stato di connessione.
+\par \hich\af2\dbch\af23\loch\f2 Stato di connessione:
+\par \hich\af2\dbch\af23\loch\f2 0 : e' in gioco
+\par \hich\af2\dbch\af23\loch\f2 1 : sta scrivendo il nome
+\par \hich\af2\dbch\af23\loch\f2 2 : sta scrivendo la password
+\par \hich\af2\dbch\af23\loch\f2 3 : nuovo giocatore: nome
+\par \hich\af2\dbch\af23\loch\f2 4 : nuovo giocatore: password
+\par \hich\af2\dbch\af23\loch\f2 5 : nuovo \hich\af2\dbch\af23\loch\f2 giocatore: conferma della password
+\par \hich\af2\dbch\af23\loch\f2 6 : nuovo giocatore: razza
+\par \hich\af2\dbch\af23\loch\f2 7 : nuovo giocatore: sesso
+\par \hich\af2\dbch\af23\loch\f2 8 : nuovo giocatore: classe
+\par \hich\af2\dbch\af23\loch\f2 9 : nuovo giocatore: allineamento
+\par \hich\af2\dbch\af23\loch\f2 10: nuovo giocatore: scelte di default
+\par \hich\af2\dbch\af23\loch\f2 11: nuovo giocatore: gruppo
+\par \hich\af2\dbch\af23\loch\f2 12: nuovo giocatore: arma
+\par \hich\af2\dbch\af23\loch\f2 13: sta legg\hich\af2\dbch\af23\loch\f2 endo l'imotd
+\par \hich\af2\dbch\af23\loch\f2 14: sta leggendo il motd
+\par \hich\af2\dbch\af23\loch\f2 15: connessione interrotta
+\par \hich\af2\dbch\af23\loch\f2 16: nuovo giocatore: sta rollando le statistiche
+\par \hich\af2\dbch\af23\loch\f2 17: nuovo giocatore: ha accettato le statistiche
+\par \hich\af2\dbch\af23\loch\f2 18: nuovo giocatore: patria
+\par \hich\af2\dbch\af23\loch\f2 19: nuovo giocatore: ethos
+\par \hich\af2\dbch\af23\loch\f2 20: nuovo giocatore: scelta linguaggio\hich\af2\dbch\af23\loch\f2  dei comandi
+\par \hich\af2\dbch\af23\loch\f2 21: nuovo giocatore: creazione completata
+\par \hich\af2\dbch\af23\loch\f2 22: nuovo giocatore: menu di ingresso
+\par \hich\af2\dbch\af23\loch\f2 23: nuovo giocatore: scelta delle nuove classi
+\par 
+\par 
+\par 
+\par }{\b\lang2057\langfe1040\dbch\af23\langnp2057 \hich\af2\dbch\af23\loch\f2 LOAD
+\par }{\lang2057\langfe1040\dbch\af23\langnp2057 \hich\af2\dbch\af23\loch\f2 Sintassi: load mob <vnum>
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: load obj <vnum>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Permette la creazione di nuovi oggetti (solo per \hich\af2\dbch\af23\loch\f2 amministratori\hich\af2\dbch\af23\loch\f2  di livello pari a
+\par \hich\af2\dbch\af23\loch\f2 100) o nuovi mob (e' conveniente utilizzare il comando CLONE nel caso di
+\par \hich\af2\dbch\af23\loch\f2 oggetti e mob restringati ). I vnum degli oggetti e dei mob possono essere
+\par \hich\af2\dbch\af23\loch\f2 trovati con il comando VNUM o con il comando STAT applicato a un mob o un
+\par \hich\af2\dbch\af23\loch\f2 oggetto gia'\hich\af2\dbch\af23\loch\f2  esistente.
+\par \hich\af2\dbch\af23\loch\f2 L'oggetto creato finira' in inventario, se puo' essere trasportato, altrimenti
+\par \hich\af2\dbch\af23\loch\f2 verra' poggiato a terra.
+\par \hich\af2\dbch\af23\loch\f2 Il mob sara' creato sempre nella stessa stanza dove si trova l'\hich\af2\dbch\af23\loch\f2 amministratore\hich\af2\dbch\af23\loch\f2 .
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 SET
+\par }{\dbch\af23 
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: set mob   <nome> <campo> <valore>
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: set \hich\af2\dbch\af23\loch\f2 char  <nome> <campo> <valore>
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: set obj   <oggetto> <campo> <valore>
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: set room  <numero> <campo> <valore>
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: set skill <nome> <abilita'/incantesimo> <%>
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: set skill <nome> all <%>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Questo comando permette di cambiare i valor\hich\af2\dbch\af23\loch\f2 i numerici di diverse strutture,
+\par \hich\af2\dbch\af23\loch\f2 dai personaggi, alle stanze, agli oggetti.
+\par \hich\af2\dbch\af23\loch\f2 Per vedere tutte le opzioni per ogni "classe" basta scrivere set <classe>.
+\par \hich\af2\dbch\af23\loch\f2 In ogni caso qui viene riportata tutte le informazioni che possono essere utili.
+\par 
+\par \hich\af2\dbch\af23\loch\f2  set char <nome> <campo\hich\af2\dbch\af23\loch\f2 > <valore>
+\par \hich\af2\dbch\af23\loch\f2  set mob  <nome> <campo> <valore>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Con questo comando si possono cambiare le caratteristiche di mob e personaggi.
+\par \hich\af2\dbch\af23\loch\f2 Il personaggio deve essere in gioco per essere modificato e il suo livello non
+\par \hich\af2\dbch\af23\loch\f2 deve essere maggiore o uguale a quello dell'\hich\af2\dbch\af23\loch\f2 amministratore\hich\af2\dbch\af23\loch\f2 . Le modifiche effettuate
+\par \hich\af2\dbch\af23\loch\f2 non si aggiungeranno ai valori presenti, ma li sostituiranno completamente.
+\par \hich\af2\dbch\af23\loch\f2 I campi possibili sono:
+\par \hich\af2\dbch\af23\loch\f2 * str, int, wis, dex, con, cha: rappresentano le statistiche (o attributi) del
+\par \hich\af2\dbch\af23\loch\f2             personaggio. Esse devono essere compre\hich\af2\dbch\af23\loch\f2 se tra 3 e il valore massimo
+\par \hich\af2\dbch\af23\loch\f2             consentito dalla razza e dalla classe del personaggio.
+\par \hich\af2\dbch\af23\loch\f2 * sex    :  indica il sesso. Se uguale a 2, il sesso sara' femminile, uguale a
+\par \hich\af2\dbch\af23\loch\f2             1 sara' maschile, mentre uguale a 0 sara' asessuato.
+\par \hich\af2\dbch\af23\loch\f2 * class  :  modi\hich\af2\dbch\af23\loch\f2 fica la classe del personaggio. Non puo' essere modificata la
+\par \hich\af2\dbch\af23\loch\f2             classe di un mob, in quanto ne sono sprovvisti. Le classi possibili
+\par \hich\af2\dbch\af23\loch\f2             al momento sono: evocatore, chierico, ladro, guerriero, paladino,
+\par \hich\af2\dbch\af23\loch\f2             anti-paladino, ninja, ra\hich\af2\dbch\af23\loch\f2 nger, trasmutatore, samurai, vampiro,
+\par \hich\af2\dbch\af23\loch\f2             necromante, elementalista.
+\par \hich\af2\dbch\af23\loch\f2 * level  :  indica il livello. Non si puo' modificare il livello dei mob e il
+\par \hich\af2\dbch\af23\loch\f2             valore deve essere compreso tra 0 e 100.
+\par \hich\af2\dbch\af23\loch\f2 * race   :  e' la razza. Quella dei mob non puo'\hich\af2\dbch\af23\loch\f2  essere modificata. Le razze
+\par \hich\af2\dbch\af23\loch\f2             consentite sono quelle che possono essere scelte al momento della
+\par \hich\af2\dbch\af23\loch\f2             creazione del personaggio. Le abilita' di razza verranno
+\par \hich\af2\dbch\af23\loch\f2             automaticamente imparate al 70%.
+\par \hich\af2\dbch\af23\loch\f2 * gold, silver: modificano la quant\hich\af2\dbch\af23\loch\f2 ita' di monete in possesso dal personaggio.
+\par \hich\af2\dbch\af23\loch\f2 * life, mana, move: indicano le caratteristiche del personaggio. I valore dei
+\par \hich\af2\dbch\af23\loch\f2             punti vita e' compreso tra -10 e 30000, il mana e il movimento
+\par \hich\af2\dbch\af23\loch\f2             invece sono compresi tra 0 e 60000, comunque qu\hich\af2\dbch\af23\loch\f2 esti sono i massimi
+\par \hich\af2\dbch\af23\loch\f2             assoluti, vi sono dei massimi relativi ad ogni razza.
+\par \hich\af2\dbch\af23\loch\f2 * practice: esprime il numero di pratiche in possesso del personaggio. Il
+\par \hich\af2\dbch\af23\loch\f2             valore deve essere compreso tra 0 e 250.
+\par \hich\af2\dbch\af23\loch\f2 * align   : indica l'allineamento (NON l'et\hich\af2\dbch\af23\loch\f2 hos!) di un personaggio. Il suo
+\par \hich\af2\dbch\af23\loch\f2             valore deve essere compreso tra -1000 e 1000. I valori tra -300 e
+\par \hich\af2\dbch\af23\loch\f2             300 circa indicano la sfera della neutralita'. Bisogna, inoltre,
+\par \hich\af2\dbch\af23\loch\f2             far attenzione alla patria del personaggio in questione, \hich\af2\dbch\af23\loch\f2 affinche'
+\par \hich\af2\dbch\af23\loch\f2             non siano in mutua esclusione l'un l'altro.
+\par \hich\af2\dbch\af23\loch\f2 * train   : esprime il numero di sessioni di allineamento in possesso del
+\par \hich\af2\dbch\af23\loch\f2             personaggio. Il numero deve essere compreso tra 0 e 50.
+\par \hich\af2\dbch\af23\loch\f2 * thirst  : indica quanto e' assetato un persona\hich\af2\dbch\af23\loch\f2 ggio. Non puo' essere applicato
+\par \hich\af2\dbch\af23\loch\f2             sui mob. Il valore deve essere compreso tra -1 e 100 (-1 indica che
+\par \hich\af2\dbch\af23\loch\f2             si ha una grande sete!).
+\par \hich\af2\dbch\af23\loch\f2 * hunger  : indica quanto e' affamato un personaggio. Non puo' essere applicato
+\par \hich\af2\dbch\af23\loch\f2             sui mob. Il val\hich\af2\dbch\af23\loch\f2 ore deve essere compreso tra -1 e 100 (-1 indica una
+\par \hich\af2\dbch\af23\loch\f2             gran fame!)
+\par \hich\af2\dbch\af23\loch\f2 * drunk   : indica lo stato di ubriachezza di un personaggio. Non puo' essere
+\par \hich\af2\dbch\af23\loch\f2             applicato sui mob. Il valore deve essere compreso tra 0 e 100 (0
+\par \hich\af2\dbch\af23\loch\f2             indica un pe\hich\af2\dbch\af23\loch\f2 rsonaggio sobrio).
+\par \hich\af2\dbch\af23\loch\f2 * full    : indica lo stato di "sazieta'" sia dal cibo che dalle bevande. Non
+\par \hich\af2\dbch\af23\loch\f2             puo' essere applicato sui mob. Il valore deve essere compreso tra
+\par \hich\af2\dbch\af23\loch\f2             -1 e 100. (100 indica che si e' pienamente soddisfatti).
+\par \hich\af2\dbch\af23\loch\f2 * hometown: \hich\af2\dbch\af23\loch\f2 indica la patria del personaggio. Non puo' essere applicato sui
+\par \hich\af2\dbch\af23\loch\f2             mob. Il valore deve essere compreso tra 0 e 4. (Midgaard = 0,
+\par \hich\af2\dbch\af23\loch\f2             Nuova Thalos =1, Valle Titania=2, Nuova Ofcol=3, Midgaard
+\par \hich\af2\dbch\af23\loch\f2             Vec.=4).
+\par \hich\af2\dbch\af23\loch\f2             Attenzione alle\hich\af2\dbch\af23\loch\f2  citta' e agli allineamenti! Nuova Thalos e' per
+\par \hich\af2\dbch\af23\loch\f2             soli neutrali, Nuova Ofcol e' per i buoni e Midgaard Vecchia per i
+\par \hich\af2\dbch\af23\loch\f2             malvagi.
+\par \hich\af2\dbch\af23\loch\f2 * ethos   : indica l'ethos del personaggio. Non puo' essere applicato sui mob.
+\par \hich\af2\dbch\af23\loch\f2             Il valore deve e\hich\af2\dbch\af23\loch\f2 ssere compreso tra 1 e 3: 1 = legale, 2= neutrale,
+\par \hich\af2\dbch\af23\loch\f2             3= caotico.
+\par \hich\af2\dbch\af23\loch\f2 *questp, questt, questw : sono tre valori relativi alle quest. Questp indica i
+\par \hich\af2\dbch\af23\loch\f2             falchi divini totali del personaggio. Questt indica quanto tempo
+\par \hich\af2\dbch\af23\loch\f2             rimane per co\hich\af2\dbch\af23\loch\f2 mpletare la missione e questw indica quanto tempo il
+\par \hich\af2\dbch\af23\loch\f2             personaggio deve aspettare per richiedere un'altra missione al
+\par \hich\af2\dbch\af23\loch\f2             Questor. Non puo' essere applicato ai mob.
+\par \hich\af2\dbch\af23\loch\f2 *relig    : indica la religione del personaggio. Non puo' essere applicat\hich\af2\dbch\af23\loch\f2 o ai
+\par \hich\af2\dbch\af23\loch\f2             mob.
+\par \hich\af2\dbch\af23\loch\f2             Le religioni possibili sono quelle standard.
+\par \hich\af2\dbch\af23\loch\f2 *bloodlust : indica la sete di sangue del personaggio. Non puo' essere
+\par \hich\af2\dbch\af23\loch\f2             applicato ai mob. Il valore deve essere compreso tra -1 e 100 (con
+\par \hich\af2\dbch\af23\loch\f2             0 che indica un\hich\af2\dbch\af23\loch\f2 a fortissima sete di sangue!).
+\par \hich\af2\dbch\af23\loch\f2 *desire    : indica il desiderio di tornare a casa. Non puo' essere applicato
+\par \hich\af2\dbch\af23\loch\f2             ai mob.
+\par \hich\af2\dbch\af23\loch\f2             Il valore deve essere compreso tra -1 e 100 (con 100 che indica che
+\par \hich\af2\dbch\af23\loch\f2             a casa non si vuole tornare!).
+\par 
+\par \hich\af2\dbch\af23\loch\f2  se\hich\af2\dbch\af23\loch\f2 t obj   <oggetto> <campo> <valore>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Con questo comando si possono cambiare le caratteristiche degli oggetti.
+\par \hich\af2\dbch\af23\loch\f2 L'oggetto deve essere presente in gioco.
+\par \hich\af2\dbch\af23\loch\f2 Le modifiche effettuate non si aggiungeranno ai valori presenti, ma li
+\par \hich\af2\dbch\af23\loch\f2 sostituiranno completamente.
+\par \hich\af2\dbch\af23\loch\f2 I camp\hich\af2\dbch\af23\loch\f2 i che si possono modificare sono:
+\par \hich\af2\dbch\af23\loch\f2 * value0, value1, value2, value3, value4: indicano quelle quattro cifre il cui
+\par \hich\af2\dbch\af23\loch\f2         significato, pero', varia da oggetto a oggetto.
+\par \hich\af2\dbch\af23\loch\f2         In particolare, nelle armi  il value1 e il value2 indicano il dado
+\par \hich\af2\dbch\af23\loch\f2         dell\hich\af2\dbch\af23\loch\f2 'arma. (value1)d(value2) per la precisione.
+\par \hich\af2\dbch\af23\loch\f2 * extra : indicano tutti i flag particolari dell'oggetto. Le lettere vanno
+\par \hich\af2\dbch\af23\loch\f2         scritte tutte una di seguito all'altra.
+\par \hich\af2\dbch\af23\loch\f2         }{\lang2057\langfe1040\dbch\af23\langnp2057 \hich\af2\dbch\af23\loch\f2 Glow= A  Hum= B  Dark=C  Lock=D  Evil=E  Invis=F  Magic=G  Nodrop=H
+\par \hich\af2\dbch\af23\loch\f2         \hich\af2\dbch\af23\loch\f2 Bless\hich\af2\dbch\af23\loch\f2 =I  Antigood=J  Antievil=K  Antineutral=L  Noremove=M  Inventory=N
+\par \hich\af2\dbch\af23\loch\f2         \hich\af2\dbch\af23\loch\f2 Nopurge=O  Rot_death=P  VisDeath=Q  NoSac=R  Nonmetal=S  Nolocate=T
+\par \hich\af2\dbch\af23\loch\f2         \hich\af2\dbch\af23\loch\f2 MeltDrop=U  HadTimer=V  SellExtract=W  BurnProof=Y  Nouncurse=Z
+\par 
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 * wear  : indica dove andra' indossato l\hich\af2\dbch\af23\loch\f2 'oggetto (e' ancora in forma numerica).
+\par \hich\af2\dbch\af23\loch\f2 * level : esprime il livello dell'oggetto.
+\par \hich\af2\dbch\af23\loch\f2 * weight: esprime il peso dell'oggetto.
+\par \hich\af2\dbch\af23\loch\f2 * cost  : indica il costo dell'oggetto.
+\par \hich\af2\dbch\af23\loch\f2 * timer : esprime il timer dell'oggetto.
+\par 
+\par \hich\af2\dbch\af23\loch\f2  set room  <numero> <campo> <valore>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Con questo co\hich\af2\dbch\af23\loch\f2 mando si possono cambiare le caratteristiche delle stanze.
+\par \hich\af2\dbch\af23\loch\f2 Il vnum deve essere di una stanza esistente e la stanza non deve essere
+\par \hich\af2\dbch\af23\loch\f2 privata.
+\par \hich\af2\dbch\af23\loch\f2 Le modifiche effettuate non si aggiungeranno ai valori presenti, ma li
+\par \hich\af2\dbch\af23\loch\f2 sostituiranno completamente.
+\par \hich\af2\dbch\af23\loch\f2 I campi che si p\hich\af2\dbch\af23\loch\f2 ossono modificare sono :
+\par \hich\af2\dbch\af23\loch\f2 *flags:  indica tutti i flag di una stanza. (in forma numerica).
+\par \hich\af2\dbch\af23\loch\f2 *sector: indica il tipo di settore della stanza. (in forma numerica).
+\par 
+\par \hich\af2\dbch\af23\loch\f2  set skill <nome> <abilita'/incantesimo> <%>
+\par \hich\af2\dbch\af23\loch\f2  }{\lang2057\langfe1040\dbch\af23\langnp2057 \hich\af2\dbch\af23\loch\f2 set skill <nome> all <%>
+\par 
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Con questo comando si p\hich\af2\dbch\af23\loch\f2 uo' variare la percentuale di apprendimento di
+\par \hich\af2\dbch\af23\loch\f2 un'abilita' o di un incantesimo. Il personaggio deve essere in gioco e
+\par \hich\af2\dbch\af23\loch\f2 cio' non puo' essere fatto su un mob. E' necessario scrivere il nome
+\par \hich\af2\dbch\af23\loch\f2 dell'abilita' o dell'incantesimo. La percentuale varia da 0 a 100.
+\par \hich\af2\dbch\af23\loch\f2 Fa\hich\af2\dbch\af23\loch\f2 re set skill <nome> all permette di settare tutte le abilita' e gli
+\par \hich\af2\dbch\af23\loch\f2 incantesimi di un personaggio al valore desiderato.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 STRING
+\par }{\dbch\af23 
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: string obj <campo> <stringa>
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: string mob <campo> <stringa>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Permette di cambiare le stringhe associate ad \hich\af2\dbch\af23\loch\f2 un oggetto o ad un mob (o
+\par \hich\af2\dbch\af23\loch\f2 personaggio).
+\par \hich\af2\dbch\af23\loch\f2 Le stringhe "multi-line" non sono supportate, quelle colorate si, pero':
+\par \hich\af2\dbch\af23\loch\f2 help color per il codice dei colori.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 -MOB e PERSONAGGI
+\par \hich\af2\dbch\af23\loch\f2 Il mob deve essere vivo e quindi presente in gioco.
+\par \hich\af2\dbch\af23\loch\f2 I campi che possono essere modifica\hich\af2\dbch\af23\loch\f2 ti sono :
+\par \hich\af2\dbch\af23\loch\f2 *name: cambia il nome del mob (solo su mob)
+\par \hich\af2\dbch\af23\loch\f2 *description: modifica la descrizione del mob.
+\par \hich\af2\dbch\af23\loch\f2 *short : indica la descrizione breve del mob.
+\par \hich\af2\dbch\af23\loch\f2 *long  : indica la descrizione del mob, quando si
+\par \hich\af2\dbch\af23\loch\f2        entra nella stanza dove risiede.
+\par \hich\af2\dbch\af23\loch\f2 *title : cambia il \hich\af2\dbch\af23\loch\f2 titolo del personaggio( non applicabile
+\par \hich\af2\dbch\af23\loch\f2        ai mob ). Il titolo non puo' superare 45 caratteri.
+\par \hich\af2\dbch\af23\loch\f2 *spec: cambia il tipo di procedura associato ad un mob.
+\par \hich\af2\dbch\af23\loch\f2     (solo su mob).
+\par 
+\par \hich\af2\dbch\af23\loch\f2 -OGGETTI
+\par \hich\af2\dbch\af23\loch\f2 L'oggetto deve essere in gioco. Non deve essere per forza in inventario.
+\par \hich\af2\dbch\af23\loch\f2 I campi che possono essere modificati sono :
+\par \hich\af2\dbch\af23\loch\f2 *name : indica la parola chiave dell'oggetto.
+\par \hich\af2\dbch\af23\loch\f2 *short: indica la descrizione dell'oggetto, quando esso e' tenuto
+\par \hich\af2\dbch\af23\loch\f2       in inventario o indossato.
+\par \hich\af2\dbch\af23\loch\f2 *long : indica la descrizione dell'oggetto a terra. Deve essere d\hich\af2\dbch\af23\loch\f2 i
+\par \hich\af2\dbch\af23\loch\f2       almeno 10 caratteri.
+\par \hich\af2\dbch\af23\loch\f2 *ed   :cambia la descrizione estesa associata all'oggetto.
+\par \hich\af2\dbch\af23\loch\f2      La sintassi esatta e' :
+\par \hich\af2\dbch\af23\loch\f2       string <oggetto> ed <nome> <stringa>
+\par \hich\af2\dbch\af23\loch\f2       nome e' la parola chiave che permette di leggere la stringa.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 NOCHANNELS
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: nocha\hich\af2\dbch\af23\loch\f2 nnels <personaggio>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Esclude ad un giocatore ogni tipo di comunicazione.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 NOEMOTE
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: noemote <personaggio>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Impedisce ai giocatori di fare degli emote.
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 NOYELL
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: noyell <personaggio>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Impedisce ai giocatori di utilizzare lo yell.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 NOTEL\hich\af2\dbch\af23\loch\f2 L
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: notell <personaggio>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Impedisce ai giocatori di utilizzare il tell.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 PURGE
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: purge
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: purge <personaggio>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 E' utilizzato per ripulire le stanze o chiudere la connessione ad un pg.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 RESTORE
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: restore <personaggio>
+\par \hich\af2\dbch\af23\loch\f2 Sint\hich\af2\dbch\af23\loch\f2 assi: restore room
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: restore all
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Rinfresca e ristora il personaggio, che si ritrovera' curato da malattie,
+\par \hich\af2\dbch\af23\loch\f2 veleni e cecita', con mana, punti ferita e movimento al massimo.
+\par \hich\af2\dbch\af23\loch\f2 Usato senza argomenti o con argomento room, ristora ogni avventuriero
+\par \hich\af2\dbch\af23\loch\f2 prese\hich\af2\dbch\af23\loch\f2 nte nella stanza, puo' anche essere indirizzato a tutti gli
+\par \hich\af2\dbch\af23\loch\f2 avventurieri contemporaneamente.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 SLAY
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: slay <vittima>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Uccide pg/png senza possibilita' di fallimento.
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 TRANSFER TELEPORT
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: transfer <vittima>
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: transfer all
+\par \hich\af2\dbch\af23\loch\f2 Sintassi:\hich\af2\dbch\af23\loch\f2  transfer <vittima> <locazione>
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: transfer all       <locazione>
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: teleport <vittima>
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: teleport all
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: teleport <vittima> <locazione>
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: teleport all       <locazione>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Trasferisce la vittima, o tutti gli avventurieri\hich\af2\dbch\af23\loch\f2 , nella locazione
+\par \hich\af2\dbch\af23\loch\f2 in cui ti trovi, o in una locazione specifica.
+\par \hich\af2\dbch\af23\loch\f2 In genere e' meglio non trasferire tutti, soprattutto in presenza
+\par \hich\af2\dbch\af23\loch\f2 di tanti avventurieri ( rallenta il tutto ).
+\par \hich\af2\dbch\af23\loch\f2 Teleport e' sinonimo di transfer.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 ECHO
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: echo  <messaggio>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Invia un \hich\af2\dbch\af23\loch\f2 messaggio a tutti coloro che sono presenti nella tua stessa
+\par \hich\af2\dbch\af23\loch\f2 stanza, senza specificare il mittente.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 GECHO
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: gecho  <messaggio>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Invia un messaggio a tutti coloro che sono presenti,
+\par \hich\af2\dbch\af23\loch\f2 senza specificare il mittente.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 PECHO
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: pecho <avventur\hich\af2\dbch\af23\loch\f2 iero>  <messaggio>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Invia un messaggio ad un avventuriero in particolare presente nel Mud,
+\par \hich\af2\dbch\af23\loch\f2 senza specificare il mittente.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 GOTO
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: goto <locazione>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Permette di dirigersi alla stanza specificata. Puo' essere specificata
+\par \hich\af2\dbch\af23\loch\f2 con il vnum, con il nome di\hich\af2\dbch\af23\loch\f2  un mob o di un personaggio presente nella
+\par \hich\af2\dbch\af23\loch\f2 stanza o con il nome di un oggetto. Per stanze riservate od occupate
+\par \hich\af2\dbch\af23\loch\f2 puo' usarsi il comando Violate.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 VIOLATE
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: violate <locazione>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Consente di accedere ad una stanza anche se privata o solitaria e
+\par \hich\af2\dbch\af23\loch\f2 gia'\hich\af2\dbch\af23\loch\f2  piena di avventurieri.
+\par 
+\par 
+\par 
+\par }{\b\lang2057\langfe1040\dbch\af23\langnp2057 \hich\af2\dbch\af23\loch\f2 HOLYLIGHT
+\par }{\lang2057\langfe1040\dbch\af23\langnp2057 \hich\af2\dbch\af23\loch\f2 Sintassi: holylight
+\par 
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Permette di vedere qualunque cosa presente sul Mud senza aver bisogno di luci
+\par \hich\af2\dbch\af23\loch\f2 o altri mezzi. Senza di esso, la visuale e' uguale a quella dei normali
+\par \hich\af2\dbch\af23\loch\f2 giocatori.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 INVIS WIZINVIS
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: wizinvis \hich\af2\dbch\af23\loch\f2 <livello>
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: invis   <livello>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Permette di rendersi invisibile a tutti gli avventurieri di livello inferiore a
+\par \hich\af2\dbch\af23\loch\f2 quello specificato. Senza argomenti, il livello e' il massimo possibile (cioe'
+\par \hich\af2\dbch\af23\loch\f2 il tuo livello).
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 INCOGNITO
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: incognito <livello\hich\af2\dbch\af23\loch\f2 >
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Nasconde la presenza a tutti coloro che sono al di fuori della stanza in cui ti
+\par \hich\af2\dbch\af23\loch\f2 trovi, rendendoti irraggiungibile anche ai messaggi.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 MEMORY
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: memory
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Riporta le dimensioni del mud.
+\par \hich\af2\dbch\af23\loch\f2 Questi sono i campi che mostra :
+\par \hich\af2\dbch\af23\loch\f2 Affects : riporta il numero\hich\af2\dbch\af23\loch\f2  di "affects" differenti.
+\par \hich\af2\dbch\af23\loch\f2 Areas   : indica il numero di aree che compongono il mud.
+\par \hich\af2\dbch\af23\loch\f2 ExDes   : indica quante descrizioni estese ci sono.
+\par \hich\af2\dbch\af23\loch\f2 Exits   : indica il numero di uscite totali.
+\par \hich\af2\dbch\af23\loch\f2 Helps   : riporta il numero di comandi o parole spiegate nell'help.
+\par \hich\af2\dbch\af23\loch\f2 Socials\hich\af2\dbch\af23\loch\f2  : indica il numero di "socials".
+\par \hich\af2\dbch\af23\loch\f2 Mobs    : riporta il numero di tipi di mob presenti.
+\par \hich\af2\dbch\af23\loch\f2 Objs    : riporta il numero di tipi di oggetti presenti.
+\par \hich\af2\dbch\af23\loch\f2 Resets  : mostra il numero totale di reset di tutte le aree.
+\par \hich\af2\dbch\af23\loch\f2 Rooms   : indica il numero totale di locazioni.
+\par \hich\af2\dbch\af23\loch\f2 Sho\hich\af2\dbch\af23\loch\f2 ps   : riporta il numero di negozi.
+\par \hich\af2\dbch\af23\loch\f2 Strings : mostra la memoria usata dalle stringhe che compongono i file
+\par \hich\af2\dbch\af23\loch\f2            delle aree. La memoria e' comunque limitata e tale limite e'
+\par \hich\af2\dbch\af23\loch\f2            mostrato.
+\par \hich\af2\dbch\af23\loch\f2 Perms   : mostra i blocchi di memoria permanentemente al\hich\af2\dbch\af23\loch\f2 locati.
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 MPRAC
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: mprac
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Riporta la lista di tutti i Maestri presenti nel mud.
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 VNUM
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: vnum <nome>
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: vnum <obj/mob> <nome>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Trova tutti gli oggetti e i mob con un particolare nome e ne stampa
+\par \hich\af2\dbch\af23\loch\f2 il risultato. Per restringere la ricerc\hich\af2\dbch\af23\loch\f2 a ad una sola classe basta usare
+\par \hich\af2\dbch\af23\loch\f2 vnum obj, per gli oggetti e vnum mob, per i mob.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 STAT
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: stat <nome>
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: stat mob  <nome>
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: stat obj  <nome>
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: stat room <vnum>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Fornisce informazioni dettagliate su un oggetto, un avventurie\hich\af2\dbch\af23\loch\f2 ro, un mob od
+\par \hich\af2\dbch\af23\loch\f2 una stanza esistenti nel Mud.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 MWHERE
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: mwhere <nome>
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: mwhere
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Mostra tutte le locazioni in cui si trova il mob il cui nome e'
+\par \hich\af2\dbch\af23\loch\f2 stato specificato.
+\par \hich\af2\dbch\af23\loch\f2 Scritto senza uno specificato nome riporta la locazione di tutti
+\par \hich\af2\dbch\af23\loch\f2 i personaggi\hich\af2\dbch\af23\loch\f2  in gioco.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 PEACE
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: peace
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Ferma tutti gli avventurieri che stanno combattendo, nella stanza in cui
+\par \hich\af2\dbch\af23\loch\f2 ti trovi.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 LOG
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: log   <personaggio>
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: log   all
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Logga tutti i comandi dell'avventuriero in questione nel file di log.
+\par \hich\af2\dbch\af23\loch\f2 E' una c\hich\af2\dbch\af23\loch\f2 aratteristica permanente del personaggio, ma non persiste dopo un
+\par \hich\af2\dbch\af23\loch\f2 reboot.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 SNOOP
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: snoop <personaggio>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Mostra tutti cio' che sta facendo un personaggio, persino i tell che riceve o i
+\par \hich\af2\dbch\af23\loch\f2 gtell. Puoi snoopare piu' personaggi contemporaneamente.
+\par \hich\af2\dbch\af23\loch\f2 Per c\hich\af2\dbch\af23\loch\f2 hiudere tutte queste "finestre" su\hich\af2\dbch\af23\loch\f2 i pg\hich\af2\dbch\af23\loch\f2 , basta snoopare te\hich\af2\dbch\af23\loch\f2  \hich\af2\dbch\af23\loch\f2 stesso.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 SWITCH
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: switch <vittima>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Permette di entrare nel corpo della vittima (necessariamente png).
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 RETURN
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: return
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Permette di ritornare nel proprio corpo, do\hich\af2\dbch\af23\loch\f2 po aver manipolato il corpo di un
+\par \hich\af2\dbch\af23\loch\f2 mob.
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 ADM\hich\af2\dbch\af23\loch\f2 TALK
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: \hich\af2\dbch\af23\loch\f2 adm\hich\af2\dbch\af23\loch\f2 talk <messaggio>
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: \hich\af2\dbch\af23\loch\f2 adm\hich\af2\dbch\af23\loch\f2 talk
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Manda un messaggio a tutti gli \hich\af2\dbch\af23\loch\f2 amministratori\hich\af2\dbch\af23\loch\f2 .
+\par \hich\af2\dbch\af23\loch\f2 Utilizzarlo senza argomenti attiva o disattiva il canale.
+\par 
+\par 
+\par 
+\par }{\b\lang1036\langfe1040\dbch\af23\langnp1036 \hich\af2\dbch\af23\loch\f2 WIZNET
+\par }{\lang1036\langfe1040\dbch\af23\langnp1036 \hich\af2\dbch\af23\loch\f2 Sintassi: wiznet
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: wiznet on
+\par }{\lang2057\langfe1040\dbch\af23\langnp2057 \hich\af2\dbch\af23\loch\f2 Sintassi:\hich\af2\dbch\af23\loch\f2  wiznet off
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: wiznet show
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi: wiznet status
+\par \hich\af2\dbch\af23\loch\f2 Sintassi: wiznet <opzione>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 E' una sorta di servizio per gli \hich\af2\dbch\af23\loch\f2 amministratori\hich\af2\dbch\af23\loch\f2 ,\hich\af2\dbch\af23\loch\f2  che mostra eventi importanti a
+\par \hich\af2\dbch\af23\loch\f2 coloro \hich\af2\dbch\af23\loch\f2 che hanno "acceso" il servizio.
+\par \hich\af2\dbch\af23\loch\f2 Senza argomenti visualizza sintassi e le opzioni di s\hich\af2\dbch\af23\loch\f2 ottocanale attivate.
+\par \hich\af2\dbch\af23\loch\f2 Con argomento ON attiva il servizio Wiznet, \hich\af2\dbch\af23\loch\f2 con argomento OFF lo disattiva.
+\par \hich\af2\dbch\af23\loch\f2 Con argomento SHOW mostra tutti gli ev\hich\af2\dbch\af23\loch\f2 enti che possono essere scelti.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 wiznet <opzione> (attiva o disatt\hich\af2\dbch\af23\loch\f2 iva una opzione di sottocanale)
+\par \hich\af2\dbch\af23\loch\f2 Esse sono :
+\par 
+\par \hich\af2\dbch\af23\loch\f2 -ti\hich\af2\dbch\af23\loch\f2 cks    : visualizza lo scadere di \hich\af2\dbch\af23\loch\f2 un tick, per ogni tipo di tick.
+\par \hich\af2\dbch\af23\loch\f2 -logins   : visualiz\hich\af2\dbch\af23\loch\f2 za l'entrata in gioco di un pg.
+\par }\pard \s15\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\dbch\af23 \hich\af2\dbch\af23\loch\f2 -links    : mostra quando un pg perde la connessione e\hich\af2\dbch\af23\loch\f2  va linkdead, e quando
+\par }\pard \s15\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\dbch\af23 \hich\af2\dbch\af23\loch\f2             \hich\af2\dbch\af23\loch\f2 riesce a\hich\af2\dbch\af23\loch\f2  ricollegarsi.
+\par \hich\af2\dbch\af23\loch\f2 -deaths   : visualizza\hich\af2\dbch\af23\loch\f2  le morti dei pg.
+\par \hich\af2\dbch\af23\loch\f2 -resets   : mostra tutte le ar\hich\af2\dbch\af23\loch\f2 ee che vengono riinizializzate.
+\par \hich\af2\dbch\af23\loch\f2 -mobdea\hich\af2\dbch\af23\loch\f2 ths: non vi e' associato nulla.
+\par \hich\af2\dbch\af23\loch\f2 -penalties: most\hich\af2\dbch\af23\loch\f2 ra tutte le punizioni inflitte.
+\par \hich\af2\dbch\af23\loch\f2 -saccing  : mostra quando un \hich\af2\dbch\af23\loch\f2 pg sta compiendo un sacrificio.
+\par \hich\af2\dbch\af23\loch\f2 -levels   : mostra quan\hich\af2\dbch\af23\loch\f2 do un pg aumenta di livello.
+\par }\pard \s15\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\dbch\af23 \hich\af2\dbch\af23\loch\f2 -secure   : mostra tutti i comandi di tutti i giocatori e anche \hich\af2\dbch\af23\loch\f2 le azioni dei 
+\par }\pard \s15\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\dbch\af23 \hich\af2\dbch\af23\loch\f2             \hich\af2\dbch\af23\loch\f2 mob. Praticamente\hich\af2\dbch\af23\loch\f2  \hich\af2\dbch\af23\loch\f2 mostra i log.
+
+\par }\pard \s15\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\dbch\af23 \hich\af2\dbch\af23\loch\f2 -switches : mostra quando un \hich\af2\dbch\af23\loch\f2 amministratore\hich\af2\dbch\af23\loch\f2  prende il corpo di un mob 
+\hich\af2\dbch\af23\loch\f2 e lo manipola.
+\par }\pard \s15\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\dbch\af23 \hich\af2\dbch\af23\loch\f2            \hich\af2\dbch\af23\loch\f2 (\hich\af2\dbch\af23\loch\f2 Quando switcha\hich\af2\dbch\af23\loch\f2  
+\hich\af2\dbch\af23\loch\f2 in un mob\hich\af2\dbch\af23\loch\f2 ).
+\par \hich\af2\dbch\af23\loch\f2 -snoops   : most\hich\af2\dbch\af23\loch\f2 ra quando un pg viene snoopato.
+\par \hich\af2\dbch\af23\loch\f2 -restore  : mostra tutte le volt\hich\af2\dbch\af23\loch\f2 e che viene ristorato qualcuno.
+\par \hich\af2\dbch\af23\loch\f2 -load     : mostra tutte gli oggetti, mo\hich\af2\dbch\af23\loch\f2 b che vengono creati o clonati.
+\par \hich\af2\dbch\af23\loch\f2 -spam     : invia messaggio di quando un pg vie\hich\af2\dbch\af23\loch\f2 ne spammato.
+\par \hich\af2\dbch\af23\loch\f2 -limited  : invia dei \hich\af2\dbch\af23\loch\f2 messaggi di controllo sui rari.
+\par 
+\par 
+\par 
+\par }{\b\lang2057\langfe1040\dbch\af23\langnp2057 \hich\af2\dbch\af23\loch\f2 WIZHELP
+\par }{\lang2057\langfe1040\dbch\af23\langnp2057 \hich\af2\dbch\af23\loch\f2 Sintassi: wizhelp
+\par 
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Visualizza la lista \hich\af2\dbch\af23\loch\f2 dei\hich\af2\dbch\af23\loch\f2  comandi per gli amministratori\hich\af2\dbch\af23\loch\f2 .
+\par 
+\par 
+\par 
+\par }{\b\dbch\af23 \hich\af2\dbch\af23\loch\f2 ZECHO
+\par }{\dbch\af23 \hich\af2\dbch\af23\loch\f2 Sintassi  : zecho  <messaggio>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Invia un messaggio a tutti coloro che sono presenti in quella zon\hich\af2\dbch\af23\loch\f2 a,
+\par \hich\af2\dbch\af23\loch\f2 senza specificare il mittente.
+\par \hich\af2\dbch\af23\loch\f2 Va utilizzato, in genere, per creare atmosfera, per creare azioni
+\par \hich\af2\dbch\af23\loch\f2 "climatiche" o similari.
+\par }\pard \s15\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\dbch\af23 \hich\af2\dbch\af23\loch\f2 Solo gli \hich\af2\dbch\af23\loch\f2 a\hich\af2\dbch\af23\loch\f2 mministrator\hich\af2\dbch\af23\loch\f2 i
+\hich\af2\dbch\af23\loch\f2  di livello alto v\hich\af2\dbch\af23\loch\f2 edranno che questo e' un zecho.
+\par }}

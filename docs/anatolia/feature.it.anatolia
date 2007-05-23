@@ -1,0 +1,44 @@
+Dalla versione 2.1b2 alla 2.2:
+
+- Voragini, nascondigli e tombe possono essere aperte da incantesimi come
+	earthquake oppure scavando.
+- Aggiunto il comando Drag per trascinare.
+- Ordinato il sistema di impugnatura degli oggetti (con questo simbolo "*").
+- Aggiunta l'opportunità di precipitare in un'altra stanza effettuando un bash
+	door con successo.
+- Adesso il get_skill & get_weapon_skill controlla hit/max_hit.
+- Ordinato il * get_skill è riordinato per i mob.
+- Ora i pg possono prendere dai mucchi di monete l'ammontare desiderato
+	(get 10 gold).
+- Completato il sistema di calcolo del tetto massimo di newbies e oldies.
+- Aggiunte nuove abilita'.
+- I non appartenenti ad una cabala non possono quittare in quella cabala.
+- Strangle, blackjack e vampiric touch hanno adesso una certa dilazione.
+- Riordinato il parry.
+- Aggiunto ad ogni cabala uno speciale custode di cabala.
+- La katana ora non puo' essere sacrificata od eliminata con il purge.
+- Adesso tutte le cabale sono no summon e no gate.
+- Il questor e' abilitato alla rimozione dei tatuaggi e delle relative religioni.
+- L'incantesimo di cancellazione puo' essere gettato sui membri di un gruppo ed
+	annullato solo da chi nello stesso gruppo e' abilitato a farlo.
+- I vampiri subiscono gli effetti negativi solo di luci solari e da luci magiche.
+- Adesso gli oggetti luminosi che vengono portati sul capo sono in grado di
+	illuminare una stanza.
+- Il colore utilizzato per evidenziare il damage e' ora solo il rosso ma varia
+	nelle sue tonalita' a seconda della vittima.
+- Gli oggetti rari possono essere conservati con il salvataggio soltanto se il
+	pg che li possiede ha all'attivo una media di 20 ore relativa almeno alle
+	ultime due settimane dal momento del save.
+
+
+Dalla versione 2.2 alla 3.0:
+
+- Rimosse le classi Stregone e Strega.
+- Aggiunte tre classi: Evocatore, trasmutatore, Elementalista.
+- Sistemati gli oggetti delle cabale ed ordinato il cabalscan.
+- Aggiunti nuove skills e spells.
+- Aggiunti nuovi oggetti rari.
+- Sistemati i poteri derivanti dall'appartenenza alle cabale.
+- Aggiunto il lancio di incantesimi ai mob maghi e/o chierici che non non ne avevano.
+- I mob con backstab offensivo ora possono attaccare i pg con backstab se aggrediti.
+- Limitate le pozioni di sanctuary e detection.

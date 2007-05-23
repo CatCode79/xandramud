@@ -1,0 +1,15 @@
+BACHI CONOSCIUTI:
+
+# Pare che i mob se attaccati con il comando murder non urlano come con altri comandi
+	tipo bash, trip ecc ecc.
+	Di per contro pare che quelli che non dovrebbero urlare (tipo animali, volpi...)
+	lo facciano.
+# Se uno era protetto dalla skill guard, e poi quest'ultimo esce o perde il link al mud
+	e si riconette il protetto perde il nome nello score del protettore e puo' uscire di tutto.
+	Bisognerebbe ripulire la variabile *guarding quando il protetto esce o perde il link.
+# Se uno utilizza il comando load per caricare un oggetto con uno special prog, tipo la
+	spada dell'occhio, lo posa e lo raccoglie... crasha perché senza obj_prog.
+# Sui mob lo spell_shielding non funziona.
+# Con i social non fa cadere la connessione per l'invio di troppe volte lo stesso comando.
+# note, non riesce a caricarle adeguatamente
+# bash baggato al suo primo utilizzo per l'apertura di un combat, poi funziona.

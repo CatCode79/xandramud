@@ -1,0 +1,2405 @@
+#AREA
+palazzopietra.are~
+Il Palazzo di pietra~
+{0 100} Jamirithiana   Il Palazzo di pietra~
+9400 9478
+
+#RESETMESSAGE
+L'austera atmosfera del palazzo pervade ogni ambiente e un suono melodico si diffonde carezzevole, proveniente da lontane lire sapientemente arpeggiate..~
+
+
+#MOBILES
+#9400
+cuoca nana~
+la cuoca~
+La cuoca e' intenta a sminuzzare alcune verdure..
+~
+La sua figura e' bassa e tarchiata.. ne riconosci le fattezze naniche e
+dev'essere bravissima in cucina a giudicare da come si muove rapida e
+decisa..
+~
+dwarf~
+AGH J 1000 0
+37 0 652d1+0 0d0+0 6d1+50 hit
+-13 0 0 0
+0 0 LQ R
+stand stand female 0
+AHMV ABCDEFGHIJK small unknown
+
+#9401
+maggiordomo uomo figura~
+un maggiordomo in livrea~
+Accanto alla parete, in piedi, c'e' un uomo in livrea..
+~
+Impettito e serio nell'aspetto, quest'uomo dall'eta' indefinibile, osserva
+ogni cosa con sguardo attento.
+~
+human~
+AGHVY 0 1000 0
+30 0 1d1+1 1d9+100 1d1+1 hit
+6 6 6 10
+EFNU ABCDEFGHIJKLMNOPQRSTUV 0 0
+stand stand male 5
+AHMV ABCDEFGHIJK medium 0
+
+#9402
+gestore uomo figura~
+il gestore della mescita~
+Dietro il bancone di marmo c'e' un uomo in piedi..
+~
+Elegante nelle movenze e cordiale nell'espressione, seppure ligio al
+contegno del suo rango, quest'abile barista e' pronto a servirti da bere..
+~
+human~
+ABV 0 900 0
+25 0 1d1+50 1d1+199 1d8+10 hit
+-15 -15 -15 -15
+FG AB CD 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+
+#9403
+cuoco cantiniere nano~
+il cantiniere~
+Incroci un nano intento a trasportare una cassa di bottiglie..
+~
+E' sicuramente un addetto alle cucine, infatti indossa un grembiule di
+cotone sul torso.. Pero' qualcosa di lui mostra chiaramente che la sua
+specialita' e' quella di occuparsi della cantina..
+~
+dwarf~
+A J 500 0
+0 5 10d6+0 0d0+0 10d7+2 hit
+0 0 0 0
+0 0 LQ R
+stand stand male 0
+AHMV ABCDEFGHIJK small unknown
+
+#9404
+cameriera donna~
+la cameriera~
+Una cameriera ti scruta con attenzione..
+~
+E' vestita di un sobrio abito scuro e sul capo porta una cuffietta tipica
+della divisa dell'inserviente. Il grembiulino immacolato, orlato di pizzo,
+conferma che questa donna e' la cameriera del palazzo.
+~
+human~
+A 0 500 0
+0 0 210d0+0 0d0+0 10d5+2 hit
+0 0 0 0
+0 0 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium unknown
+
+#9405
+ospite uomo~
+un ospite del palazzo~
+Dev'essere uno degli ospiti del palazzo, quest'uomo sovrappensiero..
+~
+E' proprio immerso nei suoi pensieri quest'uomo dall'aspetto curato e
+dagli abiti eleganti..
+~
+human~
+A 0 500 0
+0 0 10d10+100 0d0+0 5d5+5 hit
+0 0 0 0
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+
+#9406
+ospite donna~
+un'ospite del palazzo~
+Questa donna dall'aria socievole dev'essere una delle ospiti del palazzo..
+~
+Ha un bell'aspetto ed e' abbigliata in modo impeccabile.. Si guarda
+continuamente intorno..
+~
+human~
+A 0 500 0
+0 0 50d10+0 0d0+0 5d2+0 hit
+0 0 0 0
+0 0 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium unknown
+
+#0
+
+
+#OBJECTS
+
+#9400
+arco muratura~
+un arco in pregiata muratura~
+Un arco in muratura apre la vista alla stanza a nord.~
+stone~
+furniture AO 0
+0 0 0 0 0
+0 0 0 P
+E
+muratura~
+Scavato nell'originale controsoffittatura, quest'arco conferisce
+eleganza alla terminazione dell'androne che ti ospita.. Gettando, con
+piacevole impatto, la vista sul salone a nord..
+~
+
+#9401
+divano velluto seta viola~
+un comodo divano di velluto e seta~
+Un prezioso divano di velluto e seta, a piu' posti, occupa la parete orientale della stanza.~
+silk~
+furniture O 0
+20 0 508 0 0
+0 0 0 P
+E
+divano velluto~
+Soffice il velluto che ricopre questa preziosa seduta e meraviglia per
+lo sguardo le venature sericee che la percorrono elegantemente..
+~
+
+#9402
+tavolo ebano~
+un grosso tavolo d'ebano~
+La sagoma rotonda di un massiccio tavolo d'ebano riempie un angolo del salone.~
+wood~
+furniture O 0
+50 0 61440 0 0
+0 0 0 P
+E
+tavolo ebano~
+E' formato da un grosso disco di lucido legno nero, posato su un unico
+gambo altrettanto largo e possente, che poggia sul pavimento allargandosi in
+una ghirlanda di riccioli intagliati nel legno..
+~
+
+#9403
+sedia intagliata seggiola circolo~
+una preziosa sedia intagliata~
+Un circolo di seggiole intagliate, di lucido legno nero, circonda il tavolo.~
+wood~
+furniture O 0
+1 0 56 0 0
+0 0 0 P
+E
+sedia seggiola circolo intagliata~
+Costruita dello stesso legno del tavolo, ognuna di queste seggiole porta
+un cuscino di velluto rosso sulla seduta, e un bordino d'oro bruno attorno
+alla spalliera..
+~
+
+#9404
+camino pietra~
+un enorme camino in pietra~
+Un enorme camino in pietra levigata occupa meta' della parete ovest.~
+stone~
+furniture AO 0
+0 0 0 0 0
+0 0 0 P
+E
+pietra camino~
+Sebbene annerita dal fumo, la pietra che compone questo manufatto
+conserva la sua bellezza naturale.. E riscalda anche solo a guardarlo..
+~
+E
+fiamma~
+Lingue di docili fiamme crepitano stagliandosi verso la cappa.. Il
+tepore s'espande tutt'intorno..
+~
+
+#9405
+poltrona doppia~
+una poltrona doppia~
+Una morbida poltrona doppia e' disposta lungo la parete.~
+silk~
+furniture 0 0
+2 0 4088 0 0
+0 0 0 P
+E
+poltrona doppia~
+E' ampia abbastanza per contenere due persone, accogliente e calda, questa bella
+poltrona di seta.
+~
+
+#9406
+tavolino~
+un basso tavolino di cristallo satinato~
+Al centro del separee' vedi un basso tavolino di cristallo satinato.~
+glass~
+furniture AO 0
+0 0 24576 0 0
+0 0 0 P
+
+#9407
+arbusto fluorescente~
+un arbusto fluorescente~
+Svetta verso l'alto un arbusto fluorescente e i suoi rami luminosi.~
+plant~
+light AG AO
+0 0 0 0 0
+0 0 500 P
+E
+arbusto~
+E' un arbusto incantato, alto e sottile. Emana luce intensa da ogni
+ramo. Sicuramente e' uno splendido componente d'arredo.. Meno pratico invece
+da usare come lampada portatile..
+~
+
+#9408
+vino bianco~
+un bicchiere di vino bianco~
+Ecco un bel calice di vino bianco, ambrato.~
+glass~
+drink 0 AO
+10 10 'white wine' 0 0
+15 30 9 G
+
+#9409
+vino rosso~
+un bicchiere di vino rosso~
+Ecco un bel calice di vino rosso, vermiglio.~
+glass~
+drink 0 A
+10 10 'red wine' 0 0
+27 2 9 P
+
+#9410
+birra bionda~
+un boccale di birra bionda~
+Ecco un bel boccale di birra bionda spumeggiante.~
+glass~
+drink 0 A
+16 16 beer 0 0
+0 20 7 P
+
+#9411
+birra scura~
+un boccale di birra scura~
+Ecco un bel boccale di birra scura spumeggiante.~
+glass~
+drink 0 A
+16 16 beer 0 0
+0 20 7 P
+
+
+#9412
+focaccia bianca~
+una focaccia bianca~
+Una bella focaccia bianca e' posata qui, su un piattino di porcellana.~
+bread~
+food 0 1
+5 5 0 0 0
+0 1 4 P
+E
+focaccia~
+Lievemente dorata in superficie, questa focaccina ha un odore
+irresistibile.. Dai mordi..
+~
+
+
+#9413
+panino olio~
+un soffice panino all'olio~
+Adagiato su un tovagliolo c'e' un invitante panino all'olio.~
+bread~
+food 0 1
+5 5 0 0 0
+0 1 3 P
+E
+panino olio~
+E' tanto soffice e gustoso da poter essere mangiato anche senza
+imbottitura..
+~
+
+
+#9414
+vasca dorata~
+una grossa vasca dorata~
+Un angolo della stanza e' occupato interamente da una grossa vasca dorata.~
+gold~
+fountain AO 0
+100000 100000 water 0 0
+0 0 0 P
+E
+vasca~
+La forma circolare offre la vista della perfetta bordatura levigata. Una
+serie di cannule alte poste al centro sfiora appena il pelo dell'acqua
+azzurrata guizzando allegri zampilli..
+~
+
+#9415
+bolla fluida~
+una bolla fluida~
+Dalla parete meridionale emerge una bolla di energia fluida.~
+glass~
+fountain GO 0
+100000 100000 water 0 0
+0 0 0 P
+E
+bolla fluida~
+Sgocciola lentamente un rivolo d'acqua argentea, segnando un filo
+continuo che casca su un punto preciso del pavimento. Un Piatto ovale..
+~
+E
+piatto ovale~
+E' incastonato nel pavimento ed e' forato al centro. Raccoglie il flusso
+dell'acqua rimandandolo in un condotto sotterraneo..
+~
+
+#9416
+colonna marmo~
+una colonna di marmo~
+Un fiotto d'acqua rosata zampilla da una colonna di marmo, posta in un angolo.~
+marble~
+fountain O 0
+100000 100000 water 0 0
+0 0 0 P
+E
+colonna marmo~
+E' indefinibile il colore di questo pregiato marmo liscio, dato che
+comprende infinite sfumature cromatiche e muta le relative tonalita' ad ogni
+istante..
+~
+
+#9417
+conca ducale argento~
+una conca d'argento~
+Uno stelo d'argento anticato regge una conca ducale.~
+silver~
+fountain GO 0
+100000 100000 blood 0 0
+0 0 0 P
+E
+conca ducale~
+Si dice sia appartenuta ad un'antica famiglia di duchi e che fosse
+utilizzata per riti macabri e segreti.. Infatti le pareti smaltate della
+conca trasudano sangue continuamente..
+~
+
+#9418
+trogolo cristallo~
+un trogolo di cristallo~
+Risplende occhieggiando da un lato della stanza un grosso trogolo di cristallo molato.~
+glass~
+fountain AO 0
+100000 0 water 0 0
+0 0 0 P
+E
+trogolo cristallo~
+C'e' da perdere il senno a star dietro alla magnificenza di questa
+fontana. Le sue forme, i colori, la fragilita' del cristallo e l'armonia
+delle lacrime d'acqua.. Un miracolo d'artigianato..
+~
+
+#9419
+drappeggio~
+un morbido drappeggio~
+Un morbido drappeggio adorna completamente le pareti della sala.~
+silk~
+furniture AO 0
+0 0 0 0 0
+0 0 0 P
+E
+drappeggio~
+Sinuoso ed elegante, il tessuto ondeggia lievemente, quasi a rievocare
+le serate danzanti passate..
+~
+
+#9420
+chiave verde foglia~
+una chiave verde~
+Una chiave verde brilla ad intermittenza..~
+diamond~
+key A AO
+0 0 0 0 0
+0 5 0 P
+E
+chiave verde~
+E' sottile ma emana una luce a tratti abbaglianti.. Poi s'affievolisce
+dolcemente per poi riprendere il lucore piu' improvviso e coinvolgente..
+Sull'impugnatura e' disegnata, in rilievo, una foglia..
+~
+E
+foglia~
+E' una delicatissima foglia disegnata in rilievo..
+~
+
+#9421
+chiave indaco spirale~
+una chiave indaco~
+Una chiave indaco brilla ad intermittenza..~
+diamond~
+key A AO
+0 0 0 0 0
+0 5 0 P
+E
+chiave indaco~
+E' sottile ma emana una luce a tratti abbaglianti.. Poi s'affievolisce
+dolcemente per poi riprendere il lucore piu' improvviso e coinvolgente..
+Sull'impugnatura e' disegnata, in rilievo, una spirale..
+~
+E
+spirale~
+E' una delicatissima spirale disegnata in rilievo..
+~
+
+#9422
+chiave rossa fiamma~
+una chiave rossa~
+Una chiave rossa brilla ad intermittenza..~
+diamond~
+key A AO
+0 0 0 0 0
+0 5 0 P
+E
+chiave rossa~
+E' sottile ma emana una luce a tratti abbaglianti.. Poi s'affievolisce
+dolcemente per poi riprendere il lucore piu' improvviso e coinvolgente..
+Sull'impugnatura e' disegnata, in rilievo, una fiamma..
+~
+E
+fiamma~
+E' una fiamma spirale disegnata in rilievo..
+~
+
+#9423
+chiave azzurra goccia~
+una chiave azzurra~
+Una chiave azzurra brilla ad intermittenza..~
+diamond~
+key A AO
+0 0 0 0 0
+0 5 0 P
+E
+chiave azzurra~
+E' sottile ma emana una luce a tratti abbaglianti.. Poi s'affievolisce
+dolcemente per poi riprendere il lucore piu' improvviso e coinvolgente..
+Sull'impugnatura e' disegnata, in rilievo, una goccia..
+~
+E
+goccia~
+E' una delicatissima goccia disegnata in rilievo..
+~
+
+#9424
+letto~
+un immenso letto di seta~
+Un enorme letto di seta occupa meta' della parete occidentale.~
+silk ~
+furniture O 0
+2 0 27792 0 0
+0 0 0 P
+E
+letto seta~
+E' un letto magnifico: intarsi delicati svettano abbracciandosi nella
+preziosa testata in ferro battuto e smeraldi.. A rivestirlo una splendida
+coperta in seta e pizzo..
+~
+
+#9425
+letto~
+un immenso letto di seta~
+Un enorme letto di seta occupa meta' della parete occidentale.~
+silk ~
+furniture O 0
+2 0 27792 0 0
+0 0 0 P
+E
+letto seta~
+E' un letto magnifico: intarsi delicati svettano abbracciandosi nella
+preziosa testata in ferro battuto e quarzo rosa.. A rivestirlo una splendida
+coperta in seta e pizzo..
+~
+
+#9426
+letto~
+un immenso letto di seta~
+Un enorme letto di seta occupa meta' della parete occidentale.~
+silk ~
+furniture O 0
+2 0 27792 0 0
+0 0 0 P
+E
+letto seta~
+E' un letto magnifico: intarsi delicati svettano abbracciandosi nella
+preziosa testata in ferro battuto e rubini.. A rivestirlo una splendida
+coperta in seta e pizzo..
+~
+
+#9427
+letto~
+un immenso letto di seta~
+Un enorme letto di seta occupa meta' della parete occidentale.~
+silk ~
+furniture O 0
+2 0 27792 0 0
+0 0 0 P
+E
+letto seta~
+E' un letto magnifico: intarsi delicati svettano abbracciandosi nella
+preziosa testata in ferro battuto e acquamarine.. A rivestirlo una splendida
+coperta in seta e pizzo..
+~
+
+#9428
+scrittoio~
+uno scrittoio~
+Un delicato scrittoio in legno riempie un angolo della stanza.~
+wood~
+furniture O 0
+0 0 24576 0 0
+0 0 0 P
+E
+scrittoio~
+Ricorda l'abbraccio della foresta e del cielo notturno questo bel mobile
+dai delicati intarsi in ebano..
+~
+
+#9429
+scrittoio~
+uno scrittoio~
+Un delicato scrittoio in legno riempie un angolo della stanza.~
+wood~
+furniture O 0
+0 0 24576 0 0
+0 0 0 P
+E
+scrittoio~
+Ricorda l'abbraccio dell'aria e del crepuscolo questo bel mobile
+dai delicati intarsi in noce..
+~
+
+#9430
+scrittoio~
+uno scrittoio~
+Un delicato scrittoio in legno riempie un angolo della stanza.~
+wood~
+furniture O 0
+0 0 24576 0 0
+0 0 0 P
+E
+scrittoio~
+Ricorda l'abbraccio del rosso tramonto e della piu' accesa alba questo bel mobile
+dai delicati intarsi in abete..
+~
+
+#9431
+scrittoio~
+uno scrittoio~
+Un delicato scrittoio in legno riempie un angolo della stanza.~
+wood~
+furniture O 0
+0 0 24576 0 0
+0 0 0 P
+E
+scrittoio~
+Ricorda l'abbraccio della prima alba e del sereno mattino questo bel mobile
+dai delicati intarsi in rovere..
+~
+
+#9432
+armadio~
+un armadio a due ante~
+Un grosso armadio a due ante e' posto alla fine della parete orientale.~
+wood~
+furniture O 0
+0 0 40960 0 0
+0 0 0 P
+E
+armadio~
+E' capiente, te ne accorgi discostando adagio le eleganti ante che
+possiede.. Nella sua armonica forma conserva l'eleganza di un mobile
+pregiato e l'utilita' di un sicuro involucro per i tuoi averi..
+~
+E
+anta ante~
+Lievemente piu' sottile rispetto al resto del bel mobile, ogni anta
+e' sapientemente decorata sia dalla parte esterna che da quella interna..
+Tratti precisi del pennello a rievocare in quel delicato incontro di colori,
+la danza delle distese boschive e il volo delle foglie sospese dal vento..
+~
+
+#9433
+armadio~
+un armadio a due ante~
+Un grosso armadio a due ante e' posto alla fine della parete orientale.~
+wood~
+furniture O 0
+0 0 40960 0 0
+0 0 0 P
+E
+armadio~
+E' capiente, te ne accorgi discostando adagio le eleganti ante che
+possiede.. Nella sua armonica forma conserva l'eleganza di un mobile
+pregiato e l'utilita' di un sicuro involucro per i tuoi averi..
+~
+E
+anta ante~
+Lievemente piu' sottile rispetto al resto del bel mobile, ogni anta
+e' sapientemente decorata sia dalla parte esterna che da quella interna..
+Tratti precisi del pennello a rievocare in quel delicato incontro di colori,
+il turbinio dell'aria e l'incontro fugace del cielo con la terra..
+~
+
+#9434
+armadio~
+un armadio a due ante~
+Un grosso armadio a due ante e' posto alla fine della parete orientale.~
+wood~
+furniture O 0
+0 0 40960 0 0
+0 0 0 P
+E
+armadio~
+E' capiente, te ne accorgi discostando adagio le eleganti ante che
+possiede.. Nella sua armonica forma conserva l'eleganza di un mobile
+pregiato e l'utilita' di un sicuro involucro per i tuoi averi..
+~
+E
+anta ante~
+Lievemente piu' sottile rispetto al resto del bel mobile, ogni anta
+e' sapientemente decorata sia dalla parte esterna che da quella interna..
+Tratti precisi del pennello a rievocare in quel delicato incontro di colori,
+il turbinio degli incendi e il fremito delle fiamme incitate dal vento..
+~
+
+#9435
+armadio~
+un armadio a due ante~
+Un grosso armadio a due ante e' posto alla fine della parete orientale.~
+wood~
+furniture O 0
+0 0 40960 0 0
+0 0 0 P
+E
+armadio~
+E' capiente, te ne accorgi discostando adagio le eleganti ante che
+possiede.. Nella sua armonica forma conserva l'eleganza di un mobile
+pregiato e l'utilita' di un sicuro involucro per i tuoi averi..
+~
+E
+anta ante~
+Lievemente piu' sottile rispetto al resto del bel mobile, ogni anta
+e' sapientemente decorata sia dalla parte esterna che da quella interna..
+Tratti precisi del pennello a rievocare in quel delicato incontro di colori,
+la danza delle distese marine e il guizzo delle acque scosse dal vento..
+~
+
+#9436
+candelabro oro giallo~
+un candelabro in oro giallo~
+Arde.. E cosi' saluta il tuo ingresso nella stanza, un candelabro in oro giallo..~
+gold~
+light AO A
+0 0 0 0 0
+0 0 0 P
+E
+candelabro oro giallo~
+Incredibile manufatto d'indiscutibile bellezza: la foggia ricorda un
+fascio di foglie intrecciate e unite fino ad aprirsi in una delicata
+esplosione di boccioli.. L'oro giallo sollecita la luce delle candele verdi
+che ospita..
+~
+
+#9437
+candelabro argento~
+un candelabro in argento~
+Arde.. E cosi' saluta il tuo ingresso nella stanza, un candelabro in argento..~
+silver~
+light AO A
+0 0 0 0 0
+0 0 0 P
+E
+candelabro argento~
+Incredibile manufatto d'indiscutibile bellezza: la foggia ricorda un
+fascio di spirali intrecciate e unite fino ad aprirsi in una delicata
+esplosione di sbuffi.. L'argento sollecita la luce delle candele rosate
+che ospita..
+~
+
+#9438
+candelabro oro rosso~
+un candelabro in oro rosso~
+Arde.. E cosi' saluta il tuo ingresso nella stanza, un candelabro in oro rosso..~
+gold~
+light AO A
+0 0 0 0 0
+0 0 0 P
+E
+candelabro oro rosso~
+Incredibile manufatto d'indiscutibile bellezza: la foggia ricorda un
+fascio di fiamme intrecciate e unite fino ad aprirsi in una delicata
+esplosione di lapilli.. L'oro rosso sollecita la luce delle candele gialle
+che ospita..
+~
+
+#9439
+candelabro oro bianco~
+un candelabro in oro bianco~
+Arde.. E cosi' saluta il tuo ingresso nella stanza, un candelabro in oro bianco..~
+gold~
+light AO A
+0 0 0 0 0
+0 0 0 P
+E
+candelabro oro bianco~
+Incredibile manufatto d'indiscutibile bellezza: la foggia ricorda un
+fascio di gocce intrecciate e unite fino ad aprirsi in una delicata
+esplosione di stille.. L'oro bianco sollecita la luce delle candele azzurre
+che ospita..
+~
+
+#9440
+sofa divanetto~
+un morbido sofa~
+Un morbido sofa' in velluto e filigrana d'oro giallo e' posto in un angolo.~
+silk~
+furniture O 0
+4 0 9360 0 0
+0 0 0 P
+E
+sofa divanetto~
+E' a tre posti ed ha una bella seduta in velluto e seta verde, bordata da
+preziosa filigrana in oro giallo. Il bracciolo unico, di legno lucido,
+ricorda un tronco nodoso..
+~
+
+#9441
+sofa divanetto~
+un morbido sofa~
+Un morbido sofa' in velluto e filigrana d'argento e' posto in un angolo.~
+silk~
+furniture O 0
+4 0 9360 0 0
+0 0 0 P
+E
+sofa divanetto~
+E' a tre posti ed ha una bella seduta in velluto e seta violacea, bordata da
+preziosa filigrana in argento. Il bracciolo unico, di legno lucido,
+ricorda un vortice di vento..
+~
+
+#9442
+sofa divanetto~
+un morbido sofa~
+Un morbido sofa' in velluto e filigrana d'oro rosso e' posto in un angolo.~
+silk~
+furniture O 0
+4 0 9360 0 0
+0 0 0 P
+E
+sofa divanetto~
+E' a tre posti ed ha una bella seduta in velluto e seta gialla, bordata da
+preziosa filigrana in oro rosso. Il bracciolo unico, di legno lucido,
+ricorda una fiamma in estensione..
+~
+
+#9443
+sofa divanetto~
+un morbido sofa~
+Un morbido sofa' in velluto e filigrana d'oro bianco e' posto in un angolo.~
+silk~
+furniture O 0
+4 0 9360 0 0
+0 0 0 P
+E
+sofa divanetto~
+E' a tre posti ed ha una bella seduta in velluto e seta azzurra, bordata da
+preziosa filigrana in oro bianco. Il bracciolo unico, di legno lucido,
+ricorda un'onda in allungo..
+~
+
+#9444
+tavola~
+una grossa tavola di legno~
+Una grossa tavola di legno lucido e' al centro della stanza.~
+wood~
+furniture O 0
+0 0 8192 0 0
+0 0 0 P
+E
+tavola~
+E' di un pregiato legno duro, smaltato di lucida lacca. E' davvero grande
+e ci possono stare almeno otto persone sedute attorno.. Infatti, otto sono
+le seggiole..
+~
+
+#9445
+seggiola legno~
+una seggiola di legno~
+Una seggiola di legno e' qui, ordinatamente sistemata.~
+wood~
+furniture O 0
+1 0 272 0 0
+0 0 0 P
+E
+seggiola~
+Piccola e resistente, e molto comoda, questa seggiola ha una seduta
+concava e lo schienale alto e dritto..
+~
+
+#9446
+cuscini tondi moltitudine~
+un paio di cuscini tondi~
+In terra c'e' una moltitudine di cuscini tondi..~
+silk~
+furniture AO AO
+1 0 1168 0 0
+0 0 0 P
+E
+cuscini tondi moltitudine~
+Gonfi e morbidissimi questi cuscini di seta ambrata.. La forma tonda e'
+l'ideale per sedervisi e scivolare nella piu' profonda meditazione..
+~
+
+#9447
+barattoli colore fila~
+vari barattoli di colore~
+Accanto alla parete occidentale c'e' una fila di barattoli di colore.~
+iron~
+trash O AO
+0 0 0 0 0
+0 0 0 P
+E
+barattoli colore fila~
+Che meraviglia! Un arcobaleno liquido in pratica! Ci sono proprio tutti i
+colori! E i pennelli accanto!
+~
+
+#9448
+gessetti colorati~
+una manciata di gessetti colorati~
+Ai piedi della parete orientale c'e' una manciata di gessetti colorati.~
+copper~
+trash AO AO
+0 0 0 0 0
+0 0 0 P
+E
+gessetti colorati manciata~
+Sottili ed appuntite, le bacchette di gesso sono rivestite da una
+fascetta di rame all'estremita' posteriore.. Sono molti i colori
+disponibili!
+~
+
+#9449
+matite colorate contenitore~
+alcune matite colorate~
+Da un contenitore di rame sporgono tantissime matite colorate.~
+oak~
+trash AO AO
+0 0 0 0 0
+0 0 0 P
+E
+matite colorate contenitore~
+Entrano a stento in questo barattolo di rame tutte queste matite
+colorate. Sono fatte di robusto legno di quercia e.. Non manca proprio
+alcuna tonalita'!
+~
+
+#9450
+foglio di carta~
+un grosso foglio di carta~
+Stipato in un angolo c'e' un grosso foglio di carta.~
+paper~
+trash O AO
+0 0 0 0 0
+0 0 0 P
+E
+foglio carta~
+Enorme e abbastanza spesso da non potersi piegare facilmente.. Magari
+arrotolarlo.. E' a tua completa disposizione!
+~
+
+#9451
+spugnetta lana~
+una spugnetta di lana~
+In un angolo della parete orientale c'e' una spugnetta di lana.~
+wool~
+trash O AO
+0 0 0 0 0
+0 0 0 P
+E
+spugnetta lana~
+E' una graziosa spugnetta ricavata da un continuo giro su se' stesso di
+un unico doppio filo di lana colorata.. Magari servira' a pulire la lavagna?
+~
+
+#9452
+gomitolo arancione~
+un gomitolo arancione~
+Un gomitolo arancione rotola fermandosi ai tuoi piedi..~
+wool~
+trash O AO
+0 0 0 0 0
+0 0 0 P
+E
+gomitolo arancione~
+E' un gomitolo di lana cruda, simile a spago.. Fanne l'uso che la
+fantasia ti suggerisce..
+~
+
+#9453
+scacchiera madreperla e onice~
+una scacchiera in madreperla e onice~
+C'e' una bella scacchiera sistemata in un cantuccio.~
+gem~
+treasure AO AO
+0 0 0 0 0
+0 0 0 P
+E
+scacchiera~
+E' proprio ben fatta questa scacchiera in madreperla e onice.. Gli
+scacchi sono perfettamente scolpiti e il materiale utilizzato e' purissimo..
+~
+
+#9454
+bicchierino argento dadi~
+alcuni dadi da gioco~
+Brilla in un angolo un bicchierino d'argento.~
+silver~
+treasure AO AO
+0 0 0 0 0
+0 0 0 P
+E
+bicchierino argento dadi~
+Nel piccolo contenitore ci sono alcuni dadi in pietra dura, con le facce
+numerate. Si gioca?
+~
+
+#9455
+volumi libri~
+un'incredibile quantita' di libri~
+Un'incredibile quantita' di libri! Volumi ovunque..~
+paper~
+scroll O 0
+0 0 0 0 0
+0 0 0 P
+E
+volumi libri~
+Sono catalogati scrupolosamente.. Ma davvero non e' possibile elencarli
+tutti..
+~
+
+#9456
+calderone pentolone~
+un calderone~
+Un calderone ribolle continuamente..~
+iron~
+container O 0
+0 E 0 150 100
+0 0 0 P
+E
+calderone~
+Un bel pentolone di ferro nero, alto e ampio..
+~
+
+#9457
+intreccio verdure spezie~
+un intreccio di verdure~
+Un intreccio di verdure e spezie sporge da un ripiano.~
+plant~
+food O ACO
+0 2 0 0 0
+0 0 0 P
+E
+intreccio verdure spezie~
+In pratica e' una collana di lattuga, teste d'aglio, cipolline piccole,
+ruchetta selvatica, indivia e radicchio..
+~
+
+#9458
+mestolo legno~
+un grosso mestolo di legno~
+Adagiato su una sporgenza c'e' un grosso mestolo di legno.~
+wood~
+trash O ANO
+0 0 0 0 0
+0 0 0 P
+E
+mestolo~
+E' un bel mestolo di legno liscio.
+~
+
+#9459
+cubetti ghiaccio paio~
+un paio di cubetti di ghiaccio~
+Un paio di cubetti di ghiaccio si sta sciogliendo in terra..~
+ice~
+drink AO AO
+5 5 water 0 0
+0 0 0 P
+E
+cubetti ghiaccio paio~
+Sono due cubetti di ghiaccio.. E si stanno sciogliendo..
+~
+
+#9460
+ramo nodoso~
+un ramo nodoso~
+Un ramo nodoso e' proprio qui, ai tuoi piedi.~
+wood~
+trash O AO
+0 0 0 0 0
+0 0 0 P
+E
+ramo nodoso~
+Un ramoscello spesso e nodoso.. Il suo legno e' secco, e' l'ideale per
+accendere un fuoco..
+~
+
+#9461
+fila botti scure~
+Una lunga fila di botti scure~
+Una lunga fila di botti scure impegna quasi totalmente la parete orientale della stanza.~
+wood~
+fountain O 0
+100000 100000 water 0 0
+0 0 0 P
+E
+botti scure~
+Occupa quasi interamente la parete orientale questa lunga fila di botti
+di legno scuro, emanando un forte odore di vino sanguigno..
+~
+
+#9462
+fila botti chiare~
+Una lunga fila di botti chiare~
+Una lunga fila di botti chiare occupa quasi per intero la parete occidentale della stanza.~
+wood~
+fountain O 0
+100000 100000 water 0 0
+0 0 0 P
+E
+fila botti chiare~
+Occupa quasi interamente la parete orientale questa lunga fila di botti
+di legno chiaro, emanando un delicato odore di vino secco..
+~
+
+#9463
+bottiglie~
+alcune bottiglie~
+In un angolo della stanza ci sono alcune bottiglie.~
+glass~
+fountain O 0
+100000 100000 beer 0 0
+0 0 0 P
+E
+bottiglie~
+Il vetro spesso e scuro non cela alla tua vista cio' che contengono le
+bottiglie: inconfondibile.. Birra..
+~
+
+#9464
+tino~
+un grosso tino~
+Un grosso tino e' al centro della stanza.~
+wood~
+furniture O 0
+0 0 49152 0 0
+0 0 0 P
+E
+tino~
+Ha il fusto di legno duro cinto da fasce metalliche saldate da spessi
+chiodi..
+~
+
+#9465
+fiasco~
+un fiasco~
+Appoggiato in terra c'e' un fiasco impagliato.~
+glass~
+drink O AO
+0 0 water 0 0
+0 1 0 P
+E
+fiasco ~
+E' un semplice fiasco impagliato, pulitissimo.
+~
+
+#9466
+grembiule~
+un largo grembiule~
+Un grembiule e' ripiegato qui~
+cloth~
+clothing O AL
+0 0 0 0 0
+0 0 0 P
+E
+grembiule~
+Un largo grembiule di panno bianco.
+~
+
+#9467
+grembiulino~
+un grembiulino di pizzo~
+Ripiegato accuratamente, vedi un grazioso grembiulino di pizzo.~
+cloth~
+clothing O AL
+0 0 0 0 0
+0 0 0 P
+E
+grembiulino~
+Piccolo e stretto. E' il tipico accessorio della divisa delle cameriere.
+~
+
+#9468
+veste semplice~
+una semplice veste~
+Una semplice veste e' qui, ripiegata su se' stessa.~
+cloth~
+clothing O AD
+0 0 0 0 0
+0 0 0 P
+E
+semplice veste~
+Una semplice veste di cotone scuro.
+~
+
+#9469
+abito lavoro~
+un semplice abito da lavoro~
+Ripiegato accuratamente, c'e' un abito da lavoro~
+cloth~
+clothing O AD
+0 0 0 0 0
+0 0 0 P
+E
+abito lavoro semplice~
+E' un pratico completo di casacca e calzoni in cotone scuro.
+~
+
+#9470
+cuffietta~
+una cuffietta bianca~
+Accuratamente riposta qui c'e' una graziosa cuffietta bianca.~
+cloth~
+clothing O AE
+0 0 0 0 0
+0 0 0 P
+E
+cuffietta~
+E' una di quelle graziose cuffiette che completano di solito la divisa
+delle cameriere.
+~
+
+#9471
+divisa~
+una divisa da cameriera~
+Una divisa da cameriera e' qui, piegata su se' stessa.~
+cloth~
+clothing O AD
+0 0 0 0 0
+0 0 0 P
+E
+divisa~
+Di panno nero, sobrio e perfetto nel taglio e nelle rifiniture.
+~
+
+#9472
+calzari~
+dei semplici calzari~
+Un paio di semplici calzari e' posato in terra, qui.~
+cloth~
+clothing O AG
+0 0 0 0 0
+0 0 0 P
+E
+calzari~
+Semplici ma ben modellati, sono realizzati in ottimo cuoio scuro, molto
+resistente.
+~
+
+#9473
+livrea~
+una livrea~
+Una livrea e' qui, ripiegata su se' stessa.~
+cloth~
+clothing O AD
+0 0 0 0 0
+0 0 0 P
+E
+livrea~
+Di buon taglio e di ottima stoffa, questa livrea scura e' proprio adatta
+per il ruolo del maggiordomo.
+~
+
+#9474
+uniforme~
+una sobria uniforme~
+Una bella uniforme e' ripiegata qui.~
+cloth~
+clothing O AD
+0 0 0 0 0
+0 0 0 P
+E
+uniforme~
+S'intona perfettamente ad ogni tipo di ricevimento di gala questa sobria
+uniforme dal taglio sapiente..
+~
+
+#9475
+abito elegante~
+un abito elegante~
+Un bell'abito elegante, maschile, e' adagiato qui.~
+silk~
+clothing O AD
+0 0 0 0 0
+0 0 0 P
+E
+abito elegante~
+Composto da una delicata camicia in seta bianca e calzoni, panciotto e
+giacca di un bel punto di grigio scuro.
+~
+
+#9476
+scarpe eleganti~
+un bel paio di scarpe eleganti~
+Un bel paio di scarpe maschili e' qui.~
+cloth~
+clothing O AG
+0 0 0 0 0
+0 0 0 P
+E
+scarpe eleganti~
+Sicuramente eleganti ma anche di buona qualita', infatti il cuoio nero
+che le compone e' morbido al tatto..
+~
+
+#9477
+abito sera~
+un bell'abito da sera~
+Un elegante abito da sera, femminile, e' adagiato qui.~
+silk~
+clothing O AD
+0 0 0 0 0
+0 0 0 P
+E
+abito sera~
+Seta scura per quest'abito finemente realizzato per le serate di gala. I
+toni vanno dal nero scuro al lieve chiarore del grigio antracite, sullo
+scollo..
+~
+
+#9478
+scarpine sera~
+un paio di scarpine da sera~
+Un paio di eleganti scarpine da sera, femminili, e' proprio qui.~
+cloth~
+clothing O AG
+0 0 0 0 0
+0 0 0 P
+E
+scarpine sera~
+Morbido cuoio nero di ottima qualita' per queste graziose scarpine da sera.
+~
+
+#9479
+panciotto~
+un elegante panciotto~
+Vedi per terra un elegante panciotto con tante tasche.
+~
+leather~
+container Y AL
+250 0 0 10 25
+0 50 1000 P
+E
+panciotto~
+Ha tantissime tasche!
+~
+
+#9480
+prenotazione verde~
+Prenotazione stanza verde~
+Un foglio di carta ben ripiegato e' qui per terra.
+~
+paper~
+treasure 0 A
+0 0 0 0 0
+0 10 60 P
+E
+foglio~
+La validita' di questa prenotazione non e' limitata nel tempo, tuttavia
+e' possibile che se non si occupa la stanza nelle 24 ore successive alla
+sua prenotazione questa venga prenotata anche da altri.
+E' quindi preferibile ritirare la chiave ogni qualvolta si proceda alla
+prenotazione della stanza stessa.
+Consegnate la prenotazione al maggiordomo per ottenere la chiave.
+Distinti saluti e buon riposo..
+La Direzione.~
+
+#9481
+prenotazione rossa~
+Prenotazione stanza rossa~
+Un foglio di carta ben ripiegato e' qui per terra.
+~
+paper~
+treasure 0 A
+0 0 0 0 0
+0 10 70 P
+E
+foglio~
+La validita' di questa prenotazione non e' limitata nel tempo, tuttavia
+e' possibile che se non si occupa la stanza nelle 24 ore successive alla
+sua prenotazione questa venga prenotata anche da altri.
+E' quindi preferibile ritirare la chiave ogni qualvolta si proceda alla
+prenotazione della stanza stessa.
+Consegnate la prenotazione al maggiordomo per ottenere la chiave.
+Distinti saluti e buon riposo..
+La Direzione.~
+
+#9482
+prenotazione indaco~
+Prenotazione stanza indaco~
+Un foglio di carta ben ripiegato e' qui per terra.
+~
+paper~
+treasure 0 A
+0 0 0 0 0
+0 10 60 P
+E
+foglio~
+La validita' di questa prenotazione non e' limitata nel tempo, tuttavia
+e' possibile che se non si occupa la stanza nelle 24 ore successive alla
+sua prenotazione questa venga prenotata anche da altri.
+E' quindi preferibile ritirare la chiave ogni qualvolta si proceda alla
+prenotazione della stanza stessa.
+Consegnate la prenotazione al maggiordomo per ottenere la chiave.
+Distinti saluti e buon riposo..
+La Direzione.~
+
+#9483
+prenotazione azzurra~
+Prenotazione stanza azzurra~
+Un foglio di carta ben ripiegato e' qui per terra.
+~
+paper~
+treasure 0 A
+0 0 0 0 0
+0 10 80 P
+E
+foglio~
+La validita' di questa prenotazione non e' limitata nel tempo, tuttavia
+e' possibile che se non si occupa la stanza nelle 24 ore successive alla
+sua prenotazione questa venga prenotata anche da altri.
+E' quindi preferibile ritirare la chiave ogni qualvolta si proceda alla
+prenotazione della stanza stessa.
+Consegnate la prenotazione al maggiordomo per ottenere la chiave.
+Distinti saluti e buon riposo..
+La Direzione.~
+
+#0
+
+
+#ROOMS
+#9400
+L'Entrata del Palazzo~
+Hai appena attraversato un ponte di legno e corda, avvicinandoti pian
+piano all'imponente costruzione in pietra che ora ti si apre davanti. Il
+portone e' socchiuso. Il suo legno lucido mostra un battente di ottone e luci
+soffuse provengono dall'interno.. E' silenziosa e imponente la magione.. Che
+fai, entri?
+~
+0 0 2
+D1
+Riconosci, oltre il portone, una stanza d'accoglienza.. Un androne forse..
+~
+portone~
+1 0 9407
+D3
+~
+~
+0 0 3047
+S
+#9401
+Il corridoio~
+Il corridoio prosegue alla luce delle fiaccole di rame disposte in fila
+lungo le pareti laterali.. A nord le cucine del palazzo, ad est invece, la
+docile curvatura del corridoio..
+~
+0 CD 0
+D0
+Le cucine del palazzo.
+~
+~
+0 0 9446
+D1
+Il corridoio prosegue..
+~
+~
+0 0 9444
+D2
+L'inizio del corridoio..
+~
+~
+0 0 9438
+S
+#9407
+L'androne~
+Legno bruno con venature dorate, tipico intaglio di un albero rarissimo..
+Ecco il materiale che compone gran parte di questo immenso e sontuoso
+androne. La luce e' profusa da preziosi candelabri a muro, posti a coppia in
+ogni parete, eccetto quella che hai di fronte. Cammina piano verso l'arco
+che s'apre a est, perche' il tuo passo ti annuncia subito, attraversando il
+pavimento ligneo.. A nord invece c'e' un'imponente scala a chiocciola in
+pietra scura sale verso un piano superiore, a sud una scala bianca, discende..
+~
+0 CD 0
+D0
+Una grossa scala a chiocciola..
+~
+~
+0 0 9424
+D1
+Attraverso l'arco si staglia alla vista l'imponenza di un enorme salone..
+~
+~
+0 0 9412
+D2
+Una scalinata bianca..
+~
+~
+0 0 9437
+D3
+Quello e' l'ingresso del palazzo, ovviamente..
+~
+porticina~
+2 0 9400
+S
+#9411
+Un salottino privato~
+Oltre la porta hai dovuto scostare un lieve tendone azzurrato, prima di
+affacciarti in questo privatissimo salottino.. Ora sei entrato, tutto e' a
+tua disposizione, richiudi la porta alle tue spalle e lascia che il velo
+della tenda scivoli a coprirla..
+~
+0 CD 0
+D2
+Una porticina di legno mostra al centro un quadrato di cristallo azzurro..
+~
+porticina~
+2 0 9412
+S
+#9412
+Il salone principale~
+Non c'e' che dire, si resta sconcertati davanti alla manifestazione piu'
+pura del fasto e del buongusto.. E questo salone ne e' l'espressione piu'
+aderente. Il pavimento e' celato al tuo sguardo poiche' completamente
+ricoperto da un enorme tappeto dai toni pastello, le cui frange leggere, ai
+bordi, sono formate da leggere filigrane d'oro bruno. Le pareti sono alte e
+maestose, fasciate a meta' della loro altezza da un rilievo arabescato, in
+muratura. Il soffitto punteggiato da bolle di cristallo, in ognuna delle
+quali arde un lumicino energetico di misteriosa natura.
+~
+0 CD 0
+D0
+Una porticina di legno mostra al centro un quadrato di cristallo azzurro..
+~
+porticina~
+2 0 9411
+D1
+Un'altra sala, piu' larga forse, si intravede da qui..
+~
+~
+0 0 9417
+D2
+Una porticina di legno mostra al centro un quadrato di cristallo rosso..
+~
+porticina~
+2 0 9413
+D3
+Un arco in muratura, senza porta, offre la vista all'androne, ad ovest di
+qui..
+~
+~
+0 0 9407
+S
+#9413
+Un salottino privato~
+Oltre la porta hai dovuto scostare un lieve tendone scarlatto, prima di
+affacciarti in questo privatissimo salottino.. Ora sei entrato, tutto e' a
+tua disposizione, richiudi la porta alle tue spalle e lascia che il velo
+della tenda scivoli a coprirla..
+~
+0 CD 0
+D0
+Una porticina di legno mostra al centro un quadrato di cristallo rosso..
+~
+porticina~
+2 0 9412
+S
+#9416
+La sala da ballo~
+Questa enorme sala quadrata e' riservata alle serate danzanti. I toni dei
+tendaggi scivolano sul pastello chiaro e le pareti e il soffitto mostrano
+affreschi allegri raffiguranti scenari di antichi baccanali e feste di
+musici. Il pavimento e' di marmo chiaro, venato da strati di indefinibili
+cromature. L'illuminazione dell'ambiente e' data dall'ampia vetrata che
+impegna il lato orientale e da fiaccole ardenti disposte in lunghe file in
+ogni parete. Una pedana di legno laccato lucido e' posta a ridosso di uno
+dei muri, serve ad ospitare i maestri musicisti nelle serate di gala..
+~
+0 CD 0
+D1
+Una grossa vetrata scorrevole, con maniglia d'ottone..
+~
+vetrata~
+2 0 9421
+D2
+Una piccola sala.
+~
+~
+0 0 9417
+S
+
+#9417
+La mescita~
+Questa e' una stanza di passaggio, ma e' arredata con gusto e non mancano
+panche laterali adatte alla sosta e alle chiacchiere, inoltre da qui si
+tiene d'occhio sia la Sala da ballo a nord che il Salone principale a
+ovest.. Attorno all'angolo nord-orientale della stanza, prima
+dell'intercapedine della vetrata, e' stato costruito un curioso mobile: si
+tratta di uno spesso semicerchio in pietra di marmo, un bancone in pratica.
+Ed infatti, dietro di esso, c'e' chi potra' servirti da bere..
+~
+0 CD 0
+D0
+Da qui intravedi l'interno della sontuosa sala da ballo del palazzo..
+~
+~
+0 0 9416
+D1
+Una grossa vetrata scorrevole, con maniglia d'ottone..
+~
+vetrata~
+2 0 9422
+D2
+Oltre questa porta leggera, di legno chiaro, odi scrosciare dell'acqua..
+~
+porta~
+2 0 9418
+D3
+Riconosci un grosso salone, accogliente..
+~
+~
+0 0 9412
+S
+
+#9418
+La sala delle fontane~
+Una stanza interamente arredata da ogni possibile fontana, vasca, conca o
+effusore di liquidi.. Sicuramente un vezzo per la vista ma anche una
+praticissima sala.. Rinfresco?
+~
+0 CD 0
+D0
+Oltre questa porta, di legno leggero c'e' sicuramente una piccola sala..
+~
+porta~
+2 0 9417
+D1
+Una grossa vetrata scorrevole, con maniglia d'ottone..
+~
+vetrata~
+2 0 9423
+S
+
+#9421
+La terrazza~
+Sei uscito all'aperto, dopo aver aperto la grossa vetrata, e sei su una
+magnifica terrazza belvedere. La ringhiera di pietra bianca e' formata da
+tante colonne tubolari. Vasi di fiori e piante ornamentali sono posti in
+terra, in punti strategici, formando un pittoresco angolo verde. Il
+pavimento della terrazza e' formato da larghe piastrelle di argilla cotta e
+smaltata d'avorio. La terrazza prosegue a sud..
+~
+0 0 0
+D2
+Continua a sud la magnifica terrazza che ti ospita adesso..
+~
+~
+0 0 9422
+D3
+Una grossa vetrata scorrevole, con maniglia d'ottone..
+~
+vetrata~
+2 0 9416
+S
+
+#9422
+La terrazza~
+Sei uscito all'aperto, dopo aver aperto la grossa vetrata, e sei su una
+magnifica terrazza belvedere. La ringhiera di pietra bianca e' formata da
+tante colonne tubolari. Vasi di fiori e piante ornamentali sono posti in
+terra, in punti strategici, formando un pittoresco angolo verde. Il
+pavimento della terrazza e' formato da larghe piastrelle di argilla cotta e
+smaltata d'avorio. La terrazza prosegue a nord e a sud. Una graziosa scala a
+chiocciola, in ferro battuto, e' posta accanto ad un pezzo di balaustra.
+~
+0 0 0
+D0
+La magnifica terrazza prosegue a nord..
+~
+~
+0 0 9421
+D2
+La magnifica terrazza prosegue a sud..
+~
+~
+0 0 9423
+D3
+Una grossa vetrata scorrevole, con maniglia d'ottone..
+~
+vetrata~
+2 0 9417
+S
+
+#9423
+La terrazza~
+Sei uscito all'aperto, dopo aver aperto la grossa vetrata, e sei su una
+magnifica terrazza belvedere. La ringhiera di pietra bianca e' formata da
+tante colonne tubolari. Vasi di fiori e piante ornamentali sono posti in
+terra, in punti strategici, formando un pittoresco angolo verde. Il
+pavimento della terrazza e' formato da larghe piastrelle di argilla cotta e
+smaltata d'avorio. La terrazza prosegue ad ovest.
+~
+0 0 0
+D0
+Continua a nord la magnifica terrazza che ti ospita adesso..
+~
+~
+0 0 9422
+D3
+Una grossa vetrata scorrevole, con maniglia d'ottone..
+~
+vetrata~
+2 0 9418
+S
+
+#9424
+Una grossa scala a chiocciola~
+Sei davanti ad un'immensa scala a chiocciola di pietra scura. E' talmente
+bella nella molatura e nelle venature della pietra da poter essere
+assimilata ad un monumento. Il corrimano e' d'oro bruno e nessun tappeto a
+celare la lucida perfezione del granito..
+~
+0 CD 0
+D2
+Le luci soffuse e il legno bruno dell'androne del palazzo..
+~
+~
+0 0 9407
+D4
+Devi salire per vedere qualcosa..
+~
+~
+0 0 9425
+E
+pietra scala granito~
+Non riesci a definire il colore della pietra che compone questo scalone
+imponente.. Assume il toni della nera onice in alcuni tratti e quelli del
+chiarore del grigio marmo in altri..
+~
+S
+
+#9425
+Un corridoio~
+Sei sulla cima alle spire della scalinata di marmo.. E' stato agevole
+percorrerla, la bellezza della pietra ti ha accompagnato durante ogni
+passo.. E qui si apre alla tua vista l'inizio di un corridoio spazioso e
+illuminato da fiaccole argentee, disposte lungo le pareti.
+~
+0 CD 0
+D2
+Il corridoio prosegue..
+~
+~
+0 0 9426
+D5
+Una grossa scala a chiocciola vista dall'alto..
+~
+~
+1 0 9424
+S
+
+#9426
+Il corridoio~
+Il corridoio prosegue e qui vira dolcemente ad est, continuando a
+snodarsi al lume delle fiaccole argentee, disposte lungo le pareti.. A sud
+una camera: la porta e' di un tenero legno naturale e reca al centro una
+foglia intagliata. A nord, l'imboccatura della scala a chiocciola..
+~
+0 CD 0
+D0
+L'inizio del corridoio e l'imboccatura di una grossa scala a chiocciola
+~
+~
+0 0 9425
+D1
+Il corridoio svolta dolcemente ad oriente..
+~
+~
+0 0 9427
+D2
+Una camera. Sulla porta c'e' intagliata una foglia..
+~
+porta~
+4 9420 9430
+E
+foglia intagliata~
+Una foglia aghiforme, di un bel verde brillante e striature d'ebano
+lucido.. Il nero si mescola al calore del verde creando infiniti gradienti
+pastello..
+~
+S
+
+#9427
+Il corridoio~
+Il corridoio prosegue continuando a snodarsi al lume delle fiaccole
+argentee, disposte lungo le pareti.. A sud una camera: la porta e' di un
+tenero legno lucido reca al centro una spirale intagliata. A nord una stanza
+e sulla porta una targhetta di rame.
+~
+0 CD 0
+D0
+La biblioteca del palazzo. C'e' scritto sulla porta!
+~
+porta~
+2 0 9436
+D1
+Il corridoio continua..
+~
+~
+0 0 9428
+D2
+Una camera. Sulla porta c'e' intagliata una spirale..
+~
+porta~
+4 9421 9431
+D3
+Un pezzo di corridoio..
+~
+~
+0 0 9426
+E
+spirale intagliata~
+Una sinuosa spirale, di un indaco brillante e striature d'avorio
+lucente.. Il bianco si mescola al calore del viola creando infiniti
+gradienti pastello..
+~
+E
+targhetta rame~
+In rame brunito c'e' scritto: Biblioteca.
+~
+S
+
+#9428
+Il corridoio~
+Ancora un tratto di corridoio, che prosegue al lume delle fiaccole
+argentee, disposte lungo le pareti.. A sud una camera: la porta e' di un
+tenero legno lucido reca al centro una fiamma intagliata. A nord una strana
+stanza..
+~
+0 CD 0
+D0
+Una strana stanza..
+~
+porta~
+2 0 9435
+D1
+L'ultimo tratto del corridoio..
+~
+~
+0 0 9429
+D2
+Una camera. Sulla porta c'e' intagliata una fiamma..
+~
+porta~
+4 9422 9432
+D3
+Il corridoio prosegue..
+~
+~
+0 0 9427
+E
+fiamma intagliata~
+Una fiamma viva, di un rosso brillante e striature d'oro lucente.. Il
+giallo si mescola al calore scarlatto creando infiniti gradienti pastello..
+~
+S
+
+#9429
+La fine del corridoio~
+Eccoti al tratto finale dello spazioso corridoio illuminato da fiaccole
+argentee, disposte lungo le pareti.. A sud una camera: la porta e' di un
+tenero legno lucido reca al centro una goccia intagliata. A nord una stanza
+dalla porta variopinta..
+~
+0 CD 0
+D0
+Una stanza dalla simpatica porta multicolore variopinta.
+~
+porta~
+2 0 9434
+D2
+Una camera. Sulla porta c'e' intagliata una goccia..
+~
+porta~
+4 9423 9433
+D3
+Il corridoio seguita ancora..
+~
+~
+1 0 9428
+E
+goccia intagliata~
+Una morbida goccia, di un blu brillante e striature di zaffiro lucente..
+L'azzurro si mescola al calore turchino creando infiniti gradienti
+pastello..
+~
+S
+
+#9430
+Una camera verde~
+Una distesa di giada pura per il pavimento di questa incantevole camera..
+Abbaglia per un istante piegandoti lo sguardo poi sembra quietare il lucore
+per regalare distensione e gioia alla tua vista.. La porta di legno si
+richiude silenziosa dietro le tue spalle.. Regalandoti l'intimo benessere
+dell'ambiente.. La parete a sud e' formata per meta' da uno spesso zoccolo
+in muro che cade a piombo sul pavimento e per l'altra meta' da una doppia
+lastra di cristallo, a raggiungere il soffitto.. E una tenda di tulle a
+grana stretta e' legata di lato da un fiocco di seta nera. Le pareti
+laterali invece ricordano il grigio scuro del quale talvolta alcuni alberi
+vestono le loro cortecce d'inverno..
+~
+0 CD 0
+D0
+Dietro questa porta c'e' il primo scorcio del corridoio..
+~
+porta~
+4 9420 9426
+S
+
+#9431
+Una camera indaco~
+Una distesa di pura ametista per il pavimento di questa incantevole
+camera.. Abbaglia per un istante piegandoti lo sguardo poi sembra quietare
+il lucore per regalare distensione e gioia alla tua vista.. La porta di
+legno si richiude silenziosa dietro le tue spalle.. Regalandoti l'intimo
+benessere dell'ambiente.. La parete a sud e' formata per meta' da uno spesso
+zoccolo in muro che cade a piombo sul pavimento e per l'altra meta' da una
+doppia lastra di cristallo, a raggiungere il soffitto.. E una tenda di tulle
+a grana stretta e' legata di lato da un fiocco di seta bianca. Le pareti
+laterali invece ricordano l'avorio chiaro con il quale l'alba colora il suo
+primo vagito prima del sorriso del sole..
+~
+0 CD 0
+D0
+Dietro la porta c'e' la svolta dolce del corridoio..
+~
+porta~
+4 9421 9427
+S
+
+#9432
+Una camera rossa~
+Una distesa di corallo rosso per il pavimento di questa incantevole
+camera.. Abbaglia per un istante piegandoti lo sguardo poi sembra quietare
+il lucore per regalare distensione e gioia alla tua vista.. La porta di
+legno si richiude silenziosa dietro le tue spalle.. Regalandoti l'intimo
+benessere dell'ambiente.. La parete a sud e' formata per meta' da uno spesso
+zoccolo in muro che cade a piombo sul pavimento e per l'altra meta' da una
+doppia lastra di cristallo, a raggiungere il soffitto.. E una tenda di tulle
+a grana stretta e' legata di lato da un fiocco di seta gialla. Le pareti
+laterali invece ricordano l'oro pallido con il quale il sole annuncia il suo
+primo sorriso al giorno che nasce..
+~
+0 CD 0
+D0
+Dietro la porta c'e' un tratto di corridoio..
+~
+porta~
+4 9422 9428
+S
+
+#9433
+Una camera azzurra~
+Una distesa di tersi turchesi per il pavimento di questa incantevole
+camera.. Abbaglia per un istante piegandoti lo sguardo poi sembra quietare
+il lucore per regalare distensione e gioia alla tua vista.. La porta di
+legno si richiude silenziosa dietro le tue spalle.. Regalandoti l'intimo
+benessere dell'ambiente.. La parete a sud e' formata per meta' da uno spesso
+zoccolo in muro che cade a piombo sul pavimento e per l'altra meta' da una
+doppia lastra di cristallo, a raggiungere il soffitto.. E una tenda di tulle
+a grana stretta e' legata di lato da un fiocco di seta blu. Le pareti
+laterali invece ricordano l'infinito manto con il quale il cielo veste ogni
+crepuscolo del mondo..
+~
+0 CD 0
+D0
+Dietro questa porta c'e' la fine del corridoio..
+~
+porta~
+4 9423 9429
+S
+
+#9434
+Gli angoli ludici~
+Non c'e' in questa stanza una tonalita' prevalente: tutte le tinte sono
+presenti nel mobilio e negli accessori, nelle varie sfumature e miscelate
+tra loro con sapiente pregio. Qui la vita e' il gioco, la distensione, il
+relax.. La parete a nord contiene una bella finestra dalla tenda di canapa
+leggera dipinta a mano; quella ad est e' interamente formata da ardesia
+dura: in pratica e' una lavagna mentre quella opposta e' completamente
+verniciata di smalto lucido.. Ed e' sicuramente lavabile..
+~
+0 CD 0
+D2
+Dietro la porta c'e' la fine del corridoio..
+~
+porta~
+2 0 9429
+S
+
+#9435
+Le proiezioni astrali~
+Purificazione del subconscio ad accentuare l'intuizione.. Lo stato della
+mente scivola in un  perfetto equilibrio.. Il passaggio attraverso il
+vortice della devozione.. Ecco la consapevolezza della perfezione divina
+come presente in tutte le cose.. Questa stanza serve alla meditazione e
+forse all'evocazione delle immagini del proprio io.. Le pareti laterali
+rifulgono di tenui chiarori intermittenti, quella settentrionale ospita
+invece un'alta finestra ovale, unica fonte di luce della stanza. Il colore
+che predomina e' un delicatissimo tono di ambra.
+~
+0 CD 0
+D2
+Dietro questa porta c'e' l'ultimo tratto del corridoio..
+~
+porta~
+2 0 9428
+S
+
+#9436
+La biblioteca del palazzo~
+Legno e seta per questa stanza dai toni del noce maturo.. Le pareti
+laterali sono completamente occupate da enormi scaffalature stipate di libri
+e il soffitto e' rivestito di assi di noce laccato. Sul pavimento un tappeto
+di seta e lana annodata copre totalmente la superficie celandone alla vista
+l'originaria formazione. Un paio di leggii accanto alla parete settentrionale,
+baciati dalla luce che filtra dalla grossa ed alta finestra che la riempie.
+~
+0 CD 0
+D2
+Dietro la porta c'e' la curva del corridoio..
+~
+porta~
+2 0 9427
+S
+
+#9437
+Una scalinata bianca~
+Discendi lentamente i gradini di questa scalinata bianca.. Non e'
+particolarmente tortuosa anzi essa si estende in pendenza regolare.. La luce
+che proviene dal basso, man mano che ti avvicini ad esso, e' tremula e
+fioca..
+~
+0 CD 0
+D0
+Le luci soffuse e il legno dorato dell'androne del palazzo..
+~
+~
+0 0 9407
+D5
+Devi percorrere la scalinata per vedere dove conduce..
+~
+~
+0 0 9438
+S
+
+#9438
+Un corridoio~
+La discesa ti ha condotto in questo corridoio non tanto largo e
+scarsamente illuminato da una serie di fiaccole di rame disposte lungo le
+pareti.. Ardono ad accompagnare il prosieguo del corridoio, a nord..
+~
+0 CD 0
+D0
+Il corridoio continua..
+~
+~
+0 0 9401
+D4
+La rampa di una grossa scala bianca vista dal basso..
+~
+~
+0 0 9437
+S
+
+#9439
+La cantina del palazzo~
+E' freddissimo qui dentro e non c'e' molta luce.. Ti muovi a tentoni
+urtando qualcosa ogni tanto.. Man mano ti abitui all'oscurita' e l'odore di
+sughero e uva, mostra al tuo pensiero che ti trovi nelle cantine del
+palazzo. Magari se hai una torcia..
+~
+0 CD 0
+D0
+Il corridoio dopo la curva..
+~
+~
+0 0 9444
+S
+
+#9440
+Il condotto delle fontane~
+La porta cigola del suo rumore metallico e ti si apre alla vista la
+stanza che contiene il condotto acquifero del palazzo.. Il sommesso
+gorgoglio che udivi da fuori ora e' meno ovattato.. Grossi tubi ad
+incrociarsi a mezz'aria prendendo tutta la capienza della stessa..
+Taluno gocciola.. Due ruote dentate girano in senso contrario
+abbracciandosi in un incastro perfetto..
+~
+0 CD 0
+D0
+Dietro la porta c'e' il corridoio..
+~
+porta~
+2 0 9443
+S
+
+#9441
+La camera per la servitu'~
+E' uno stanzone! Semplice ma accogliente. La parete orientale ospita una
+fila di brande in ferro, quella opposta un grosso armadio di legno e quella
+a nord una lunga panca di gesso bianco. Ogni lettuccio ha le lenzuola pulite
+e perfettamente ripiegate.
+~
+0 CD 0
+D0
+Dietro la porta c'e' la fine del corridoio.
+~
+porta~
+2 0 9442
+S
+
+#9442
+La fine del corridoio~
+Questo e' l'ultimo tratto del corridoio: la luce e' data dalla fila di
+fiaccole di rame disposte sulla parete orientale. A sud e a nord due
+semplici camere.
+~
+0 CD 0
+D0
+Una semplice camera.
+~
+porta~
+2 0 9449
+D2
+Una semplice camera..
+~
+porta~
+2 0 9441
+D3
+Il corridoio continua..
+~
+~
+0 0 9443
+S
+
+#9443
+Il corridoio~
+Il corridoio seguita il suo cammino, accompagnato dalla luce delle
+fiaccole di rame disposte in fila lungo le pareti laterali.. A nord una
+legnaia, a sud una porta metallica cela la visione della stanza che vi e'
+dietro ma.. Un rumore sommesso e' chiaramente percepibile.. Ad est e'
+visibile l'ultimo tratto del corridoio..
+~
+0 CD 0
+D0
+Una stanza adibita a legnaia..
+~
+~
+0 0 9448
+D1
+La fine del corridoio..
+~
+~
+0 0 9442
+D2
+Una porta metallica ti cela la vista della stanza.. Ma non il sommesso
+gorgoglio che da la' proviene..
+~
+porta~
+2 0 9440
+D3
+Il corridoio prosegue..
+~
+~
+0 0 9444
+S
+
+#9444
+Il corridoio~
+Il corridoio prosegue ancora, dopo una docile piegata da ovest, verso
+est.. Ancora compagna del percorso e' la luce delle fiaccole di rame
+disposte in fila lungo le pareti laterali.. A nord c'e' una spaziosa stanza
+senza porta, a sud lo sbuffo gelido della cantina del palazzo..
+~
+0 CD 0
+D0
+Una spaziosa stanza adibita a magazzino.
+~
+~
+0 0 9447
+D1
+Il corridoio continua
+~
+~
+0 0 9443
+D2
+Una stanza buia.. Da la' proviene uno sbuffo d'aria gelida..
+~
+~
+0 0 9439
+D3
+Il primo tratto del corridoio
+~
+~
+0 0 9401
+S
+
+#9446
+La cucina del palazzo~
+Una stanza ampia realizzata in pietra ollare e legno chiaro. L'esteso
+piano di lavoro parte dalla parete occidentale e gira fino a quella
+settentrionale e ospita un grosso tagliere in legno, un ceppo di coltelli di
+varia misura, svariate casseruole, mestoli e barattoli di spezie.. La parete
+orientale invece contiene un mobile in legno e il blocco di cottura, formato
+da un grosso bruciatore in pietra ollare. A ridosso del muro a nord, in
+alto, un grosso tubo di ferro assicura il ricambio d'aria all'ambiente.
+~
+0 CD 0
+D2
+Il primo tratto del corridoio..
+~
+~
+0 0 9401
+S
+
+#9447
+Il magazzino del palazzo~
+Questa stanza e' scarna e disadorna, infatti serve solo per la
+conservazione delle derrate e degli utensili d'uso comune alla servitu' del
+palazzo. In un angolo una grossa ghiacciaia in legno e ferro, sulla stessa
+parete, una serie di mensole metalliche.
+~
+0 CD 0
+D2
+Il corridoio dopo la piegata..
+~
+~
+0 0 9444
+S
+
+#9448
+La legnaia~
+Qui non vedi altro che cataste di legna, impilate ordinatamente in mucchi
+estesi dal pavimento al soffitto.. Differenziati a seconda delle
+dimensioni..
+~
+0 CD 0
+D2
+Un tratto del corridoio..
+~
+~
+0 0 9443
+S
+
+#9449
+La camera per la servitu'~
+E' uno stanzone! Semplice ma accogliente. La parete orientale ospita una
+fila di brande in ferro, quella opposta un grosso armadio di legno e quella
+a nord una lunga panca di gesso bianco. Ogni lettuccio ha le lenzuola pulite
+e perfettamente ripiegate.
+~
+0 CD 0
+D2
+Dietro la porta c'e' la fine del corridoio.
+~
+porta~
+2 0 9442
+S
+
+#0
+
+
+#RESETS
+O 0 9400 0 9407  * Carica l'arco in muratura a L'Androne
+O 0 9405 0 9411  * Carica una poltrona doppia a Un salottino privato
+O 0 9406 0 9411  * Carica un tavolino a Un salottino privato
+O 0 9407 0 9411  * Carica un arbusto fluorescente a Un salottino privato
+O 0 9404 0 9412  * Carica un camino in pietra a Il salone principale
+O 0 9401 0 9412  * Carica un divano in seta a Il salone principale
+O 0 9402 0 9412  * Carica un tavolo d'ebano a Il salone principale
+O 0 9403 0 9412  * Carica una sedia intagliata a Il salone principale
+O 0 9405 0 9413  * Carica una poltrona doppia a Un salottino privato
+O 0 9405 0 9413  * Carica una poltrona doppia a Un salottino privato
+O 0 9406 0 9413  * Carica un tavolino a Un salottino privato
+O 0 9407 0 9413  * Carica un arbusto fluorescente a Un salottino privato
+O 0 9414 0 9418  * Carica una vasca dorata a La sala delle fontane
+O 0 9415 0 9418  * Carica una bolla fluida a La sala delle fontane
+O 0 9416 0 9418  * Carica una colonna di marmo a La sala delle fontane
+O 0 9417 0 9418  * Carica una conca ducale a La sala delle fontane
+O 0 9418 0 9418  * Carica un tregolo di cristallo a La sala delle fontane
+O 0 9419 0 9416  * Carica un morbido drappeggio a La sala da ballo
+O 0 9424 0 9430  * Carica un letto a Una camera verde
+O 0 9425 0 9431  * Carica un letto a Una camera indaco
+O 0 9426 0 9432  * Carica un letto a Una camera rossa
+O 0 9427 0 9433  * Carica un letto a Una camera azzurra
+O 0 9428 0 9430  * Carica uno scrittoio a Una camera verde
+O 0 9429 0 9431  * Carica uno scrittoio a Una camera indaco
+O 0 9430 0 9432  * Carica uno scrittoio a Una camera rossa
+O 0 9431 0 9433  * Carica uno scrittoio a Una camera azzurra
+O 0 9432 0 9430  * Carica un armadio a Una camera verde
+O 0 9433 0 9431  * Carica un armadio a Una camera indaco
+O 0 9434 0 9432  * Carica un armadio a Una camera rossa
+O 0 9435 0 9433  * Carica un armadio a Una camera azzurra
+O 0 9436 0 9430  * Carica un candelabro oro giallo a Una camera verde
+O 0 9437 0 9431  * Carica un candelabro argento a Una camera indaco
+O 0 9438 0 9432  * Carica un candelabro oro rosso a Una camera rossa
+O 0 9439 0 9433  * Carica un candelabro oro bianco a Una camera azzurra
+O 0 9440 0 9430  * Carica un sofa a Una camera verde
+O 0 9441 0 9431  * Carica un sofa a Una camera indaco
+O 0 9442 0 9432  * Carica un sofa a Una camera rossa
+O 0 9443 0 9433  * Carica un sofa a Una camera azzurra
+O 0 9455 0 9436  * Carica i libri a La biblioteca
+O 0 9444 0 9436  * Carica una grossa tavola a La biblioteca
+O 0 9445 0 9436  * Carica una seggiola a La biblioteca
+O 0 9445 0 9436  * Carica una seggiola a La biblioteca
+O 0 9445 0 9436  * Carica una seggiola a La biblioteca
+O 0 9445 0 9436  * Carica una seggiola a La biblioteca
+O 0 9445 0 9436  * Carica una seggiola a La biblioteca
+O 0 9445 0 9436  * Carica una seggiola a La biblioteca
+O 0 9445 0 9436  * Carica una seggiola a La biblioteca
+O 0 9445 0 9436  * Carica una seggiola a La biblioteca
+O 0 9446 0 9435  * Carica i cuscini a Le proiezioni astrali
+O 0 9446 0 9435  * Carica i cuscini a Le proiezioni astrali
+O 0 9446 0 9435  * Carica i cuscini a Le proiezioni astrali
+O 0 9446 0 9435  * Carica i cuscini a Le proiezioni astrali
+O 0 9446 0 9435  * Carica i cuscini a Le proiezioni astrali
+O 0 9446 0 9435  * Carica i cuscini a Le proiezioni astrali
+O 0 9446 0 9435  * Carica i cuscini a Le proiezioni astrali
+O 0 9446 0 9435  * Carica i cuscini a Le proiezioni astrali
+O 0 9447 0 9434  * Carica i barattoli a Gli angoli ludici
+O 0 9448 0 9434  * Carica i gessetti a Gli angoli ludici
+O 0 9449 0 9434  * Carica le matite a Gli angoli ludici
+O 0 9450 0 9434  * Carica un foglio a Gli angoli ludici
+O 0 9450 0 9434  * Carica un foglio a Gli angoli ludici
+O 0 9450 0 9434  * Carica un foglio a Gli angoli ludici
+O 0 9450 0 9434  * Carica un foglio a Gli angoli ludici
+O 0 9450 0 9434  * Carica un foglio a Gli angoli ludici
+O 0 9451 0 9434  * Carica una spugnetta a Gli angoli ludici
+O 0 9452 0 9434  * Carica un gomitolo a Gli angoli ludici
+O 0 9453 0 9434  * Carica una scacchiera a Gli angoli ludici
+O 0 9454 0 9434  * Carica un bicchierino a Gli angoli ludici
+O 0 9456 0 9446  * Carica un calderone a La cucina
+O 0 9457 0 9446  * Carica le verdure a La cucina
+O 0 9459 0 9447  * Carica il ghiaccio a Il magazzino
+O 0 9460 0 9448  * Carica il ramo a La legnaia
+O 0 9461 0 9439  * Carica le botti scure a La cantina
+O 0 9462 0 9439  * Carica le botti chiare a La cantina
+O 0 9463 0 9439  * Carica le bottiglie a La cantina
+O 0 9464 0 9439  * Carica un fiasco a La cantina
+O 0 9465 0 9439  * Carica un tino a La cantina
+M 0 9406 1 9416 1 * Carica un'ospite donna a La sala ballo
+E 0 9477 1 5     *  Carica abito a un'ospite donna
+E 0 9478 1 8     *  Carica scarpine a un'ospite donna
+M 0 9405 1 9423 1 * Carica un ospite uomo a La terrazza
+E 0 9475 1 5     *  Carica abito elegante a un ospite uomo
+E 0 9476 1 8     *  Carica scarpe a un ospite uomo
+M 0 9404 1 9425 1 * Carica la cameriera a Un corridoio
+E 0 9467 1 13    *  Carica un grembiulino a la cameriera
+E 0 9470 1 6     *  Carica una cuffietta a la cameriera
+E 0 9471 1 5     *  Carica una divisa a la cameriera
+E 0 9472 1 8     *  Carica i calzari a la cameriera
+M 0 9400 1 9446 1 * Carica la cuoca a La cucina
+E 0 9458 1 17    *  Carica il mestolo a la cuoca
+E 0 9466 1 13    *  Carica il grembiule a la cuoca
+E 0 9468 1 5     *  Carica la veste a la cuoca
+E 0 9472 1 8     *  Carica i calzari a la cuoca
+M 0 9403 1 9439 1 * Carica il cuoco a La cantina
+E 0 9466 1 13    *  Carica il grembiule a il cuoco
+E 0 9469 1 5     *  Carica l'abito a il cuoco
+E 0 9472 1 8     *  Carica i calzari a il cuoco
+M 0 9402 1 9417 1 * Carica il gestore della mescita  a  La mescita
+E 0 9474 1 5     *  Carica l'uniforme a il gestore
+E 0 9472 1 8     *  Carica i calzari a il gestore
+G 1 9412 -1       *  Give focaccia bianca
+G 1 9408 -1       *  Give vino bianco
+G 1 9409 -1       *  Give vino rosso
+G 1 9413 -1       *  Give panino all'olio
+G 1 9410 1       *  Give birra chiara
+G 1 9411 1       *  Give birra scura
+M 0 9401 1 9412 1 * Carica un maggiordomo a Il salone principale
+E 0 9479 1 13    *  Carica il panciotto al maggiordomo
+E 0 9473 1 5     *  Carica la livrea a un maggiordomo
+E 0 9472 1 8     *  Carica i calzari a un maggiordomo
+G 0 9480 1       *  Carica la prenotazione a un maggiordomo
+G 0 9481 1       *  Carica la prenotazione a un maggiordomo
+G 0 9482 1       *  Carica la prenotazione a un maggiordomo
+G 0 9483 1       *  Carica la prenotazione a un maggiordomo
+D 0 9400 1 0     *  Entrata a androne             aperto
+D 0 9407 3 0     *  Androne a entrata             aperto
+D 0 9411 2 1     *  Salottino a salone            chiuso
+D 0 9413 0 1     *  Salottino a salone            chiuso
+D 0 9412 2 1     *  Salone a salottino            chiuso
+D 0 9412 0 1     *  Salone a salottino            chiuso
+D 0 9416 1 1     *  Sala ballo a terrazza         chiuso
+D 0 9417 1 1     *  Mescita a terrazza            chiuso
+D 0 9417 2 1     *  Mescita a fontane             chiuso
+D 0 9418 0 1     *  Fontane a mescita             chiuso
+D 0 9418 1 1     *  Fontane a terrazza            chiuso
+D 0 9421 3 1     *  Terrazza a sala ballo         chiuso
+D 0 9422 3 1     *  Terrazza a mescita            chiuso
+D 0 9423 3 1     *  Terrazza a fontane            chiuso
+D 0 9426 2 2     *  Corridoio a stanza verde      chiuso a chiave
+D 0 9430 0 2     *  Stanza verde a corridoio      chiuso a chiave
+D 0 9427 2 2     *  Corridoio a stanza indaco     chiuso a chiave
+D 0 9427 0 1     *  Corridoio a biblioteca        chiuso
+D 0 9431 0 2     *  Stanza indaco a corridoio     chiuso a chiave
+D 0 9436 2 1     *  Biblioteca a corridoio        chiuso
+D 0 9428 2 2     *  Corridoio a stanza rossa      chiuso a chiave
+D 0 9428 0 1     *  Corridoio a proiezioni        chiuso
+D 0 9432 0 2     *  Stanza rossa a corridoio      chiuso a chiave
+D 0 9435 2 1     *  Proiezioni a corridoio        chiuso
+D 0 9429 2 2     *  Corridoio a stanza azzurra    chiuso a chiave
+D 0 9428 0 1     *  Corridoio a ludoteca          chiuso
+D 0 9433 0 2     *  Stanza azzurra a corridoio    chiuso a chiave
+D 0 9434 2 1     *  Ludoteca a corridoio          chiuso
+D 0 9443 2 1     *  Corridoio a condotto fontane  chiuso
+D 0 9440 0 1     *  Condotto fontane a corridoio  chiuso
+D 0 9442 2 1     *  Corridoio a camera servi      chiuso
+D 0 9442 0 1     *  Corridoio a camera servi      chiuso
+D 0 9441 0 1     *  Camera servi a corridoio      chiuso
+D 0 9449 2 1     *  Camera servi a corridoio      chiuso
+S
+
+
+#SHOPS
+9401  2  0 0 0 0 110 100 0 23
+9402 19 0 0 0 0 180 20 0 23
+
+
+0
+
+
+#SPECIALS
+S
+
+
+#OMPROGS
+M 9401 give_prog give_prog_maggiordomo
+S
+
+
+#$

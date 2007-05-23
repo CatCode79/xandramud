@@ -1,0 +1,64 @@
+Questa è la release del codice Xandra 1.1
+
+Lo Xandra è un codice derivato dall'Anatolia, in particolare dalla versione 3.0.
+E' stato tradotto praticamente tutto l'output; a parte i comandi degli
+amministratori e il sistema quest.
+E' stato modificato il gioco per renderlo un po' più bilanciato e soprattutto
+sono state accentuate alcune modifiche che dovrebbero abituare all'RPG.
+E' un ottimo codice per farsi le ossa e capire come sia fatto sommariamente un
+Rom-like.
+Lo Xandra è un mud che dovrebbe, in teoria, essere un'equilibrio sperimentale di
+RPG, PK e avventura.
+
+Utilizzando questo codice dovete attenervi alla licenza di utilizzo xandra, che
+trovate nel file licenza_it.xandra.
+
+Onirik, 19 Aprile 2006.
+
+
+
+Istruzioni base:
+
+per compilarlo spostarsi nella cartella ../src di xandra e digitare alla console
+il comando:
+make clean
+
+per pulire eventuali informazioni di una precedente compilazione, in seguito
+digitare il comando:
+make
+
+a compilazione avvenuta per avviarlo si può inviare il comando, sempre nella
+cartella ../src:
+./xandra
+
+oppure utilizzare il file di script bash che permette di riuppare
+automaticamente il mud se questo reboota o crasha:
+./startup
+
+Per connettersi al mud digitare da un'altra console:
+telnet 127.0.0.1 5001
+
+Se invece si vuole connettersi nella stessa console in cui si è inviato il
+comando di avvio del mud basta aggiungere il carattere '&' al comando di
+avvio, quindi:
+./xandra &
+
+oppure
+./startup &
+
+Create un vostro personaggio, se dopo aver creato un personaggio lo volete
+rendere amministratore del mud basta:
+- Andare nella directory ../player
+- Editare testualmente il file col nome del vostro personaggio.
+- Cambiare il campo Level 1 (o quello che è) e settarlo a Level 100 per essere
+	amministratori a pieno potere sul mud, Level 99 per essere amministratori
+	con poteri di Builder, 98 e 97 per avere poteri e comandi base da
+	amministratore, dal livello 96 in giù si hanno tutti livelli per i
+	giocatori.
+
+Se volete cambiare lingua con cui digitate i comandi in gioco bisogna inviare 'inglese'
+se si sta utilizzando il set di comand in italiano e, viceversa, 'italiano' se si sta
+utilizzando il set di comandi in inglese.
+
+
+[EOF] Fine del file

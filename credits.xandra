@@ -1,0 +1,36 @@
+Xandra e' un progetto nato il novembre 2003 da Onirik, organizzatore e coder
+del T2Team.
+
+Il codice di partenza e' l'Anatolia 3.0, a cui in seguito sono state aggiunte
+parti dell'Anatolia 3.1 uscito a metà dicembre 2003.
+
+La scelta di Onirik di lavorare ad un codice mud derivativo Anatolia quando
+gia' aveva da lavorare su un codice Smaug e' stata duplice:
+- Sperimentare parzialmente alcune parti di codice, su un codice Mud più
+  semplice di quello Smaug.
+- La familiarita' passata con il codice Anatolia, e debiti di "implementazione"
+  in esso.
+
+Hanno partecipato attivamente al progetto Xandra tali membri del T2Team:
+Onirik			Codice
+				Traduzioni dell'output del codice
+				Revisione generale
+Amlugil			Traduzioni massiccia dell'output del codice
+				Testing
+				Traduzione area limbo.are, newbie2 e di tutti gli help
+				Creazione e traduzione di social
+Jamirithiana	Traduzioni aree
+				Creazione palazzopietra.are  e  selva.are
+Miciko			Traduzioni di aree
+				Rifacimento dell'area air.are
+Cleyot			Traduzione area chapel e catacombs
+Raul			Amministrazione server e sito
+Tanegashima		Traduzioni del codice e altre piccole cose
+
+E inoltre tali persone estrne al gruppo T2Team hanno contribuito a:
+AryHann         Materiale vario
+Bardolfo        Creazione e traduzione di social
+
+Onirik, 19 Aprile 2006
+
+[EOF] Fine del file

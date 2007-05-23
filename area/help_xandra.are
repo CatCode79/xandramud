@@ -1,0 +1,736 @@
+#HELPS
+
+-1 GREETING~
+.
+                                        |
+ Crediti a               \_            /;              [1;31m_.._[0;37m
+ - [1;37mANATOLIA 3.0[0;37m:         `\---.._     //'            [1;31m,([1;33m+=[1;31m\\\\[0;37m
+ Serdar BULUT             `//////\  \\/;'             [1;31m/  (\\\\[0;37m
+ Ibrahim CANPUNAR           -/////\-\`)'             [1;31m/;   ))))[0;37m
+ Murat BICER                    `-'  |              [1;31m((`[0;37m-/[1;31m((((\[0;37m
+ Devrim Baris ACAR              ;'_\'\             /[1;31m'))   )))))[0;37m
+ - [1;37mROM 2.4[0;37m:                    /-/ '" "'     [0;32m_.[0;37m  /'[0;32m/\_ /^\[1;31m`((( [0;37m\
+ Russ Taylor                  `\/'       _[0;32m.--/[0;37m--/ [0;32m([0;37m  [1;33m=[0;32m(   | [0;37m,  |
+ - [1;37mMERC 2.1[0;37m:                          _/-\_[0;32m)_}[0;37m___/^[0;32m\/-`\./_\[0;37m|[1;33m==[0;37m|
+ Hatchet                              uUUU)        )        |  |
+ Furey                                  [0;33m/[0;37m [0;33m|[0;37m      _[1;32m-=[1;33mo[1;36m|\[1;32m__[0;37m /'[0;32m/- \[0;37m
+ Kahn                                 [0;33m/'[0;37m  [0;33m|[0;37m     /[0;32m((((([1;36m\`\[0;37m(  |[0;32m-\/[0;37m
+ - [1;37mDikuMUD[0;37m:                         [0;33m/'[0;37m    [0;33m|[0;37m   /' [0;32m)))))"[1;36m`\`\[1;33m|[0;37m/_/---.._,$$,
+ Hans Staerfeldt              .,ssS$$$Sss[0;33m|[0;37m._/_..-[0;32m((('[0;37m    [1;36m)\[1;33m)[0;37m>>>      -\$
+ Katja Nyboe               ,sS$$$$$$$$$$$[0;33m|[0;37m$$$$$$$  |/    /[1;33m/[0;37m'-`[1;33mo[0;37m        `\
+ Tom Madsen              ,$$$$$$$$$$$$$$[0;33m|[0;37m$$S$$$$'  (    /                \
+ Michael Seifert       ,$$$$$$$$$$$$S$$[0;33m|[0;37m$$$$$$$'   |   /              ,s$$$
+ Sebastian Hammer    s$$$$$S$$$$$$$$$S[0;33m|[0;37m$$$$$$$$    |  /              $$$$$$
+                   _-,$S""''     ``"S[0;33m|[0;37m$$S$$$$$"    (_,`\[0;32m,[0;37m          ,$$$$$$$;
+                 /- ,"'             [0;33m/[0;37m 'S$$$$$"      \[0;32m_./|[0;37m        s$$$$$$$$$$
+              (-'      _,  \==-[1;33m°[0;37m)  [0;33m/[0;37m     """         [0;32m\  |[0;37m       $$$$$$$$$$$$
+               ([1;33m0[0;37m\   /[1;33m0[0;37m/     \-' [0;33m/'[0;37m                   [0;32m\ |[0;37m  |  ,$$$$$$$$$$$$$,
+               `/'  '         [0;33m_--[0;37m                     [0;32m|[0;32m=[0;37m [0;32m\[0;37m_-\ $$$$$$$$$$$$$$s
+               [1;30m(-^-)[0;37m      [0;33m_.--[0;37m_-   \             \  ,s[0;32m|[0;32m=[0;37m [0;32m|[0;37m   `"$$$$$$$$$$$$$$$
+              ( [1;30m`-'[0;37m  )[1;30m/>[0;33m--[0;37m  _/-__   |            |,$$$[0;32m|_/[0;37m,      `"$$$$$$$$$$$$
+              /[1;37mV^^^^V[1;30m-/[0;37m' _/-/--  ---|            |$$$$$$$$         "$$$$$$$$$$,
+             /  ([1;37m^^^^[0;37m),/' /'        )           /S$$$$$$$;         ,$$$$$$$$$$$,
+           ,$$_  `---'.,/'         /     _-ss, /[1;30m(/[0;37m-[1;30m(/[0;37m-[1;30m(/[0;37m'        ,s$$$$$$$$$$$$$
+         ,s$$$$$ssSS$$$'         ,$'.s$$$$$$$$'                  [1;30m(/[0;37m-[1;30m(/[0;37m-[1;30m(/[0;37m-[1;30m(/[0;37m-[1;30m(/[0;37m'
+        S$$$$$$$$$$$$$$        ,$$$$$$$$$$$$$'
+       [1;30m(/[0;37m-[1;30m(/[0;37m-[1;30m(/[0;37m-[1;30m(/[0;37m-[1;30m(/[0;37m'      _s$$$$$$$$$$$$$$
+                           [1;30m(/[0;37m-[1;30m(/[0;37m-[1;30m(/[0;37m-[1;30m(/[0;37m-[1;30m(/[0;37m-'
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+Benvenuto in  [1;31mXandra[0;37m v1.0  del [1;37mT2Team[0;37m: Amlugil, Jamirithiana, Miciko, Onirik
+                                       Qaba, Raul, Tanegashima.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Quale nome vuoi attribuire al tuo personaggio? ~
+
+
+-1 WIZLIST~
+.
+     ____                  *************************                  ____
+   /+_+_+_\             ** Amministratori di  Xandra **             /+_+_+_\
+   \______/                *************************                \______/
+     |:X|                                                             |:X|
+     |:X|                     Implementatori [100]                    |:X|
+     |X:|                     ********************                    |X:|
+     |:X|                           T2Team                            |:X|
+     |:X|                                                             |:X|
+     |:X|                                                             |:X|
+     |:X|                        Creatori [99]                        |:X|
+     |X:|                        *************                        |X:|
+     |XX|                                                             |XX|
+     |:X|                                                             |:X|
+ /<<>>\/<<>>\                                                     /<<>>\/<<>>\
+ \<<>>/\<<>>/                     Maestri [98]                    \<<>>/\<<>>/
+  |.  /  . |                      ************                     |.  /  . |
+  | .//\.  |                                                       | .//\.  |
+  |.  /  . |                                                       |.  /  . |
+  | .//\.  |                                                       | .//\.  |
+  |.  /  . |                      Avatar [97]                      |.  /  . |
+  | .//\.  |                      ***********                      | .//\.  |
+  |.  /  . |                                                       |.  /  . |
+  | .//\.  |                                                       | .//\.  |
+  | .//\.  |                       Eroi [96]                       | .//\.  |
+  |.  /  . |                       *********                       |.  /  . |
+  | .//\.  |                                                       | .//\.  |
+  | .//\.  |                                                       | .//\.  |
+  |.  /\ . |                                                       |.  /\ . |
+  | .//\.  |                                                       | .//\.  |
+  |.  /  . |                                                       |.  /  . |
+  | .//\.  |                                                       | .//\.  |
+  |.  /  . |                                                       |.  /  . |
+  | .//\.  |                                                       | .//\.  |
+  |.  /\ . |                                                       |.  /\ . |
+  |.  /  . |                                                       |.  /  . |
+  | .//\.  |                                                       | .//\.  |
+  |.  /  . |                                                       |.  /  . |
+  | .//\.  |                                                       | .//\.  |
+  | .//\.  |                                                       | .//\.  |
+  | .//\.  |                                                       | .//\.  |
+  |.  /  . |                                                       |.  /  . |
+  | .//\.  |                                                       | .//\.  |
+  |.  /  . |                                                       |.  /  . |
+  |.  /  . |                                                       |.  /  . |
+   \ //\. /                                                         \ //\. /
+    \ /. /                                                           \ /. /
+     \ //                                                             \ //
+      \/                                                               \/
+~
+
+
+-1 XANDRA~
+Xandra e' un progetto nato il novembre 2003 da Onirik, organizzatore e coder
+del T2Team.
+
+Il codice di partenza e' l'Anatolia 3.0, a cui in seguito sono state aggiunte
+parti dell'Anatolia 3.1 uscito a metà dicembre 2003.
+
+La scelta di Onirik di lavorare ad un codice mud derivativo Anatolia quando
+gia' aveva da lavorare su un codice Smaug e' stata duplice:
+- Sperimentare parzialmente alcune parti di codice, su un codice Mud più
+  semplice di quello Smaug.
+- La familiarita' passata con il codice Anatolia, e debiti di "implementazione"
+  in esso.
+
+Hanno partecipato attivamente al progetto Xandra tali membri del T2Team:
+Onirik			Codice
+				Traduzioni dell'output del codice
+				Revisione generale
+Amlugil			Traduzioni massiccia dell'output del codice
+				Testing
+				Traduzione area limbo.are, newbie2 e di tutti gli help
+Jamirithiana	Traduzioni aree
+				Creazione palazzopietra.are  e  selva.are
+Miciko			Traduzioni di aree
+				Rifacimento dell'area air.are
+Cleyot			Traduzione area chapel e catacombs
+Raul			Amministrazione server e sito
+Tanegashima		Altro
+
+E inoltre tali persone estrne al gruppo T2Team hanno contribuito a:
+AryHann         materiale vario
+Bardolfo        social
+
+La maggior parte delle traduzioni delle aree e altro si possono trovare al sito:
+http://www.terra-secunda.net
+ove si può scaricare anche tale codice ed eventuali aggiornamenti.
+~
+
+
+-1 ANATOLIA~
+ANATOLIA started in early September 1996, using Rom2.4 code.
+In June of 1997, ANATOLIA II was started, eventually replacing the original
+ANATOLIA.
+
+The following people contributed to the ANATOLIA flavor of the ROM base code:
+
+Addition of New Areas --
+	Ibrahim Canpunar, Serdar Bulut and Murat Bicer
+
+Revision of New Areas --
+	Ibrahim Canpunar
+
+Revision and Addition of New Helps --
+	Ibrahim Canpunar and Serdar Bulut
+
+Additional Maps --
+	Ibrahim Canpunar
+
+Ideas and playtesting --
+    So many dedicated mudders around the world. Especially Amac Ural,
+Mustafa Ongel, Ibrahim Uzel, Rasit Gumus, David Heide.
+
+Complete C Code --
+	chiefly by Serdar Bulut,
+        with major contributions by Murat Bicer,
+        and also Ibrahim Canpunar and Devrim Baris Acar.
+
+Used snippets (Available on internet) --
+	Quest Code (c) 1996 Ryan Addams (moongate@moongate.ams.com)
+	Some snippets by Erwin S. Andreasen.
+		erwin@pip.dknet.dk
+~
+
+
+-1 ROM~
+ROM started in early February 1993, using Merc 1.0 code. In July of 1993,
+ROM II was started, eventually replacing the original ROM.  ROM was up for
+a little over a year, after which the code (version 2.3) was released,
+and various other ROM muds were started, including Rivers of Mud under
+a new management (Zump's ROM), at rom.org 9000.
+
+Alander's current project is Tesseract, the latest version of the ROM code.
+It can be found at hypercube.org 9000.
+
+The following people contributed to the ROM flavor of the merc base code:
+
+Socials --
+    Kelsey and Liralen
+
+New, Improved Valhalla --
+    Liralen
+
+Maps and map shop --
+    Ezra, Regnan (Olympus)
+
+Nirvana zone --
+    Forstall (mobiles rewritten by Alander)
+
+Mob Factory --
+    Pinkfloyd (originally written for ROM, mobiles rewritten by Alander)
+
+Geographically correct Midgaard (tm) --
+    Alander
+
+Ideas and playtesting --
+    Thousands of dedicated mudders around the world
+
+Beta testing --
+    Ken Blosser, Doug Araya, and Sherene Neil all helped with bug reports
+    and suggestions, saving a lot of headaches
+
+New Thalos area was donated by Onivel of Jedi, who was also the originator
+of the ASCII flags used in the zone files
+
+ROM 2.4 was developed during my time with Moosehead mud, and the release
+shares many of the features I wrote while I was there.  Additional code
+was written by Seth Scott (the new poofin/poofout), and many contributions
+and ideas from the Merc list were used.
+
+The new features of 2.4 were largely produced in bull sessions with
+Gabrielle (my wife) and Brian Moore, without whom this release wouldn't
+have happened.  In particular, the new privacy code, furniture, and
+wiznet are largely the results of Gabrielle's ideas.
+
+Changes to the standard diku mob and object format, as well as the changes
+to Merc 2.1 source code, were done by Alander over many a late night of
+hair-pulling. Hope you enjoy it.
+
+(my apologies if anyone was forgotten in this list)
+~
+
+
+-1 DIKU DIKUMUD~
+.                    Idea di Gioco e design Originale:
+
+          Katja Nyboe               [Superwoman] (katz@freja.diku.dk)
+          Tom Madsen              [Stormbringer] (noop@freja.diku.dk)
+          Hans Henrik Staerfeldt           [God] (bombman@freja.diku.dk)
+          Michael Seifert                 [Papi] (seifert@freja.diku.dk)
+          Sebastian Hammer               [Quinn] (quinn@freja.diku.dk)
+
+Sviluppato al: DIKU -- The Department of Computer Science
+                       at the University of Copenhagen.
+~
+
+
+-1 IMMORTALI IMPLEMENTOR DEI WIZARD~
+.
+  'Immortale' (spesso, semplicemente, 'l'immort') si riferisce in generale
+alle figure degli amministratori del gioco, in genere i loro creatori/
+implementatori, e, ove previsto, ai futuri collaboratori in tal senso.
+Il livello limite che indica quindi il ruolo di "Immortale" e' quello che
+comprende e supera il 97°.
+Gli immortali, com'e' intuibile, eccedono nella loro stessa essenza alle
+regole ordinarie, potendo, ad esempio teletrasportarsi ovunque semplicemente
+indicando la stanza, celarsi alla vista mortale, creare oggetti, limitare le
+potenzialita' dei giocatori per ragioni svariate (dall'esigenza rpg alle
+punizioni) agendo sulla limitazione per esempio dei canali di comunicazione
+e/o revocando diritti e privilegi di ogni personaggio.
+
+Il compito primo e imprescindibile dell'Immortale e' la gestione del gioco e la
+corretta esplicazione dello stesso e percio' ognuno di essi e' sottoposto ad un
+codice comportamentale, poiche' tale figura potrebbe dar luogo a degradabili
+manifestazioni di "eccesso di potere".
+
+Una regola assoluta di comportamento per gli "immortali" e' che nessuno di
+essi puo' aiutare o assistere alcun giocatore senza il consenso esplicito di
+tutti gli altri tra i principali gestori del gioco.
+In altre parole, e' inutile chiedere ad un Immortale di essere aiutati ad
+uccidere un pg o una creatura, di procacciarsi equipaggiamento o altro, poiche'
+si otterra' un rifiuto certo.
+I modi più o meno bruschi di manifestazione del rifiuto sono a discrezione
+della persona che anima l'Immortale, quel che e' certo e' che si otterra'
+sempre e solo rifiuto e si verra' rimandati alla rilettura di questo
+archivio..
+~
+
+
+-1 MERC~
+This mud is based on Merc 2.2, created by Furey, Hatchet, and Kahn.
+Merc 2.1 is available as Merc_22.tar.gz from ftp.game.org
+
+Thanks to ...
+  ... Diku Mud for starting it all.
+  ... The Free Software Foundation and DJ Delorie for kick-ass tools.
+  ... Copper Mud and Alfa Mud for releasing their code and worlds.
+  ... Aod of Generic for ... well, everything.  You're a hoopy frood, Aod.
+  ... Alander for many ideas and contributions.
+  ... John Brothers of Silly for permission to use Silly code and worlds.
+  ... Zrin for administering the mailing list.
+  ... Abaddon for proofreading our comm.c.
+  ... Hind, Quin, Vic, Diavolo, Oleg, Trienne, and others for porting help.
+  ... Diavolo, Grodyn, Morgenes, and others for code and bug fixes.
+  ... Raff, Doctor, VampLestat, Nirrad, Tyrst, PinkF, Chris, Glop for worlds.
+  ... the players and imps of Mud Dome, Final Mud, Mud Lite, Vego Mud, Rivers
+      of Mud, Ruhr Mud, and Mystic Realms for bug reports, ideas, new code,
+      and hours of enjoyment.
+
+~
+
+
+-1 MOTD~
+
+* Questo è un Roleplaying, Playerkilling e Adventure MUD.
+* Ti invitiamo a leggere le regole (digita "rules" o "regole").  L'ignoranza
+    delle stesse non e' una scusa.
+* Questo Mud attualmente e' in fase di Beta Testing e ha come scopo principale
+    quello di lasciare valutare il nostro operato nel qual caso vogliate lavorare
+    per il T2Team e averne in cambio il codice di tale Mud.
+    Ciononostante chiediamo a voi un buon RPG nel giocare su Xandra.
+
+--------------------------------------------------------------------------------
+>>>>>> VISITATE IL SITO UFFICIALE DI TERRA SECUNDA: http://www.terra-secunda.net <<<<<<
+--------------------------------------------------------------------------------
+
+[Premi invio per continuare]
+~
+
+
+96 IMOTD~
+Welcome Immortal!
+
+You are responsible for following the laws of immortal behavior. These can
+be found by typing 'help laws' or 'help commandments'.
+
+* Excessive loading is not allowed, and is grounds for deletion.
+* Asking for promotion is grounds for instant deletion.
+* Type 'help jobs' to get some idea of what you should be doing.
+* Remember you can RENAME players with unwanted nick names.
+
+[Premi invio per continuare]
+~
+
+
+92 JOBS LAVORI AMMINISTRAZIONE~
+.
+Questa e' la lista dei gradi degli immortali su Xandra e dei relativi
+compiti.
+
+Divinita' (98 livello):
+
+    Le Divinita' e gli Dei di livello superiore non possono assistere
+direttamente i mortali in alcun modo.
+Il compito principale di una divinita' e' controllare il roleplaying del gioco,
+soprattutto in relazione alle cabale. Ogni divinita' deve controllare che i
+membri delle cabale stiano agendo secondo il dettame dell'rpg, all'interno
+della stessa. Ma nessuna divinita' puo' ammettere con il comando "induct" un
+mortale alla
+cabala che e' chiamato a controllare, a meno che non vi sia il capocabala
+mortale.
+Naturalmente una divinita' puo' anche avere in gioco un personaggio mortale MA
+e' espressamente vietato aiutare il suddetto con la presenza e/o le conoscenze
+acquisite con i poteri della divinita', pena la cancellazione immediata di
+entrambi.
+
+Creatori (99 livello):
+
+I Creatori hanno due ruoli principali: refund e assegnazione quests.
+E' bene che il refund sia fatto con parsimonia e un buon modello di refund
+puo' essere quello di rimborsare 10 pezzi alla volta, avendo l'accortenza di
+non caricare oggetti di valore troppo elevato.
+Vnum e stat sono utili per questo.
+NON SI DIMENTICHI MAI CHE NON SI POSSONO CARICARE/CREARE OGGETTI LIMITATI!
+Si tenga altresi' presente che le quests risolte positivamente non dovrebbero
+ad ogni modo fornire ricompense enormi -- il punto principale e' il
+divertimento, non l'arricchimento/potenziamento. I Creatori poi non hanno
+proprio un diretto rapporto con il rafforzamento delle basilari regole del
+gioco, infatti possono limitarsi a punizioni lievi, come il NOCHANNEL, però
+attraverso il comando Snoop monitorizzare i giocatori per controllare se
+stiano o meno rispettando l'rpg. I Creatori possono avere altri pg mortali.
+
+Implementatori (100 livello):
+
+    Anche gli Implementatori, come i Creatori, partecipano all'organizzazione
+di quests e provvedono ai refunds. Comunque, il loro ruolo principale e' tenere
+la pace, la serenita' e l'equilibrio del gioco e vegliare sul corretto
+svolgimento del roleplaying, usando i vari comandi di NOTELL-classe così come
+deny, purge, freeze e ban (si usi prudenza pero', con queste punizioni!).
+Ovviamente ogni implementatore può attivarsi affinchè il corso del mud sia
+semplificato e agevole, ma e' vietata ogni forma di rincorsa al potere e al
+favoritismo in generale. L'ufficio di implementatore e' uno dei piu' delicati
+e l'abuso e la cattiva gestione di esso puo' dar luogo a degradazione o
+cancellazione. Gli Implementatori possono anche avere pg mortali.
+~
+
+
+92 COMMANDMENTS LAWS 'GOD RULES' GODS~
+.
+                     Le regole per gli immortali di Xandra
+
+1) Non uccidere mortali.
+    E questo include il divieto di trasferirli e/o evocarli presso un mob
+    aggressivo.
+
+2) Non favorire in alcun modo nessun pg, nemmeno il proprio, nemmeno
+    con mezzi ritenuti leciti in altre occasioni. La violazione di questa
+    regola comportera' la cancellazione.
+    Nei favoritismi vietati sono da includere: tanking,
+    healing/restoring, castare protezione, sillabare <armor, sanct>,
+    e/o placando e/o alterando mobs.
+
+3) Non trasferire o evocare mobs a mortali o mortali a mobs.
+    Hanno le gambe, se vogliono uccidere un mob che s'attivino e lo
+    raggiungano.
+
+4) Non uccidere i bottegai, per qualsiasi motivazione.
+
+5) Non provocare il Reebot.
+
+6) Non distribuire attrezzatura e/o equipaggiamento gratuitamente.
+    Elargirli come premi per le quests e' discorso diverso e non rientra nel
+    divieto.
+
+7) Nota sulle Quests: che si abbia il senso della misura per i premi,
+    tenendo presente i costumi locali e il peso rpg della storia sottesa,
+    mantenendo un buon equilibrio tra potenza dell'oggetto, utilità e
+    valore rpg per il personaggio.
+
+8) Non contestare l'autorità di un Dio di livello superiore. Se a qualche
+    pg e' stata inflitta una punizione significa che l'ha meritata. Rispetta
+    la decisione altrui.
+
+9) Di conseguenza, non prendere iniziative modificando punizioni e/o
+    provvedimenti presi da altro Dio di livello superiore.
+
+10) Gestisci con diligenza gli oggetti limitati e le Quests in generale.
+
+11) Assicurati in ogni modo possibile che tutti i partecipanti stiano
+    rispettando le regole dell'rpg.
+~
+
+
+0 RULES~
+These are the rules of the Realms of Anatolia. Disobeying is grounds
+for deletion. For other matters, use common sense.
+
+1. Remember that this is a roleplaying atmosphere.  If an immortal imposes
+   their will upon you, you must do it.  Do not ask a wizi-invis god 'who they
+   are'.  This is question is considered rude and will not be answered.
+2. Immortals often make announcements via notes, and you are required to
+   follow accordingly.  Not having read the notes is no excuse.  It is the
+   same as if the Immortal told you in person.
+3. Player stealing and killing is permitted and encouraged.
+4. Do not use charmed pets to PK people who are out of your PK range.
+   If a person is not in your pk range, and they do not initiate an attack on
+   your group member, then your pets had better not touch them.
+5. Your presence here is a privilege not a right.  Obey any orders from gods,
+   and you will be fine.
+6. MULTICHARRING: You may have more than one character, but you may not use
+   multiple logins from same terminal. Punishment for this rule is
+   deleting of one char. In addition make sure that roleplaying is done
+   perfectly for all your chars.
+7. Anyone who assists people in multicharing, i.e. holding equipment while
+   they transfer it, 'looking the other way', etc will be punished harshly.
+8. DO NOT, in any way, shape or form, exploit bugs.  It WILL result in a
+   punishment determined by IMPLEMENTORS.  Repeat DO NOT exploit bugs, you
+   WILL be IMMEDIATELY punished.
+9. SPAMMING IS ILLEGAL.  (Spam filling up someone's screen with needless
+   repetion of anything)  You will be given one warning and then deleted.
+   Don't do it.
+10. Sexual harrassment will not be tolerated.  If both parties do not consent
+    to the socials/emotes, then don't do them.
+11. Cheating will not be tolerated. This includes accepting favors from
+    gods and exploiting bugs.
+12. Play as your character should play. If your lawful good, play like a
+    lawful good. Opposing roleplaying will instantly be punished! If you
+    go on doing such things, your character's access may be denied!
+
+  These are simple, clear rules.  If you violate them you WILL be
+  punished.  Punishments may vary, depending on previous rules violations,
+  the situation.  Be prepared for the worst if you are caught breaking
+  these rules.
+
+  Changes  to these rules are at the discretion of the immortals, and
+  may be done withoutwarning, notice, or even evidence of sanity.
+~
+
+
+0 LAWS LAW ~
+The laws of the land that shall be enforced by the Ruler Cabal are as
+follows :
+
+    The areas that are defined as protected by the jurisdiction of the Law
+are the entirety of Midgaard, New Thalos, Valley of Titans and  New Ofcol.
+
+1. No Player Killing/Stealing/Looting in any protected area.  Theft is fully
+   illegal.  This includes the attempt of stealing any from a person OR looting
+   a player's corpse OR looting the pit when a player's equipment has returned
+   from their decayed corpse.  Stealing also includes taking a disarmed weapon
+   or equipment during a legal duel that is not your own.  Looting a criminal's
+   corpse is unlawful within the towns.  You will be held responsible for your
+   groupmate's actions.
+
+2. No offensive area spells or harmful powers will be used in any protected
+   area.  This includes area spells from charmed, summoned or attacked mobs.
+   Aggressive mobs may not be summoned/brought into any protected area.
+
+3. Aiding known criminals in any way by directly giving them equipment,
+   helping them to elude punishment, to kill Ruler guards, etc. will result
+   in a WANTED flag.
+
+4. Intrusion into the Ruler Cabal is considered illegal and an attack upon
+   the laws themselves. Remember that Rulers' cabal area is in the protected
+   area, as well.
+
+5. A dispersal that teleports the victim from a protected area directly into
+   the room of an aggressive mob that causes their death is considered a
+   player kill and will result in a WANTED flag on the caster.
+
+6. Garbling Ruler members is against the law.  This prevents them from
+   doing their job and is considered an offensive attack upon the law itself.
+
+   Enforcement of these laws will be carried out by Ruler members. Midgaard,
+New Thalos, Valley of Titans and New Ofcol are defined by the 'where protector'
+command. Old midgaard is not a holy town.
+~
+
+-1 NOME NOMI NAME NAMES~
+
+Scelta del nome:
+La scelta di un buon nome per il proprio alter ego rappresenta un passo
+di vitale importanza per dare una base al proprio gioco di ruolo e alle
+possibili evoluzioni del suo carattere, ricordate che dare alla propria
+creatura un nome ridicolo significa contrassegnarne in maniera indelebile
+l'ego e la possibilita' di avere per se', come giocatori, delle soddisfazioni.
+Ecco una breve lista di quanto puo' essere ritenuto accettabile o meno
+in questi regni:
+
+ACCETTABILI:
+1)  Nomi derivati da assonanze medievaleggianti (Caelyn, Daran, etc).
+2)  Nomi che contengano combinazioni sillabiche armoniose e pronunciabili (Aeryen, Valaryen etc).
+3)  Nomi ORIGINALI.
+
+INACCETTABILI:
+1)  Nomi volgari in genere.
+2)  Nomi derivanti da letterature o mitologie.
+3)  Nomi di animali.
+4)  Stringhe casuali di caratteri.
+5)  Nomi che includano titoli o privilegi.
+6)  Nomi di oggetti.
+
+
+Se credi che il tuo nome sia in regola digita Si, altrimenti scegline un altro.
+Tieni conto in ogni caso che l'ultima decisione spettera' agli immortali.
+Accetti? ~
+
+
+-1 HOMETOWN HOMETOWNS~
+Puoi scegliere la tua citta' natale tra queste capitali del regno: da New
+Thalos e Midgaard provengono avventurieri di ogni allineamento, Ofcol e' solo
+neutrale. La scelta della patria e' importante poiche' il pozzo sacrificale del
+tempio di questa sara' il luogo in cui il corpo sara' rinvenuto quando
+incontrerari la morte.
+Il tuo percorso inizia nel campo d'addestramento che ha portali che conducono
+ad ogni capitale.
+~
+
+
+0 ALIGNMENT~
+In the interest of attracting the right caliber of followers, the
+immortals of Anatolia have outlined the following alignments.  See where
+you think you fit in.
+
+Lawful Good:   An orderly, strong society with a well-organized government
+	       can make life better for the majority of the people.  To ensure
+	       the quality of life, laws must be created and obeyed.  When
+	       people respect the laws, and try to help each other, society as
+	       whole prospers.
+
+Lawful Neutral:  Also believes in a strong, well-organized government, whether
+	       it is a tyranny or democracy.  Organization and regimentation
+	       bring benefits that outweigh any moral questions raised by
+	       their actions.
+
+Lawful Evil:   The use of society and its laws for personal benefit.  Structure
+	       and organization elevate those who deserve to rule as well as
+	       provide a clearly defined hierarchy between master and servant.
+	       Laws and societies are supported so long as they fit with
+	       personal concerns.  Laws are obeyed out of fear of punishment.
+
+Neutral Good:  A balance of forces is important, but the concerns of laws and
+	       chaos do not moderate the need for good.  The universe is vast
+	       and contains many creatures striving for different goals, so a
+	       pursuit of good will not upset the balance.  Fostering good may
+	       mean supporting an organized society, or overthrowing the
+	       existing social order.  Social structure has no innate value.
+
+True Neutral:  Almost impossible to find such people as the majority of people
+	       make judgments.  It is their duty to see that all of the forces
+	       (evil, good, law, and chaos) remain in balance.  Alliances with
+	       such people are odd, as they tend to switch sides as one side
+	       brings the other to the point of destruction.
+
+Neutral Evil:  The primary concern for such people is their own advancement.
+	       Working with others or on their own, their only interest is
+	       getting ahead.  Such people are known for their 'Me, Myself,
+	       and I' personalities.  No scruples, no conscience.
+
+Chaotic Good:  Strong individualists marked with a streak of kindness and
+	       benevolence.  Goodness and right matter, but there is little
+	       use for laws and regulations.  Their actions are morally good
+	       but may not be in perfect agreement with the rest of society.
+
+Chaotic Neutral:  There is no order to anything, even their own actions.
+	       Good and Evil are irrelevant when making a decision.  They
+	       are almost totally unreliable, except for the fact that you
+	       can rely on them being like this.  The true coin-flipper, they
+	       rely on fate and chance to lead them.
+
+Chaotic Evil:  The bane of all that is good and organized.  Laws and
+	       governments are the tools of weaklings unable to fend for
+	       themselves.  The strong have a right to what they want, and
+	       weak are there to be exploited.  Leadership among CEs is based
+	       on power, with the leader capable of bullying his underlings
+	       into obedience.
+
+Each god may accept a follower based on these outlines.
+~
+
+
+0 GENERAL~
+.
+	This is a player killing role playing environment. Once you passed
+level 5 you will be in the PK range of some other players. Please read the
+the help of PLAYERKILLING. You will be given 14 hours played time as a bonus.
+Some items are limited so please read the help of LIMITED.
+
+	In this realms, you can speak only the languages that your race offers
+and the common language of the realms. help SPEAK for more information. Instead
+of practicing at your guildmaster, you may learn new skills from HEROs. Read
+help of LEARN and TEACH. If you are able to fly, then you can land, as well.
+Read the help of FLY.
+
+	If you need help please pray to immortals. Please also read LAWS and
+the RULES. You are responsible of knowing those. Please also read: MOBILES,
+REQUEST, DEMAND, CAST, SCAN, SHOOT, SKILLS, GET, CABAL, PHILOSOPHY, ALIGNMENT,
+ETHOS, NEWBIE, LIGHT, ROLEPLAYING.
+~
+
+
+0 'NEWBIE INFO' NEWBIE~
+.
+	Ah! Another mortal, seeking adventure. You should go through mudschool
+first, to gain experience to face the trials outside.  Be sure to practice
+a weapon in the guild room, or your stay with us shall be very short indeed.
+
+	Type 'equipment' to see what your are wielding, 'spells' to see your
+spells, 'skills' to see your skills, and 'commands' for a list of commands.
+Help is available on most commands and abilities. It is strongly recommended
+that you  go through all the helps at a low level, especially if you are
+playing this game for the first time.
+
+    Digita "help general" per saperne di piu' sul mud.
+    Digita "helpo sommario" per conoscere i comandi piu' importanti.
+    Per cambiare i comandi da inglese a italiano digitare "italiano"
+        viceversa digitare "inglese".
+~
+
+
+-1 RACETABLE~
+.
+RAZZA        QUALITA'   DIFETTI   EXTRA
+-----        -------    -------   -----
+Umano        Nessuno    Nessuno     0
+Elfo         Int,Dex    Str,Con    500
+Mezzelfo     Int,Dex    Str,Con    200
+Drow         Int,Dex    Str,Con    500
+Rockseer     Int,Dex    Str,Con    500
+Nano         Wis,Con      Dex      250
+Svirfnebli     Wis        Int      250
+Duergar      Str,Con    Int,Wis    250
+Arial        Int,Dex    Str,Con    250
+Gnomo        Int,Wis    Str,Con    300
+Giant        Str,Con    Int,Dex    600
+Githyanki    Int,Dex    Wis,Con    250
+Satyr          Dex        Int      250
+Troll        Str,Con    Int,Dex    400
+Felar        Dex,Con    Str,Int    250
+~
+
+
+-1 CLASSE CLASSI CLASS CLASSES CLASSTABLE~
+Elenco delle classi disponibili:
+
+CLASSE          QUALITA'   EXTRA     TIPO DI CLASSE
+------          -------    -----   ----------------------------
+Evocatore         INT        0      Maestro Evocatore
+Chierico          WIS        0      Sacerdote curatore
+Ladro             DEX        0      Maestro del furto
+Guerriero         STR        0      Maestro della guerra
+Paladino          STR       400     Guerriero della Luce
+AntiPaladino      STR       300     Guerriero del Male
+Ninja             DEX       300     Maestro delle Arti Marziali
+Ranger            STR       200     Guerriero della foresta
+Trasmutatore      INT        0      Maestro della Trasmutazione
+Samurai           STR       500     Maestro di Spada
+Vampiro           INT       300     Vampiro
+Necromante        INT       300     Maestro della Morte
+Elementalista     INT        0      Maestro degli Elementi
+~
+
+
+-1 SMILE SMILES FACCINA FACCINE~
+:)		sorridendo
+:))		felice
+>:)		malignamente
+O:)		innocentemente
+:((		infelice
+:(		tristemente
+:>		compiaciuto
+:D		ridendo
+:<		afflitto
+:'		piangendo
+:')		piangendo di gioia
+:'(		piangendo tristemente
+:]		ironicamente
+:[		mesto
+:\		perplesso
+%\		confuso
+:|		con espressione neutra
+:O		sorpreso
+:()		baciando
+:x		arrabbiato
+:p		scherzando
+:$		sarcasticamente
+:*		cantando
+:-9		leccandosi i baffi
+:&		mangiando
+;)		ammiccando
+:v		sbadigliando
+:=		sbuffando
+:+		fischiettando
+~
+
+0 $~
+
+#$

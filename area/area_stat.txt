@@ -1,0 +1,582 @@
+
+Boot: Tue Jun  1 23:03:34 2004
+Statistiche di popolazione delle aree (in char * ticks)
+Aarakocran City                                              0
+the Abyss                                                    0
+Nell'Aria                                                    0
+Antharia                                                     0
+Le Pianure Settentrionali                                    0
+Haon Dor                                                     0
+Arachnos                                                     0
+Arcadia                                                      0
+Valhalla                                                     0
+Midgaard                                                     0
+Piani Astrali                                                0
+Blight                                                       0
+Army                                                         0
+Chaos                                                        0
+Hunter                                                       0
+Invader                                                      0
+Knight                                                       0
+Lions                                                        0
+Yvaladrin                                                    0
+Ruler                                                        0
+Camelot                                                      0
+Elemental Canyon                                             0
+Catacombs                                                    0
+Le Catacombe della Cappella                                  0
+Chessboard of Midgaard                                       0
+Ciquala's Lair                                               0
+Coven                                                        0
+Dark Continent                                               0
+Divided Souls                                                0
+Dragon Tower                                                 0
+Dragon Spyre                                                 0
+Drakyri Isle                                                 0
+Machine Dreams                                               0
+Drow City                                                    0
+Il Regno dei Nani                                            0
+Dylan's Area                                                 0
+Sands of Sorrow                                              0
+Faerie Ring                                                  0
+Firetop Mountain                                             0
+Freeport                                                     0
+Greater Gerighelm                                            0
+Gnome Village                                                0
+Il Cimitero                                                  0
+Holy Grove                                                   0
+Goblin Stronghold                                            0
+Ghost                                                        0
+High Tower                                                   0
+Dangerous Neighborhood                                       0
+Isles                                                        0
+La Discesa nelle Tenebre                                     0
+King's Castle                                                0
+Lich Tower                                                   0
+Limbo                                                        0
+Mahn-Tor                                                     0
+Marsh                                                        0
+Miden'nir                                                    0
+Mirkwood                                                     0
+Thalos                                                       0
+New Ofcol                                                    0
+Old Midgaard                                                 0
+Mirror of Realm                                              0
+Moria                                                        0
+Kurgan Mount Doom                                            0
+Goblin Nation                                                0
+newbie2.are                                                  0
+New Thalos                                                   0
+Nirvana                                                      0
+Ofcol                                                        0
+Prison                                                       0
+Il Palazzo di pietra                                         0
+Pyramid                                                      0
+Quifael's                                                    0
+Sewers                                                       0
+Residenza dei FelceRossa                                     0
+Caverns                                                      0
+Campo di addestramento                                       2
+La Selva Ancestrale                                          0
+Shire                                                        0
+Solace                                                       0
+River of spirits.                                            0
+The City of Anon                                             0
+The Walls of Anon                                            0
+Valley of the Titans                                         0
+tree.are                                                     0
+Antro dei Troll                                              0
+Wyvern's Tower                                               0
+UnderDark                                                    0
+The Unholy Abbey                                             0
+Valle degli Elfi                                             0
+The Village of Anon                                          0
+The Keep ofThe Warlock                                       0
+Westland                                                     0
+Zoo of Midgaard                                              0
+zoology                                                      0
+
+Boot: Tue Jun  1 23:07:47 2004
+Statistiche di popolazione delle aree (in char * ticks)
+Aarakocran City                                              0
+the Abyss                                                    0
+Nell'Aria                                                    0
+Antharia                                                     0
+Le Pianure Settentrionali                                    0
+Haon Dor                                                     0
+Arachnos                                                     0
+Arcadia                                                      0
+Valhalla                                                     0
+Midgaard                                                     0
+Piani Astrali                                                0
+Blight                                                       0
+Army                                                         0
+Chaos                                                        0
+Hunter                                                       0
+Invader                                                      0
+Knight                                                       0
+Lions                                                        0
+Yvaladrin                                                    0
+Ruler                                                        0
+Camelot                                                      0
+Elemental Canyon                                             0
+Catacombs                                                    0
+Le Catacombe della Cappella                                  0
+Chessboard of Midgaard                                       0
+Ciquala's Lair                                               0
+Coven                                                        0
+Dark Continent                                               0
+Divided Souls                                                0
+Dragon Tower                                                 0
+Dragon Spyre                                                 0
+Drakyri Isle                                                 0
+Machine Dreams                                               0
+Drow City                                                    0
+Il Regno dei Nani                                            0
+Dylan's Area                                                 0
+Sands of Sorrow                                              0
+Faerie Ring                                                  0
+Firetop Mountain                                             0
+Freeport                                                     0
+Greater Gerighelm                                            0
+Gnome Village                                                0
+Il Cimitero                                                  0
+Holy Grove                                                   0
+Goblin Stronghold                                            0
+Ghost                                                        0
+High Tower                                                   0
+Dangerous Neighborhood                                       0
+Isles                                                        0
+La Discesa nelle Tenebre                                     0
+King's Castle                                                0
+Lich Tower                                                   0
+Limbo                                                        0
+Mahn-Tor                                                     0
+Marsh                                                        0
+Miden'nir                                                    0
+Mirkwood                                                     0
+Thalos                                                       0
+New Ofcol                                                    0
+Old Midgaard                                                 0
+Mirror of Realm                                              0
+Moria                                                        0
+Kurgan Mount Doom                                            0
+Goblin Nation                                                0
+newbie2.are                                                  0
+New Thalos                                                   0
+Nirvana                                                      0
+Ofcol                                                        0
+Prison                                                       0
+Il Palazzo di pietra                                         0
+Pyramid                                                      0
+Quifael's                                                    0
+Sewers                                                       0
+Residenza dei FelceRossa                                     0
+Caverns                                                      0
+Campo di addestramento                                       34
+La Selva Ancestrale                                          0
+Shire                                                        0
+Solace                                                       0
+River of spirits.                                            0
+The City of Anon                                             0
+The Walls of Anon                                            0
+Valley of the Titans                                         0
+tree.are                                                     0
+Antro dei Troll                                              0
+Wyvern's Tower                                               0
+UnderDark                                                    0
+The Unholy Abbey                                             0
+Valle degli Elfi                                             0
+The Village of Anon                                          0
+The Keep ofThe Warlock                                       0
+Westland                                                     0
+Zoo of Midgaard                                              0
+zoology                                                      0
+
+Boot: Tue Jun  1 23:51:22 2004
+Statistiche di popolazione delle aree (in char * ticks)
+Aarakocran City                                              0
+the Abyss                                                    0
+Nell'Aria                                                    0
+Antharia                                                     0
+Le Pianure Settentrionali                                    0
+Haon Dor                                                     0
+Arachnos                                                     0
+Arcadia                                                      0
+Valhalla                                                     0
+Midgaard                                                     0
+Piani Astrali                                                0
+Blight                                                       0
+Army                                                         0
+Chaos                                                        0
+Hunter                                                       0
+Invader                                                      0
+Knight                                                       0
+Lions                                                        0
+Yvaladrin                                                    0
+Ruler                                                        0
+Camelot                                                      0
+Elemental Canyon                                             0
+Catacombs                                                    0
+Le Catacombe della Cappella                                  0
+Chessboard of Midgaard                                       0
+Ciquala's Lair                                               0
+Coven                                                        0
+Dark Continent                                               0
+Divided Souls                                                0
+Dragon Tower                                                 0
+Dragon Spyre                                                 0
+Drakyri Isle                                                 0
+Machine Dreams                                               0
+Drow City                                                    0
+Il Regno dei Nani                                            0
+Dylan's Area                                                 0
+Sands of Sorrow                                              0
+Faerie Ring                                                  0
+Firetop Mountain                                             0
+Freeport                                                     0
+Greater Gerighelm                                            0
+Gnome Village                                                0
+Il Cimitero                                                  0
+Holy Grove                                                   0
+Goblin Stronghold                                            0
+Ghost                                                        0
+High Tower                                                   0
+Dangerous Neighborhood                                       0
+Isles                                                        0
+La Discesa nelle Tenebre                                     0
+King's Castle                                                0
+Lich Tower                                                   0
+Limbo                                                        0
+Mahn-Tor                                                     0
+Marsh                                                        0
+Miden'nir                                                    0
+Mirkwood                                                     0
+Thalos                                                       0
+New Ofcol                                                    0
+Old Midgaard                                                 0
+Mirror of Realm                                              0
+Moria                                                        0
+Kurgan Mount Doom                                            0
+Goblin Nation                                                0
+newbie2.are                                                  0
+New Thalos                                                   0
+Nirvana                                                      0
+Ofcol                                                        0
+Prison                                                       0
+Il Palazzo di pietra                                         0
+Pyramid                                                      0
+Quifael's                                                    0
+Sewers                                                       0
+Residenza dei FelceRossa                                     0
+Caverns                                                      0
+Campo di addestramento                                       1
+La Selva Ancestrale                                          0
+Shire                                                        0
+Solace                                                       0
+River of spirits.                                            0
+The City of Anon                                             0
+The Walls of Anon                                            0
+Valley of the Titans                                         0
+tree.are                                                     0
+Antro dei Troll                                              0
+Wyvern's Tower                                               0
+UnderDark                                                    0
+The Unholy Abbey                                             0
+Valle degli Elfi                                             0
+The Village of Anon                                          0
+The Keep ofThe Warlock                                       0
+Westland                                                     0
+Zoo of Midgaard                                              0
+zoology                                                      0
+
+Boot: Wed Jun  2 02:17:30 2004
+Statistiche di popolazione delle aree (in char * ticks)
+Aarakocran City                                              0
+the Abyss                                                    0
+Nell'Aria                                                    0
+Antharia                                                     0
+Le Pianure Settentrionali                                    0
+Haon Dor                                                     0
+Arachnos                                                     0
+Arcadia                                                      0
+Valhalla                                                     0
+Midgaard                                                     0
+Piani Astrali                                                0
+Blight                                                       0
+Army                                                         0
+Chaos                                                        0
+Hunter                                                       0
+Invader                                                      0
+Knight                                                       0
+Lions                                                        0
+Yvaladrin                                                    0
+Ruler                                                        0
+Camelot                                                      0
+Elemental Canyon                                             0
+Catacombs                                                    0
+Le Catacombe della Cappella                                  0
+Chessboard of Midgaard                                       0
+Ciquala's Lair                                               0
+Coven                                                        0
+Dark Continent                                               0
+Divided Souls                                                0
+Dragon Tower                                                 0
+Dragon Spyre                                                 0
+Drakyri Isle                                                 0
+Machine Dreams                                               0
+Drow City                                                    0
+Il Regno dei Nani                                            0
+Dylan's Area                                                 0
+Sands of Sorrow                                              0
+Faerie Ring                                                  0
+Firetop Mountain                                             0
+Freeport                                                     0
+Greater Gerighelm                                            0
+Gnome Village                                                0
+Il Cimitero                                                  0
+Holy Grove                                                   0
+Goblin Stronghold                                            0
+Ghost                                                        0
+High Tower                                                   0
+Dangerous Neighborhood                                       0
+Isles                                                        0
+La Discesa nelle Tenebre                                     0
+King's Castle                                                0
+Lich Tower                                                   0
+Limbo                                                        0
+Mahn-Tor                                                     0
+Marsh                                                        0
+Miden'nir                                                    0
+Mirkwood                                                     0
+Thalos                                                       0
+New Ofcol                                                    0
+Old Midgaard                                                 0
+Mirror of Realm                                              0
+Moria                                                        0
+Kurgan Mount Doom                                            0
+Goblin Nation                                                0
+newbie2.are                                                  0
+New Thalos                                                   0
+Nirvana                                                      0
+Ofcol                                                        0
+Prison                                                       0
+Il Palazzo di pietra                                         0
+Pyramid                                                      0
+Quifael's                                                    0
+Sewers                                                       0
+Residenza dei FelceRossa                                     0
+Caverns                                                      0
+Campo di addestramento                                       1
+La Selva Ancestrale                                          0
+Shire                                                        0
+Solace                                                       0
+River of spirits.                                            0
+The City of Anon                                             0
+The Walls of Anon                                            0
+Valley of the Titans                                         0
+tree.are                                                     0
+Antro dei Troll                                              0
+Wyvern's Tower                                               0
+UnderDark                                                    0
+The Unholy Abbey                                             0
+Valle degli Elfi                                             0
+The Village of Anon                                          0
+The Keep ofThe Warlock                                       0
+Westland                                                     0
+Zoo of Midgaard                                              0
+zoology                                                      0
+
+Boot: Wed Jun  2 02:29:07 2004
+Statistiche di popolazione delle aree (in char * ticks)
+Aarakocran City                                              0
+the Abyss                                                    0
+Nell'Aria                                                    0
+Antharia                                                     0
+Le Pianure Settentrionali                                    0
+Haon Dor                                                     0
+Arachnos                                                     0
+Arcadia                                                      0
+Valhalla                                                     0
+Midgaard                                                     0
+Piani Astrali                                                0
+Blight                                                       0
+Army                                                         0
+Chaos                                                        0
+Hunter                                                       0
+Invader                                                      0
+Knight                                                       0
+Lions                                                        0
+Yvaladrin                                                    0
+Ruler                                                        0
+Camelot                                                      0
+Elemental Canyon                                             0
+Catacombs                                                    0
+Le Catacombe della Cappella                                  0
+Chessboard of Midgaard                                       0
+Ciquala's Lair                                               0
+Coven                                                        0
+Dark Continent                                               0
+Divided Souls                                                0
+Dragon Tower                                                 0
+Dragon Spyre                                                 0
+Drakyri Isle                                                 0
+Machine Dreams                                               0
+Drow City                                                    0
+Il Regno dei Nani                                            0
+Dylan's Area                                                 0
+Sands of Sorrow                                              0
+Faerie Ring                                                  0
+Firetop Mountain                                             0
+Freeport                                                     0
+Greater Gerighelm                                            0
+Gnome Village                                                0
+Il Cimitero                                                  0
+Holy Grove                                                   0
+Goblin Stronghold                                            0
+Ghost                                                        0
+High Tower                                                   0
+Dangerous Neighborhood                                       0
+Isles                                                        0
+La Discesa nelle Tenebre                                     0
+King's Castle                                                0
+Lich Tower                                                   0
+Limbo                                                        0
+Mahn-Tor                                                     0
+Marsh                                                        0
+Miden'nir                                                    0
+Mirkwood                                                     0
+Thalos                                                       0
+New Ofcol                                                    0
+Old Midgaard                                                 0
+Mirror of Realm                                              0
+Moria                                                        0
+Kurgan Mount Doom                                            0
+Goblin Nation                                                0
+newbie2.are                                                  0
+New Thalos                                                   0
+Nirvana                                                      0
+Ofcol                                                        0
+Prison                                                       0
+Il Palazzo di pietra                                         0
+Pyramid                                                      0
+Quifael's                                                    0
+Sewers                                                       0
+Residenza dei FelceRossa                                     0
+Caverns                                                      0
+Campo di addestramento                                       62
+La Selva Ancestrale                                          0
+Shire                                                        0
+Solace                                                       0
+River of spirits.                                            0
+The City of Anon                                             0
+The Walls of Anon                                            0
+Valley of the Titans                                         0
+tree.are                                                     0
+Antro dei Troll                                              0
+Wyvern's Tower                                               0
+UnderDark                                                    0
+The Unholy Abbey                                             0
+Valle degli Elfi                                             0
+The Village of Anon                                          0
+The Keep ofThe Warlock                                       0
+Westland                                                     0
+Zoo of Midgaard                                              0
+zoology                                                      0
+
+Boot: Wed Jun  2 03:20:44 2004
+Statistiche di popolazione delle aree (in char * ticks)
+Aarakocran City                                              0
+the Abyss                                                    0
+Nell'Aria                                                    0
+Antharia                                                     0
+Le Pianure Settentrionali                                    0
+Haon Dor                                                     0
+Arachnos                                                     0
+Arcadia                                                      0
+Valhalla                                                     0
+Midgaard                                                     0
+Piani Astrali                                                0
+Blight                                                       0
+Army                                                         0
+Chaos                                                        0
+Hunter                                                       0
+Invader                                                      0
+Knight                                                       0
+Lions                                                        0
+Yvaladrin                                                    0
+Ruler                                                        0
+Camelot                                                      0
+Elemental Canyon                                             0
+Catacombs                                                    0
+Le Catacombe della Cappella                                  0
+Chessboard of Midgaard                                       0
+Ciquala's Lair                                               0
+Coven                                                        0
+Dark Continent                                               0
+Divided Souls                                                0
+Dragon Tower                                                 0
+Dragon Spyre                                                 0
+Drakyri Isle                                                 0
+Machine Dreams                                               0
+Drow City                                                    0
+Il Regno dei Nani                                            0
+Dylan's Area                                                 0
+Sands of Sorrow                                              0
+Faerie Ring                                                  0
+Firetop Mountain                                             0
+Freeport                                                     0
+Greater Gerighelm                                            0
+Gnome Village                                                0
+Il Cimitero                                                  0
+Holy Grove                                                   0
+Goblin Stronghold                                            0
+Ghost                                                        0
+High Tower                                                   0
+Dangerous Neighborhood                                       0
+Isles                                                        0
+La Discesa nelle Tenebre                                     0
+King's Castle                                                0
+Lich Tower                                                   0
+Limbo                                                        0
+Mahn-Tor                                                     0
+Marsh                                                        0
+Miden'nir                                                    0
+Mirkwood                                                     0
+Thalos                                                       0
+New Ofcol                                                    0
+Old Midgaard                                                 0
+Mirror of Realm                                              0
+Moria                                                        0
+Kurgan Mount Doom                                            0
+Goblin Nation                                                0
+newbie2.are                                                  0
+New Thalos                                                   0
+Nirvana                                                      0
+Ofcol                                                        0
+Prison                                                       0
+Il Palazzo di pietra                                         0
+Pyramid                                                      0
+Quifael's                                                    0
+Sewers                                                       0
+Residenza dei FelceRossa                                     0
+Caverns                                                      0
+Campo di addestramento                                       34
+La Selva Ancestrale                                          0
+Shire                                                        0
+Solace                                                       0
+River of spirits.                                            0
+The City of Anon                                             0
+The Walls of Anon                                            0
+Valley of the Titans                                         0
+tree.are                                                     0
+Antro dei Troll                                              0
+Wyvern's Tower                                               0
+UnderDark                                                    0
+The Unholy Abbey                                             0
+Valle degli Elfi                                             0
+The Village of Anon                                          0
+The Keep ofThe Warlock                                       0
+Westland                                                     0
+Zoo of Midgaard                                              0
+zoology                                                      0

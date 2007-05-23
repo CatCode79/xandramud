@@ -1,0 +1,398 @@
+#AREA
+trollden.are~
+Antro dei Troll~
+{10 15} Miciko    Antro dei Troll~
+2800 2899
+
+#RESETMESSAGE
+Senti un continuo biascicare in ogni angolo scuro della caverna~
+
+
+#HELPS
+0 'T2TEAM ANTRO' 'T2TEAM TROLLDEN'~
+Quest'area e' stata tradotta, modificata da Miciko e testata dal T2Team.
+L'autore dell'area originale e' Merc.
+Per altre risorse Mud visitare il sito http://www.terra-secunda.net
+~
+
+0 $~
+
+
+#MOBILES
+#2800
+bestia guardiana~
+Una bestia guardiana~
+Una bestia guardiana ti osserva e ringhia dalla rabbia.
+~
+Un manto nero lucente copre questa bestia, ti scruta con enormi occhi rossi.
+Puoi contare almeno 50 denti nella sua bocca anche se non riesci a capire se
+dalle sue fauci coli saliva o sangue. Nel frattempo la bestia ringhia ancora..
+~
+human~
+ABCFG DPQ -200 0
+7 0 2d6+85 3d9+100 1d8+1 none
+4 4 4 9
+EFNU 0 0 0
+stand stand male 0
+0 0 medium 0
+#2801
+troll giovane~
+il giovane troll~
+Un giovane troll e' seduto, mentre mastica un osso.
+~
+E' un alto, peloso, ispido umanoide. Meglio chiudere gli occhi.
+Sorride, posa il suo osso pronto a prendere uno dei tuoi!!!
+~
+human~
+ACFG P -500 0
+6 0 2d7+71 3d9+100 1d7+1 none
+4 4 4 9
+EFNU 0 0 0
+sit stand male 25
+0 0 medium 0
+#2802
+troll adulto~
+un troll adulto~
+Un troll accudisce il suo animaletto, una bestia guardiana.
+~
+E' un alto, peloso e scarno umanoide.
+E' impegnato a leccar via dalla sua bestia le zecche.
+Ti osserva con aria famelica appena si rende conto che sei solo un terzo della
+sua taglia.
+~
+human~
+ABCFG P -500 0
+8 0 2d7+96 4d9+100 1d7+2 none
+3 3 3 9
+EFNU 0 0 0
+stand stand male 75
+0 0 medium 0
+#2803
+troll bambino~
+un troll bambino~
+Un troll bambino sta giocando al Dottore con un cadavere.
+~
+E' un grasso, peloso, paffuto umanoide e sta tentando di far entrare un braccio
+nel buco del muro. Ti nota e ti chiede "VUOI DIVERTIRTI CON ME?".
+~
+human~
+ABCF P -100 0
+5 0 2d6+60 2d9+100 1d6+1 none
+5 5 5 9
+EFNU 0 0 0
+sit stand male 12
+0 0 medium 0
+#2804
+troll gigante~
+un troll gigante~
+Un troll gigante e' sdraiato su una serie di cadaveri, compiaciuto
+della sua abilita'.
+~
+Vedi un gigante, muscoloso, peloso umanoide.
+Lui sobbalza appena s'accorge della tua intrusione.. Tu sobbalzi appena realizzi
+che hai interrotto il suo atto di passione!
+~
+giant~
+ABCFG P -1000 0
+13 0 2d10+170 6d9+100 2d5+3 none
+-1 -1 -1 8
+EFNR 0 0 0
+rest stand male 150
+0 0 medium 0
+#2805
+grossa troll donna~
+una grossa donna troll~
+Una grossa troll donna e' sdraiata su una serie di cadaveri,
+mentre scrive beatamente.
+~
+Come gli altri della sua razza, anche costei e' enorme, grottesca e pelosa.
+Sta facendo delle moine ma spalanca gli occhi appena ti nota. Il suo sorriso si
+trasforma in una smorfia ed inizia ad urlare verso te.
+~
+human~
+ABCFG P -800 0
+11 0 2d8+134 5d9+100 1d10+2 none
+1 1 1 8
+EFNU 0 0 0
+rest stand female 125
+0 0 medium 0
+#2806
+grasso verme~
+un grasso verme~
+Un grasso verme striscia, cercando cibo.
+~
+E' lungo e sottile. Su di esso non riesci a scorgere la testa perche' si muove
+troppo velocemente da un corpo all'altro.
+~
+human~
+ACFH PQ 0 0
+3 0 2d6+35 1d9+100 1d6+0 none
+7 7 7 10
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+#2807
+bestia vagabonda~
+una bestia vagabonda~
+Una bestia vagabonda sta cercando una preda.
+~
+Un manto nero lucente copre questa bestia, ti scruta con enormi occhi rossi.
+Puoi contare almeno 50 denti nella sua bocca anche se non riesci a capire se
+dalle sue fauci coli saliva o sangue.
+~
+human~
+ABCFG DP -200 0
+7 0 2d6+85 3d9+100 1d8+1 none
+4 4 4 9
+EFNU 0 0 0
+stand stand male 0
+0 0 medium 0
+#2808
+troll adulto~
+un troll adulto~
+Un troll adulto vaga qua attorno, mentre compie il suo dovere.
+~
+E' un alto, smunto, peloso umanoide. Intuisci la sua soddisfazione per aver
+trovato cio' che sta cercando: te.
+~
+human~
+ACFG P -500 0
+8 0 2d7+96 4d9+100 1d7+2 none
+3 3 3 9
+EFNU 0 0 0
+stand stand male 75
+0 0 medium 0
+#0
+
+
+#OBJECTS
+#2800
+cadavere~
+il cadavere-giocattolo~
+Vedi un corpo tutto mangiucchiato~
+flesh~
+container 0 A
+30 0 0 30 100
+0 500 1 P
+#2801
+letto cadaveri mucchio~
+un mucchio di cadaveri~
+Scorgi, disgustato, un letto fatto di cadaveri.~
+unknown~
+container 0 0
+30 0 0 30 100
+0 0 0 P
+#2802
+pelle troll~
+la pelle di troll~
+La sudicia pelle di una bestia e' per terra.~
+skin~
+armor 0 AK
+5 5 5 0 0
+12 200 1380 P
+A
+1 1
+E
+pelle troll~
+Questa e' la pelle di un'enorme, e molto morta, bestia. Puzza come un cimitero
+scoperchiato.. E' veramente fetida.
+~
+#2803
+anello  opale~
+un anello di opale~
+Un anello di nero opale e' qui, nascosto dalla polvere.~
+opal~
+jewelry G AB
+0 0 0 0 0
+20 10 1150 P
+A
+19 2
+E
+anello opale~
+E' un piccolo anello di opale, molto semplice e rotondo.
+~
+#2804
+cintura pelle~
+una cintura di pelle~
+E' stata lasciata sul pavimento una vecchia cintura di pelle..~
+leather~
+armor G AL
+6 6 6 0 0
+15 50 1050 P
+E
+cintura pelle~
+Fai un favore a questa vecchia cintura.. Buttala.
+~
+#2805
+osso rosicchiato~
+un osso rosicchiato~
+Vedi un osso rosicchiato.~
+bone~
+weapon 0 AN
+mace 3 3 pound 0
+6 30 350 P
+A
+18 -1
+A
+19 -1
+E
+osso~
+Questo pezzo d'osso sembra abbastanza resistente da essere usato in battaglia,
+ma e' meglio affidare la propria vita ad un'arma migliore.
+~
+#0
+
+
+#ROOMS
+#2801
+La discarica dei rifiuti~
+Questa stanza e' piena di cocci e frammenti di ossa, da cio' si deduce che
+qualcosa di molto grosso vive qui. Una piccola placca e' sul muro.
+~
+0 AD 0
+D0
+Puoi tornare alla civilta'.
+~
+~
+0 0 6124
+D2
+Trovi che dentro il puzzo sia piu' forte.
+~
+~
+0 0 2803
+E
+placca~
+Questo e' l'Antro di una famiglia di Troll. Si sono stabiliti qui, dopo
+lunghissime peregrinazioni per tutto il Regno.
+Con l'avvento dell'Oscurita', hanno cominciato a vivere nel lusso e ora possono
+vantarsi d'essere assai abbienti.
+~
+S
+#2802
+Dispensa dei Trollish~
+Sangue e sudiciume indefinito ricoprono le pareti di questa sala.
+Vedi ovunque scarafaggi e altri insetti strisciare lungo i muri.
+Il proprietario e' sicuramente poco civilizzato.
+Sul pavimento sono sparpagliati brandelli di cadaveri in putrefazione, ognuno
+dei quali ospita una colonia banchettante di vermi.
+~
+0 AD 0
+D1
+La fresca brezza orientale dona serenita' al tuo animo, ma non dura a lungo..
+Il puzzo attorno a te diventa sempre piu' forte.
+~
+~
+0 0 2803
+E
+Corpi mezzi mangiati~
+Quel che un tempo solcava queste terre in forma umana, giace qui ora come corpo
+putrido, desco solo per gli insetti.
+~
+S
+#2803
+Il Salotto dei Troll~
+Questa piccola caverna e' aperta a nord, sud, est e ovest. Ti disgusta il fetore
+e stai pensando di non voler esplorare oltre.
+~
+0 AD 0
+D0
+Una traccia di cocci e frammenti di ossa conduce a nord.
+~
+~
+0 0 2801
+D1
+Per tutti gli Dei! Spii fra i corpi sparsi sul pavimento. Sembra esserci un
+ipotetico cimitero.
+~
+~
+0 0 2804
+D2
+Indietreggiando per il fetore ti pare di scorgere la fonte di questo odore
+sgradevole.
+~
+~
+0 0 2805
+D3
+Tra qui e la stanza ad ovest si allunga una fila di vermi indaffarati nell'opera
+di pulizia dei cadaveri.. Un forte senso di nausea ti assale.
+~
+~
+0 0 2802
+S
+#2804
+Il Recinto per bambini~
+I muri sono coperti da sangue e brandelli di organi umani.
+Spiaccicato sul muro piu' lontano vedi qualcosa che sembra un braccio umano.
+Un corpo mangiucchiato e' per terra con il petto dilaniato.
+Il predatore sembra disinteressato ad esso.
+~
+0 AD 0
+D3
+Apprezzi la fresca brezza proveniente da ovest, ma storci il naso quando
+senti il puzzo crescere ancora di piu'.
+~
+~
+0 0 2803
+E
+braccio putrescente~
+Il largo strato di cancrena intorno al braccio ti fornisce un'idea della
+giovialita' che regna durante le cene dei bambini di questa famiglia.
+~
+S
+#2805
+La Stanza da letto dei Troll~
+Sicuramente qualcosa di veramente grande vive qui. Il fetore e' indescrivibile
+e ci sono molte e molte parti di corpi di animali, orchi putrescenti e
+mangiucchiati, stesi per terra sul pavimento.
+C'e' una catasta , piu' grossa, di parti di corpi andati a male in un angolo.
+Sembra essere schiacciata da qualcosa.
+~
+0 ACD 5
+D0
+Apprezzi la fresca brezza che proviene da nord, ma storci il naso appena senti
+crescere il puzzo ancora di piu'.
+~
+~
+0 0 2803
+S
+#0
+
+
+#RESETS
+M 0 2800 2 2801 1	* the guardian beast
+O 0 2805 1 2801	* a cracked bone
+M 0 2801 2 2802 2	* the young troll
+M 0 2801 2 2802 2	* the young troll
+M 0 2802 1 2803 1	* the medium troll
+O 0 2800 1 2804	* the cadaver-toy
+P 1 2804 -1 2800 1	* a leather belt
+M 0 2800 2 2803 1	* the guardian beast
+M 0 2803 4 2804 4	* a baby troll
+M 0 2803 4 2804 4	* a baby troll
+M 0 2803 4 2804 4	* a baby troll
+M 0 2803 4 2804 4	* a baby troll
+M 0 2804 1 2805 1	* the giant troll
+E 1 2802 5 12	* the troll skin
+M 0 2805 1 2805 1	* the large female troll
+O 0 2801 1 2805	* the heap of carnage
+P 1 2803 5 2801 1	* an opal ring
+M 0 2806 10 2803 4	* a fat worm
+M 0 2806 10 2803 4	* a fat worm
+M 0 2806 10 2802 4	* a fat worm
+M 0 2806 10 2802 4	* a fat worm
+M 0 2806 10 2804 2	* a fat worm
+M 0 2807 1 2802 1	* the roving beast
+M 0 2808 1 2803 1	* the medium troll
+S
+
+
+#SHOPS
+0
+
+
+#SPECIALS
+S
+
+
+#$
+

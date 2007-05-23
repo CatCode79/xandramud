@@ -1,0 +1,34 @@
+#!/bin/csh
+
+# Imposta il numero di porta.
+set port = 5001
+if ( "$1" != "" ) set port="$1"
+
+# Imposta i limiti.
+nohup
+nice
+limit stack 2048k
+#unlimit stack
+unlimit core
+if ( -e shutdown.txt ) rm -f shutdown.txt
+
+while ( 1 )
+    # Se vuoi ottenere i log in un'altra directory,
+    #  cambia la linea 'set logfile' con quella voluta.
+    set index = 1000
+    while ( 1 )
+	  set logfile = ../log/$index.log
+	if ( ! -e $logfile ) break
+	  @ index++
+    end
+
+    # Avvia XandraMud.
+    ../src/xandra $port >&! $logfile
+
+    # Riavvia, dà alla vecchia connessione la possibilità di morire.
+    if ( -e shutdown.txt ) then
+	  rm -f shutdown.txt
+	exit 0
+    endif
+    sleep 30
+end

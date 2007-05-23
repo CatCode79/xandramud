@@ -1,0 +1,1293 @@
+#AREA
+limbo.are~
+Limbo~
+{99 100} Jamirithiana   Limbo~
+0 99
+
+
+#HELPS
+0 'T2TEAM LIMBO'~
+Quest'area e' stata tradotta, modificata da Amlugil e testata dal T2Team.
+L'autore dell'area originale e' Diku.
+Per altre risorse Mud visitare il sito http://www.terra-secunda.net
+~
+
+0 $~
+
+
+#MOBILES
+#10
+ombra %s~
+L'ombra di %s~
+L'ombra di %s aleggia qui intorno.
+~
+Quest'oscura forma e' pervasa da un gelido alone di rancore verso %s.
+Tremenda e serafica ira alimentata da ogni istante passato al suo servizio
+in questo regno di mortali.. tuttavia non sembra avere abbastanza energia
+per potersi sottrarre al giogo o per opporre resistenza, percio' sara'
+costretta a servire %s a sua discrezione..
+~
+human~
+AW JPVZee 0 0
+0 0 0d0+0 0d0+0 5d3+15 slash
+0 0 0 0
+EFN EKL H NI
+stand stand male 0
+0 0 medium 0
+#11
+guardia giurata~
+Una guardia~
+Una guardia in vesti marziali e' qui, pronta a combattere
+~
+Il corpo imponente, lo sguardo freddo e distaccato eppur cosi' attento e
+indagatore, le mascelle contratte e il mento pronunciato.. Non c'e'
+particolare di questa persona che non ne riveli l'assoluta devozione
+al compito che gli e' stato assegnato dal legislatore.
+~
+human~
+ATc JNV 1000 0
+20 3 16d15+320 1d1+141 5d5+10 punch
+0 0 0 0
+TQ 0 AB M
+stand stand male 0
+0 0 medium 0
+#12
+orso~
+un orso~
+Un grosso orso dal pelo castano e' qui.
+~
+Cammina sulle zampe posteriori tenendo quelle anteriori penzoloni lungo i
+fianchi, gli occhi sembrano due grandi noci in quel paffuto e quasi buffo
+faccione, il pelo e' insolitamene lungo e viene costantemente arruffato dal
+vento. Nonostante l'enorme stazza non sembra destare alcun timore.. anzi.
+~
+bear~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 claw
+0 0 0 0
+N 0 0 0
+stand stand male 0
+0 0 medium 0
+#13
+demone fuoco~
+un demone di fuoco~
+Un'immensa aura fiammeggiante rivela la presenza di un Demone!
+~
+Terribili occhi velati da fiamme nere grondanti sangue, scie scarlatte che
+scavano profondi solchi fin sulle labbra, rocciose sporgenze d'una crudelta'
+manifesta in quell'espressione di odio e disprezzo.
+Scure ali appaiono alle sue spalle, torbide e fredde come nebbia, lo avvolgono
+e lo rivelano ancora, mentre di ampie fiamme brucia il suo corpo.
+~
+unique~
+AB JZ -1000 0
+40 0 1d1+1 1d1+1 2d4+20 slash
+-15 -15 -15 -15
+FHI 0 0 0
+stand stand male 0
+0 0 medium 0
+#14
+nottambulo~
+un nottambulo~
+La sagoma evanescente di un umanoide si muove tra le ombre..
+~
+Gli occhi di questa creatura sono del tutto inerti, il corpo avizzito e privo
+del respiro, l'epidermide segnata e velata da un'inquietante patina oscura
+che sembra palpitare, annullando e disperdendo la luce intorno.
+~
+human~
+ATOc JFD -750 0
+20 3 16d15+240 1d1+152 5d3+20 punch
+0 0 0 0
+JED G AB M
+stand stand male 0
+0 0 medium 0
+#15
+cacciatore guardia~
+il cacciatore di taglie~
+Lo sguardo glaciale di quest'uomo ti fa rabbrividire!
+~
+La determinazione che si puo' leggere negli occhi di quest'uomo e' sconfinata.
+Ogni parte del suo corpo, della sua mente, della sua vita sono dediti al
+compimento di un unico obiettivo, e' pronto a dare fino all'ultima goccia
+del suo sangue per la sua missione, e nulla sembra poterlo dissuadere..
+Speriamo che non stia cercando proprio te..
+~
+human~
+ATc 0 1000 0
+20 3 16d15+160 1d1+149 4d9+15 slash
+0 0 0 0
+FHINQT AB MN 0
+stand stand male 0
+0 0 medium 0
+#16
+scudiero~
+uno scudiero~
+Uno scudiero e' qui, pronto a servire il Cavaliere.
+~
+Lo sguardo fiero e nobile, l'armatura lucida e senza macchia, l'elmo crestato
+e splendente, questo ragazzo ha da poco iniziato il suo apprendistato come
+cavaliere facendo da scudiero, sembra particolarmente orgoglioso del suo ruolo.
+~
+human~
+ATc JNVHFee 1000 0
+20 3 16d15+160 1d1+149 3d10+12 slash
+0 0 0 0
+EN 0 AB M
+stand stand male 0
+0 0 medium 0
+#17
+immagine~
+immagine~
+Una corpo senza volto e' qui..
+~
+E' un corpo senza volto o particolari attributi fisici, forse in cerca di
+qualcuno a cui prenderli per imitarli?
+~
+human~
+AB 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+EFN EKL H NI
+stand stand male 0
+0 0 medium 0
+#18
+cadavere~
+un cadavere non-morto~
+Un cadavere tenuto in piedi da qualche strana forza e' qui..
+~
+E' un cadavere il cui processo di decomposizione e' fortemente accellerato
+dall'energia nera che lo regge in piedi, l'epidermide viene via a brandelli,
+gli occhi cadono fuori dalle orbite e il fetore emesso e' nauseabondo..
+~
+undead~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 punch
+0 0 0 0
+N 0 0 0
+stand stand male 0
+0 0 medium 0
+
+#19
+leone~
+un leone~
+Uno splendido leone e' qui a fissarti.
+~
+Ha una criniera maestosa e degli enormi occhi color miele, studia attentamente
+i tuoi movimenti con fare controllato e solenne, sembra rilassato ma e' meglio
+non stuzzicarlo.
+~
+lion~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 claw
+0 0 0 0
+N 0 0 0
+stand stand male 0
+0 0 medium 0
+
+#20
+lupo~
+un lupo~
+Un meraviglioso lupo e' qui, ti guarda negli occhi.
+~
+Gli occhi di questo lupo ricordano l'opaco splendore cristallino della luna
+piena, inquietanti e gelidi inquisitori sembrano penetrarti fin l'anima
+e leggerci ogni minimo accenno alla paura..
+~
+wolf~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 claw
+0 0 0 0
+N 0 0 0
+stand stand male 0
+0 0 medium 0
+
+#21
+zombie~
+uno zombie~
+Un terribile fetore aleggia intorno questo cadavere strappato alla morte.
+~
+L'acre odore di morte e' forse l'aspetto meno abominevole di questo essere,
+le carni su cui si regge sono parzialmente decomposte e divorate dai vermi,
+che anche ora continuano a nutrirsi del suo corpo, talvolta guizzando tra
+i tessuti ormai consunti e provocando il distacco di qualche logoro muscolo..
+~
+ghoul~
+AT V 0 0
+0 1 1d1+1 1d1+1 3d10+12 crush
+0 0 0 0
+EFO 0 0 0
+stand stand none 0
+0 0 small 0
+
+#22
+scheletro~
+Uno scheletro~
+Uno scheletro di ossa sporche e maleodoranti e' qui.
+~
+Un cumulo di ossa  che oscilla il capo mantenendo un equilibrio precario sulle
+gambe ancora sporche di tessuti organici. Nelle sue orbite vuote brilla una
+fioca luce rossa..
+~
+undead~
+AT V 0 0
+0 1 1d1+1 1d1+1 3d10+12 crush
+0 0 0 0
+EFO 0 0 0
+stand stand none 0
+0 0 medium 0
+
+#23
+spettro~
+uno spettro~
+Un'eterea e spettrale figura si aggira nei paraggi.
+~
+E' un'inquietante presenza che sembra unicamente costituita da un offuscato
+alone di luce tremula, i suoi occhi sono persi nel vuoto e tuttavia terribili,
+la sua figura e' intermittente e sembra a volte sparire per alcuni attimi.
+Le braccia scorrono lungo i fianchi mentre un funesto ghigno di rabbia e'
+perennemente sul suo volto.
+~
+ghost~
+AT V 0 0
+0 1 1d1+1 1d1+1 3d10+12 crush
+0 0 0 0
+EFO 0 0 0
+stand stand none 0
+0 0 medium 0
+
+#24
+banshee~
+una banshee~
+L'eterea figura di una donna viene celata da una sottile penombra..
+~
+Ti avvicini a questa figura imperscrutabile avvolta da un mantello bianco
+fitto di ricami e decorazioni.. Il suo corpo sembra assorbire e restituire
+la luce a piacimento.. e cio' che riesci intravedere attraverso il manto
+svanisce e si confonde con il tessuto un istante dopo, quasi a formare una
+cosa sola. Il volto e' terribile ed agghiacciante, i suoi occhi ti fissano
+spalancandosi mentre alle tue orecchie senti giungere urla provenienti da ogni
+dove, il suo sguardo sembra attraversarti e giungere alla tua anima mentre le
+sue labbra si schiudono e tutto l'orrore del mondo e' rivelato dal suo urlo..
+~
+ghost~
+AT V 0 0
+0 1 1d1+1 1d1+1 3d10+12 crush
+0 0 0 0
+EFO 0 0 0
+stand stand none 0
+0 0 large 0
+
+#25
+leone~
+un leone~
+Uno splendido leone e' qui a fissarti.
+~
+Ha una criniera maestosa e degli enormi occhi color miele, studia attentamente
+i tuoi movimenti con fare controllato e solenne, sembra rilassato ma e' meglio
+non stuzzicarlo.
+~
+lion~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 claw
+0 0 0 0
+N 0 0 0
+stand stand male 0
+0 0 medium 0
+#26
+ombra~
+un'ombra evocata~
+Un alone di tenebra si aggira nei dintorni..
+~
+Essenza incorporea eppur reale e capace di muoversi agilmente interagendo con
+oggetti e persone, sfugge allo sguardo nascondendosi tra le ombre, piu' vicine
+al suo mondo, serve il suo padrone che a questo regno l'ha evocata.
+~
+human~
+AO 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 claw
+0 0 0 0
+N M 0 0
+stand stand male 0
+0 0 medium 0
+#27
+cane~
+un cane~
+Un imponente cagnolone e' qui
+~
+E' un canide di stazza veramente imponente, il pelo e' corto e nero, con ampie
+macchie bianche sul dorso e sugli occhi, le zampe forti ma snelle, pronte a
+scattare, la mascella voluminosa e robusta incute forse un po' timore..
+~
+dog~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 claw
+0 0 0 0
+N 0 0 0
+stand stand male 0
+0 0 medium 0
+#28
+elementale terra evocato~
+Un elementale della terra~
+Un elementale della terra si muove qui nei dintorni.
+~
+E' uno spirito dai lineamenti appena accennati, il colore dominante sul suo
+corpo e' quello della terra di bosco, l'epidermide e' una spessa corteccia
+brumastra adorna di aghi e foglie, il suo incedere e' lento e solenne, lo
+sguardo del tutto assente e non sembra animato da alcuna personalita', e'
+pero' devoto fino alla morte al suo padrone.
+~
+earth elemental~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 crush
+0 0 0 0
+N 0 E 0
+stand stand male 0
+0 0 large 0
+#29
+elementale aria~
+Un elementale dell'aria~
+Un elementale dell'aria fluttua qui intorno.
+~
+Vedi un mistico alone d'aria i cui contorni sono ondulati raggi di
+luce, tremula essenza dal glaciale aspetto, scossa dai venti e parte
+di essi stessi, sembra muoversi fluttuando come in un'ipnotica danza .
+~
+air elemental~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 crush
+0 0 0 0
+N 0 OS 0
+stand stand male 0
+0 0 large 0
+#30
+elementale fuoco~
+Un elementale del fuoco~
+Un elementale del fuoco e' qui, immerso nelle sue stesse fiamme.
+~
+Un'eterea figura bronzea che divora cio' che la circonda con le sue alte
+fiammate, non ha contorni precisi e si muove fluttuando a mezzo metro
+da terra ondeggiando sinuosamente lasciando sul suo cammino un'incandescente
+traccia di vampate e vapori..
+~
+fire elemental~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 crush
+0 0 0 0
+N 0 H 0
+stand stand male 0
+0 0 large 0
+#31
+elementale acqua~
+Un elementale dell'acqua~
+Un elementale dell'acqua e' qui.
+~
+Un trasparente velo di acqua cristallina, fatto di onde e animato dal vento,
+sinuoso e leggiadro nella sua limpida veste, per occhi ha due cristalli
+color oceano e nel suo passo rumoreggia lo scrosciar di una cascata.
+~
+water elemental~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 crush
+0 0 0 0
+N 0 I 0
+stand stand male 0
+0 0 large 0
+#32
+elementale luce~
+Un elementale della luce~
+Un elementale avvolto dalla luce e' qui.
+~
+Trepidante d'energia, avvolta da scariche di fulmini e argentati riflessi,
+una gioia per gli occhi questa splendida essenza, difficilmente ne cogli
+i contorni, le movenze sono intermittenti e rapide, cosi' tanto da sfuggire
+agli occhi, un insolito crepitio proviene dalle sue vicinanze.
+~
+lightning elemental~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 crush
+0 0 0 0
+N 0 J 0
+stand stand male 0
+0 0 large 0
+#33
+arma animata~
+%s senziente~
+Un'arma piena di vita riempie con la sua aura la stanza.
+~
+Il suo metallo sembra posseduto da una strana entita'.. pronta a ricevere
+ordini.
+~
+unique~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 slash
+0 0 0 0
+N 0 0 0
+stand stand male 0
+0 0 large 0
+#34
+armatura animata~
+%s senziente~
+Un'armatura animata e' qui.
+~
+Quest'armatura ha ricevuto un'apparente anima mediante un incantesimo, e'
+pronta a ricevere gli ordini del suo creatore.
+~
+unique~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 crush
+0 0 0 0
+N 0 0 0
+stand stand male 0
+0 0 large 0
+#0
+
+#OBJECTS
+#1
+moneta argento~
+una moneta d'argento~
+Una moneta d'argento.~
+silver~
+money 0 A
+1 0 0 0 0
+0 10 0 P
+#2
+moneta oro~
+una moneta d'oro~
+Una moneta d'oro.~
+gold~
+money 0 A
+0 1 0 0 0
+0 10 0 P
+#3
+monete oro~
+%d monete d'oro~
+Un mucchietto di monete d'oro.~
+gold~
+money 0 A
+0 0 0 0 0
+0 10 0 P
+#4
+monete argento~
+%d monete d'argento~
+Un mucchietto di monete d'argento.~
+silver~
+money 0 A
+0 0 0 0 0
+0 10 0 P
+#5
+monete oro argento~
+%d monete d'argento %d monete d'oro~
+Un mucchietto di monete.~
+gold~
+money 0 A
+0 0 0 0 0
+0 10 0 P
+#6
+%s freccia~
+Una freccia di %s~
+Una freccia di %s giace qui a terra.~
+wood~
+weapon 0 AO
+arrow 1 1 pierce 0
+1 5 10 P
+#7
+arco legno~
+un arco di legno~
+Un arco di legno e' qui per terra.~
+wood~
+weapon 0 AO
+bow 1 1 blast 0
+1 5 10 P
+#8
+anello diamante~
+un anello con diamante~
+(no long description)
+~
+gold~
+armor IOWa ABP
+0 0 0 0 0
+0 0 0 P
+#9
+anello matromonio~
+un anello nuziale~
+(no long description)
+~
+gold~
+armor IOWa ABP
+0 0 0 0 0
+0 0 0 P
+#10
+corpo cadavere~
+il corpo di %s~
+Il corpo di %s giace qui, inerte.~
+flesh~
+npc_corpse 0 A
+0 0 0 1 0
+0 1000 0 D
+#11
+corpo cadavere~
+il corpo di %s~
+Il corpo di %s giace qui, inerte.~
+flesh~
+pc_corpse O A
+0 0 0 1 0
+0 1000 0 D
+#12
+testa~
+la testa di %s~
+La testa mozzata di %s e' qui.~
+meat~
+trash 0 A
+0 0 0 0 0
+0 50 0 D
+#13
+cuore~
+il cuore di %s~
+Il cuore squarciato di %s e' qui per terra.~
+meat~
+food 0 A
+16 16 0 0 0
+0 20 0 D
+#14
+braccio~
+il braccio di %s~
+Il braccio troncato di %s e' qui per terra.~
+meat~
+food 0 A
+20 20 0 0 0
+0 50 0 D
+#15
+gamba~
+la gamba di %s~
+La gamba troncata di %s e' qui per terra.~
+meat~
+food 0 A
+20 20 0 0 0
+0 50 0 D
+#16
+budella interiora~
+le viscere %s~
+Le viscere spappolate di %s sono qui per terra.~
+meat~
+food 0 A
+5 5 0 1 0
+0 20 0 D
+#17
+cervello~
+il cervello di %s~
+Il tumefatto cervello di %s e' qui.~
+meat~
+food 0 A
+10 10 0 0 0
+0 20 0 D
+#18
+sharpening stone~
+a sharpening stone~
+A sharpening stone has been dropped here.~
+flint~
+0 0 16385
+0 0 0 0 0
+3 650 65 P
+#19
+pietra tomba tombale~
+la pietra tombale di  %s~
+La pietra tombale di  %s e' qui.~
+stone~
+treasure A 0
+0 0 0 0 0
+100 100 12000 P
+#20
+mela~
+una mela magica~
+Una deliziosa mela e' qui.~
+food~
+food 0 A
+8 8 0 0 0
+0 10 0 P
+#21
+sfera luce~
+una sfera di luce~
+Una sfera di luce illumina tutt'intorno.~
+energy~
+light A A
+0 0 -1 0 0
+0 0 0 P
+#22
+sorgente flusso acqua~
+una sorgente d'acqua~
+Una sorgente zampillante d'acqua pronta a rinfrescarti e' qui.~
+water~
+fountain G 0
+100000 100000 'water' 0 0
+0 0 0 P
+#23
+disco fluttuante nero~
+un disco fluttuante~
+Un capiente disco nero fluttua a mezz'aria.~
+energy~
+container GMPUYZ AQ
+0 E 0 0 0
+0 0 0 P
+#25
+portale~
+un portale~
+Dal terreno si erge un misterioso portale fatto di ombre imperscrutabili..~
+shadow~
+portal GOT 0
+0 0 0 0 0
+0 0 0 P
+#26
+mantello~
+un mantello ricavato dalla carcassa di %s~
+Vedi a terra un mantello ricavato dalla carcassa di %s.~
+flesh~
+armor 0 AK
+0 0 0 0 0
+0 60 0 P
+A 13 35
+A
+6 1
+#27
+bistecca~
+una bistecca ricavata da %s~
+Una bistecca ricavata dal corpo di %s.~
+meat~
+food 0 A
+25 25 0 0 0
+0 20 0 P
+#28
+bastone ranger~
+un bastone da ranger~
+Vedi qui a terra un bastone intarsiato con delicati motivi ornamentali.~
+ebony~
+weapon A AN
+staff 10 1 pierce 0
+0 160 0 P
+#29
+borraccia acqua infinita~
+La borraccia infinita~
+Una borraccia stranamente luminosa e' qui per terra.~
+leather~
+drink AGIOY A
+100000 100000 'water' 0 0
+21 10 29900 G
+E
+decanter~
+E' leggerissima e brilla di un'insolita luce, vedi scritto anche un nome..:
+'%s'.
+~
+#30
+zaino adamantio seta~
+lo zaino di seta e adamantio~
+Uno zaino di seta e adamantio e' qui per terra~
+silk~
+container AGIOY AKOP
+500 64 0 100 10
+21 30 99900 P
+A
+3 5
+A
+5 5
+A
+6 5
+A
+12 200
+A
+13 200
+A
+17 -200
+A
+14 500
+A
+18 20
+A
+19 20
+A
+24 -20
+E
+backpack~
+Sul retro dello zaino vedi cucite con fili d'oro le lettere '%s'.
+~
+#31
+scudo leone~
+Scudo del Leone~
+Un magnifico scudo con la testa di un leone stilizzata sul fronte e' qui per
+terra.~
+steel~
+armor GIRYZ AJ
+8 8 8 3 0
+0 80 10000 P
+#42
+fiala pozione~
+una fiala per pozioni~
+Una fiala per pozioni e' qui per terra.~
+glass~
+drink 0 AO
+5 0 'water' 0 0
+0 10 10 P
+E
+vial~
+E' una delicata fiala che dall'odore sembra essere stata usata per qualche
+pozione..
+~
+#43
+pozione argento~
+una pozione argentea~
+Una fiala dal contenuto argenteo e' stata lasciata qui.~
+glass~
+potion G AO
+1 'detect invis' '' '' ''
+0 10 0 P
+#44
+pozione oro dorata~
+una pozione dorata~
+Una fiala dal contenuto dorato e' stata lasciata qui.~
+glass~
+potion G AO
+1 'frenzy' '' '' ''
+0 10 0 P
+#45
+pozione turbinante~
+una fiala tremolante~
+Una fiala con un liquido evidentemente instabile attira la tua attenzione.~
+glass~
+potion G AO
+1 'bless' '' '' ''
+0 10 0 P
+#51
+tatuaggio atum ra~
+il tatuaggio di atum ra~
+Un tatuaggio e' in aria.. attendendo un fedele.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#52
+tatuaggio zeus~
+il tatuaggio di zeus~
+Un tatuaggio e' in aria.. attendendo un fedele.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#53
+tatuaggio siebele~
+il tatuaggio siebele~
+Un tatuaggio e' in aria.. attendendo un fedele.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#54
+tatuaggio shamash~
+tatuaggio di shamash, dio della giustizia~
+Un tatuaggio e' in aria.. attendendo un fedele.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#55
+tatuaggio ahura mazda~
+il tatuaggio di ahura mazda~
+Un tatuaggio e' in aria.. attendendo un fedele.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#56
+tatuaggio ehrumen~
+il tatuaggio di ehrumen~
+Un tatuaggio e' in aria.. attendendo un fedele.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#57
+tatuaggio deimos~
+il tatuaggio di deimos~
+Un tatuaggio e' in aria.. attendendo un fedele.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#58
+tatuaggio phobos~
+il tatuaggio di phobos~
+Un tatuaggio e' in aria.. attendendo un fedele.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#59
+tatuaggio odin~
+il tatuaggio di odino~
+Un tatuaggio e' in aria.. attendendo un fedele.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#60
+tatuaggio teshub~
+il tatuaggio di teshub~
+Un tatuaggio e' in aria.. attendendo un fedele.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#61
+tatuaggio ares~
+il tatuaggio di ares, Dio della Guerra~
+Un tatuaggio e' in aria.. attendendo un fedele.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#62
+tatuaggio goktengri~
+il tatuaggio di goktengri, God of Honor~
+Un tatuaggio e' in aria.. attendendo un fedele.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#63
+tatuaggio hera~
+il tatuaggio di hera, Dea dell'Odio~
+Un tatuaggio e' in aria.. attendendo un fedele.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#64
+tatuaggio venus~
+il tatuaggio di venere, Dea della Bellezza~
+Un tatuaggio e' in aria.. attendendo un fedele.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#65
+tatuaggio set~
+il tatuaggio di set, dio della rabbia~
+Un tatuaggio e' in aria.. attendendo un fedele.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#66
+tatuaggio enki~
+il tatuaggio di enki, dio della sapienza~
+Un tatuaggio e' in aria.. attendendo un fedele.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#67
+tatuaggio eros~
+il tatuaggio di eros, dio dell'amore~
+Un tatuaggio e' in aria.. attendendo un fedele.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#70
+emblema~
+emblema argento legislatori~
+L'emblema argenteo della legislatura e' qui per terra.~
+silver~
+treasure MOTWZ A
+0 0 0 0 0
+50 4 0 P
+F
+D 0 0 F
+#71
+piccolo scudo buckler~
+piccolo scudo della legislatura~
+Un piccolo scudo con l'emblema della legislatura e' qui per terra.~
+steel~
+armor GIRYZ AJ
+8 8 8 3 0
+0 80 10000 P
+#72
+grande scudo~
+grande scudo della legislatura~
+Un grande scudo con l'emblema della legislatura e' qui per terra.~
+steel~
+armor GIRYZ AJ
+20 20 20 10 0
+0 90 15000 P
+#73
+scudo aquila~
+scudo con ali d'aquila~
+Uno scudo con delle ali ai lati e l'emblema della legislatura e' per terra.~
+steel~
+armor GIRYZ AJ
+20 20 20 10 0
+0 95 20000 P
+A
+17 -10
+A
+18 3
+A
+19 4
+#74
+scudo torre~
+scudo a torre della legislatura~
+Un enorme scudo a torre con l'emblema della legislatura e' qui per terra.~
+steel~
+armor GIRYZ AJ
+30 30 30 20 0
+0 85 20000 P
+#80
+daga dorata~
+una daga dorata~
+Qui per terra vedi una lucente daga dorata.~
+gold~
+weapon TWAIP AN
+dagger 10 1 pierce D
+20 80 0 P
+#81
+mazza dorata~
+mazza dorata~
+Qui per terra vedi una lucente daga dorata.~
+gold~
+weapon TWAIP AN
+mace 10 1 crush 0
+20 100 0 P
+#82
+armatura dorata~
+Armatura dorata~
+Una meravigliosa armatura dorata e' qui per terra.~
+gold~
+armor GIY AD
+30 30 30 30 0
+0 150 10000 P
+A
+6 2
+A
+19 5
+A
+18 5
+#83
+spada dorata~
+una spada dorata~
+Per terra vedi una splendida spada dorata.~
+gold~
+weapon TWAIP AN
+sword 10 1 pierce D
+20 80 0 P
+#84
+quest kio~
+il bastone di kio~
+Un lucente oggetto magico e' qui nell'aria, sembra un bastone.~
+energy~
+treasure ATY A
+0 0 -1 0 0
+0 0 0 P
+E
+bastone~
+La lettere di '%s' sono incise nel bastone.
+~
+#85
+quest bastone conrad~
+il bastone di conrad~
+Un lucente oggetto magico e' qui nell'aria, sembra un bastone.~
+energy~
+treasure ATY A
+0 0 -1 0 0
+0 0 0 P
+E
+bastone~
+La lettere di '%s' sono incise nel bastone.
+~
+#86
+quest bastone potere~
+bastone del potere~
+Un lucente oggetto magico e' qui nell'aria, sembra un bastone.~
+energy~
+treasure ATY A
+0 0 -1 0 0
+0 0 0 P
+E
+bastone~
+La lettere di '%s' sono incise nel bastone.
+~
+#87
+spada caos~
+la spada del caos~
+Una lucente spada freme vistosamente sul terreno.~
+gold~
+weapon TWAIP AN
+dagger 10 1 pierce D
+20 200 0 P
+A
+6 2
+#88
+spada occhio~
+La spada con un occhio di %s~
+Una spada per terra sembra quasi fissarti con un occhio..~
+platinum~
+weapon B AN
+exotic 10 1 pierce D
+15 60 0 P
+A
+18 20
+A
+19 20
+A
+6 1
+E
+spada occhio~
+Le lettere '%s' sono incise sull'elsa.
+~
+#89
+kassandra~
+kassandra~
+Una mistica pietra con rilucenti bagliori verdastri e' qui.~
+stone~
+treasure AUTY AO
+0 0 -1 0 0
+0 0 0 P
+#90
+dress~
+dress~
+Un lungo vestito di seta e' qui..~
+silk~
+armor G AD
+1 1 1 1 1
+1 90 100 P
+E
+dress~
+La seta di quest'abito e' meravigliosa, e' stata tessuta per il guardiano che
+protegge un anziano Signore ritiratosi dopo lunghi anni di servizio.
+~
+#91
+coperta turca~
+una coperta con deliziose decorazioni turche~
+Una coperta con deliziose decorazioni e' qui.~
+wool~
+treasure 0 AO
+0 0 0 0 0
+18 10 1000 G
+#92
+scudo fuoco~
+uno scudo di fuoco~
+Uno scudo di energia e' qui.~
+energy~
+armor GPUY AJ
+20 20 20 20 2
+0 250 10000 P
+E
+scudo energia~
+E' uno scudo pervaso da una forte energia che sembra renderlo resistente a %s.
+~
+#93
+fiala spirito %s~
+una fiala contenente una strana essenza~
+una fiala contenente una strana essenza e' qui.~
+glass~
+treasure TY AO
+0 0 0 1 0
+0 0 0 D
+E
+fiala~
+In questa fiala sembra essere contenuto lo spirito di %s.
+~
+#94
+cinta eroica~
+la cinta eroica di %s~
+Una splendida cinta con le iniziali di %s e' qui.~
+platinum~
+armor AGIOY ALP
+12 12 12 9 2
+21 300 100000 G
+A
+1 2
+A
+4 2
+A
+5 3
+A
+3 3
+A
+6 1
+A
+12 200
+A
+13 200
+A
+14 500
+A
+18 10
+A
+19 10
+F
+A 17 -30 J
+F
+D 0 0 CDEG
+#95
+anello eroico~
+l'anello eroico di %s~
+Uno splendente anello con incise le lettere %s e' qui per terra.~
+platinum~
+armor AGIOY ABP
+12 12 12 9 1
+21 300 100000 G
+A
+6 1
+A
+17 -20
+A
+18 10
+A
+12 150
+A
+13 150
+F
+A 14 500 TU
+#96
+arma eroica~
+l'arma eroica di %s~
+Una meravigliosa arma con incise sull'elsa le lettere %s e' qui per terra.~
+platinum~
+weapon AGIOY ANP
+exotic 10 4 slash D
+21 100 100000 G
+A
+1 2
+A
+2 2
+A
+4 2
+A
+6 1
+A
+19 25
+A
+18 25
+A
+12 200
+A
+13 200
+A
+14 500
+#97
+bastone mandrake~
+il bastone di mandrake~
+Un oggetto magico svolazza a mezz'aria.. sembra un bastone.~
+energy~
+treasure ATY A
+0 0 -1 0 0
+0 0 0 P
+E
+bastone~
+Le lettere '%s' sono incise sul bastone.
+~
+#98
+katana~
+la katana~
+Una splendida katana e' stata lasciata qui!~
+iron~
+weapon ORYa ANP
+sword 10 1 slash 0
+15 60 0 P
+E
+katana~
+E' affilatissima e leggera.. le lettere '%s' sono incise sull'elsa.
+~
+#99
+lancia dorata~
+una lancia dorata~
+Una lucente lancia dorata e' qui per terra.~
+gold~
+weapon TWAIP AN
+lance 10 1 none D
+20 80 0 P
+#0
+
+#ROOMS
+#1
+The Void~
+You are floating in nothing.
+~
+0 CD 1
+S
+#2
+Limbo~
+Sei sospeso in un vuoto senza forma, distaccato da ogni sensazione e problema
+di fisicita', circondato da un'avvolgente e pungente energia che riluce e
+svanisce in misteriosi bagliori senza pausa.. non riesci a distinguere nulla,
+non c'e' aria ma non senti il bisogno di respirare..
+~
+0 D 1
+D4
+~
+~
+0 -1 3001
+S
+#0
+
+#RESETS
+S
+
+
+#SHOPS
+0
+
+#SPECIALS
+M 11 spec_special_guard * special guards of rulers
+M 15 spec_stalker       * stalkers
+M 13 spec_cast_mage     * summoned demon
+S
+
+#OMPROGS
+O 51 fight_prog fight_prog_tattoo_apollon
+O 52 fight_prog fight_prog_tattoo_zeus
+O 53 fight_prog fight_prog_tattoo_siebele
+O 54 fight_prog fight_prog_tattoo_hephaestus
+O 55 fight_prog fight_prog_tattoo_ehrumen
+O 56 fight_prog fight_prog_tattoo_ahrumazda
+O 57 fight_prog fight_prog_tattoo_deimos
+O 58 fight_prog fight_prog_tattoo_phobos
+O 59 fight_prog fight_prog_tattoo_odin
+O 60 fight_prog fight_prog_tattoo_mars
+O 61 fight_prog fight_prog_tattoo_athena
+O 62 fight_prog fight_prog_tattoo_goktengri
+O 63 fight_prog fight_prog_tattoo_hera
+O 64 fight_prog fight_prog_tattoo_venus
+O 65 fight_prog fight_prog_tattoo_ares
+O 66 fight_prog fight_prog_tattoo_prometheus
+O 67 fight_prog fight_prog_tattoo_eros
+O 28 wear_prog wear_prog_ranger_staff
+*O 28 death_prog death_prog_ranger_staff
+O 28 fight_prog fight_prog_ranger_staff
+O 80 fight_prog fight_prog_golden_weapon
+O 81 fight_prog fight_prog_golden_weapon
+O 83 fight_prog fight_prog_golden_weapon
+O 99 fight_prog fight_prog_golden_weapon
+O 80 death_prog death_prog_golden_weapon
+O 81 death_prog death_prog_golden_weapon
+O 83 death_prog death_prog_golden_weapon
+O 99 death_prog death_prog_golden_weapon
+O 88 get_prog get_prog_spec_weapon
+O 88 wear_prog wear_prog_eyed_sword
+O 89 speech_prog speech_prog_kassandra
+O 84 get_prog get_prog_quest_obj
+O 85 get_prog get_prog_quest_obj
+O 86 get_prog get_prog_quest_obj
+O 97 get_prog get_prog_quest_obj
+*O 87 fight_prog fight_prog_chaos_blade
+O 92 wear_prog wear_prog_fire_shield
+O 92 remove_prog remove_prog_fire_shield
+O 29 get_prog get_prog_quest_hreward
+O 30 get_prog get_prog_quest_hreward
+O 94 get_prog get_prog_quest_reward
+O 95 get_prog get_prog_quest_reward
+O 96 get_prog get_prog_quest_reward
+O 96 wear_prog wear_prog_quest_weapon
+O 98 wear_prog wear_prog_katana_sword
+M 15 death_prog death_prog_stalker
+S
+
+#$
